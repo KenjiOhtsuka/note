@@ -21,4 +21,5 @@
 
 ## Other
 
+* Change basic configuration of the Wordpress, URL base.
 * Change Google Analytics configuration.
