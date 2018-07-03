@@ -9,9 +9,10 @@ geth --datadir "/directory/path" --networkid 1
 * datadir
     * blockchain の保存先。 指定されなければ $HOME/.ethereum が使われる。 コマンド実行直後に画面に表示される。
     Windows の場合は `C:\Users\USERNAME\AppData` の中が使われます。
-* networkid
+* networkid  
+
     | id | name |
-    |:--|:--|
+    |--:|:--|
     | 1 | Mainnet |
     | 2 | Testnet |
 
