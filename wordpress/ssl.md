@@ -18,3 +18,7 @@
 
 * edit `.htaccess` to redirect with 301 status code.
     * 301 means "permanently moved"
+
+## Other
+
+* Change Google Analytics configuration.
