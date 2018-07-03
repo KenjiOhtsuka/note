@@ -61,4 +61,3 @@ add `echo $?` after the command.
 ```
 sudo apachectl restart; echo $?
 ```
-```
