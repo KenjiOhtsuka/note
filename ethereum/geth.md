@@ -72,3 +72,5 @@ GPU のリストを取得するには geth gpuinfo コマンドを使用する�
 
 * `--rpccorsdomain "*"`
     * allow certain domains to communicate with geth. `"*"` allows all domains.
+* `--rpcaddr "0.0.0.0"`
+    * indicates to which IP address the geth server is reachable. above example, it can be acccessed as "0.0.0.0".
