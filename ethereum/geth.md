@@ -68,3 +68,7 @@ GPU のリストを取得するには geth gpuinfo コマンドを使用する�
 #### unlock
 
 (調査中)
+
+
+* `--rpccorsdomain "*"`
+    * allow certain domains to communicate with geth. `"*"` allows all domains.
