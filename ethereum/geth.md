@@ -119,6 +119,30 @@ eth.getBlock(0)
 }
 ```
 
+## Initialize blockchain by genesis file
+
+```
+ geth --datadir directory/path init genesisFile.json
+```
+
+## Open geth console
+
+```
+geth --networkid "15" --nodiscover --datadir ./ console 2>> geth_err.log
+```
+
+* `--datadir`
+    * it must be the same directory of the one which is used for genesis block initialization.
+* `--networkid`
+    * it must be the same value as genesis block chainid.
+* `--nodiscover`
+    * stop discovering ethereum network node
+    * geth will start discovering node of the same network id as default.
+* `console`
+    * launch console
+    
+    
+
 
 ```
 geth --dev --rpc --rpccorsdomain "*" --rpcaddr "0.0.0.0" --rpcport
