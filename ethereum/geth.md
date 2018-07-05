@@ -1,6 +1,6 @@
 # Geth
 
-## ネットワークにつなぐ
+## Connect to Network
 
 ```
 geth --datadir "/directory/path" --networkid 1
@@ -117,4 +117,10 @@ eth.getBlock(0)
   transactionsRoot: "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
   uncles: []
 }
+```
+
+
+```
+geth --dev --rpc --rpccorsdomain "*" --rpcaddr "0.0.0.0" --rpcport
+"8545" --mine --unlock=0
 ```
