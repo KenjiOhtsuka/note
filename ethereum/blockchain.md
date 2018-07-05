@@ -10,6 +10,8 @@
 
 ## Account
 
+referenced by address (20 bytes)
+
 * nonce
 * balance
 * code hash
