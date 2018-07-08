@@ -39,5 +39,20 @@
       <td colspan="7">Network ID</td>
       <td colspan="2">Host ID</td>
     </tr>
+    <tr>
+      <th>C</th>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td colspan="7">Network Id</td>
+      <td>Host ID</td>
+    </tr>
+    <tr>
+      <th>D</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td colspan="7">Multicast Address</td>
+    </tr>
   </tbody>
 </table>
