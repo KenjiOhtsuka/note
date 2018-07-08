@@ -56,3 +56,30 @@
     </tr>
   </tbody>
 </table>
+
+Class E is reserved for <abbr title="Internet Activities Board">IAB<abbr>, so we can not use.
+  
+### Network ID
+
+ID that represents local network.
+
+### Host ID
+
+ID that represents one host.
+
+## Number of addresses
+
+| Class | Network | Host |
+|:-:|--:|--:|
+| A | 126 |16,777,214 |
+| B | 16,382 | 65,534 |
+| C | 2,097,150 | 254 |
+
+## Address Meaning
+
+| Network ID | Host ID | |
+|:-:|:-:|:--|
+| 0 | 0 | Used when emitting host doesn't know own address for bootstrap, etc. Special use. |
+| 0 | Host Number | Network |
+| Network Number | 1 for all | Broadcast for the network |
+| 127 | Whatever | For loopback test |
