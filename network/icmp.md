@@ -21,7 +21,7 @@
 <table>
   <thead>
     <tr>
-      <th>0-7</th><th>8-15</th><th>16-23</th><th>24-31</th></tr>
+      <th>0-7</th><th>8-15</th><th>16-23</th><th>24-31</th>
     </tr>
   </thead>
   <tbody>
