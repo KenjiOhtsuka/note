@@ -52,7 +52,18 @@
       <td>1</td>
       <td>1</td>
       <td>1</td>
+      <td>0</td>
       <td colspan="7">Multicast Address</td>
     </tr>
+    <tr>
+      <th>E</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td colspan="6">Reserved</td>
+    </tr>
+
   </tbody>
 </table>
