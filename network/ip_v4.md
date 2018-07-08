@@ -3,7 +3,7 @@
 <table>
   <thead>
     <tr>
-      <th>class</th>
+      <th>Class</th>
       <th>1</th>
       <th>2</th>
       <th>3</th>
