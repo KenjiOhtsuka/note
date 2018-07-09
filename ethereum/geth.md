@@ -156,3 +156,17 @@ geth --networkid "10" --nodiscover --datadir "/home/test_u/eth_private_net" --mi
 geth --dev --networkid 11 --nodiscover --datadir .\ --mine --rpc --rpcaddr 0.0.0.0 --rpcport "8545" --rpccorsdomain "*" console 2>> geth_err.log
 geth --dev --networkid 11 --nodiscover --datadir .\ --mine --rpc --rpcaddr 0.0.0.0 --rpcport 8545 --rpccorsdomain "*" --rpcapi="db,eth,net,web3,personal,web3" console 2>> geth_err.log
 ```
+## Console
+
+### Create Account
+
+```
+personal.newAccount("password")
+// 0x...
+```
+
+## sendTransaction
+
+```
+eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[1], value: web3.toWei(3)})
+```
