@@ -145,6 +145,6 @@ geth --networkid "15" --nodiscover --datadir ./ console 2>> geth_err.log
 
 
 ```
-geth --dev --rpc --rpccorsdomain "*" --rpcaddr "0.0.0.0" --rpcport
-"8545" --mine --unlock=0
+geth --dev --rpc --rpccorsdomain "*" --rpcaddr "0.0.0.0" --rpcport "8545" --mine --unlock=0
+geth --networkid "10" --nodiscover --datadir "/home/test_u/eth_private_net" --mine --unlock 0xa7653f153f9ead98dc3be08abfc5314f596f97c6 --rpc --rpcaddr "192.168.5.6" --rpcport "8545" --rpccorsdomain "*" console 2>> /home/test_u/eth_private_net/geth_err.log
 ```
