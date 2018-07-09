@@ -38,12 +38,12 @@ contract Sample {
 | modifier | |
 | throw | throw exception. When an exception is thrown, all ether that equals to gas limit will be consumed. |
 | event | |
+| payable | This must be added to the functions which send ether. |
 
 ### reserved functions
 
 | signature | parameter | description |
 |:--|:--|:--|
 | falback (function) | (none) | function which receives no argument, is called when the function specified in transaction or message doesn't exist in the contract, and ether send transaction is called. |
-| payable | address| This must be added to the functions which send ether. |
-| selfdestruct / suicide | Discard the contract and send all ether in the contract to the passed address. |
+| selfdestruct / suicide | address | Discard the contract and send all ether in the contract to the passed address. |
 | require | condition (true or false) | if the condition is evaluated as false, throw exception and abort the procedure. |
