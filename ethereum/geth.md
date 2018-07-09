@@ -17,16 +17,19 @@ geth --datadir "/directory/path" --networkid 1
     | 2 | Testnet |
 
 
-## プライベートネットワークを作る
+## Create private network
 
 方法は2通り
 
 * network id にランダムな値を指定する。
 * `--dev` オプション をつける。
 
-## アカウントの操作
+## Manage Account
 
-### 作成
+[Geth Wiki](https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts)
+
+
+### Create
 
 ```
 geth account new
@@ -34,7 +37,7 @@ geth account new
 
 パスワードの入力が求められる。 忘れると二度とアクセスできない。
 
-### 一覧表示
+### List
 
 ```
 geth account list
@@ -42,7 +45,7 @@ geth account list
 
 キーは `--datadir` で指定された場所に保存される。 `--keystore` の指定があればそちらが優先される。
 
-### マイニング
+### Mining
 
 `--mine` オプションを付けることでマイニング可能。
 
