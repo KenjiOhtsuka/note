@@ -17,7 +17,9 @@ contract Sample {
 
 ## Visibility
 
-* external
-* public
-* internal
-* private
+| modifier | description |
+|:--:|:--|
+| external | Accessible only from external |
+| public | Accessible from everywhere |
+| internal | Accessible only from inside |
+| private | Accessible from own contract or child contract |
