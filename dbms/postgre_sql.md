@@ -68,7 +68,7 @@ pg_restore -j 2 --dbname sample -U postgres -h <<hostname>> --role=test_user -O 
 \connect - user_name
 ```
 
-### 別のデータベースでユーザー名だけを切り替えるには
+###
 
 ```
 \connect database_name user_name
