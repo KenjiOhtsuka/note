@@ -62,13 +62,15 @@ pg_restore -j 2 --dbname sample -U postgres -h <<hostname>> --role=test_user -O 
 
 ## Meta Command
 
-### 同じデータベースでユーザー名だけを切り替える
+### ユーザ名を切り替える
+
+#### 同じデータベース
 
 ```
 \connect - user_name
 ```
 
-###
+#### 別のデータベース
 
 ```
 \connect database_name user_name
