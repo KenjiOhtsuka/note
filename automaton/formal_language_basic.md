@@ -9,5 +9,3 @@ XY = { xy | x in X, y in Y }
 \[ X* = \Sum_{i leq 0} L^i \]
 
 $$ test $$
-
-{% katex %} 1 {% endkatex %}
