@@ -7,3 +7,7 @@ XY = { xy | x in X, y in Y }
 ## スター閉方
 
 \[ X* = \Sum_{i leq 0} L^i \]
+
+{% katex display %}
+c = \pm\sqrt{a^2 + b^2}
+{% endkatex %}
