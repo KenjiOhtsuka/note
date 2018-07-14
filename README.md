@@ -1,5 +1,5 @@
 # Note
 
-https://kenjiohtsuka.github.io/note/
+[Web Site](https://kenjiohtsuka.github.io/note/)
 
 Personal Memorandom
