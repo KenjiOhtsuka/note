@@ -8,6 +8,3 @@ XY = { xy | x in X, y in Y }
 
 \[ X* = \Sum_{i leq 0} L^i \]
 
-{% katex %}
-c = \pm\sqrt{a^2 + b^2}
-{% endkatex %}
