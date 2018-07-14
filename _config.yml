@@ -2,4 +2,5 @@ theme: jekyll-theme-dinky
 
 plugins:
  - jekyll-sitemap
- - jekyll-katex
+
+# - jekyll-katex
