@@ -67,3 +67,29 @@ test {
 
 
 `@RunWith(SpringRunner::class)` => `@ExtendWith(SpringExtension::class)`
+
+### Kotlin & JUnit 5 でのテスト
+
+最近の傾向もあわせて・・・
+
+* Camel case のテストメソッド名ではなく、 センテンスとして書いて `` ` `` で囲む。
+    * Example
+        * ``fun `Assert task page title, content and status code`() { ... }``
+* JUnit 5 では、コンストラクタとメソッドパラメータのインジェクションができ、 Kotlin のイミュータブルで non-null なプロパティとうまく融合する。
+    * Example
+        * `class SomethingTest(@Autowired val bean: BeanClass)`
+* `getForObject`, `getForEntity` Kotlin extensions (インポートが必要)
+
+
+`@BeforeAll`, `@AfterAll` annotations.
+
+### Kotlin JPA Plugin
+
+```
+buildscript {
+  dependencies {
+    classpath("org.jetbrains.kotlin:kotlin-noarg:${kotlinVersion}")
+  }
+}
+apply plugin: 'kotlin-jpa'
+```
