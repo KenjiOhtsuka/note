@@ -51,6 +51,15 @@ Kotlin のクラスをシリアライズ・デシリアライズする。
 下の行を `build.gradle` に追加する。
 
 ```groovy
+dependencies {
+  testCompile('org.springframework.boot:spring-boot-starter-test') {
+    exclude module: 'junit'
+  }
+  testImplementation('org.junit.jupiter:junit-jupiter-api')
+  testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine')
+}
+
+
 test {
   useJUnitPlatform()
 }
