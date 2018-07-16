@@ -29,3 +29,13 @@ compileTestKotlin {
   }
 }
 ```
+
+### kotlin-reflect
+
+Kotlin reflection library. Spring Framework 5 で必要。
+
+### jackson-module-kotlin
+
+Kotlin のクラスをシリアライズ・デシリアライズする。
+
+単一のコンストラクタのクラスを自動的に使用する。 セカンダリコンストラクタとstaticファクトリーもサポートされている。(要調査)
