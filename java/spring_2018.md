@@ -65,3 +65,5 @@ test {
 }
 ```
 
+
+`@RunWith(SpringRunner::class)` => `@ExtendWith(SpringExtension::class)`
