@@ -39,3 +39,20 @@ Kotlin reflection library. Spring Framework 5 で必要。
 Kotlin のクラスをシリアライズ・デシリアライズする。
 
 単一のコンストラクタのクラスを自動的に使用する。 セカンダリコンストラクタとstaticファクトリーもサポートされている。(要調査)
+
+## JUnit 5 
+
+### JUnit 4 から 5 への移行
+
+```sh
+./gradlew wrapper --gradle-version 4.7
+```
+
+下の行を `build.gradle` に追加する。
+
+```groovy
+test {
+  useJUnitPlatform()
+}
+```
+
