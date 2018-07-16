@@ -94,3 +94,9 @@ buildscript {
 }
 apply plugin: 'kotlin-jpa'
 ```
+
+### Controller
+
+#### org.springframework.ui.set extension 
+
+`model["title"] = "Blog"` instead of `model.addAttribute("title", "Blog")`
