@@ -8,3 +8,9 @@ Kotlin では、 何も修飾子(modifier)をつけなければ Java でいう `
 ```groovy
 apply plugin: 'kotlin-spring'
 ```
+
+org.springframework.lang pakage
+
+標準では、 Java の API で適宜された型は Kotlin ではプラットフォームタイプとして、 null check が緩和された状態の型になる。
+
+`-Xjsr305` を `strict` に設定することで有効になる。
