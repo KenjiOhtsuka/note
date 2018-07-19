@@ -2,15 +2,15 @@
 
 ## ERC20
 
-FungibleTokenをSolidityで開発する際に推奨されているトークンの仕様
-
-通貨単位ごとに表現され、分割・交換がしやすい
+* FungibleTokenをSolidityで開発する際に推奨されているトークンの仕様
+* 通貨単位ごとに表現され、分割・交換がしやすい
 
 例: EOS, TRON
 
 ## ERC721
 
-Non-FungibleTokenをSolidityで開発する際に推奨されているトークンの仕様
+* Non-FungibleTokenをSolidityで開発する際に推奨されているトークンの仕様
+* 分割や部分譲渡ができない
 
 例: CryptoKitties
 
