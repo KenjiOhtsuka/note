@@ -16,6 +16,9 @@
 
 ### Access Restriction pattern
 
+* 関数の実行者を制限する。
+* `modifier onlyOwner` のように `modifier` を作って関数に付与することが多い。
+
 ### Mortal pattern
 
 * コントラクトを削除できるようにしておく。
