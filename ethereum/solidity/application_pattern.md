@@ -2,6 +2,16 @@
 
 ### Condition-Effects-Interaction pattern
 
+* コントラクトから、他のコントラクトにメッセージを送信する場合の方式。
+* 関数実行を3つのフェーズに分ける。
+
+1. Condition
+    * 条件のチェック。 条件が満たされていなければ処理終了。
+1. Effects
+    * ステートの更新。
+1. Interaction
+    * 他のコントラクトにメッセージを送信する。
+
 ### Withdraw pattern (push vi pull)
 
 ### Access Restriction pattern
