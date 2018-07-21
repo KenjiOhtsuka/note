@@ -5,3 +5,5 @@
 [Sitemap](https://kenjiohtsuka.github.io/note/sitemap.xml)
 
 Personal Memorandom
+
+Contribution is Welcomed!
