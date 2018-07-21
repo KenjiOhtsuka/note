@@ -1,3 +1,9 @@
+# Rails 5
+
+## Webpack つきでプロジェクト作成
+
+`rails new project --webpack`
+
 ## Error : Cannot render console from Allowed networks (Rails 5)
 
 add the following line to `config/environments/development.rb`.
