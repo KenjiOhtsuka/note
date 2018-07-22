@@ -187,3 +187,29 @@ open class Application {
 }
 ```
 
+一番目の例では、 トップレベルアプリケーションにするだけでなく、 Kotlin の DSL も使用している。
+`runApplication` というメソッドが  `SpringApplication.run(Application::class.java, *args)` の置き換えになる。
+`runApplication` は Spring boot のドキュメントにもあるように、次のような記述が可能である。
+
+```kotlin
+runApplication<MyApplication>(*args) {
+	setBannerMode(OFF)
+}
+```
+
+これを `SprngApplication` でやろうとすると次のようになる。
+
+```Java
+SpringApplication app = new SpringApplication(SpringBootConsoleApplication.class);
+app.setBannerMode(Banner.Mode.OFF);
+app.run(args);
+```
+
+Kotlin で `SpringApplication` を使ってやるなら次のようにできる。
+
+```Kotlin
+SpringApplication(SpringBootConsoleApplication.class).also {
+  it.setBannerMode(Banner.Mode.OFF)
+  it.run(args)
+}
+```
