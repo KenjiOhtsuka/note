@@ -148,3 +148,37 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 ```
+
+### プロジェクトの基本をダウンロード
+
+[start.spring.io](https://start.spring.io/#!language=kotlin) からダウンロードできる。
+
+### Null-safety
+
+
+### アプリケーションクラス
+
+`companion object` の中のメソッドとして作成するか、 トップレベルファンクションとして作成するか。
+
+```kotlin
+// with all-open
+@SpringBootApplication
+class DemoApplication
+
+fun main(args: Array<String>) {
+    runApplication<DemoApplication>(*args)
+}
+```
+
+```kotlin
+// without all-open
+@SpringBootApplication
+open class Application {
+    companion object {
+        @JvmStatic
+        fun main(args: Array<String>) {
+            SpringApplication.run(Application::class.java, *args)
+        }
+    }
+}
+```
