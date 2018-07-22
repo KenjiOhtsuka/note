@@ -104,6 +104,8 @@ apply plugin: 'kotlin-jpa'
 
 ## Spring Boot で Application を作るには
 
+Spring Boot は Kotlin 1.2.x をサポートする。
+
 ```build.gradle
 // Gradle 4.9
 
