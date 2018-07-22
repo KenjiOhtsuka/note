@@ -155,6 +155,10 @@ compileTestKotlin {
 
 ### Null-safety
 
+* `@NonNull`
+* `@Nullable`
+* `@NonNullApi`: パッケージレベルのアノテーション。 パッケージ内のパラメータ、返り値は non-null として扱われる。
+* `@NonNullFields`: パッケージレベルのアノテーション。 基本的にフィールドの値は non-null として扱われる。
 
 ### アプリケーションクラス
 
@@ -182,3 +186,4 @@ open class Application {
     }
 }
 ```
+
