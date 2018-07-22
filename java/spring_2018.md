@@ -100,3 +100,39 @@ apply plugin: 'kotlin-jpa'
 #### org.springframework.ui.set extension 
 
 `model["title"] = "Blog"` instead of `model.addAttribute("title", "Blog")`
+
+
+## Spring Boot で Application を作るには
+
+```build.gradle
+// Gradle 4.9
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.2.51'
+    id 'org.springframework.boot' version '2.0.3.RELEASE'
+}
+
+// 依存関係を解決するプラグイン
+apply plugin: 'io.spring.dependency-management'
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    //testCompile("org.springframework.boot:spring-boot-starter-test")
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+```
