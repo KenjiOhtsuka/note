@@ -110,6 +110,8 @@ Spring Boot は Kotlin 1.2.x をサポートする。
 * org.jetbrains.kotlin:kotlin-stdlib
 * org.jetbrains.kotlin:kotlin-reflect
 
+JSON データ を Kotlin にシリアライズ・デシリアライズするには、 "Jackson’s Kotlin module" が必要。
+
 ### 入れないバージョン
 
 ```build.gradle
