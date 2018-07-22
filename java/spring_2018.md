@@ -112,6 +112,8 @@ Spring Boot は Kotlin 1.2.x をサポートする。
 
 JSON データ を Kotlin にシリアライズ・デシリアライズするには、 "Jackson’s Kotlin module" が必要。
 
+`org.jetbrains.kotlin:kotlin-allopen:${kotlinVersion}` - 必要なファイルを `open` にする。 これで、 Spring boot のアプリケーションクラスもわざわざ `open` にしなくて済む。
+
 ### 入れないバージョン
 
 ```build.gradle
