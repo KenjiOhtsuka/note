@@ -263,3 +263,14 @@ autowired のコンストラクタでも同様。
     val name: String
 )
 ```
+
+## All-Open
+
+all-open が open にするアノテーションは次のアノテーションである。
+
+* `@Component`
+    * `@Configuration`, `@Controller`, `@RestController`, `@Service`, `@Repository`
+* `@Async`
+* `@Transactional`
+* `@Cacheable`
+
