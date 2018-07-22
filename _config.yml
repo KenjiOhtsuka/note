@@ -4,6 +4,6 @@ plugins:
  - jekyll-sitemap
  - jekyll-katex
 
-exclude: ['google1d681e103223dde8.html']
+show_dir_listing: true
 
 katex:
