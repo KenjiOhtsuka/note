@@ -274,3 +274,9 @@ all-open が open にするアノテーションは次のアノテーション�
 * `@Transactional`
 * `@Cacheable`
 
+## 新しい RequestMapping
+
+* `@RequestMapping(value = "/foo", method = RequestMethod.GET)`
+* `@RequestMapping(path = "/foo", method = RequestMethod.GET)`
+* `@RequestMapping("/foo", method = [RequestMethod.GET])`
+* `@RequestMapping(path = ["/foo"], method = [RequestMethod.GET])`
