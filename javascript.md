@@ -1,5 +1,28 @@
 # Javascript
 
+## Hisotry
+
+| 年月 | 名前 | イベント |
+|--:|:--|:--|
+| 1995-05 | Mocha | 開発開始 |
+| 1995-09 | LiveScript | Netscape Navigator ver 2 に搭載 |
+| 1995-12 | Javascript | リリースを Sun Microsystems と共同発表 |
+
+Mocha = 甘い Java
+
+大衆向けの Java Applet を目指して作られた。
+
+開発したのは Netscape 社 の Brendan Eich  
+
+### ECMAScript
+
+Javascript, JScript をもとに 1996年11月 から ECMAScript (ECMA-262) の仕様の策定を開始。
+
+| 年 | 策定完了バージョン |
+|--:|:--|
+| 1999 | ES3 |
+| 2009 | ES5 |
+
 ## Sample Sites using audio tag, createMediaElementSource
 
 Audio Visualizer を作るときに参考にしたサンプルサイト・解説サイトです。
