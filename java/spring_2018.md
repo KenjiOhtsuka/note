@@ -213,3 +213,14 @@ SpringApplication(SpringBootConsoleApplication.class).also {
   it.run(args)
 }
 ```
+### Kotlin 専用 メソッド
+
+Kotlin のために、 DSL や拡張関数が追加されている。
+
+#### Example
+
+* [`BeanDefinitionDSL`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.context.support/-bean-definition-dsl/index.html)
+    * [`beans`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.context.support/beans.html)
+* [`RouterFunctionDsl`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.web.reactive.function.server/-router-function-dsl/index.html)
+    * [`router`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.web.reactive.function.server/router.html)
+* [`KotlinBodySpec`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.test.web.reactive.server/index.html)
