@@ -155,6 +155,10 @@ compileTestKotlin {
 
 ### Null-safety
 
+org.springframework.lang package で定義されている。
+
+`com.google.code.findbugs:jsr305:3.0.2` を dependencies に追加する。
+
 * `@NonNull`
 * `@Nullable`
 * `@NonNullApi`: パッケージレベルのアノテーション。 パッケージ内のパラメータ、返り値は non-null として扱われる。
@@ -224,3 +228,38 @@ Kotlin のために、 DSL や拡張関数が追加されている。
 * [`RouterFunctionDsl`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.web.reactive.function.server/-router-function-dsl/index.html)
     * [`router`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.web.reactive.function.server/router.html)
 * [`KotlinBodySpec`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.test.web.reactive.server/index.html)
+
+### Controller Parameter が Null-safety に対応
+
+コントローラのメソッドパラメータ
+
+* `@RequestParam name: String?`: 任意。
+* `@RequestParam name: String` : 必須。
+
+Spring Messaging の `@Header` アノテーションでも同様。
+
+`@Autowired`, `@Bean`, `@Inject` も Nullable か否かを Bean の必要・不必要の判定に使っている。
+
+* `@Autowired lateinit var foo: Foo` => `Foo` がビーンとして登録されていることが必要。
+* `@Autowired lateinit var foo: Foo?` => `Foo` がビーンとして登録されていなくてもエラーが出ない。
+
+* `@Bean fun baz(foo: Foo, bar: Bar?) = Baz(foo, bar)`
+    * `Foo` のビーンは登録されている必要がある。
+    * `Bar` のビーンは登録されてなくてもいい。
+    
+autowired のコンストラクタでも同様。
+
+## Annotation
+
+プロパティまたはプライマリコンストラクタのあるクラスではアノテーションに use-site targets を付ける必要がある。
+
+```kotlin
+@Entity data class User(
+    @Id
+    @GeneratedValue(strategy = javax.persistence.GenerationType.AUTO)
+    var id: Long? = null,
+
+    @get:Size(min=5, max=15) // added annotation use-site target here
+    val name: String
+)
+```
