@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Email protocol
 
 ## SMTP

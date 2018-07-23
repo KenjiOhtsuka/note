@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # AWS Trouble Shooting
 
 ## ELB, EC2, VPC につながらない！

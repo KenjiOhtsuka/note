@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Network Management Protocol
 
 ## OSI Network Management Function

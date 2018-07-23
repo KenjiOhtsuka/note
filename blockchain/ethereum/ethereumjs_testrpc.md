@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ```node
 const Web3 = require("web3")
 const TestRpc = require("ethereumjs-testrpc")

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Application layer remote login protocol
 
 ## Telnet

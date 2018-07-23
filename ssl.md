@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## SSL Certification
 
 * DV ドメイン認証 - Amazon ACM, Let's Encrypt

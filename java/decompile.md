@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 javap
 
 javap <option> <class name>

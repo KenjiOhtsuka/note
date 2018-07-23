@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Blockchain Technology
 
 ## ビザンチン問題とブロックチェーン

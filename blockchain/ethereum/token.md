@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Token
 
 ## ERC20

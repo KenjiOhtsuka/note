@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Geth
 
 ## Connect to Network

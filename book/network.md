@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # ネットワークについて読んだ本
 
 * [ネットワークエンジニアのためのTCP/IP入門](https://bookworm.improve-future.com/book/16698)

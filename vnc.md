@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## Connect to Linux
 
 ### Connect as New Session

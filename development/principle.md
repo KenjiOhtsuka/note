@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ### OAOO(Once and Only Once:1度、ただ1度)原則
 
 コードの機能、ふるまいについてのみ適用される原則

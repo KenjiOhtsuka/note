@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # ブロックチェーンについて読んだ本
 
 * [堅牢なスマートコントラクト開発のためのブロックチェーン[技術]入門](https://bookworm.improve-future.com/book/10019)

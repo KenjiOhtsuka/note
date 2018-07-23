@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Ruby
 
 ## `@@` が先頭につく変数 / variable the name begin with `@@`

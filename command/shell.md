@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Shell Command
 
 ## Move all found files by `find` 

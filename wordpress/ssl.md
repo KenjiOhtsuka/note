@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Make the Site HTTPS
 
 ## Helpful Plugins

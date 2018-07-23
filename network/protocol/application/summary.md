@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 | Function | Protocol (TCP/IP Suite) | Protocol (OSI) |
 |:--|:--|:--|
 | 遠隔アクセス | Telnet, Rlogin | RDA |

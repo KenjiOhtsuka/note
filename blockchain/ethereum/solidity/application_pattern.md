@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## Security
 
 ### Condition-Effects-Interaction pattern

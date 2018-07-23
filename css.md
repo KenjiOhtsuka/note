@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## Transparent Background Image
 
 https://css-tricks.com/snippets/css/transparent-background-images/

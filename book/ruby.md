@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Rails に関して読んだ本
 
 * [Ruby on Rails 3 ポケットリファレンス](https://bookworm.improve-future.com/book/507)

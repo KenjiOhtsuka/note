@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 Harmonica project began on May 2.
 First commit is on May 5.
 

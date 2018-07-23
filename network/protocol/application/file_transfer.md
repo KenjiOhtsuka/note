@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Protocols for file transferring
 
 * FTP: File Transfer Protocol

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## 言語の連接
 
 X: Language, Y: Language

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 ## 'kotlin-spring' plugin
 
