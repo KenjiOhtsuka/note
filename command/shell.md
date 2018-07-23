@@ -40,3 +40,19 @@ curl \
 ## less
 
 * -N: Line number
+
+## sed
+
+### Add line to top of the file
+
+```sh
+sed -i -e '1i something' file_path
+```
+
+#### for each file
+
+```sh
+for file in `find . -type f -name "*.md"`; do;
+  sed -i -e "1i something\nsomething" $file
+done
+```
