@@ -147,8 +147,6 @@ geth --networkid "15" --nodiscover --datadir ./ console 2>> geth_err.log
     * geth will start discovering node of the same network id as default.
 * `console`
     * launch console
-    
-    
 
 
 ```
@@ -160,9 +158,16 @@ geth --networkid "10" --nodiscover --datadir "/home/test_u/eth_private_net" --mi
 ```
 
 ```
-geth --dev --networkid 11 --nodiscover --datadir .\ --mine --rpc --rpcaddr 0.0.0.0 --rpcport "8545" --rpccorsdomain "*" console 2>> geth_err.log
-geth --dev --networkid 11 --nodiscover --datadir .\ --mine --rpc --rpcaddr 0.0.0.0 --rpcport 8545 --rpccorsdomain "*" --rpcapi="db,eth,net,web3,personal,web3" console 2>> geth_err.log
+geth --dev --networkid 11 --nodiscover --datadir .\ --mine --rpc --rpcaddr 0.0.0.0 --rpcport "8545" --rpccorsdomain "*" console 2>> geth_log.log
+geth --dev --networkid 11 --nodiscover --datadir .\ --mine --rpc --rpcaddr 0.0.0.0 --rpcport 8545 --rpccorsdomain "*" --rpcapi="db,eth,net,web3,personal,web3" console 2>> geth_log.log
 ```
+
+### Launch EthereumWallet and connect to the running geth
+
+```
+"C:\Program Files\Ethereum-Wallet\Ethereum Wallet.exe" --rpc http://localhost:8545
+```
+
 ## Console
 
 ### Create Account
