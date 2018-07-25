@@ -30,3 +30,11 @@ for i in 0..(a.length / 6)
 end
 puts s
 ```
+
+# Sleep
+
+Pass seconds, not millisecond.
+
+```ruby
+sleep 10
+```
