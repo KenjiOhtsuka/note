@@ -170,20 +170,68 @@ geth --dev --networkid 11 --nodiscover --datadir .\ --mine --rpc --rpcaddr 0.0.0
 
 ## Console
 
-### Create Account
+### Unit conversion
+
+```js
+web3.fromWei(10000, "ether")
+```
+
+### Account
+
+#### Create Account
 
 ```js
 personal.newAccount("password")
 // 0x...
 ```
 
-### sendTransaction
+#### List Account
+
+```js
+eth.accounts
+// address string Array
+// => ['0xXXXXXX...', '0xYYYYYY...']
+```
+
+#### Unlock Account
+
+```js
+personal.unlockAccount(eth.accounts[1])
+```
+
+### Get Balance
+
+```js
+eth.getBalance('0xXXXXXX...')
+```
+
+### Transaction
+
+#### Get Transaction
+
+```js
+var transaction = eth.getTransaction('0xXXXXXXXXXX...')```
+```
+
+`transaction` has the following attributes:
+
+* `nonce`
+
+#### Get Transaction Receipt (Consumed GAS)
+
+```js
+eth.getTransactionReceipt('0xXXXXXXX').gasUsed
+```
+
+#### send ETH
+
+Before sending ethereum, the user must be unlocked.
 
 ```js
 eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[1], value: web3.toWei(3)})
 ```
 
-### call contract function
+#### call contract function
 
 ```js
 // interface as object
@@ -191,6 +239,9 @@ var abi = [ { "constant": false, ... "type": "event"  }  ]]
 var contractAbi = eth.contract(AbiOfContract);
 var contract = contractAbi.at(contractAddress);
 contract.functionName('xxx', 'yyy')
+
+// Call function with parameter
+contract.function_name.sendTransacton(param1, param2, {from: '0xXXXXXXX...'})
 
 // example in stackoverflow
 //var getData = contract.myFunction.getData(function parameters);
