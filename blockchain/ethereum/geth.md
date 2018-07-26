@@ -177,8 +177,22 @@ personal.newAccount("password")
 // 0x...
 ```
 
-## sendTransaction
+### sendTransaction
 
 ```
 eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[1], value: web3.toWei(3)})
+```
+
+### call contract function
+
+```solidity
+// interface as object
+var abi = [ { "constant": false, ... "type": "event"  }  ]]
+var contractAbi = eth.contract(AbiOfContract);
+var contract = contractAbi.at(contractAddress);
+contract.functionName('xxx', 'yyy')
+
+// example in stackoverflow
+//var getData = contract.myFunction.getData(function parameters);
+//web3.eth.sendTransaction({to:Contractaddress, from:Accountaddress, data: getData});
 ```
