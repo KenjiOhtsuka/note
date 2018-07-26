@@ -101,7 +101,7 @@ eth.getBlock(0)
 
 #### Output Example
 
-```json
+```js
 {                                                                                                                                       
   difficulty: 1,
   extraData: "0x0000000000000000000000000000000000000000000000000000000000000000a957fcd806ea7ae65e067a8ac74780c05ca06b44000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
@@ -128,13 +128,13 @@ eth.getBlock(0)
 
 ## Initialize blockchain by genesis file
 
-```
+```sh
  geth --datadir directory/path init genesisFile.json
 ```
 
 ## Open geth console
 
-```
+```sh
 geth --networkid "15" --nodiscover --datadir ./ console 2>> geth_err.log
 ```
 
@@ -149,22 +149,22 @@ geth --networkid "15" --nodiscover --datadir ./ console 2>> geth_err.log
     * launch console
 
 
-```
+```cmd
 geth --dev --rpc --rpccorsdomain "*" --rpcaddr "0.0.0.0" --rpcport "8545" --mine --unlock=0
 ```
 
-```
+```cmd
 geth --networkid "10" --nodiscover --datadir "/home/test_u/eth_private_net" --mine --unlock 0xa7653f153f9ead98dc3be08abfc5314f596f97c6 --rpc --rpcaddr "192.168.5.6" --rpcport "8545" --rpccorsdomain "*" console 2>> /home/test_u/eth_private_net/geth_err.log
 ```
 
-```
+```cmd
 geth --dev --networkid 11 --nodiscover --datadir .\ --mine --rpc --rpcaddr 0.0.0.0 --rpcport "8545" --rpccorsdomain "*" console 2>> geth_log.log
 geth --dev --networkid 11 --nodiscover --datadir .\ --mine --rpc --rpcaddr 0.0.0.0 --rpcport 8545 --rpccorsdomain "*" --rpcapi="db,eth,net,web3,personal,web3" console 2>> geth_log.log
 ```
 
 ### Launch EthereumWallet and connect to the running geth
 
-```
+```cmd
 "C:\Program Files\Ethereum-Wallet\Ethereum Wallet.exe" --rpc http://localhost:8545
 ```
 
@@ -172,20 +172,20 @@ geth --dev --networkid 11 --nodiscover --datadir .\ --mine --rpc --rpcaddr 0.0.0
 
 ### Create Account
 
-```
+```js
 personal.newAccount("password")
 // 0x...
 ```
 
 ### sendTransaction
 
-```
+```js
 eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[1], value: web3.toWei(3)})
 ```
 
 ### call contract function
 
-```solidity
+```js
 // interface as object
 var abi = [ { "constant": false, ... "type": "event"  }  ]]
 var contractAbi = eth.contract(AbiOfContract);
