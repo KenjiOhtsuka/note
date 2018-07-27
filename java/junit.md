@@ -4,7 +4,7 @@ layout: page
 
 # JUnit
 
-## JUnit 4 to JUnit 5
+## Annotations
 
 
 ### Basic Annotation
@@ -17,3 +17,13 @@ layout: page
 | @After | @AfterEach |
 | @AfterClass | @AfterAll |
 | @Ignore | @Disabled |
+
+### New Method
+
+* `assertAll`
+* `assertThrows`
+
+### Other Annotation
+
+* `@DisplayName(name)`
+* `@`
