@@ -90,7 +90,7 @@ test {
 
 ### Kotlin JPA Plugin
 
-```
+```gradle
 buildscript {
   dependencies {
     classpath("org.jetbrains.kotlin:kotlin-noarg:${kotlinVersion}")
