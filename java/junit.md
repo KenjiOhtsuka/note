@@ -2,7 +2,17 @@
 layout: page
 ---
 
-# JUnit
+# JUnit 5
+
+JUnit 5 can be used from Gradle version 4.6.
+
+## Gradle
+
+```gradle:build.gradle
+test {
+  useJUnitPlatform()
+}
+```
 
 ## Annotations
 
