@@ -42,3 +42,11 @@ audio tag を複数使えば、 同時に複数のパートのビジュアライ
 
 * [W3Schools Audio Tag](https://www.w3schools.com/tags/tag_audio.asp)
 * [HTML Quick Reference - video](http://www.htmq.com/video/)
+
+
+## setInterval
+
+```js
+var m = setInterval(functionName, 100000)
+clearInterval(m) // stop interval function
+```
