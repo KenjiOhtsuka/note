@@ -40,7 +40,17 @@ test {
         }
         ```
 
-### New Method
+### Assertion
+
+#### Basic Assertion
+
+* `assertEquals(expected, actual)`
+* `assertFalse(booleanExpression)`
+* `assertNull(actual)`
+* `assertNotNull(actual)`
+* `assertTrue(booleanExpression)`
+
+#### New Assertion
 
 * `assertAll`
     * 記述されている assertion はすべて実行される。
