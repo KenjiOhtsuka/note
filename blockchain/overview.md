@@ -108,6 +108,16 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
         * ダイヤモンドの固有情報とは、色、透明度、カラット、カット等
           観点書に記録される情報のこと
     * API提供
+* Balance3
+    * 金融データの自動記録・計算・管理
+
+#### 金融商品
+
+* Hedgy
+    * 複雑な条件付き金融商品の執行管理
+* DocuSign
+    * 契約・決済
+* VISA
 
 #### サプライチェーン
 
@@ -162,6 +172,16 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
 * ビットプロパティ 日本
     * 再生可能エネルギープラットフォームBTP
 
+#### モーゲージ
+
+* Trussle
+
+#### 決済
+
+* Wave
+    * 貿易の決済
+    * Letter of Credit のやりとり
+
 #### 著作権管理
 
 DRM - Digital Rights Management
@@ -183,3 +203,9 @@ DRM - Digital Rights Management
 * The Elements Project
     * Blockstream 社
     * サイドチェーンのプロジェクト
+
+## Document
+
+* Smamrt ContractsL 12 Use Cases for Business & Beyond
+    * 米国でブロックチェーン・スマートコントラクトのビジネス適用について
+        イニシアチブを担っているデジタル商工会議所によるドキュメント
