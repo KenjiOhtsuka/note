@@ -63,3 +63,23 @@ referenced by address (20 bytes)
 * balance
 * code hash
 * storage trie root
+
+## Developing tool
+
+### Language
+
+* Solidity
+* Serpent
+    * used in Augur
+
+### Client
+
+* Geth
+* Eth (cpp-ethereum)
+* pyethapp
+
+### Framework
+
+* Truffle
+* Embark
+
