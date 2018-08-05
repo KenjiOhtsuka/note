@@ -23,9 +23,40 @@ Bitcoin で利用されているモデル。
 
 ## Blockchain 2.0
 
-Bitcoin のために開発されたブロックチェーンを仮想通貨外のものに応用する活動・
+Bitcoin のために開発されたブロックチェーンを仮想通貨外のものに応用する活動
 
-### 公証サービス
+### プラットフォーム
+
+* Ethereum
+* Eris
+    * 企業向け
+    * 金融機関の利用を想定
+    * SDK あり
+    * MONAX
+* HyperChain
+    * Ethereum の拡張版
+    * 許可が必要な分散台帳 Permissioned Distributed Ledgers
+    * コンソーシアム型またはプライベート型のブロックチェーンを想定
+* Hyperledger
+    * Linux Foundation が創設
+* Rootstock
+    * RSK Labs が開発
+
+### サービス事例
+
+#### 送金・決済
+
+* Circle
+    * ビットコインによる個人間送金サービス
+
+#### 信用情報
+
+* KYC-Chain
+    * 信用情報データベース
+    * Ethereum で運用
+* Augur
+
+#### 公証サービス
 
 * Proof of Existence
     * Bitcoin の OP_RETURN の後にハッシュを入れる。
@@ -45,7 +76,7 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
 そのツリーのルート情報をトランザクションに記録する方式。
 これで多くのハッシュ値を効率よくブロックチェーンに記録できる。
 
-### 登記
+#### 登記
 
 * スウェーデン
     * 土地投機
@@ -58,7 +89,7 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
 * BitNation
     * 土地や権利の登記をブロックチェーンで行うプロジェクト
 
-### 資産管理
+#### 資産管理
 
 * Everledger
     * 2015年から開始
@@ -68,12 +99,12 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
           観点書に記録される情報のこと
     * API提供
 
-### サプライチェーン
+#### サプライチェーン
 
 * Provenance
     * 生産の詳細、生産物IDを記録。 トレーサビリティの確保。
 
-### 医療
+#### 医療
 
 * BitHealth
     * 医療情報を暗号化して埋め込む
@@ -82,19 +113,19 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
     * ブロックチェーンを使った医療情報の管理。
     * 診療記録の Hash値を記録。
 
-### 投票
+#### 投票
 
 * CongreChain
     * Open Asset Protocol
     * Colored Coin
 
-### C2C
+#### C2C
 
 * OpenBazaar
     * 購入希望者、販売者、仲介者でマルチしぐアカウントを作成して
       2人が署名をすればアカウントから出勤デキうるようにしておく。
 
-### シェアリングサービス
+#### シェアリングサービス
 
 * Arcade City
     * ドライバーと利用者のマッチング
@@ -102,7 +133,7 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
 * La'Zooz
     * ある目的地に向かうドライバーの空席を同じ方向に行きたい人に提供。
 
-### IoT
+#### IoT
 
 * ADEPT (Autonomous Decentralized Peer-to-Peer Telemetry) - IBM
     * 消費財の発注にブロックチェーンとIoTのセンサを用いる。
@@ -117,7 +148,7 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
 * ビットプロパティ 日本
     * 再生可能エネルギープラットフォームBTP
 
-### 著作権管理
+#### 著作権管理
 
 DRM - Digital Rights Management
 
@@ -130,3 +161,8 @@ DRM - Digital Rights Management
 * Muse
 * Revelator
 * Ujo Music
+
+#### Other
+
+* R3
+    * R3CEV 手動 の ブロックチェーンプロジェクト
