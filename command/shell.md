@@ -56,3 +56,9 @@ for file in `find . -type f -name "*.md"`; do;
   sed -i -e "1i something\nsomething" $file
 done
 ```
+
+## wget
+
+```
+wget -O output_file_name url
+```
