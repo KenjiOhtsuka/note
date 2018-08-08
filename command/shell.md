@@ -62,3 +62,8 @@ done
 ```
 wget -O output_file_name url
 ```
+
+## ftp
+
+Connect with `ftp` first, after that, type `open $server_name`.
+Then, user name and password will be asked.
