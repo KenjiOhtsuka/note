@@ -17,3 +17,7 @@ $ heroku login
 $ heroku config:set USER=username
 $ heroku config:set PASS=password
 ```
+
+## Static site on Heroku
+
+* [https://sitest.jp/blog/?p=9238](https://sitest.jp/blog/?p=9238)
