@@ -4,6 +4,12 @@ layout: page
 
 # Git
 
+## Alias
+
+```sh
+git config --global alias.st status
+```
+
 ## Commit
 
 ### Beck to previous commit (Remain the change)
