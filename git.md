@@ -2,6 +2,15 @@
 layout: page
 ---
 
+# Git
+
+## Commit
+
+### Beck to previous commit (Remain the change)
+
+```sh
+git reset --soft HEAD~
+```
 
 ## Branch
 
@@ -10,7 +19,7 @@ layout: page
 #### Delete merged local branch
 
 ```
-git branch =d branch_name
+git branch -d branch_name
 ```
 
 #### Delete local branch, even if it's not merged
