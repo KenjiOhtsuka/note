@@ -18,6 +18,14 @@ git config --global alias.st status
 git reset --soft HEAD~
 ```
 
+
+### Empty Commit
+
+
+```sh
+git commit --allow-empty
+```
+
 ## Branch
 
 ### Delete
