@@ -26,19 +26,25 @@ layout: page
     * 2: stereo
 * sampling bit (audio codec)
     ```
+    -acodec pcm_s24le
     -acodec pcm_16le
     -acodec pcm_u8
     ```
-    * 16 bit: `-acodec_16le`
+    * 24 bit: `-acodec pcm_s24le`
+    * 16 bit: `-acodec pcm_16le`
         * signed int little endian
-    * 8 bit: `-acodec_u8`
+    * 8 bit: `-acodec pcm_u8`
         * unsigned int
+    * list acodec
+        ```sh
+        ffmpeg -codecs
+        ```
 
 ## Example
 
 * Change sound to stereo 96 khz and 24 bit wav
     ```sh
-    ffmpeg -i before.mp3 -ar 96000 -ac 2 after.wav
+    ffmpeg -i before.mp3 -ar 96000 -ac 2 -acodec pcm_s24le after.wav
     ```
     
 ## 参考
