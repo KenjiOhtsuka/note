@@ -40,3 +40,7 @@ layout: page
     ```sh
     ffmpeg -i before.mp3 -ar 96000 -ac 2 after.wav
     ```
+    
+## 参考
+
+* CD は 44.1 khz 16 bit
