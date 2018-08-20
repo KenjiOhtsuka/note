@@ -40,12 +40,31 @@ layout: page
         ffmpeg -codecs
         ```
 
+
 ## Example
 
 * Change sound to stereo 96 khz and 24 bit wav
     ```sh
     ffmpeg -i before.mp3 -ar 96000 -ac 2 -acodec pcm_s24le after.wav
     ```
+* Reduce speed
+    ```sh
+    ffmpeg -i ./input.mp3 -filter:a "atempo:0.5" -vn ./output.mp3
+    ```
+* Increase speed
+    ```sh
+    ffmpeg -i ./input.mp3 -filter:a "atempo:2.0" -vn ./output.mp3
+    ```
+* Higher pitch (assuming your audio is 44.1KHz)
+    ```sh
+    ffmpeg -i ./input.mp3 -filter:a "asetrate=r=48K" -vn ./output.mp3
+    ```
+* Lower pitch (assuming your audio is 44.1KHz)
+    ```sh
+    ffmpeg -i ./input.mp3 -filter:a "asetrate=r=36K" -vn ./output.mp3
+    ```
+
+
     
 ## 参考
 
