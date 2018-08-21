@@ -35,6 +35,11 @@ under 0.20 is kind of soft and works well for very noisy audios.
     ```sh
     sox input.wav output.wav tempo 1.25
     ```
+* 音を保ったまま綺麗にスピード変更
+    ```sh
+    sox input.wav output.wav stretch 2
+    ```
+    * 2倍の長さにする(0.5倍のテンポにする)場合には2を指定する。
 * スピード変更、音もそれに合わせて変わる
     ```sh
     sox input.wav output.wav speed 1.25
@@ -43,7 +48,7 @@ under 0.20 is kind of soft and works well for very noisy audios.
 ## Mix
 
 ```sh
-sox -m vocal.wav guitar.wav drums.wav stereo.wav
+sox -m vocal.wav guitar.wav drums.wav output.wav
 ```
 
 
