@@ -29,6 +29,23 @@ Values goes best somewhere between 0.20 and 0.30,
 over 0.3 is very agressive,
 under 0.20 is kind of soft and works well for very noisy audios.
 
+### Change Speed
+
+* 音を保ったままスピード変更
+    ```sh
+    sox input.wav output.wav tempo 1.25
+    ```
+* スピード変更、音もそれに合わせて変わる
+    ```sh
+    sox input.wav output.wav speed 1.25
+    ```
+
+## Mix
+
+```sh
+sox -m vocal.wav guitar.wav drums.wav stereo.wav
+```
+
 
 ## Reference
 
