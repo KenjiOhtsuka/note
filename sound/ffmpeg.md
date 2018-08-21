@@ -47,10 +47,12 @@ layout: page
     ```sh
     ffmpeg -i before.mp3 -ar 96000 -ac 2 -acodec pcm_s24le after.wav
     ```
+    * 音の高さを変えずにスピード変更
 * Reduce speed
     ```sh
     ffmpeg -i ./input.mp3 -filter:a "atempo:0.5" -vn ./output.mp3
     ```
+    * 音の高さを変えずにスピード変更
 * Increase speed
     ```sh
     ffmpeg -i ./input.mp3 -filter:a "atempo:2.0" -vn ./output.mp3
