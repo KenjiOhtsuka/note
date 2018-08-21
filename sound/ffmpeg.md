@@ -6,6 +6,13 @@ layout: page
 
 ## Command
 
+### Filter
+
+* List available filters
+    ```sh
+    ffmpeg -filters
+    ```
+
 ### Option
 
 * audio bit rate [Kbps]
