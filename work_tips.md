@@ -8,6 +8,12 @@ layout: page
 * 5分300分 の法則
     * 人間が一生懸命 5分考えて出した output と 300分考えて出した output は同じ。
 
+* ToDo 一覧化
+* 重要・緊急マトリクス
+* PDCA 管理
+* いかに前回よりもうまくやるか
+* 伝える技術
+
 
 * SMART
     | Letter | Description |
