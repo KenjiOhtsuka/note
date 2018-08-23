@@ -43,6 +43,25 @@ npm install -g truffle\
     * drizzle-react
     * drizzle-react-component : UI Module
     
+### Ganache
+
+* Ethereum ブロックチェーン の Javascript 実装
+    * geth を追加でインストールする必要がない
+* mnemonicとアカウント情報の可視化
+* ブロックチェーンのログを出力してくれる
+* マイニング時間を設定できる
+* ブロックエクスプローラが組み込まれている
+* Byzantium 標準装備
+    * DApp 開発 のための機能
+
+* 起動時
+    * Ethereum の ブロックチェーンを構築し、 アドレスを10個生成
+    * それぞれのアドレスに100ETHずつ準備
+    * 再起動するだけでブロックチェーンを作り直してくれる
+
+
+
+    
 ### Relation
 
 MetaMask, Browser - Drizzle - Truffle
