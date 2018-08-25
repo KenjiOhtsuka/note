@@ -1,4 +1,4 @@
-#theme: jekyll-theme-dinky
+theme: jekyll-theme-dinky
 
 #show_dir_listing: true
 
@@ -27,6 +27,7 @@ baseurl: "/note" # the subpath of your site, e.g. /blog
 url: "https://kenjiohtsuka.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: escamilloIII
 github_username:  KenjiOhtsuka
+lang: ja
 
 # Build settings
 markdown: kramdown
