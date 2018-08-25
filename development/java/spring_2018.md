@@ -250,7 +250,7 @@ Spring Messaging の `@Header` アノテーションでも同様。
 * `@Bean fun baz(foo: Foo, bar: Bar?) = Baz(foo, bar)`
     * `Foo` のビーンは登録されている必要がある。
     * `Bar` のビーンは登録されてなくてもいい。
-    
+
 autowired のコンストラクタでも同様。
 
 ## Annotation
