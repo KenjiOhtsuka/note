@@ -1,5 +1,5 @@
 <footer class="site-footer h-card">
-    <div>
+    <nav>
         <div class="trigger">
             {%- assign default_paths = site.pages | map: "path" -%}
             {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -12,7 +12,7 @@
         </div>
         <p>このページのソースは <a href="https://github.com/KenjiOhtsuka/note{{ page.path }}">GitHub note{{ page.path }}</a> にあります。</p>
         <p>このサイトは <a href="https://github.com/KenjiOhtsuka/note/">GitHub: note</a> で管理されています。 連絡があれば <a href="https://github.com/KenjiOhtsuka/note/issues">GitHub: note: Issues</a> よりお願いします。 情報不足あれば Contribute お願いします。</p>
-    </div>
+    </nav>
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
     <div class="wrapper">
         <h2 class="footer-heading">{{ site.title | escape }}</h2>
