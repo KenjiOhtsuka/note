@@ -154,5 +154,31 @@ C を 100 として、 それに 2^(1/12) を順次掛けていく。
     * 臨時記号は、出現した後、その小説内で有効となる。
     * 全ての変化記号が用いられる。
     
-## 音階
+## 音階 (スケール)
 
+### Pentatonic Scale
+
+* 1st
+* m3rd
+* 4th
+* 5th
+* m7th
+
+#### A minor pentatonic scale
+
+* A
+* C
+* D
+* E
+* G
+
+
+## Chord
+
+### Major chord
+
+1st, M3rd, 5th
+
+### Minor chord
+
+1st, m3rd, 5th
