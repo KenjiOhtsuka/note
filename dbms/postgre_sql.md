@@ -2,11 +2,30 @@
 layout: page
 ---
 
+# PostgreSQL
+
+## Installation
+
+### Mac
+
+```sh
+brew install postgresql
+postgres -D /usr/local/var/postgres
+```
+
+* [PostgreSQLの環境をmacのローカルに作成＆SQL操作（＆ついでにDataGripへの接続）](https://qiita.com/ysdyt/items/64ed98b420ea5c4e52ec)
 
 ### Create Account
 
 ```sql
 CREATE USER user_name WITH LOGIN CREATEDB PASSWORD 'XXXXXXXXXX';
+```
+
+### Create Database
+
+```sh
+create database dbname 
+CREATE DATABASE dbname OWNER rolename;
 ```
 
 ### Add User to Group (Other Role)

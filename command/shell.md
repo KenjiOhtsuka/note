@@ -67,3 +67,11 @@ wget -O output_file_name url
 
 Connect with `ftp` first, after that, type `open $server_name`.
 Then, user name and password will be asked.
+
+
+## Alternatives
+
+```sh
+sudo alternatives --install /usr/bin/java java /usr/java/jdk... 3
+sudo alternatives --install /usr/bin/java java /usr/local/lib/jdk-10.0.2/bin/java 4
+```

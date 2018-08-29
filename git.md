@@ -26,6 +26,14 @@ git reset --soft HEAD~
 git commit --allow-empty
 ```
 
+## Submodule
+
+### Update
+
+```bash
+git submodule foreach git pull origin master
+```
+
 ## Branch
 
 ### Delete
