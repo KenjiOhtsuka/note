@@ -78,3 +78,7 @@ layout: page
 ## 参考
 
 * CD は 44.1 khz 16 bit
+
+* [英語などの語学用に倍速再生など再生速度を変えたファイルを一瞬で作成する方法](https://webnetforce.net/ffmpeg-audio-file-speed/)
+* [サンプリング周波数を変えずにテンポとピッチを変える](http://nico-lab.net/rubberband_with_ffmpeg/)
+* [How To Do Noise Reduction Using ffmpeg And sox](http://www.zoharbabin.com/how-to-do-noise-reduction-using-ffmpeg-and-sox/)

@@ -55,3 +55,4 @@ sox -m vocal.wav guitar.wav drums.wav output.wav
 ## Reference
 
 * [SoXチートシート - コマンドラインで音声編集](https://qiita.com/moutend/items/50df1706db53cc07f105)
+* [soxコマンドで音声ファイルを編集する10の例](http://blog.asial.co.jp/885)
