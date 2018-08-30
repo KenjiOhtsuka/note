@@ -30,6 +30,7 @@ visudo
 
 ```
 %grp_name   ALL=(ALL)   ALL
+%grp_name   ALL=(ALL)   NOPASSWD:ALL
 ```
 
 ## Add ssh key

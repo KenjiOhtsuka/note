@@ -57,6 +57,17 @@ for file in `find . -type f -name "*.md"`; do;
 done
 ```
 
+### Change special character
+
+```sh
+F=access/path.php
+cp -v $F ${F}_bk
+sed -i -e 's/<?php echo file_get_contents(\$_SERVER\['\''DOCUMENT_ROOT'\''\]\.'\''\/file\/path.html'\''); ?>//g' $F
+sed -i -e 's/^\(\s*\)<\/tag>/\1    <?php echo file_get_contents\($_SERVER['\''DOCUMENT_ROOT'\''].'\''\/file\/path.html'\''\); ?>\n\1<\/tag>/g' $F
+diff $F ${F}_bk
+rm -i ${F}_bk
+```
+
 ## wget
 
 ```
