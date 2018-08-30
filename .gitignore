@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 .idea/workspace.xml
 .idea/webServers.xml
+.idea/encodings.xml
+.idea/deployment.xml
