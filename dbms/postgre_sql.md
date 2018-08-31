@@ -44,6 +44,17 @@ CREATE DATABASE sample
        CONNECTION LIMIT = -1;
 ```
 
+### Grant ALL
+
+```sh
+postgres=> create database db_name;
+CREATE DATABASE
+postgres=> create user user_name With login password 'password';
+CREATE ROLE
+postgres=> grant all on database db_name to user_mame;
+GRANT
+```
+
 
 
 ```

@@ -68,6 +68,15 @@ diff $F ${F}_bk
 rm -i ${F}_bk
 ```
 
+* `sed -e` で、 `$`, `(`, `)` はエスケープしなくてよい。
+* パターンは `\1`, `\2` で参照できる。
+
+
+## grep
+
+find banner -type f -print0 2>&1|xargs -0 grep -dskip "</head>"
+find public_html -type f | grep -dskip "<head>" | grep -d head.html
+
 ## wget
 
 ```
