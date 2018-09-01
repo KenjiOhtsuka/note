@@ -24,6 +24,8 @@ mysql.server start
 
 ```sh
 create user developer@localhost identified by 'developer';
+create user developer@localhost identified mysql_native_password by 'developer';
+alter user developer@localhost identified mysql_native_password by 'developer';
 ```
 
 ```sh
