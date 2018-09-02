@@ -22,7 +22,7 @@ mysql.server start
 * MySQL8.0より
     * caching_sha2_password。 SHA-256を使用した、より安全なパスワードの暗号化を提供するとともに、キャッシュを使用して同一ユーザの認証処理を高速化
 
-```sh
+ ```sh
 create user developer@localhost identified by 'developer';
 create user developer@localhost identified mysql_native_password by 'developer';
 alter user developer@localhost identified mysql_native_password by 'developer';
