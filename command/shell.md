@@ -97,3 +97,9 @@ Then, user name and password will be asked.
 sudo alternatives --install /usr/bin/java java /usr/java/jdk... 3
 sudo alternatives --install /usr/bin/java java /usr/local/lib/jdk-10.0.2/bin/java 4
 ```
+
+## find
+
+```sh
+find public_html/blog -type f \! -name "\.gitkeep"
+```
