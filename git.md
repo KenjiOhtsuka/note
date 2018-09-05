@@ -80,3 +80,7 @@ git branch --all
         * `fatal: refusing to merge unrelated histories`
     * in GitHub, difference can't be seen.
         * Example: [Comparison Page](https://github.com/KenjiOhtsuka/git_test/compare/test?expand=1)
+* 直前のコミットの日付を変更する。
+    * `git --amend --date="2015-02-01 01:00:11"`
+    * GitHub の表示例: [Date Changed Commit](https://github.com/KenjiOhtsuka/git_test/commits/master)
+        * "Commits on Sep 4, 2018" のコミット日時がおかしくなっている。 
