@@ -73,3 +73,10 @@ git branch -a
 git branch --all
 ```
 
+## Other
+
+* Entirely different branches can't be merged
+    * when trying merge, the following message will be got.
+        * `fatal: refusing to merge unrelated histories`
+    * in GitHub, difference can't be seen.
+        * Example: [Comparison Page](https://github.com/KenjiOhtsuka/git_test/compare/test?expand=1)
