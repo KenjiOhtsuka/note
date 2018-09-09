@@ -17,6 +17,7 @@ layout: page
     * `htpasswd htpasswd/path/.htpasswd new-user`
         * `new-user` はユーザ名。 追加したいユーザに合わせて変更する。
         * これを実行すると、パスワードの入力が求められる。
+        * If `.htpasswd` file doesn't exist, add `-c` option. 
 * ユーザ削除
     * Just open the file `.htpasswd` and remove the line.
 
@@ -31,8 +32,7 @@ require valid-user
 ```
 
 * `require valid-user`
-    * valid-user は特定のユーザ名ではない。 必ず `valid-user` と
-記述する。
+    * valid-user は特定のユーザ名ではない。 必ず `valid-user` と記述する。
 
 ## Digest 認証
 
