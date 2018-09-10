@@ -79,6 +79,12 @@ find banner -type f -print0 2>&1|xargs -0 grep -dskip "</head>"
 find public_html -type f | grep -dskip "<head>" | grep -d head.html
 ```
 
+* `-dskip`
+    * skip directory
+* `-d`
+    * except.
+
+
 ## wget
 
 ```
