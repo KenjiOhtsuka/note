@@ -9,3 +9,5 @@ layout: page
 ```sh
 rvm --default use 2.5.1
 ```
+
+## add specific version bundler
