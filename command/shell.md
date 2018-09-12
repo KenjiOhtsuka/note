@@ -106,8 +106,19 @@ sudo alternatives --install /usr/bin/java java /usr/local/lib/jdk-10.0.2/bin/jav
 
 ## find
 
-delete all files except the specific file.
+* delete all files except the specific file.
+    ```sh
+    find public_html/blog -type f \! -name "\.gitkeep"
+    ```
+* list files with absolute path
+    ```sh
+    find `pwd` -name something* -type f 
+    ```
+
+## ls
+
+list files with absolute path
 
 ```sh
-find public_html/blog -type f \! -name "\.gitkeep"
+ls -d $PWD/*
 ```
