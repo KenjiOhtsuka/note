@@ -18,4 +18,4 @@ https://css-tricks.com/snippets/css/transparent-background-images/
 
 
 OOOCSS
-Smax
+SMACSS
