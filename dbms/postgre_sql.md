@@ -15,6 +15,21 @@ postgres -D /usr/local/var/postgres
 
 * [PostgreSQLの環境をmacのローカルに作成＆SQL操作（＆ついでにDataGripへの接続）](https://qiita.com/ysdyt/items/64ed98b420ea5c4e52ec)
 
+### Login as root user
+
+#### Mac
+
+```sh
+psql postgres
+```
+
+#### Linux
+
+```sh
+sudo su - postgres
+psql
+```
+
 ### Create Account
 
 ```sql
