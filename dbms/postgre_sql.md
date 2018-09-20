@@ -38,7 +38,7 @@ CREATE USER user_name WITH LOGIN CREATEDB PASSWORD 'XXXXXXXXXX';
 
 ### Create Database
 
-```sh
+```sql
 create database dbname 
 CREATE DATABASE dbname OWNER rolename;
 ```
@@ -72,11 +72,11 @@ GRANT
 
 
 
-```
+```sql
 GRANT postgres to role_name;
 ```
 
-```
+```sql
 REVOKE postgres from role_name;
 ```
 
@@ -115,12 +115,12 @@ pg_restore -j 2 --dbname sample -U postgres -h <<hostname>> --role=test_user -O 
 
 #### 同じデータベース
 
-```
+```sql
 \connect - user_name
 ```
 
 #### 別のデータベース
 
-```
+```sql
 \connect database_name user_name
 ```
