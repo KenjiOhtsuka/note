@@ -57,6 +57,34 @@ for file in `find . -type f -name "*.md"`; do;
 done
 ```
 
+### Change special character
+
+```sh
+F=access/path.php
+cp -v $F ${F}_bk
+sed -i -e 's/<?php echo file_get_contents(\$_SERVER\['\''DOCUMENT_ROOT'\''\]\.'\''\/file\/path.html'\''); ?>//g' $F
+sed -i -e 's/^\(\s*\)<\/tag>/\1    <?php echo file_get_contents\($_SERVER['\''DOCUMENT_ROOT'\''].'\''\/file\/path.html'\''\); ?>\n\1<\/tag>/g' $F
+diff $F ${F}_bk
+rm -i ${F}_bk
+```
+
+* `sed -e` で、 `$`, `(`, `)` はエスケープしなくてよい。
+* パターンは `\1`, `\2` で参照できる。
+
+
+## grep
+
+```sh
+find banner -type f -print0 2>&1|xargs -0 grep -dskip "</head>"
+find public_html -type f | grep -dskip "<head>" | grep -d head.html
+```
+
+* `-dskip`
+    * skip directory
+* `-d`
+    * except.
+
+
 ## wget
 
 ```
@@ -67,3 +95,30 @@ wget -O output_file_name url
 
 Connect with `ftp` first, after that, type `open $server_name`.
 Then, user name and password will be asked.
+
+
+## Alternatives
+
+```sh
+sudo alternatives --install /usr/bin/java java /usr/java/jdk... 3
+sudo alternatives --install /usr/bin/java java /usr/local/lib/jdk-10.0.2/bin/java 4
+```
+
+## find
+
+* delete all files except the specific file.
+    ```sh
+    find public_html/blog -type f \! -name "\.gitkeep"
+    ```
+* list files with absolute path
+    ```sh
+    find `pwd` -name something* -type f 
+    ```
+
+## ls
+
+list files with absolute path
+
+```sh
+ls -d $PWD/*
+```

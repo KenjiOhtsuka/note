@@ -2,6 +2,8 @@
 layout: page
 ---
 
+# VNX
+
 ## Connect to Linux
 
 ### Connect as New Session

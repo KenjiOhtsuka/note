@@ -27,3 +27,29 @@ To have launchd start postgresql now and restart at login:
 Or, if you don't want/need a background service you can just run:
   pg_ctl -D /usr/local/var/postgres start
 ```
+
+## service
+
+### Install
+
+```sh
+brew tap homebrew/services
+```
+
+### Register as Service
+
+```sh
+brew services start mysql
+```
+
+### Deregister as Service
+
+```sh
+brew services stop mysql
+```
+
+### List services
+
+```sh
+brew services stop mysql
+```

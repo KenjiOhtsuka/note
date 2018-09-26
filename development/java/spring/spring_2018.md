@@ -2,6 +2,15 @@
 layout: page
 ---
 
+# Spring
+
+## History
+
+22 years ago, it started to use java for enterprize application.
+
+2003, Rod Johnson created Spring for enterprise java tech, and EJB.
+
+In 2017, Spring started to support Kotlin.
 
 ## 'kotlin-spring' plugin
 
@@ -250,7 +259,7 @@ Spring Messaging の `@Header` アノテーションでも同様。
 * `@Bean fun baz(foo: Foo, bar: Bar?) = Baz(foo, bar)`
     * `Foo` のビーンは登録されている必要がある。
     * `Bar` のビーンは登録されてなくてもいい。
-    
+
 autowired のコンストラクタでも同様。
 
 ## Annotation

@@ -124,3 +124,23 @@ Static method of the `org.junit.jupiter.api.Assumptions` class.
 
 * junit-vintage-engine
     * Test engine for running JUnit 3 and JUnit 4 test on the JUnit platform
+
+## Migration from JUnit 4 to JUnit 5
+
+### Before
+
+```java
+@RunWith(SpringRunner::class)
+@SpringBootTest
+@ContextConfiguration
+@ActiveProfiles(profiles = arrayOf("test"))
+```
+
+### After
+
+```java
+@SpringBootTest
+@ExtendWith(SpringExtension::class)
+@WebAppConfiguration
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+```
