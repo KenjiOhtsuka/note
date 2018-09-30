@@ -40,3 +40,10 @@ A successful product must unlock exceptional utility for consumers.
 1. Supplements
 1. Maintenance
 1. Disposal
+
+
+## 3 levels of cost reduction
+
+1. Streaming and cost saving
+1. Partnering
+1. Pricing innovation
