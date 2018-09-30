@@ -14,11 +14,18 @@ layout: page
 
 ## 種類
 
-春ウコンと秋ウコンがある。
-外見上はほとんど同じ。
+春ウコンと秋ウコン、紫ウコン(白ウコン)がある。
 
-### 春ウコン 姜黄 キョウオウ ワイルドターメリック
+春ウコンと秋ウコンの外見はほとんど同じ。
 
+### 春ウコン  ワイルドターメリック
+
+* 名称
+   * 沖縄名: 春うっちん、ヤマうっちん
+   * 生薬名: 姜黄(キョウオウ)
+   * 学名: Curcuma aromatica Salisbury
+   * 中国名: 鬱金
+   * 英名: Wild Turmeric
 * 春、根茎から芽がでるとすぐに花が咲く
 * 強い苦味と辛さがある
     * 食用には不向き
@@ -75,3 +82,10 @@ layout: page
     * 国連の食糧農業機関(FAO)及び世界保健機関(WHO)の合同会議による
     * 体重60kgの場合、1日の上限目安摂取量は180mg。
         * 一度に身体が摂取できる成分の量には限りがあるため、 160mg を一度に摂取しても吸収しきれない。
+
+## 参考
+
+* 多和田真淳: [沖縄の薬草百科(新星図書)](https://www.amazon.co.jp/%E6%B2%96%E7%B8%84%E3%81%AE%E8%96%AC%E8%8D%89%E7%99%BE%E7%A7%91%E2%80%95%E8%AA%B0%E3%81%AB%E3%81%A7%E3%82%82%E3%81%A7%E3%81%8D%E3%82%8B%E8%96%AC%E8%8D%89%E3%81%AE%E5%88%A9%E7%94%A8%E6%B3%95-%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E7%85%8E%E3%81%98%E6%96%B9%E3%81%A8%E9%A3%B2%E3%81%BF%E6%96%B9-1985%E5%B9%B4-%E5%A4%9A%E5%92%8C%E7%94%B0-%E7%9C%9F%E6%B7%B3/dp/B000J6MHZQ/ref=as_li_ss_tl?ie=UTF8&qid=1538311953&sr=8-1&keywords=%E6%B2%96%E7%B8%84%E3%81%AE%E8%96%AC%E8%8D%89%E7%99%BE%E7%A7%91&linkCode=ll1&tag=mezurashinews-22&linkId=18f60a34cddebb1d06fa2027481a1e6a&language=ja_JP)
+* 中田福市: これでわかる薬用植物（新星図書）
+* 田中俊弘: [日本薬草全書(新日本法規)](https://www.amazon.co.jp/%E6%97%A5%E6%9C%AC%E8%96%AC%E8%8D%89%E5%85%A8%E6%9B%B8-%E7%94%B0%E4%B8%AD-%E4%BF%8A%E5%BC%98/dp/4788247887/ref=as_li_ss_tl?ie=UTF8&qid=1538312061&sr=8-1&keywords=%E6%97%A5%E6%9C%AC%E8%96%AC%E8%8D%89%E5%85%A8%E6%9B%B8+%E6%96%B0%E6%97%A5%E6%9C%AC%E6%B3%95%E8%A6%8F&linkCode=ll1&tag=mezurashinews-22&linkId=6c38e1e37eb5721de64b14547e5ede29&language=ja_JP)
+* 日本医事新報 no.3702(1995)
