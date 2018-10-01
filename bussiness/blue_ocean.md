@@ -65,6 +65,8 @@ For smooth adoption, engage and educate 3 primary stakeholders.
 * Business partners
 * The general public
 
+### Blue Ocean Idea Index
+
 | Category | Question | Offering |
 |:--|:--|:--|
 | Utility | Is there exceptional utility? | |
