@@ -56,3 +56,11 @@ A successful product must unlock exceptional utility for consumers.
 1. Pricing innovation
     * Example
         * change the industry's pricing model.
+
+## Smooth Adoption
+
+For smooth adoption, engage and educate 3 primary stakeholders.
+
+* Employees
+* Business partners
+* The general public
