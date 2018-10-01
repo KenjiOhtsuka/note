@@ -64,3 +64,10 @@ For smooth adoption, engage and educate 3 primary stakeholders.
 * Employees
 * Business partners
 * The general public
+
+| Category | Question | Offering |
+|:--|:--|:--|
+| Utility | Is there exceptional utility? | |
+| Price | Is the price easily accessible to the mass of buyers? | |
+| Cost | Does the cost structure meet the target cost? | |
+| Adoption | Have you addressed adoption hundles up front? | |
