@@ -41,7 +41,6 @@ layout: page
         * ヘビーウェイト・オントロジーほど正確に理解させることはできない
         * 人間にとって楽
         * Watson でも活用
-* 機械学習とディープラーニング
 * ディープラーニング
     * ILSVRC（ImageNet Large Scale Visual Recognition Competition) で飛躍的な成果を出した。
         * 画像認識の精度を競い合うコンテスト
