@@ -24,7 +24,10 @@ config.web_console.whitelisted_ips = '0.0.0.0/0'
 ```ruby
 config.time_zone = 'Tokyo'
 ```
-## Share session between Rails 3 and 5 (Draft)
+## Share session between Rails 3 and 5
+
+* Reference
+    * [3 steps to share a session between Rails 3 and Rails 4 applications](https://medium.com/ruby-on-rails/3-steps-to-share-a-session-between-rails-3-and-rails-4-applications-9618766e6c2ahttps://medium.com/ruby-on-rails/3-steps-to-share-a-session-between-rails-3-and-rails-4-applications-9618766e6c2a)
 
 ### set same session store settings
 
