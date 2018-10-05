@@ -32,4 +32,5 @@ layout: page
             * 投入する資源(人・物・金)の量によって所要時間が変化する作業。
         * 固定時間作業 Fixed Duration Task
             * 投入する資源の量によって変化しない作業。
-
+1. 作業の依存関係調査
+    * PERT (Program Evaluation and Review Technique, 作業ネットワーク図)
