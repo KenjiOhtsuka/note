@@ -36,7 +36,13 @@ layout: page
     * PERT (Program Evaluation and Review Technique, 作業ネットワーク図)
         * 依存関係の4種類
             * Finish to Start: 作業が終了すると他の作業を開始できる。
+                * 先行作業の終了から後続作業の開始までに待ち時間(Lag time)が必要なものがある
+                * 先行作業の終了に先立って後続作業を開始するリードタイムを設定するものがある。
             * Start to Start: 作業を同時に開始する。
             * Start to Finish: 作業が開始すると他の作業が終了する。
             * Finish to Finish: 作業が同時に終了する。
+1. Critical Path の設定
+
+
+
 
