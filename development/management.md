@@ -34,3 +34,9 @@ layout: page
             * 投入する資源の量によって変化しない作業。
 1. 作業の依存関係調査
     * PERT (Program Evaluation and Review Technique, 作業ネットワーク図)
+        * 依存関係の4種類
+            * Finish to Start: 作業が終了すると他の作業を開始できる。
+            * Start to Start: 作業を同時に開始する。
+            * Start to Finish: 作業が開始すると他の作業が終了する。
+            * Finish to Finish: 作業が同時に終了する。
+
