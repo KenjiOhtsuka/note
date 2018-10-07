@@ -4,10 +4,10 @@ layout: page
 
 # リアクティブプログラミング (Reactive Programming)
 
-* non-blocking applications
-* asynchronous
-* event-driven
-* require a small number of threads to scale vertically (i.e. within the JVM) rather than horizontally (i.e. through clustering).
+* non-blocking applications (ノンブロッキング)
+* asynchronous (非同期)
+* event-driven (イベントドリブン)
+* require a small number of threads to scale vertically (i.e. within the JVM) rather than horizontally (i.e. through clustering). (垂直スケールの方が水平スケールより必要となるスレッド数が少ない)
 
 ## Scale
 
