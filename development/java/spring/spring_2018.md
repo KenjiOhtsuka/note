@@ -249,6 +249,22 @@ Kotlin のために、 DSL や拡張関数が追加されている。
     * [`beans`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.context.support/beans.html)
 * [`RouterFunctionDsl`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.web.reactive.function.server/-router-function-dsl/index.html)
     * [`router`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.web.reactive.function.server/router.html)
+        ```kotlin
+	@Configuration
+        class ApplicationRoutes(val userHandler: UserHandler) {
+            @Bean
+            fun mainRouter() = router {
+                accept(TEXT_HTML).nest {
+                    (GET("/user/") or GET("/users/")).invoke(userHandler::findAllView)
+                    GET("/users/{login}", userHandler::findViewById)
+            }
+            accept(APPLICATION_JSON).nest {
+                (GET("/api/user/") or GET("/api/users/")).invoke(userHandler::findAll)
+                    POST("/api/users/", userHandler::create)
+                }
+            }
+        }
+	```
 * [`KotlinBodySpec`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.test.web.reactive.server/index.html)
 
 ### Controller Parameter が Null-safety に対応
