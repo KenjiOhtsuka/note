@@ -22,7 +22,7 @@ mysql.server start
 * MySQL8.0より
     * caching_sha2_password。 SHA-256を使用した、より安全なパスワードの暗号化を提供するとともに、キャッシュを使用して同一ユーザの認証処理を高速化
 
- ```sh
+```sh
 create user developer@localhost identified by 'developer';
 create user developer@localhost identified mysql_native_password by 'developer';
 alter user developer@localhost identified mysql_native_password by 'developer';
@@ -31,3 +31,17 @@ alter user developer@localhost identified mysql_native_password by 'developer';
 ```sh
 GRANT ALL PRIVILEGES ON database_name.* TO 'developer'@'localhost';
 ```
+
+## Text columns
+
+* CHAR：255Bまでの固定長文字列
+* VARCHAR：64KBまでの可変長文字列
+* TINYTEXT：255Bまでの可変長文字列
+* TEXT：64KBまでの可変長文字列
+* MEDIUMTEXT：約1.6MBまでの可変長文字列
+* LONGTEXT：約4.3GBまでの可変長文字列
+
+
+参考: [【Rails】db:migrateでMySQLのLONGTEXT、MEDIUMTEXTを使う](http://appleorbit.hatenablog.com/entry/2015/02/24/231250
+
+Rails でマイグレーションする際には、 `:limit` の値によって column type を指定する。
