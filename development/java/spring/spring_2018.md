@@ -12,6 +12,15 @@ layout: page
 
 In 2017, Spring started to support Kotlin.
 
+## Spring 5
+
+* 画期的機能
+    * リアクティブ・プログラミング・モデル
+        * Spring 5 フレームワークはリアクティブな基盤の上に構築されていて、完全に非同期、ノンブロッキング型らしい。
+	* 新しいイベント・ループ形式の実行モデルは、わずかな数のスレッドだけを使用して垂直スケーリングすることができるとか。
+
+アノテーションベースのコントローラでもリアクティブ基盤の上で作動する。
+
 ## 'kotlin-spring' plugin
 
 自動的にアノテーションのつけられたまたはメタアノテーションをつけられたクラスやメソッドを `open` にする。
@@ -240,6 +249,22 @@ Kotlin のために、 DSL や拡張関数が追加されている。
     * [`beans`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.context.support/beans.html)
 * [`RouterFunctionDsl`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.web.reactive.function.server/-router-function-dsl/index.html)
     * [`router`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.web.reactive.function.server/router.html)
+        ```kotlin
+        @Configuration
+        class ApplicationRoutes(val userHandler: UserHandler) {
+            @Bean
+            fun mainRouter() = router {
+                accept(TEXT_HTML).nest {
+                    (GET("/user/") or GET("/users/")).invoke(userHandler::findAllView)
+                    GET("/users/{login}", userHandler::findViewById)
+                }
+                accept(APPLICATION_JSON).nest {
+                    (GET("/api/user/") or GET("/api/users/")).invoke(userHandler::findAll)
+                    POST("/api/users/", userHandler::create)
+                }
+            }
+        }
+        ```
 * [`KotlinBodySpec`](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/kdoc-api/spring-framework/org.springframework.test.web.reactive.server/index.html)
 
 ### Controller Parameter が Null-safety に対応
