@@ -17,7 +17,9 @@ https://gogodiet.net/z/tips/1.htm
 
 ### Advantage
 
-* 
+* 言語の選択肢が多い
+    * サーバーOSで動作し、標準入出力を扱える言語なら、何でもOK。
+    * 例えば Windows では、 VBScript や JScript も使える。
 
 ### Disadvantage
 
