@@ -2,7 +2,7 @@
 layout: page
 ---
 
-CGI: Common Gateway Interface
+# CGI: Common Gateway Interface
 
 * CGIプログラム
     * CGI Script: Perl、awk、sh などコンパイル作業が不要なスクリプト言語で記述されたもの
@@ -11,3 +11,16 @@ CGI: Common Gateway Interface
 
 http://www.din.or.jp/~raelian/cgi_formiddle.html
 https://gogodiet.net/z/tips/1.htm
+
+
+## Advantage and Disadvantage
+
+### Advantage
+
+* 
+
+### Disadvantage
+
+* 処理が遅い
+    * Webサーバー側で動作するプログラムがすべての処理を担当するため、多数のクライアントから処理要求が集中すると処理が遅くなる。
+    * 要求ごとにプログラムが起動されて、サーバ負荷が大きくなる。
