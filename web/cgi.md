@@ -26,3 +26,15 @@ https://gogodiet.net/z/tips/1.htm
 * 処理が遅い
     * Webサーバー側で動作するプログラムがすべての処理を担当するため、多数のクライアントから処理要求が集中すると処理が遅くなる。
     * 要求ごとにプログラムが起動されて、サーバ負荷が大きくなる。
+
+
+## Web server categorization
+
+* Web Application
+    * CGI
+        * サーバアプリケーションがCGIプログラムを実行
+        * サーバアプリケーションが別プログラム(php-cgiなど)経由でCGIプログラムを実行
+    * Module
+        * Webサーバのプロセスとして実行される
+
+https://www.fumi.org/neta/201205sv.html
