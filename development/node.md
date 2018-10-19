@@ -2,14 +2,19 @@
 layout: page
 ---
 
-see global module path
+# NodeJS
 
-```
-npm bin -g
-```
+## Path
 
-add global module path to PATH
-
-```
-export PATH=`npm bin -g`:$PATH
-```
+* see global module path
+    ```
+    npm bin -g
+    ```
+* add global module path to PATH
+    ```
+    export PATH=`npm bin -g`:$PATH
+    ```
+* add local module path to PATH
+    ``
+    export PATH=`npm bin`:$PATH
+    ```
