@@ -15,6 +15,6 @@ layout: page
     export PATH=`npm bin -g`:$PATH
     ```
 * add local module path to PATH
-    ``
+    ```
     export PATH=`npm bin`:$PATH
     ```
