@@ -6,4 +6,4 @@ layout: page
 
 ## O-notation
 
-\( x \)
+\( f(n) = O(g(n)) \LeftRightArrow  \)
