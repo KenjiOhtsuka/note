@@ -21,3 +21,12 @@ under construction
 | インサーションソート | O(n) | O(n^2) | O(n^2) | O(1) |
 | マージソート | O(n log n) | O(n log n) | O(n log n) | O(n) |
 | クイックソート | O(n log n) | O(n log n) | O(n ^ 2) | O(n) (実装によっては O(log n)) |
+
+## ストレージ
+
+* Google File System
+    * クラスタを1つの記憶領域として扱うソフトウェア
+* MapReduce
+    * クラスタの計算資源を効率的に利用して、並列分散処理をする仕組み
+* BigTable
+    * Google File System のためのデータベース
