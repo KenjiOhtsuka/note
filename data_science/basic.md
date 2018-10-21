@@ -23,3 +23,18 @@ GPUはデータサイエンスに適したコンポーネントである。
 
 対してCPUはコアがせいぜい8で、
 それぞれのコアはハイスペックだが並列性がGPUより低い。
+
+## Python Library
+
+* 行列演算
+    * SciPy, Numpy
+* 描画
+    * matplotlib,seaborn, NetworkX
+* データフレーム処理
+    * Pandas
+* 機械学習
+    * scikit-learn
+* トピックモデル
+    * gensim
+* 深層学習
+    * PyTorch, TensorFlow
