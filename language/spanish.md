@@ -27,7 +27,7 @@ layout: page
 * 1人称: y
 * 2人称
     * 親しい仲: tú
-    * 敬称: usted
+    * 敬称: usted - 文法上は3人称として扱う
 * 3人称
     * 男性: él
     * 女性: ella
@@ -40,7 +40,7 @@ layout: page
 * 2人称
     * 一般: vosotros
     * 女性のみ: cosotras
-    * 敬称: ustedes
+    * 敬称: ustedes - 文法上は3人称として扱う
 * 3人称
     * 一般: ellos
     * 女性のみ: ellas
