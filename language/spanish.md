@@ -49,7 +49,7 @@ layout: page
 
 ### ESTAR
 
-|  | 単数 |  | 複数  | |
+|  | 単数 |  | 複数  |  |
 |:--|:--|:--|:--|:--|:--|
 | 1人称 | y | estoy | nosotros / nosotras | estamos |
 | 2人称 | tú | estás | vosotros / vosotras | estáis |
