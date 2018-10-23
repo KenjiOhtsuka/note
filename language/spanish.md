@@ -68,3 +68,15 @@ SVC 文型
 | 1人称 | y | soy | nosotros / nosotras | somos |
 | 2人称 | tú | eres | vosotros / vosotras | sois |
 | 3人称 | usted; él / ella | es | ustedes; ellos / ellas | son |
+
+### ER (規則活用)
+
+|  | 単数 | -er | 複数  | -er |
+|:--|:--|:--|:--|:--|
+| 1人称 | y | -o | nosotros / nosotras | -emos |
+| 2人称 | tú | -es | vosotros / vosotras | -éis |
+| 3人称 | usted; él / ella | -e | ustedes; ellos / ellas | -en |
+
+* comer 食べる
+* beber 飲む
+* creer 思う
