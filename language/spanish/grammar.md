@@ -58,7 +58,13 @@ layout: page
 
 ### その他 - 単数・複数で変化する
 
+* 母音 (a, e, i, u) で終わる場合 - feliste
+    * 複数形語尾は -s
+* 子音 で終わる場合 - feliz
+    * 複数形語尾は -es
 
+* triste 悲しい
+* feliz 幸せな
 
 ### Example
 
