@@ -21,6 +21,7 @@ layout: page
 | gracias | | ありがとう |
 | hola | | やあ |
 | hoy | 名刺 | 今日 |
+| idea | 名刺 | 考え 
 | muy | | とても |
 | nervioso | 形容詞 | 緊張している |
 | ocupado | | 忙しい |
