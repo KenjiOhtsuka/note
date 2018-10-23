@@ -49,6 +49,10 @@ layout: page
 
 ### ESTAR
 
+...である
+
+SVC 文型
+
 |  | 単数 |  | 複数  |  |
 |:--|:--|:--|:--|:--|
 | 1人称 | y | estoy | nosotros / nosotras | estamos |
