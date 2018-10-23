@@ -58,13 +58,15 @@ layout: page
 
 ### その他 - 単数・複数で変化する
 
-* 母音 (a, e, i, u) で終わる場合 - feliste
-    * 複数形語尾は -s
-* 子音 で終わる場合 - feliz
-    * 複数形語尾は -es
+* 母音 (a, e, i, u) で終わる場合 ... feliste
+    * 複数形語尾は -s ... tristes
+* 子音 で終わる場合 ... feliz
+    * 複数形語尾は -es ... felices
 
 * triste 悲しい
 * feliz 幸せな
+
+feliz のように -z で終わる場合で、 後ろに e が付く場合、 z が c に変わる。
 
 ### Example
 
