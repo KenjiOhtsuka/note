@@ -45,6 +45,26 @@ layout: page
     * 一般: ellos
     * 女性のみ: ellas
 
+## 形容詞
+
+性と数に応じて語尾が変化する。
+
+### Example
+
+* ocupado 忙しい
+    * ocupada (女性単数)
+        * 例文
+            * Estoy ocupada. - 主語は女性。
+    * ocupado (男性単数)
+        * 例文
+            * Estoy ocupado. - 主語は男性
+    * ocupados
+        * 例文
+            * Estamos ocupados. - 主語は複数または男性複数
+    * ocumadas
+        * 例文
+            * Estamos ocupadas. - 主語は女性複数
+
 ## 動詞
 
 ### ESTAR
