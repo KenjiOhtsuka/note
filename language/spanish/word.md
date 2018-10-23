@@ -8,7 +8,7 @@ layout: page
 |:--|:--|:--|
 | aburrido | 形容詞 | 退屈している |
 | aunque | 接続詞 | 〜だけれども |
-| bien | | 元気で |
+| bien | | 元気で、よく |
 | bueno | 形容詞 | 良い |
 | café | 形容詞 | コーヒー |
 | cenar | 動詞 | 夕食を取る、〜を夕食にとる |
@@ -26,6 +26,7 @@ layout: page
 | nervioso | 形容詞 | 緊張している |
 | ocupado | | 忙しい |
 | preocupado | 形容詞 | 心配している |
+| qué | 感嘆詞 | なんと |
 | resfriado | 形容詞 | 風邪をひいている |
 | tostada | 名刺 | トースト |
 | triste | 形容詞 | 悲しい |
