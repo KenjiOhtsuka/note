@@ -80,3 +80,18 @@ SVC 文型
 * comer 食べる
 * beber 飲む
 * creer 思う
+
+### AR (規則活用)
+
+ar動詞は、er動詞のeをaに変えた活用となる。
+
+|  | 単数 | -ar | 複数  | -ar |
+|:--|:--|:--|:--|:--|
+| 1人称 | y | -o | nosotros / nosotras | -ámos |
+| 2人称 | tú | -as | vosotros / vosotras | -áis |
+| 3人称 | usted; él / ella | -a | ustedes; ellos / ellas | -an |
+
+* trabajar 働く
+* hablar 話す
+* estudiar 勉強する
+* invitar 招待する
