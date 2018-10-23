@@ -6,11 +6,11 @@ layout: page
 
 | Spanish | | 日本語 |
 |:--|:--|:--|
-| hola | | やあ |
-| muy | | とても |
+| aunque | 接続詞 | 〜だけれども |
 | bien | | 元気で |
 | gracias | | ありがとう |
-| aunque | 接続詞 | 〜だけれども |
+| hola | | やあ |
+| muy | | とても |
 | ocupada | | 忙しい (女性単数) |
 | ocupado | | 忙しい |
 | últimamente | | 最近 |
