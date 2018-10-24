@@ -79,3 +79,30 @@ f(3)
 
 ## 微分
 
+例えば次のように定義した時
+
+```python
+x = T.dscalar('x')
+y = x ** 2
+```
+
+`y` の微分は `T.grad` を使って計算できる。
+
+```python
+gy = T.grad(const=y, wrt=x)
+```
+
+* `cost`: 微分したい関数
+* `wrt`: 微分で用いる変数
+
+`gy` は式を表すので、 `gy` を用いた関数を定義して計算する。
+
+```pytohn
+g = theano.function(inputs=[x], outputs=gy)
+```
+
+```python
+g(1)
+g(2)
+g(3)
+```
