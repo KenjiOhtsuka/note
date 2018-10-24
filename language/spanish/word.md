@@ -34,6 +34,7 @@ layout: page
 | idea | 名詞 | 考え |
 | inglés | 名詞 | 英語 |
 | japonés | 名詞 | 英語 |
+| mirador | 名刺 | 展望台 |
 | muy | | とても |
 | nervioso | 形容詞 | 緊張している |
 | ocupado | | 忙しい |
