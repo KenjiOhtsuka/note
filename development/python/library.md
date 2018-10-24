@@ -31,3 +31,10 @@ brew install pyenv
     pyenv versions
     ```
 
+## Keras
+
+TensorFlow, Theano のラッパーライブラリ
+
+```sh
+pip install keras
+```
