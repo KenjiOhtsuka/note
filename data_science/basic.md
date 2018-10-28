@@ -60,5 +60,5 @@ th(x) = (exp(x) - exp(-x))/(exp(x) + exp(-x))
 ```
 
 ```
-th'(x) = 4 / (exp(x) + exp(-x))
+th'(x) = 4 / (exp(x) + exp(-x)) ^ 2
 ```
