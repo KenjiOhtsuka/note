@@ -31,3 +31,13 @@ tf.Variable(tf.zeros([2, 1]))
 ## ゼロの配列
 
 `tf.zeros` で要素がゼロの多次元配列を生成する。
+
+## Placeholder
+
+数式における変数を定義する。
+
+```python
+x = tf.placeholder(tf.float32, shape=[None, 2])
+y = tf.placeholder(tf.float32, shape[None, 1])
+y = tf.nn.sigmoid(tf.matmul(x, w) + b)
+```
