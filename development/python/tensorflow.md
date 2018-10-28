@@ -38,6 +38,6 @@ tf.Variable(tf.zeros([2, 1]))
 
 ```python
 x = tf.placeholder(tf.float32, shape=[None, 2])
-y = tf.placeholder(tf.float32, shape[None, 1])
+y = tf.placeholder(tf.float32, shape=[None, 1])
 y = tf.nn.sigmoid(tf.matmul(x, w) + b)
 ```
