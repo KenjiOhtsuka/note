@@ -36,6 +36,9 @@ tf.Variable(tf.zeros([2, 1]))
 
 数式における変数を定義する。
 
+`placeholder` の引数 `shape` は次元を定義する。
+`[None, 2]` とすると、 2次元の値を幾つでも入れられる変数となります。
+
 ```python
 x = tf.placeholder(tf.float32, shape=[None, 2])
 y = tf.placeholder(tf.float32, shape=[None, 1])
