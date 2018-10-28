@@ -31,6 +31,14 @@ brew install pyenv
     pyenv versions
     ```
 
+デフォルトでは `brew` など でインストールした Python が優先されてしまうので、 rc ファイル に次を加える。
+
+```sh
+export PYENV_ROOT="${HOME}/.pyenv"
+export PATH=${PYENV_ROOT}/bin:$PATH
+eval "$(pyenv init -)"
+```
+
 ## Keras
 
 TensorFlow, Theano のラッパーライブラリ
