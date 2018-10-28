@@ -38,3 +38,27 @@ GPUはデータサイエンスに適したコンポーネントである。
     * gensim
 * 深層学習
     * PyTorch, TensorFlow
+    
+## Activation Function
+
+### Sigmoid Function
+
+```
+s(x) = 1 / (1 + exp(x))
+```
+
+微分しても、シグモイド関数を使って表すことができる。
+
+```
+s'(x) = s(x)(1 - s(x)
+```
+
+### Hyperbolic Tangent
+
+```
+th(x) = (exp(x) - exp(-x))/(exp(x) + exp(-x))
+```
+
+```
+th'(x) = 4 / (exp(x) + exp(-x))
+```
