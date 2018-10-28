@@ -79,3 +79,16 @@ th'(x) = 4 / (exp(x) + exp(-x)) ^ 2
 f(x) = max(0, x)
 f'(x) = (x / abs(x) + 1) / 2
 ```
+
+### Leaky ReLU
+
+`x < 0` でも勾配をつける活性化関数。
+
+```
+f(x) = max(ax, x)
+```
+
+```python
+def lrelu(x, alpha=0.01):
+   return tf.maximum(alpha * x, x)
+```
