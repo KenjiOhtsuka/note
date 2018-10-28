@@ -24,6 +24,7 @@ layout: page
 | enfadado | 形容詞 | (スペイン) 怒っている |
 | enojado | 形容詞 | (中南米) 怒っている |
 | español | 名詞 | スペイン語 |
+| estudiar | 動詞 | 勉強する |
 | feliz | 形容詞 | 幸せな |
 | gasolinera | 名詞 | ガソリンスタンド |
 | gracias | | ありがとう |
@@ -33,7 +34,8 @@ layout: page
 | hoy | 名詞 | 今日 |
 | idea | 名詞 | 考え |
 | inglés | 名詞 | 英語 |
-| japonés | 名詞 | 英語 |
+| invitar | 動詞 | 招待する |
+| japonés | 名詞 | 日本語 |
 | mirador | 名刺 | 展望台 |
 | muy | | とても |
 | nervioso | 形容詞 | 緊張している |
