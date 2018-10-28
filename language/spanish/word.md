@@ -23,8 +23,10 @@ layout: page
 | cenar | 動詞 | 夕食を取る、〜を夕食にとる |
 | censado | 形容詞 | 疲れている |
 | chino | 名詞 | 中国語 |
+| chocolate | 名詞 | チョコレート |
 | contento | 形容詞 | 満足している |
 | desayunar | 動詞 | 朝食をとる、〜を朝食にとる |
+| empleada | 名詞[女] | 社員 |
 | enfadado | 形容詞 | (スペイン) 怒っている |
 | enojado | 形容詞 | (中南米) 怒っている |
 | español | 名詞 | スペイン語 |
