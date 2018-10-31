@@ -3,6 +3,8 @@ layout: page
 ---
 
 
+* [See What's coming in Kotlin 1.3 M1](https://blog.jetbrains.com/kotlin/2018/07/see-whats-coming-in-kotlin-1-3-m1/#more-6227)
+
 
 * [Exception](https://wiki.toridge.com/index.php?kotlin-%E4%BE%8B%E5%A4%96%E5%87%A6%E7%90%86)
 * [DZONE: Null Safety: Calling Java from Kotlin](https://dzone.com/articles/null-safety-calling-java-from-kotlin)
