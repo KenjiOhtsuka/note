@@ -4,8 +4,8 @@ layout: page
 
 
 
+* [Exception](https://wiki.toridge.com/index.php?kotlin-%E4%BE%8B%E5%A4%96%E5%87%A6%E7%90%86)
 * [DZONE: Null Safety: Calling Java from Kotlin](https://dzone.com/articles/null-safety-calling-java-from-kotlin)
-
 * [Scription Support](https://github.com/Kotlin/KEEP/blob/master/proposals/scripting-support.md)
 
 ## Spring
