@@ -17,6 +17,7 @@ layout: page
 * [GitHub: ModelMapExtensions](https://github.com/spring-projects/spring-framework/blob/master/spring-context/src/main/kotlin/org/springframework/ui/ModelMapExtensions.kt)
 * [Kotlin and Spring Boot](https://medium.com/@alexey.soshin/kotlin-and-spring-boot-5dd00641d070)
 * [GitHub: Kotlin Script Templating](https://github.com/sdeleuze/kotlin-script-templating)
+* [Spring IO: Spring Framework 5 Kotlin Apis the Functional Way](https://spring.io/blog/2017/08/01/spring-framework-5-kotlin-apis-the-functional-way)
 
 ## Coroutine
 
