@@ -21,6 +21,7 @@ layout: page
 * [GitHub: Kotlin Script Templating](https://github.com/sdeleuze/kotlin-script-templating)
 * [Spring IO: Spring Framework 5 Kotlin Apis the Functional Way](https://spring.io/blog/2017/08/01/spring-framework-5-kotlin-apis-the-functional-way)
 * [Spring Framework 5 の新機能](https://www.ibm.com/developerworks/jp/java/library/j-whats-new-in-spring-framework-5-theedom/index.html)
+* [Web Reactive](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux)
 
 ## Coroutine
 
