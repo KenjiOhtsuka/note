@@ -3,6 +3,8 @@ layout: page
 ---
 
 
+* https://mi-progress-ooo.hatenablog.com/entry/2018/08/26/230907
+
 * [See What's coming in Kotlin 1.3 M1](https://blog.jetbrains.com/kotlin/2018/07/see-whats-coming-in-kotlin-1-3-m1/#more-6227)
 
 
