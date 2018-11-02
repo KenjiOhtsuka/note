@@ -124,3 +124,9 @@ pg_restore -j 2 --dbname sample -U postgres -h <<hostname>> --role=test_user -O 
 ```sql
 \connect database_name user_name
 ```
+
+### 再実行
+
+```sql
+\g
+```

@@ -38,3 +38,57 @@ GPUはデータサイエンスに適したコンポーネントである。
     * gensim
 * 深層学習
     * PyTorch, TensorFlow
+    
+## Activation Function
+
+### Sigmoid Function
+
+```
+s(x) = 1 / (1 + exp(x))
+```
+
+微分しても、シグモイド関数を使って表すことができる。
+
+```
+s'(x) = s(x)(1 - s(x)
+```
+
+### Hyperbolic Tangent
+
+勾配がシグモイド関数よりも消失しにくい。
+高次元のデータの場合には
+
+```
+th(x) = (exp(x) - exp(-x))/(exp(x) + exp(-x))
+```
+
+```
+th'(x) = 4 / (exp(x) + exp(-x)) ^ 2
+```
+
+### ReLU
+
+正規化線形関数、ランプ関数とも呼ばれる。
+
+導関数が必ず 0 or 1 となるため、 勾配が消失しない。
+そのため学習が早く進む。
+
+また、式が単純であるため計算が高速。
+
+```
+f(x) = max(0, x)
+f'(x) = (x / abs(x) + 1) / 2
+```
+
+### Leaky ReLU
+
+`x < 0` でも勾配をつける活性化関数。
+
+```
+f(x) = max(ax, x)
+```
+
+```python
+def lrelu(x, alpha=0.01):
+   return tf.maximum(alpha * x, x)
+```

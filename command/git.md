@@ -73,6 +73,20 @@ git branch -a
 git branch --all
 ```
 
+## Resolve Conflict
+
+`checkout --ours` と
+`checkout --theirs` を使うことで、 片方の変更を適用できる。
+
+### Excample
+
+```sh
+git checkout --ours file1.txt
+git checkout --theirs file2.txt
+git add file1.txt file2.txt
+git commit
+```
+
 ## Other
 
 * Entirely different branches can't be merged
