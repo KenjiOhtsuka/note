@@ -3,6 +3,7 @@
     <div class="wrapper">
         <nav>
             <div class="trigger">
+                {%- assign pages = site.pages | sort: 'path' -%} 
                 {%- assign default_paths = site.pages | map: "path" -%}
                 {%- assign page_paths = site.header_pages | default: default_paths -%}
                 <ul>
