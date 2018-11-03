@@ -8,7 +8,7 @@ layout: page
         <tr>
             <th>型</th>
             <th style="text-align:right;" colspan="2">最小値</th>
-            <th style="text-align:right; colspan="2">最大値</th>
+            <th style="text-align:right;" colspan="2">最大値</th>
         </tr>
     </thead>
     <tbody>
