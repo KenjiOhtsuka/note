@@ -1,0 +1,8 @@
+---
+layout: page
+---
+
+## Desktop Manager
+
+* 2: LXDE
+* 3: PIXEL
