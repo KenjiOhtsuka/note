@@ -5,11 +5,13 @@
             <div class="trigger">
                 {%- assign default_paths = site.pages | map: "path" -%}
                 {%- assign page_paths = site.header_pages | default: default_paths -%}
+                <ul>
                 {%- for path in page_paths -%}
                 {%- assign my_page = site.pages | where: "path", path | first -%}
                 {%- if my_page.title -%}
-                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
+                    <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
                 {%- endif -%}
+                </ul>
                 {%- endfor -%}
             </div>
             <p>このページのソースは <a href="https://github.com/KenjiOhtsuka/note{{ page.path }}">GitHub note{{ page.path }}</a> にあります。</p>
