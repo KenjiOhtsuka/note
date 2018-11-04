@@ -8,7 +8,7 @@
                 {%- assign page_paths = site.header_pages | default: default_paths -%}
                 <ul>
                     {%- for page in pages -%}
-                    <li><a class="page-link" href="{{ page.url }}">{%- if page.title -%}{{ page.title }}{%- else -%}{{ page.path }}{%- endif -%}</a></li>
+                    <li><a class="page-link" href="/note/{{ page.path }}">{%- if page.title -%}{{ page.title }}{%- else -%}{{ page.path }}{%- endif -%}</a></li>
                     {%- endfor -%}
                 </ul>
             </div>
