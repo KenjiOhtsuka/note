@@ -2,6 +2,7 @@
 layout: page
 ---
 
+# 基本
 
 ## 数値の範囲
 
@@ -79,5 +80,20 @@ layout: page
     </tbody>
 </table>
 
+## リストと配列の違い
 
+Arrays and lists (represented by List<T> and its subtype MutableList<T>) have many differences, here are the most significant ones:
 
+### データ構造
+
+* Array
+    * 連続した、決まったサイズのメモリ領域が確保される。
+* List
+    * ...
+ 
+### できること・できないこと
+
+| | Array | List | MutableList |
+|:--|:--|:--|:--|
+| 後からの値変更 | O | X | O |
+| 後からの要素追加・削除 | X | X | O |
