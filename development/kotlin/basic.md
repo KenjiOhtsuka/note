@@ -3,7 +3,9 @@ layout: page
 ---
 
 
-<table summary='表1::数値型値の有効範囲'>
+## 数値の範囲
+
+<table>
     <thead>
         <tr>
             <th>型</th>
@@ -76,3 +78,6 @@ layout: page
         </tr>
     </tbody>
 </table>
+
+
+
