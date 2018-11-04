@@ -94,6 +94,6 @@ Arrays and lists (represented by List<T> and its subtype MutableList<T>) have ma
 ### できること・できないこと
 
 | | Array | List | MutableList |
-|:--|:--|:--|:--|
+|:--|:--:|:--:|:--:|
 | 後からの値変更 | O | X | O |
 | 後からの要素追加・削除 | X | X | O |
