@@ -13,6 +13,20 @@ layout: page
 mysql.server start
 ```
 
+## User
+
+### Create
+
+```sql
+CREATE USER developer@'%' identified by 'password';
+```
+
+## Privilege
+
+```sql
+GRANT ALL PRIVILEGES ON db_name.* TO developer@'%';
+```
+
 ## The server requested authentication method unknown to the client
 
 ### 認証プラグイン
