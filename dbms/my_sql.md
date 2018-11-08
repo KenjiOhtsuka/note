@@ -59,3 +59,26 @@ GRANT ALL PRIVILEGES ON database_name.* TO 'developer'@'localhost';
 参考: [【Rails】db:migrateでMySQLのLONGTEXT、MEDIUMTEXTを使う](http://appleorbit.hatenablog.com/entry/2015/02/24/231250
 
 Rails でマイグレーションする際には、 `:limit` の値によって column type を指定する。
+
+## PHP による接続確認
+
+```php
+$connect = true;
+$host = 'host';
+$db_name = 'db_name';
+$user = 'user';
+$password = 'password';
+$message = '';
+try {
+  $dbh = new PDO("mysql:host=$host;dbname=$db_name;charset=utf8", $user, $password);
+} catch (PDOException $e) {
+  $connect = false;
+  exit('Database connection failure ' .$e->getMessage());
+  $message .= 'Database connection failure ' .$e->getMessage() .'';
+}
+if ($connect) {
+  $message .= 'Database connection success!';
+}
+$dbh = null;
+echo $message;
+```
