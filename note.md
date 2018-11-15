@@ -4,7 +4,9 @@ layout: page
 
 # Note
 
-## Cornell strategy
+## Basic Strategy
+
+### Cornell strategy
 
 * Upper: Prepare 2 major column
     * Left: brief summary of the information to the right
@@ -29,7 +31,7 @@ layout: page
 </feature>
 
 
-##  Map strategy
+### Map strategy
 
 Something like a mind map, but in Cornel scheme.
 
@@ -51,3 +53,12 @@ Visualize ideas into right side, and draw connection or relation like mind map.
     </tbody>
   </table>
 </feature>
+
+## Note must be in the margin, when writing the note with the reference
+
+
+> 1. Author's name
+> 2. Title of the document/book
+> 3. Year of Publication
+> 4. Page
+> 5. Publisher information
