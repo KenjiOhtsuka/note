@@ -30,6 +30,7 @@ layout: page
   </table>
 </feature>
 
+## Split Strategy
 
 ### Map strategy
 
@@ -54,6 +55,8 @@ Visualize ideas into right side, and draw connection or relation like mind map.
   </table>
 </feature>
 
+
+
 ## Note must be in the margin, when writing the note with the reference
 
 
@@ -62,3 +65,4 @@ Visualize ideas into right side, and draw connection or relation like mind map.
 > 3. Year of Publication
 > 4. Page
 > 5. Publisher information
+
