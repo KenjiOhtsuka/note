@@ -26,6 +26,8 @@ git reset --soft HEAD~
 git commit --allow-empty
 ```
 
+### Revert
+
 ## Submodule
 
 ### Update
