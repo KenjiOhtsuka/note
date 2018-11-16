@@ -28,6 +28,11 @@ git commit --allow-empty
 
 ### Revert
 
+* Revert merge commit
+    ```
+
+    ```
+
 ## Submodule
 
 ### Update
