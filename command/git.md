@@ -30,7 +30,7 @@ git commit --allow-empty
 
 * Revert merge commit
     ```
-
+    git revert -m 1 {revision}
     ```
 
 ## Submodule
