@@ -29,7 +29,7 @@ git commit --allow-empty
 ### Revert
 
 * Revert merge commit
-    ```
+    ```sh
     git revert -m 1 {revision}
     ```
 
