@@ -130,3 +130,8 @@ pg_restore -j 2 --dbname sample -U postgres -h <<hostname>> --role=test_user -O 
 ```sql
 \g
 ```
+
+## UPSERT
+
+制約(Constraint)がある場合に使用可能。
+CONFLICT が生じるときに UPDATE にする。
