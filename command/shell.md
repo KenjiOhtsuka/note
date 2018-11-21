@@ -122,3 +122,11 @@ list files with absolute path
 ```sh
 ls -d $PWD/*
 ```
+
+## history
+
+* remove history
+    ```sh
+    history
+    ```
+    繰り返し実行すると履歴を全て削除することも可能。 

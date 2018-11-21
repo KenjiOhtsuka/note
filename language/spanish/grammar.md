@@ -134,3 +134,16 @@ ar動詞は、er動詞のeをaに変えた活用となる。
 * hablar 話す
 * estudiar 勉強する
 * invitar 招待する
+
+### IR (規則活用)
+
+|  | 単数 | -ir | 複数  | -ir |
+|:--|:--|:--|:--|:--|
+| 1人称 | y | -o | nosotros / nosotras | -imos |
+| 2人称 | tú | -es | vosotros / vosotras | -ís |
+| 3人称 | usted; él / ella | -e | ustedes; ellos / ellas | -en |
+
+* escribir 書く
+* cumplir 〜歳になる
+* abrir
+* sabir

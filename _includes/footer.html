@@ -3,16 +3,16 @@
     <div class="wrapper">
         <nav>
             <div class="trigger">
+                {%- assign pages = site.pages | sort: 'path' -%} 
                 {%- assign default_paths = site.pages | map: "path" -%}
                 {%- assign page_paths = site.header_pages | default: default_paths -%}
-                {%- for path in page_paths -%}
-                {%- assign my_page = site.pages | where: "path", path | first -%}
-                {%- if my_page.title -%}
-                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
-                {%- endif -%}
-                {%- endfor -%}
+                <ul>
+                    {%- for page in pages -%}
+                    <li><a class="page-link" href="/note/{{ page.url }}">{%- if page.title -%}{{ page.title }}{%- else -%}{{ page.path }}{%- endif -%}</a></li>
+                    {%- endfor -%}
+                </ul>
             </div>
-            <p>このページのソースは <a href="https://github.com/KenjiOhtsuka/note{{ page.path }}">GitHub note{{ page.path }}</a> にあります。</p>
+            <p>このページのソースは <a href="https://github.com/KenjiOhtsuka/note/blob/master/{{ page.path }}">GitHub note</a> にあります。</p>
             <p>このサイトは <a href="https://github.com/KenjiOhtsuka/note/">GitHub: note</a> で管理されています。 連絡があれば <a href="https://github.com/KenjiOhtsuka/note/issues">GitHub: note: Issues</a> よりお願いします。 情報不足あれば Contribute お願いします。</p>
         </nav>
         <h2 class="footer-heading">{{ site.title | escape }}</h2>
@@ -26,9 +26,6 @@
                         {{ site.title | escape }}
                         {%- endif -%}
                     </li>
-                    {%- if site.email -%}
-                    <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-                    {%- endif -%}
                 </ul>
             </div>
             <div class="footer-col footer-col-2">
