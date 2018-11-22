@@ -9,6 +9,7 @@ layout: page
 ## How to compose a paragraph
 
 Start with topic sentence.
+それに続けて、 トピックセンテンスを裏付ける文を記述する。
 
 ### Topic sentence
 
