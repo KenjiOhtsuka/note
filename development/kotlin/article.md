@@ -44,3 +44,4 @@ https://speakerdeck.com/orgachem/kai-fa-woxiao-lu-hua-surutesutofalsedezainpatan
 
 * [Kotlinにstaticが無いのなんで？(Why doesn't Kotlin have static members inside a class?)](https://yyyank.blogspot.com/2017/03/kotlinstaticwhy-doesnt-kotlin-have.html)
 * [companion object vs. top-level](https://hydrakecat.hatenablog.jp/entry/2017/12/02/companion_object_vs._top-level)
+* [Effective Kotlin](https://medium.com/@appmattus/effective-kotlin-31215a6cf847)
