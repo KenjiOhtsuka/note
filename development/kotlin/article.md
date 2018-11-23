@@ -30,7 +30,6 @@ layout: page
 
 * [Kotlin のコルーチン (coroutines) について学ぶ](http://vividcode.hatenablog.com/entry/kotlin/coroutines)
 * [RxJavaを使っている 既存アプリに Kotlin Coroutinesを導入しよう](https://speakerdeck.com/takahirom/rxjavawoshi-tuteiru-ji-cun-apurini-kotlin-coroutineswodao-ru-siyou)
-* [companion object vs. top-level](https://hydrakecat.hatenablog.jp/entry/2017/12/02/companion_object_vs._top-level)
 
 ## Coding Guideline
 
@@ -42,3 +41,4 @@ https://speakerdeck.com/orgachem/kai-fa-woxiao-lu-hua-surutesutofalsedezainpatan
 * [Building a Gradle Kotlin project with Java 9/10 and Gradle's Kotlin DSL](https://stackoverflow.com/questions/50437415/building-a-gradle-kotlin-project-with-java-9-10-and-gradles-kotlin-dsl)
 
 * [Kotlinにstaticが無いのなんで？(Why doesn't Kotlin have static members inside a class?)](https://yyyank.blogspot.com/2017/03/kotlinstaticwhy-doesnt-kotlin-have.html)
+* [companion object vs. top-level](https://hydrakecat.hatenablog.jp/entry/2017/12/02/companion_object_vs._top-level)
