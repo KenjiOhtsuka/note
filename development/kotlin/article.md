@@ -30,6 +30,7 @@ layout: page
 
 * [Kotlin のコルーチン (coroutines) について学ぶ](http://vividcode.hatenablog.com/entry/kotlin/coroutines)
 * [RxJavaを使っている 既存アプリに Kotlin Coroutinesを導入しよう](https://speakerdeck.com/takahirom/rxjavawoshi-tuteiru-ji-cun-apurini-kotlin-coroutineswodao-ru-siyou)
+* [Kotlin 1.3 で CoroutineScope](https://android.benigumo.com/tag/kotlin-1-3/)
 
 ## Coding Guideline
 
