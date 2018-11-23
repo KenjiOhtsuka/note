@@ -36,6 +36,7 @@ layout: page
 * [RxJavaを使っている 既存アプリに Kotlin Coroutinesを導入しよう](https://speakerdeck.com/takahirom/rxjavawoshi-tuteiru-ji-cun-apurini-kotlin-coroutineswodao-ru-siyou)
 * [Kotlin 1.3 で CoroutineScope](https://android.benigumo.com/tag/kotlin-1-3/)
 * [Android Coroutine の使い所](https://dev.classmethod.jp/smartphone/android-kotlin-coroutines-pattern/)
+* [Kotlin 1.1 async/awaitの仕組みと使い方の概要 for Android](http://sys1yagi.hatenablog.com/entry/2016/12/19/184352)
 
 ## Coding Guideline
 
