@@ -38,3 +38,4 @@ layout: page
 ## Other
 
 https://speakerdeck.com/orgachem/kai-fa-woxiao-lu-hua-surutesutofalsedezainpatan?slide=55
+* [Building a gradle Kotlin project with Java 9/10](https://stackoverflow.com/questions/50437415/building-a-gradle-kotlin-project-with-java-9-10-and-gradles-kotlin-dsl)
