@@ -37,3 +37,15 @@ In illustrative paragraph, the writer uses to go from a figurative item to more 
     1. 歴史的事実
 
 
+## セミコロン
+
+A semicolon sort of a "soft" period.
+You may use it to divide sentences, when the sentences are closely related and you want your reader to know it. 
+
+## コロン
+
+A colon is used before a list of things.
+
+[Semicolons, Colons, Dash](https://writingcenter.unc.edu/tips-and-tools/semi-colons-colons-and-dashes/)
+
+
