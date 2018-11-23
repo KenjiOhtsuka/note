@@ -39,3 +39,5 @@ layout: page
 
 https://speakerdeck.com/orgachem/kai-fa-woxiao-lu-hua-surutesutofalsedezainpatan?slide=55
 * [Building a Gradle Kotlin project with Java 9/10 and Gradle's Kotlin DSL](https://stackoverflow.com/questions/50437415/building-a-gradle-kotlin-project-with-java-9-10-and-gradles-kotlin-dsl)
+
+* [Kotlinにstaticが無いのなんで？(Why doesn't Kotlin have static members inside a class?)](https://yyyank.blogspot.com/2017/03/kotlinstaticwhy-doesnt-kotlin-have.html)
