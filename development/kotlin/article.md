@@ -26,6 +26,10 @@ layout: page
 * [Web Reactive](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux)
 * [Servlet and Reactive Stacks Spring Framework 5](https://www.infoq.com/jp/articles/Servlet-and-Reactive-Stacks-Spring-Framework-5)
 
+## Smart Cast
+
+* [Kotlin の スマートキャスト](https://qiita.com/kmizu/items/2831cde52c055367535c)
+
 ## Coroutine
 
 * [Kotlin のコルーチン (coroutines) について学ぶ](http://vividcode.hatenablog.com/entry/kotlin/coroutines)
