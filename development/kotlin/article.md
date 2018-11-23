@@ -30,6 +30,7 @@ layout: page
 
 * [Kotlin のコルーチン (coroutines) について学ぶ](http://vividcode.hatenablog.com/entry/kotlin/coroutines)
 * [RxJavaを使っている 既存アプリに Kotlin Coroutinesを導入しよう](https://speakerdeck.com/takahirom/rxjavawoshi-tuteiru-ji-cun-apurini-kotlin-coroutineswodao-ru-siyou)
+* [companion object vs. top-level](https://hydrakecat.hatenablog.jp/entry/2017/12/02/companion_object_vs._top-level)
 
 ## Coding Guideline
 
