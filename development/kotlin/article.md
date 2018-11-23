@@ -34,3 +34,7 @@ layout: page
 ## Coding Guideline
 
 * https://github.com/shyiko/ktlint (in README.md)
+
+## Other
+
+https://speakerdeck.com/orgachem/kai-fa-woxiao-lu-hua-surutesutofalsedezainpatan?slide=55
