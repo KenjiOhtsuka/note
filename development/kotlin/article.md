@@ -25,6 +25,7 @@ layout: page
 * [Spring Framework 5 の新機能](https://www.ibm.com/developerworks/jp/java/library/j-whats-new-in-spring-framework-5-theedom/index.html)
 * [Web Reactive](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux)
 * [Servlet and Reactive Stacks Spring Framework 5](https://www.infoq.com/jp/articles/Servlet-and-Reactive-Stacks-Spring-Framework-5)
+* [Sprint Framework の Kotlin サポート](https://blog.ik.am/entries/407 )
 
 ## Smart Cast
 
