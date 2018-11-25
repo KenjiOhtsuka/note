@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Chinese
+# 中国語
 
 ## 不 の声調変化
 
