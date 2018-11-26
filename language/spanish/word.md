@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Word
+# スペイン語 単語
 
 | Spanish | | 日本語 |
 |:--|:--|:--|
