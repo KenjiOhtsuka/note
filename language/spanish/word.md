@@ -30,6 +30,7 @@ layout: page
 | empleada | 名詞[女] | 社員 |
 | enfadado | 形容詞 | (スペイン) 怒っている |
 | enojado | 形容詞 | (中南米) 怒っている |
+| entonces | 接続詞 | じゃあ |
 | español | 名詞 | スペイン語 |
 | estudiar | 動詞 | 勉強する |
 | feliz | 形容詞 | 幸せな |
@@ -53,6 +54,7 @@ layout: page
 | ocupado | | 忙しい |
 | oficina | 名詞 | オフィス |
 | pan | 名刺[男] | パン |
+| película | 映画[女] | 映画 | 
 | pescado | 名刺[男] | 魚 |
 | postgués | 名詞 | ポルトガル語 |
 | preocupado | 形容詞 | 心配している |
