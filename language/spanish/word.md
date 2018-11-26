@@ -9,6 +9,8 @@ layout: page
 | aburrido | 形容詞 | 退屈している |
 | agua | 名詞[女] | 水 |
 | alemán | 名詞 | ドイツ語 |
+| argentino | | |
+| argentina | | アルゼンチンの(女性単数) |
 | arroz | 名詞 | 米、ご飯 |
 | aunque | 接続詞 | 〜だけれども |
 | ayuntamiento | 名詞 | 市役所 |
