@@ -52,6 +52,7 @@ layout: page
 | jugo | 名詞[男] | (中南米) ジュース |
 | leche | 名詞[女] | 牛乳 |
 | legumbre | 名詞[女] | 豆 |
+| mañana | 名詞 | 明日 |
 | mirador | 名刺 | 展望台 |
 | muy | | とても |
 | nervioso | 形容詞 | 緊張している |
