@@ -34,6 +34,8 @@ layout: page
 | enojado | 形容詞 | (中南米) 怒っている |
 | entonces | 接続詞 | じゃあ |
 | español | 名詞 | スペイン語 |
+| esperar | 動詞 | 待つ |
+| estación | 名詞[女] | 駅 |
 | estudiar | 動詞 | 勉強する |
 | feliz | 形容詞 | 幸せな |
 | fruta | 名詞[女] | 果物 |
@@ -54,14 +56,18 @@ layout: page
 | muy | | とても |
 | nervioso | 形容詞 | 緊張している |
 | ocupado | | 忙しい |
+| ocho | 数 | 8 |
+| oeste | 名詞[男] | (形容詞的に)西の |
 | oficina | 名詞 | オフィス |
 | pan | 名刺[男] | パン |
 | película | 映画[女] | 映画 | 
 | pescado | 名刺[男] | 魚 |
 | postgués | 名詞 | ポルトガル語 |
+| pues | | じゃあ |
 | preocupado | 形容詞 | 心配している |
 | qué | 感嘆詞 | なんと |
 | resfriado | 形容詞 | 風邪をひいている |
+| salida | 名詞[女] | 出口 |
 | supermercado | 名詞 | スーパーマーケット |
 | té | 名詞[女] | 紅茶、茶 |
 | tienda | 名詞 | 店 |
