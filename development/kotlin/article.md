@@ -25,8 +25,29 @@ layout: page
 * [Spring Framework 5 の新機能](https://www.ibm.com/developerworks/jp/java/library/j-whats-new-in-spring-framework-5-theedom/index.html)
 * [Web Reactive](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux)
 * [Servlet and Reactive Stacks Spring Framework 5](https://www.infoq.com/jp/articles/Servlet-and-Reactive-Stacks-Spring-Framework-5)
+* [Sprint Framework の Kotlin サポート](https://blog.ik.am/entries/407 )
+
+## Smart Cast
+
+* [Kotlin の スマートキャスト](https://qiita.com/kmizu/items/2831cde52c055367535c)
 
 ## Coroutine
 
 * [Kotlin のコルーチン (coroutines) について学ぶ](http://vividcode.hatenablog.com/entry/kotlin/coroutines)
 * [RxJavaを使っている 既存アプリに Kotlin Coroutinesを導入しよう](https://speakerdeck.com/takahirom/rxjavawoshi-tuteiru-ji-cun-apurini-kotlin-coroutineswodao-ru-siyou)
+* [Kotlin 1.3 で CoroutineScope](https://android.benigumo.com/tag/kotlin-1-3/)
+* [Android Coroutine の使い所](https://dev.classmethod.jp/smartphone/android-kotlin-coroutines-pattern/)
+* [Kotlin 1.1 async/awaitの仕組みと使い方の概要 for Android](http://sys1yagi.hatenablog.com/entry/2016/12/19/184352)
+
+## Coding Guideline
+
+* https://github.com/shyiko/ktlint (in README.md)
+
+## Other
+
+https://speakerdeck.com/orgachem/kai-fa-woxiao-lu-hua-surutesutofalsedezainpatan?slide=55
+* [Building a Gradle Kotlin project with Java 9/10 and Gradle's Kotlin DSL](https://stackoverflow.com/questions/50437415/building-a-gradle-kotlin-project-with-java-9-10-and-gradles-kotlin-dsl)
+
+* [Kotlinにstaticが無いのなんで？(Why doesn't Kotlin have static members inside a class?)](https://yyyank.blogspot.com/2017/03/kotlinstaticwhy-doesnt-kotlin-have.html)
+* [companion object vs. top-level](https://hydrakecat.hatenablog.jp/entry/2017/12/02/companion_object_vs._top-level)
+* [Effective Kotlin](https://medium.com/@appmattus/effective-kotlin-31215a6cf847)

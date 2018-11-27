@@ -2,13 +2,15 @@
 layout: page
 ---
 
-# Word
+# スペイン語 単語
 
 | Spanish | | 日本語 |
 |:--|:--|:--|
 | aburrido | 形容詞 | 退屈している |
 | agua | 名詞[女] | 水 |
 | alemán | 名詞 | ドイツ語 |
+| argentino | | |
+| argentina | | アルゼンチンの(女性単数) |
 | arroz | 名詞 | 米、ご飯 |
 | aunque | 接続詞 | 〜だけれども |
 | ayuntamiento | 名詞 | 市役所 |
@@ -24,11 +26,13 @@ layout: page
 | censado | 形容詞 | 疲れている |
 | chino | 名詞 | 中国語 |
 | chocolate | 名詞 | チョコレート |
+| cine | 名詞[男] | 映画館 |
 | contento | 形容詞 | 満足している |
 | desayunar | 動詞 | 朝食をとる、〜を朝食にとる |
 | empleada | 名詞[女] | 社員 |
 | enfadado | 形容詞 | (スペイン) 怒っている |
 | enojado | 形容詞 | (中南米) 怒っている |
+| entonces | 接続詞 | じゃあ |
 | español | 名詞 | スペイン語 |
 | estudiar | 動詞 | 勉強する |
 | feliz | 形容詞 | 幸せな |
@@ -52,6 +56,7 @@ layout: page
 | ocupado | | 忙しい |
 | oficina | 名詞 | オフィス |
 | pan | 名刺[男] | パン |
+| película | 映画[女] | 映画 | 
 | pescado | 名刺[男] | 魚 |
 | postgués | 名詞 | ポルトガル語 |
 | preocupado | 形容詞 | 心配している |
