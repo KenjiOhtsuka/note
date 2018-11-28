@@ -8,6 +8,7 @@ layout: page
 |:--|:--|:--|
 | aburrido | 形容詞 | 退屈している |
 | agua | 名詞[女] | 水 |
+| al | | a + el (定冠詞男性単数) |
 | alemán | 名詞 | ドイツ語 |
 | argentino | | |
 | argentina | | アルゼンチンの(女性単数) |
@@ -29,6 +30,7 @@ layout: page
 | cine | 名詞[男] | 映画館 |
 | contento | 形容詞 | 満足している |
 | desayunar | 動詞 | 朝食をとる、〜を朝食にとる |
+| empiezar | 動詞 | 始まる |
 | empleada | 名詞[女] | 社員 |
 | enfadado | 形容詞 | (スペイン) 怒っている |
 | enojado | 形容詞 | (中南米) 怒っている |
@@ -69,6 +71,7 @@ layout: page
 | qué | 感嘆詞 | なんと |
 | resfriado | 形容詞 | 風邪をひいている |
 | salida | 名詞[女] | 出口 |
+| semana | 名詞[女] | 週 |
 | supermercado | 名詞 | スーパーマーケット |
 | té | 名詞[女] | 紅茶、茶 |
 | tienda | 名詞 | 店 |
@@ -76,6 +79,7 @@ layout: page
 | triste | 形容詞 | 悲しい |
 | últimamente | | 最近 |
 | verdura | 名刺[女] | 野菜 |
+| vaya | 感嘆詞 | あら |
 | vino | 名詞[男] | ワイン |
 | y | 接続詞 | そして |
 | zumo | 名詞[男] | (スペイン) ジュース |
