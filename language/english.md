@@ -57,6 +57,14 @@ A colon is used before a list of things.
 ### Citation in Text
 
 文中で引用する場合
-クオート `"` で引用部分を囲み 括弧 を使って 著者名、年、ページを書く 
+クオート `"` で引用部分を囲み 括弧 を使って 著者名、出版年、ページ数を書く 
 
-> "Quoted sentence." (Writer Name, 19XX, p. 34)
+> "Quoted sentence." (Kenji Otsuka, 19XX, p. 34)
+
+そして、最後に Reference を次のフォーマットで書く。
+
+> References
+> Last Name, First Initial. (Year). Title of book. Location: Publisher.
+
+> References
+> Otsuka, K. (2014). Book Title. Gifu, GF: Self.
