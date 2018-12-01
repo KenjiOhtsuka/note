@@ -63,8 +63,8 @@ A colon is used before a list of things.
 
 そして、最後に Reference を次のフォーマットで書く。
 
-> References
+> ### References
 > Last Name, First Initial. (Year). Title of book. Location: Publisher.
 
-> References
+> ### References
 > Otsuka, K. (2014). Book Title. Gifu, GF: Self.
