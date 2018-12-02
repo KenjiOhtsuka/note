@@ -29,51 +29,51 @@ layout: page
             <td style="text-align:right;">255</td>
         </tr>
         <tr>
-            <th>`Short`</th>
+            <th><code>Short</code></th>
             <td style="text-align:right;">- 2 ^ 15 </td>
             <td style="text-align:right;">- 32768</td>
             <td style="text-align:right;">2 ^ 15 - 1</td>
             <td style="text-align:right;">32767</td>
         </tr>
         <tr>
-            <th>`UShort`</th>
+            <th><code>UShort</code></th>
             <td style="text-align:right;" colspan="2">0</td>
             <td style="text-align:right;">2 ^ 16 - 1</td>
             <td style="text-align:right;">65535</td>
         </tr>
         <tr>
-            <th>`Int`</th>
+            <th><code>Int</code></th>
             <td style="text-align:right;">- 2 ^ 31</td>
             <td style="text-align:right;">- 2147483648</td>
             <td style="text-align:right;">2 ^ 31 - 1</td>            
             <td style="text-align:right;">2147483647</td>
         </tr>
         <tr>
-            <th>`UInt`</th>
+            <th><code>UInt</code></th>
             <td style="text-align:right;" colspan="2">0</td>
             <td style="text-align:right;">2^32 - 1</td>
             <td style="text-align:right;">4294967295</td>
         </tr>
         <tr>
-            <th>`Long`</th>
+            <th><code>Long</code></th>
             <td style="text-align:right;">- 2 ^ 63</td>
             <td style="text-align:right;">-9223372036854775808</td>
             <td style="text-align:right;">2 ^ 63 - 1</td>
             <td style="text-align:right;">9223372036854775807</td>            
         </tr>
         <tr>
-            <th>`ULong`</th>
+            <th><code>ULong</code></th>
             <td style="text-align:right;" colspan="2">0</td>
             <td style="text-align:right;">2 ^ 64 - 1</td>
             <td style="text-align:right;">18446744073709551615</td>
         </tr>
         <tr>
-            <th>`Float`</th>
+            <th><code>Float</code></th>
             <td style="text-align:right;" colspan="2">- 3.4028235 x 10 ^ 38</td>
             <td style="text-align:right;" colspan="2">3.4028235 x 10 ^ 38</td>
         </tr>
         <tr>
-            <th>`Double`</th>
+            <th><code>Double</code></th>
             <td style="text-align:right;" colspan="2">- 1.7976931348623157 x 10 ^ 308</td>
             <td style="text-align:right;" colspan="2">1.7976931348623157 x 10 ^ 308</td>
         </tr>
