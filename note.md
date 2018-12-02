@@ -66,3 +66,7 @@ Visualize ideas into right side, and draw connection or relation like mind map.
 > 4. Page
 > 5. Publisher information
 
+## Labor
+
+終身雇用、社会保険はGHQが導入したものだった。
+

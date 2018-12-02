@@ -97,3 +97,8 @@ Arrays and lists (represented by List<T> and its subtype MutableList<T>) have ma
 |:--|:--:|:--:|:--:|
 | 後からの値変更 | O | X | O |
 | 後からの要素追加・削除 | X | X | O |
+
+## Exception
+
+* Kotlin の Exception はすべて Throwable クラスを継承しています。
+    *  https://kotlinlang.org/docs/reference/exceptions.html 
