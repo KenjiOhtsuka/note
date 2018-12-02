@@ -16,14 +16,14 @@ layout: page
     </thead>
     <tbody>
         <tr>
-            <th>`Byte`</th>
+            <th><code>Byte</code></th>
             <td style="text-align:right;">- 2 ^ 7</td>
             <td style="text-align:right;">- 128</td>
             <td style="text-align:right;">2 ^ 7 - 1</td>
             <td style="text-align:right;">127</td>
         </tr>
         <tr>
-            <th>`UByte`</th>
+            <th><code>UByte</code></th>
             <td style="text-align:right;" colspan="2">0</td>
             <td style="text-align:right;">2 ^ 8 - 1</td>
             <td style="text-align:right;">255</td>
