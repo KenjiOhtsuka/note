@@ -75,3 +75,7 @@ A colon is used before a list of things.
 * メインが自分の言葉になっているようにする。 (同じ表現の寄せ集めにしない)
 * もし 75% 以下 しか自分の言葉で書けていない場合には、 クオートマークをつける。
 * もし不安があればクオートマークをつける。
+
+### Link
+
+* https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html
