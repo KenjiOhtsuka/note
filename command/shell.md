@@ -104,6 +104,8 @@ sudo alternatives --install /usr/bin/java java /usr/java/jdk... 3
 sudo alternatives --install /usr/bin/java java /usr/local/lib/jdk-10.0.2/bin/java 4
 ```
 
+* [CentOSのalternativesでJavaのバージョン管理](https://www.task-notes.com/entry/20150530/1432954800)
+
 ## find
 
 * delete all files except the specific file.
