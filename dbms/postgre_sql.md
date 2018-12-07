@@ -135,3 +135,17 @@ pg_restore -j 2 --dbname sample -U postgres -h <<hostname>> --role=test_user -O 
 
 制約(Constraint)がある場合に使用可能。
 CONFLICT が生じるときに UPDATE にする。
+
+## FUNCTION
+
+* See code
+    ```sql
+    SELECT routine_definition 
+      FROM information_schema.routines 
+     WHERE specific_schema LIKE 'public'
+       AND routine_name LIKE 'functionName';
+    ```
+
+## Reference
+
+* stackoverflow. (2014). _How to display the function, procedure, triggers source code in postgresql?_ Retrieved from https://stackoverflow.com/questions/6898453/how-to-display-the-function-procedure-triggers-source-code-in-postgresql
