@@ -30,6 +30,20 @@ In illustrative paragraph, the writer uses to go from a figurative item to more 
 
 説明的なものではなく 情景描写を書く。
 
+### トピック
+
+### Thesis ステートメント
+
+### イントロダクション
+
+イントロダクションは少なくともエッセイの最初のパラグラフにある。 
+長い文章では、イントロダクションは数ページに及ぶこともある。
+
+イントロダクションの目的は、これから何について議論するか、この後の議論はどのようになるのかを読者に知らせること。
+イントロダクションは Thesis ステートメント を含み、 のちのページに対応するマップとなる。
+
+マップというのは、読者に後のページで何を議論するか、どのような順序で議論するかを知らせるものである。
+
 ## 時制
 
 時制の一致の例外
@@ -79,3 +93,4 @@ A colon is used before a list of things.
 ### Link
 
 * https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html
+
