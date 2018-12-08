@@ -32,7 +32,11 @@ In illustrative paragraph, the writer uses to go from a figurative item to more 
 
 ### トピック
 
-### Thesis ステートメント
+作品のメインテーマ
+
+### Thesis
+
+Thesis は基本的なステートメントで、 作品の中で説明・証明されるものである。
 
 ### イントロダクション
 
