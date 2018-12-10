@@ -19,3 +19,8 @@ layout: page
         * 彼女は単純なアフリカのライターとして認識されることを好まない。 世界中の興味のある人へ作品を届けたいと思っている。
         * Canie Prize は 10,000 EUR ($10,700) もらえる。
         * 7歳の時から執筆を始めた。
+
+## References
+
+* Isokawa, D. (2015). Caine Prize. _Poets & Writers Magazine_, _43_(1), 2015, p. 127
+
