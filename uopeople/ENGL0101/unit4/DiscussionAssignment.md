@@ -22,5 +22,6 @@ layout: page
 
 ## References
 
-* Isokawa, D. (2015). Caine Prize. _Poets & Writers Magazine_, _43_(1), 2015, p. 127
-
+* Isokawa, D. (2015). Caine Prize. _Poets & Writers Magazine_, _43_(1), 127. Retrieved from http://link.galegroup.com/apps/doc/A413709745/LitRC?u=lirn17237&sid=LitRC&xid=0fdc2701
+* Kenyan Okwiri Oduor - Not Your Traditional African Writer. (2017, January 23). _All Africa_. Retrieved from http://link.galegroup.com/apps/doc/A479931649/ITOF?u=lirn17237&sid=ITOF&xid=5de113e1
+* Is the Caine Prize an award or an imperialist tool? (2016, July 22). _Daily Nation_, _Kenya_ [Nairobi, Kenya]. Retrieved from http://link.galegroup.com/apps/doc/A459111117/HRCA?u=lirn17237&sid=HRCA&xid=8042315e
