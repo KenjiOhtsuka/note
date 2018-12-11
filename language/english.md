@@ -81,19 +81,33 @@ A colon is used before a list of things.
 40語より長い引用は、新しい行からスペース5つでインデントして記述する。
 この場合はクオートのマークは不要。インデントが引用を表す。
 
-そして、最後に Reference を次のフォーマットで書く。
-
-> ### References
-> Last Name, First Initial. (Year). Title of book. Location: Publisher.
-
-> ### References
-> Otsuka, K. (2014). Book Title. Gifu, GF: Self.
+そして、最後に Reference を書く。
 
 ### Paraphrase 
 
 * パラフレーズとは、誰かのアイディアを自分の言葉で書き換えて表現することです。
 * メインが自分の言葉になっているようにする。 (同じ表現の寄せ集めにしない)
 * もし 75% 以下 しか自分の言葉で書けていない場合には、 クオートマークをつける。
+* もし不安があればクオートマークをつける。
+
+### Reference
+
+#### 基本
+
+* フォーマット
+    > ### References
+    > Last Name, First Initial. (Year). Title of book. Location: Publisher.
+* サンプル
+    > ### References
+    > Otsuka, K. (2014). Book Title. Gifu, GF: Self.
+
+#### 書籍
+
+
+#### 雑誌
+
+#### オンラインドキュメント
+
 * もし不安があればクオートマークをつける。
 
 ### 必要な情報
