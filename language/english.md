@@ -58,7 +58,6 @@ Thesis は基本的なステートメントで、 作品の中で説明・証明
 * 過去の事実だから常に過去時制を用いる
     1. 歴史的事実
 
-
 ## セミコロン
 
 A semicolon sort of a "soft" period.
@@ -78,6 +77,9 @@ A colon is used before a list of things.
 クオート `"` で引用部分を囲み 括弧 を使って 著者名、出版年、ページ数を書く 
 
 > "Quoted sentence." (Kenji Otsuka, 19XX, p. 34)
+
+40語より長い引用は、新しい行からスペース5つでインデントして記述する。
+この場合はクオートのマークは不要。インデントが引用を表す。
 
 そして、最後に Reference を次のフォーマットで書く。
 
