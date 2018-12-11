@@ -94,6 +94,27 @@ A colon is used before a list of things.
 * もし 75% 以下 しか自分の言葉で書けていない場合には、 クオートマークをつける。
 * もし不安があればクオートマークをつける。
 
+### 必要な情報
+
+* 書籍
+    * 著者 または 編集者
+    * タイトル
+    * 出版日
+* 記事
+    * 著者
+    * 記事タイトル
+    * 雑誌・新聞のタイトル
+    * 号
+    * 出版日
+    * ページ番号
+* 電子情報
+    * 著者
+    * 記事タイトル
+    * URL
+    * データベース名
+    * データベース出版社
+    * アクセス日
+
 ### Link
 
 * https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html
