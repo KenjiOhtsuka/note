@@ -45,7 +45,7 @@ chmod 600 ~/.ssh/authorized_keys
 
 and add ssh public key to authorized keys
 
-### apt
+## apt
 
 ### options
 
