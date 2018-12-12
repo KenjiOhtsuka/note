@@ -134,4 +134,6 @@ A colon is used before a list of things.
 ### Link
 
 * https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html
-
+* http://www.nwic.edu/wp-content/uploads/2015/04/APA-Cheat-Sheet.pdf
+* http://libanswers.snhu.edu/faq/102914
+* https://aus.libguides.com/apa/apa-no-author-date
