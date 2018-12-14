@@ -131,6 +131,12 @@ A colon is used before a list of things.
     * データベース出版社
     * アクセス日
 
+## ABSTRACT
+
+* 読者が最初に読むものであるため、好印象を与えるようにする。
+※ リサーチにおける最も際立った特徴の概要。
+* 正確で魅力的な要約は、自分のアウトプットを広く知ってもらうために役立つ。
+
 ### Link
 
 * https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html
