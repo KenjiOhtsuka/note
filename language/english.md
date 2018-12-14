@@ -137,6 +137,12 @@ A colon is used before a list of things.
 ※ リサーチにおける最も際立った特徴の概要。
 * 正確で魅力的な要約は、自分のアウトプットを広く知ってもらうために役立つ。
 
+* 一般的に、最初の下書きは論文作成の早い段階で行う。
+* 最終版は論文が書き終わった後でのみ作成可能。
+* 会議のABSTRACTは通常レポートを書く前に作成される。
+
+
+
 ### Link
 
 * https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html
