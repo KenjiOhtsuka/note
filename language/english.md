@@ -161,3 +161,4 @@ A colon is used before a list of things.
 * http://www.nwic.edu/wp-content/uploads/2015/04/APA-Cheat-Sheet.pdf
 * http://libanswers.snhu.edu/faq/102914
 * https://aus.libguides.com/apa/apa-no-author-date
+* http://www.easybib.com/reference/guide/apa/journal
