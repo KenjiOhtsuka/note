@@ -97,6 +97,8 @@ A colon is used before a list of things.
 * フォーマット
     > ### References
     > Last Name, First Initial. (Year). Title of book. Location: Publisher.
+    > Last Name, First Initial. Middle Initial. (Year). Title of book. Location: Publisher.
+    > Last Name, First Initial. Middle Initial., Last Name, First Initial. Middle Initial. (Year). Title of book. Location: Publisher.
 * サンプル
     > ### References
     > Otsuka, K. (2014). Book Title. Gifu, GF: Self.
