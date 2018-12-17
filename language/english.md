@@ -156,6 +156,11 @@ A colon is used before a list of things.
 
 ### キーワードの選定
 
+ABSTRACTの最後に使う適切なキーワードを考えること。
+
+* インデックスの役に立つ。
+* 同じドメインの研究者が、論文・作品を見つけるのに役に立つ。
+
 ### Link
 
 * https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html
