@@ -15,4 +15,9 @@ layout: page
 | df.dtypes | |
 | df.loc[] | |
 | df.iloc[] | |
-
+| df.query() | |
+| df.unique() | |
+| df.drop_duplicates() | |
+| df.describe() | |
+| df.set_index() | |
+| df.rename() | |
