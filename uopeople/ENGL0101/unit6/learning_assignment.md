@@ -54,3 +54,7 @@ layout: page
 * Nichelson, B. (2002, July). Avoiding technology nightmares. (Claims Management). _Claims_, _50_(7), 29+. Retrieved from http://link.galegroup.com/apps/doc/A89490448/PPIL?u=lirn17237&sid=PPIL&xid=71e10181
     
     新しいソフトウェアを導入するときのトレーニングにおいて重要なことは2つある。
+    
+* Paperless productivity. (2016, December). _Landscape Management_, _55_(12), 11. Retrieved from http://link.galegroup.com/apps/doc/A476930417/PPHI?u=lirn17237&sid=PPHI&xid=2a7960f3
+
+  
