@@ -57,4 +57,4 @@ layout: page
     
 * Paperless productivity. (2016, December). _Landscape Management_, _55_(12), 11. Retrieved from http://link.galegroup.com/apps/doc/A476930417/PPHI?u=lirn17237&sid=PPHI&xid=2a7960f3
 
-  
+* Polder, M., Bondt, H., & Leeuwen, G. (2018). Business dynamics, industry productivity growth, and the distribution of firm-level performance: evidence for the role of ICT using Dutch firm-level data. _The Journal of Technology Transfer_, _43_(6), 1522+. Retrieved from http://link.galegroup.com/apps/doc/A561467197/PPAG?u=lirn17237&sid=PPAG&xid=1cb62f92
