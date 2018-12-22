@@ -51,3 +51,5 @@ layout: page
 * Bowser, A. D. (2018, April). HEALTHCARE IN THE CLOUD: Shift may improve productivity, save time, money. _Dermatology Times_, _39_(4), 3+. Retrieved from http://link.galegroup.com/apps/doc/A541439200/PPNU?u=lirn17237&sid=PPNU&xid=498acba7
     * クラウドサービスへの移行は必須。情報漏洩事件は、クラウドサービスに移行したことが理由で起きたものではなく、組織内部から起きる情報漏洩である。
 
+* Nichelson, B. (2002, July). Avoiding technology nightmares. (Claims Management). _Claims_, _50_(7), 29+. Retrieved from http://link.galegroup.com/apps/doc/A89490448/PPIL?u=lirn17237&sid=PPIL&xid=71e10181
+    新しいソフトウェアを導入するときのトレーニングにおいて重要なことは2つある。
