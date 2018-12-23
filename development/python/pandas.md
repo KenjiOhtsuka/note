@@ -20,7 +20,10 @@ layout: page
 | df.drop_duplicates() | |
 | df.describe() | |
 | df.set_index() | |
-| df.rename() | |
 | df.sort_values() | |
+| df.rename() | |
 | df.to_datetime() | |
 | df.sort_index() | |
+| df.resample() | |
+| df.apply() | |
+| pd.cut() | |
