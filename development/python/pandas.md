@@ -21,3 +21,6 @@ layout: page
 | df.describe() | |
 | df.set_index() | |
 | df.rename() | |
+| df.sort_values() | |
+| df.to_datetime() | |
+| df.sort_index() | |
