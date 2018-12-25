@@ -46,3 +46,7 @@ TensorFlow, Theano のラッパーライブラリ
 ```sh
 pip install keras
 ```
+
+## Pandas
+
+データ分析におけるデータの操作で役立つライブラリ
