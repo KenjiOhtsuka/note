@@ -58,3 +58,20 @@ layout: page
 * Paperless productivity. (2016, December). _Landscape Management_, _55_(12), 11. Retrieved from http://link.galegroup.com/apps/doc/A476930417/PPHI?u=lirn17237&sid=PPHI&xid=2a7960f3
 
 * Polder, M., Bondt, H., & Leeuwen, G. (2018). Business dynamics, industry productivity growth, and the distribution of firm-level performance: evidence for the role of ICT using Dutch firm-level data. _The Journal of Technology Transfer_, _43_(6), 1522+. Retrieved from http://link.galegroup.com/apps/doc/A561467197/PPAG?u=lirn17237&sid=PPAG&xid=1cb62f92
+
+### Draft
+
+#### Reference
+
+* Cicero Acknowledged by Frost & Sullivan for its Productivity-boosting Automation Software for Contact Centers. (2018, December 20). Computer Business Week, 247. Retrieved from http://link.galegroup.com/apps/doc/A565882557/ITBC?u=lirn17237&sid=ITBC&xid=5c335794
+* "WorkFusion Highlights Automation Software." Entertainment Close-up 19 Dec. 2018. Business Insights: Global. Web. 22 Dec. 2018. http://bi.galegroup.com/global/article/GALE%7CA566253968/c8354f7f1ca068136a3dc39096f24c2e?u=lirn17237
+* Polder, M., Bondt, H., & Leeuwen, G. (2018). Business dynamics, industry productivity growth, and the distribution of firm-level performance: evidence for the role of ICT using Dutch firm-level data. The Journal of Technology Transfer, 43(6), 1522+. Retrieved from http://link.galegroup.com/apps/doc/A561467197/PPAG?u=lirn17237&sid=PPAG&xid=1cb62f92
+Quote
+
+#### Quote
+
+> Cicero offers contact centers and back office sites - across industries - with a unique way of solving business problems using desktop activity and process data. The company's simple, scalable, analytic, and automation software has helped top-tier companies improve the productivity and performance of their critical resources: people, systems, and processes.
+
+It means good softwares surely improve performance and back office worker must use them.
+
+RPA improves productivity not only of back office work, but also of entire the company.
