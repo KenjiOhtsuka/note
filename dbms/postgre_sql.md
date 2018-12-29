@@ -76,7 +76,7 @@ CREATE USER role_name WITH LOGIN PASSWORD 'XXXXXXX' INHERIT;
 ```
 
 * Grant select all table or something in the database, or revoke
-    * login to the database
+    * login to the database, first
     * Execute ddl
         ```sql
         GRANT SELECT ON all tables IN SCHEMA public to role_name;
@@ -101,6 +101,27 @@ CREATE DATABASE sample
 pg_restore -j 2 --dbname sample -U postgres -h <<hostname>> --role=test_user -O XXXXXXimportfileXXXXXXXX
 ```
 
+### Other Grant Pattern
+
+```sql
+GRANT CONNECT ON DATABASE table_name TO username;
+```
+
+```sql
+GRANT USAGE ON SCHEMA public TO username;
+```
+
+* for specific tables
+    ```sql
+    GRANT SELECT ON table_name TO username;
+    GRANT SELECT ON ALL TABLES IN SCHEMA public TO username;
+    ```
+* To add access to the new tables in the future automatically
+    ```sql
+    ALTER DEFAULT PRIVILEGES IN SCHEMA public
+    GRANT SELECT ON TABLES TO username;
+    ```
+
 ## Meta Command
 
 ### Show connection info
@@ -109,21 +130,21 @@ pg_restore -j 2 --dbname sample -U postgres -h <<hostname>> --role=test_user -O 
 \conninfo
 ```
 
-### ユーザ名を切り替える
+### change user, connect to the database
 
-#### 同じデータベース
+#### to the same database
 
 ```sql
 \connect - user_name
 ```
 
-#### 別のデータベース
+#### to another database
 
 ```sql
 \connect database_name user_name
 ```
 
-### 再実行
+### Re-execution
 
 ```sql
 \g
