@@ -70,32 +70,24 @@ postgres=> grant all on database db_name to user_mame;
 GRANT
 ```
 
-
-
-```sql
-GRANT postgres to role_name;
-```
-
-```sql
-REVOKE postgres from role_name;
-```
-
 ```sql
 CREATE ROLE group_name WITH NOLOGIN;
 CREATE USER role_name WITH LOGIN PASSWORD 'XXXXXXX' INHERIT;
 ```
 
-```sql
-GRANT SELECT ON all tables IN SCHEMA public to group_name;
-```
-
-```sql
-CREATE ROLE test_user WITH LOGIN CREATEDB PASSWORD 'test_user';
-```
-
-```sql
-GRANT test_group TO test_user;
-```
+* Grant select all table or something in the database, or revoke
+    * login to the database
+    * Execute ddl
+        ```sql
+        GRANT SELECT ON all tables IN SCHEMA public to role_name;
+        ```
+         ```sql
+        CREATE ROLE test_user WITH LOGIN CREATEDB PASSWORD 'test_user';
+        ```
+        ```sql
+        GRANT test_group TO test_user;
+        REVOKE test_group FROM test_user;
+        ```
 
 ```sql
 CREATE DATABASE sample
@@ -110,6 +102,12 @@ pg_restore -j 2 --dbname sample -U postgres -h <<hostname>> --role=test_user -O 
 ```
 
 ## Meta Command
+
+### Show connection info
+
+```
+\conninfo
+```
 
 ### ユーザ名を切り替える
 
