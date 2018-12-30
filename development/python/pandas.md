@@ -30,3 +30,12 @@ layout: page
 | df.isnull() | |
 | df.any() | |
 | df.fillna() | |
+| df.dropna() | |
+| df drop() | |
+| df.mask() | |
+| df.replace() | |
+| df.value_counts() | |
+| df.groupby() | |
+| df.diff() | |
+| df.rolling() | |
+| df.pct_change() |
