@@ -27,3 +27,6 @@ layout: page
 | df.resample() | |
 | df.apply() | |
 | pd.cut() | |
+| df.isnull() | |
+| df.any() | |
+| df.fillna() | |
