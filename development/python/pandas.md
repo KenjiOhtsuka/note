@@ -7,6 +7,7 @@ layout: page
 | method | |
 |:--|:--|
 | pd.read_csv() | Read CSV |
+| df.to_csv() |
 | df.read() | List first 3 lines |
 | df.tail() | List last 3 lines |
 | df.shape | |
@@ -39,3 +40,7 @@ layout: page
 | df.diff() | |
 | df.rolling() | |
 | df.pct_change() |
+| df.plot() | |
+| df.corr() | |
+| df.pivot() | |
+| df.get_dummies() | |
