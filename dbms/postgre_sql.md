@@ -81,6 +81,8 @@ CREATE USER role_name WITH LOGIN PASSWORD 'XXXXXXX' INHERIT;
         ```sql
         GRANT SELECT ON all tables IN SCHEMA public to role_name;
         ```
+        権限追加後に作成されるテーブルには、自動的に権限がつかないので注意。
+        (The user can't access new tables added after executing `GRANT` SQL.)
          ```sql
         CREATE ROLE test_user WITH LOGIN CREATEDB PASSWORD 'test_user';
         ```
