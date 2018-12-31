@@ -39,7 +39,7 @@ Pass seconds, not millisecond.
 sleep 10
 ```
 
-## Multh Thread
+## Multi Thread
 
 ```ruby
 # version 1.8.7
