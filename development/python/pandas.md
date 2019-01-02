@@ -35,6 +35,7 @@ layout: page
 | df.dropna() | |
 | df drop() | |
 | df.mask() | |
+| df.where() | |
 | df.replace() | |
 | df.value_counts() | |
 | df.groupby() | |
