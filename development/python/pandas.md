@@ -7,13 +7,14 @@ layout: page
 | method | |
 |:--|:--|
 | pd.read_csv() | Read CSV |
-| df.to_csv() |
+| df.to_csv() | Output as CSV |
 | df.read() | List first 3 lines |
 | df.tail() | List last 3 lines |
 | df.shape | |
 | df.index | |
-| df.columns | |
+| df.columns | Return columns |
 | df.dtypes | |
+| df[[column_name]] | list value of the column name with index |
 | df.loc[] | |
 | df.iloc[] | |
 | df.query() | |
