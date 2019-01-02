@@ -19,23 +19,27 @@ paralysis）の情況を描き出している。
     * 成熟期 - 続く4篇
     * 社会生活 - 続く4篇
     * エピローグとしての“The Dead”
-* 
+
 
 ## James Joyce
 
 * 1882-1941
 * SEXIST と批判されたこともあった。
 
+## アイルランドとダブリン
+
+* 結婚とはビジネスの一部であった。
+
 ## The Boarding House
 
 * ダメな夫と計算高い妻は、ダブリナーズでよく使われる構成。
 * ムーニー夫人はお金に貪欲。
 * 当時、男性の方が多く、女性にとって結婚は大変であった。
-* 
+
 
 ## Reference
 
 * [“The Boarding House”（Dubliners）における James Joyce のレトリック](https://ci.nii.ac.jp/els/contentscinii_20190102123217.pdf?id=ART0009433087)
 * [James Joyce の ‶The Boarding House″ そのテクストとコンテクスト ](http://www.osaka-geidai.ac.jp/geidai/laboratory/kiyou/pdf/kiyou20/kiyou20-09.pdf)
-* (https://www.shmoop.com/dubliners/boarding-house-summary.html)
-* (https://owlcation.com/humanities/Study-Help-The-Boarding-House-from-James-Joyces-Dubliners)
+* [DUBLINERS THE BOARDING HOUSE SUMMARY](https://www.shmoop.com/dubliners/boarding-house-summary.html)
+* [Study Help: The Boarding House from James Joyce's Dubliners](https://owlcation.com/humanities/Study-Help-The-Boarding-House-from-James-Joyces-Dubliners)
