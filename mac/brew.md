@@ -48,6 +48,12 @@ brew services start mysql
 brew services stop mysql
 ```
 
+### Restart
+
+```sh
+brew services restart mysql
+```
+
 ### List services
 
 ```sh
