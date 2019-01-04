@@ -48,8 +48,13 @@ brew services start mysql
 brew services stop mysql
 ```
 
-### List services
+### Stop services
 
 ```sh
 brew services stop mysql
 ```
+
+### List services
+
+```sh
+brew services list
