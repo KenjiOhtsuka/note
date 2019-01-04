@@ -11,15 +11,12 @@ layout: page
 数値型のサブタイプ
 
 ```python
-1 + True
-```
-
-```python
-1 + False
-```
-
-```python
-True + False
+True         # => True  <class 'bool'>
+False        # => False <class 'bool'>
+True + 0     # => 0     <class 'int'>
+1 + True     # => 2     <class 'int'>
+1 + False    # => 1     <class 'int'>
+True + False # => 1     <class 'int'>
 ```
 
 ## 演算子
