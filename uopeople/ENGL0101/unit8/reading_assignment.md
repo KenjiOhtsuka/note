@@ -47,3 +47,4 @@ paralysis）の情況を描き出している。
 * [Interactive stories in "Dubliners." (Special "Dubliners" Number)](http://proxy.lirn.net/MuseProxyID=mp01/MuseSessionID=0008mm0/MuseProtocol=http/MuseHost=go.galegroup.com/MusePath/ps/i.do?id=GALE%7CA19517917&v=2.1&u=lirn17237&it=r&p=EAIM&sw=w#)
 * [Ireland: Press Release Marriages and Civil Partnerships 2014](http://proxy.lirn.net/MuseProxyID=mp01/MuseSessionID=0008mlc/MuseProtocol=http/MuseHost=go.galegroup.com/MusePath/ps/i.do?id=GALE%7CA407771260&v=2.1&u=lirn17237&it=r&p=ITBC&sw=w#)
 * [On the decline of marriage in rural Ireland 1851-1911: the role of Ecological Constraints and/or developing philopatry](http://proxy.lirn.net/MuseProxyID=mp01/MuseSessionID=0008mlb/MuseProtocol=http/MuseHost=go.galegroup.com/MusePath/ps/i.do?id=GALE%7CA90534848&v=2.1&u=lirn17237&it=r&p=PPES&sw=w#)
+* [Spiritual Paralysis and Epiphany: James Joyce’s “Eveline” and “The Boarding House”](http://dergipark.gov.tr/jss/issue/24239/256960?publisher=gantep)
