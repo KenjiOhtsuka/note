@@ -39,6 +39,8 @@ paralysis）の情況を描き出している。
 
 ## Reference
 
+* <a href="https://hb.afl.rakuten.co.jp/hgc/06aee009.253cac17.06aee00a.adcce669/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F1069500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbook%2Fi%2F10778100%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjQwMHg0MDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjF9" target="_blank" rel="nofollow noopener noreferrer" style="word-wrap:break-word;"  >ダブリンの市民 (日本語訳の書籍)</a>
+* <a href="https://hb.afl.rakuten.co.jp/hgc/06aee009.253cac17.06aee00a.adcce669/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F5990131%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbook%2Fi%2F13144140%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjQwMHg0MDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjF9" target="_blank" rel="nofollow noopener noreferrer" style="word-wrap:break-word;"  >ダブリナーズ (日本語訳の書籍)</a>
 * [“The Boarding House”（Dubliners）における James Joyce のレトリック](https://ci.nii.ac.jp/els/contentscinii_20190102123217.pdf?id=ART0009433087)
 * [James Joyce の ‶The Boarding House″ そのテクストとコンテクスト ](http://www.osaka-geidai.ac.jp/geidai/laboratory/kiyou/pdf/kiyou20/kiyou20-09.pdf)
 * [DUBLINERS THE BOARDING HOUSE SUMMARY](https://www.shmoop.com/dubliners/boarding-house-summary.html)
