@@ -43,3 +43,4 @@ paralysis）の情況を描き出している。
 * [James Joyce の ‶The Boarding House″ そのテクストとコンテクスト ](http://www.osaka-geidai.ac.jp/geidai/laboratory/kiyou/pdf/kiyou20/kiyou20-09.pdf)
 * [DUBLINERS THE BOARDING HOUSE SUMMARY](https://www.shmoop.com/dubliners/boarding-house-summary.html)
 * [Study Help: The Boarding House from James Joyce's Dubliners](https://owlcation.com/humanities/Study-Help-The-Boarding-House-from-James-Joyces-Dubliners)
+* http://proxy.lirn.net/MuseProxyID=mp01/MuseSessionID=0008mm0/MuseProtocol=http/MuseHost=go.galegroup.com/MusePath/ps/i.do?id=GALE%7CA19517917&v=2.1&u=lirn17237&it=r&p=EAIM&sw=w
