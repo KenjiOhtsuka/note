@@ -45,4 +45,5 @@ layout: page
 | df.plot() | |
 | df.corr() | |
 | df.pivot() | |
+| df.melt() | |
 | df.get_dummies() | |
