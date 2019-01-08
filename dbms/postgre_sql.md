@@ -70,32 +70,26 @@ postgres=> grant all on database db_name to user_mame;
 GRANT
 ```
 
-
-
-```sql
-GRANT postgres to role_name;
-```
-
-```sql
-REVOKE postgres from role_name;
-```
-
 ```sql
 CREATE ROLE group_name WITH NOLOGIN;
 CREATE USER role_name WITH LOGIN PASSWORD 'XXXXXXX' INHERIT;
 ```
 
-```sql
-GRANT SELECT ON all tables IN SCHEMA public to group_name;
-```
-
-```sql
-CREATE ROLE test_user WITH LOGIN CREATEDB PASSWORD 'test_user';
-```
-
-```sql
-GRANT test_group TO test_user;
-```
+* Grant select all table or something in the database, or revoke
+    * login to the database, first
+    * Execute ddl
+        ```sql
+        GRANT SELECT ON all tables IN SCHEMA public to role_name;
+        ```
+        権限追加後に作成されるテーブルには、自動的に権限がつかないので注意。
+        (The user can't access new tables added after executing `GRANT` SQL.)
+         ```sql
+        CREATE ROLE test_user WITH LOGIN CREATEDB PASSWORD 'test_user';
+        ```
+        ```sql
+        GRANT test_group TO test_user;
+        REVOKE test_group FROM test_user;
+        ```
 
 ```sql
 CREATE DATABASE sample
@@ -109,23 +103,50 @@ CREATE DATABASE sample
 pg_restore -j 2 --dbname sample -U postgres -h <<hostname>> --role=test_user -O XXXXXXimportfileXXXXXXXX
 ```
 
+### Other Grant Pattern
+
+```sql
+GRANT CONNECT ON DATABASE table_name TO username;
+```
+
+```sql
+GRANT USAGE ON SCHEMA public TO username;
+```
+
+* for specific tables
+    ```sql
+    GRANT SELECT ON table_name TO username;
+    GRANT SELECT ON ALL TABLES IN SCHEMA public TO username;
+    ```
+* To add access to the new tables in the future automatically
+    ```sql
+    ALTER DEFAULT PRIVILEGES IN SCHEMA public
+    GRANT SELECT ON TABLES TO username;
+    ```
+
 ## Meta Command
 
-### ユーザ名を切り替える
+### Show connection info
 
-#### 同じデータベース
+```
+\conninfo
+```
+
+### change user, connect to the database
+
+#### to the same database
 
 ```sql
 \connect - user_name
 ```
 
-#### 別のデータベース
+#### to another database
 
 ```sql
 \connect database_name user_name
 ```
 
-### 再実行
+### Re-execution
 
 ```sql
 \g

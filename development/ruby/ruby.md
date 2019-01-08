@@ -38,3 +38,28 @@ Pass seconds, not millisecond.
 ```ruby
 sleep 10
 ```
+
+## Multi Thread
+
+```ruby
+# version 1.8.7
+
+a = []
+a <<Thread.new do
+  5.times do |i|
+    sleep(rand * 2)
+    puts "#{i} : I am A."
+  end
+end
+
+a << Thread.new do
+  5.times do |i|
+    sleep(rand * 2)
+    puts "#{i} : I am B."
+  end
+end
+
+a.each { |b|
+  b.join
+}
+```

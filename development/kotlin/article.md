@@ -39,6 +39,10 @@ layout: page
 * [Android Coroutine の使い所](https://dev.classmethod.jp/smartphone/android-kotlin-coroutines-pattern/)
 * [Kotlin 1.1 async/awaitの仕組みと使い方の概要 for Android](http://sys1yagi.hatenablog.com/entry/2016/12/19/184352)
 
+* [Coroutines: simplify threading on android](https://medium.com/@ian.andrew.alexander/coroutines-simplifying-android-architecture-ce0cd02b9447)
+* [Kotlin Coroutines patterns & anti-patterns](https://proandroiddev.com/kotlin-coroutines-patterns-anti-patterns-f9d12984c68e)
+* [My first impressions of Gradle Kotlin DSL](https://medium.freecodecamp.org/gradle-kotlin-dsl-first-impressions-38b3586f2faf)
+
 ## Coding Guideline
 
 * https://github.com/shyiko/ktlint (in README.md)

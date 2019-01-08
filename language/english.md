@@ -58,7 +58,6 @@ Thesis は基本的なステートメントで、 作品の中で説明・証明
 * 過去の事実だから常に過去時制を用いる
     1. 歴史的事実
 
-
 ## セミコロン
 
 A semicolon sort of a "soft" period.
@@ -79,13 +78,10 @@ A colon is used before a list of things.
 
 > "Quoted sentence." (Kenji Otsuka, 19XX, p. 34)
 
-そして、最後に Reference を次のフォーマットで書く。
+40語より長い引用は、新しい行からスペース5つでインデントして記述する。
+この場合はクオートのマークは不要。インデントが引用を表す。
 
-> ### References
-> Last Name, First Initial. (Year). Title of book. Location: Publisher.
-
-> ### References
-> Otsuka, K. (2014). Book Title. Gifu, GF: Self.
+そして、最後に Reference を書く。
 
 ### Paraphrase 
 
@@ -94,7 +90,84 @@ A colon is used before a list of things.
 * もし 75% 以下 しか自分の言葉で書けていない場合には、 クオートマークをつける。
 * もし不安があればクオートマークをつける。
 
+### Reference
+
+#### 基本
+
+* フォーマット
+    > ### References
+    >
+    > Last Name, First Initial. (Year). Title of book. Location: Publisher.
+    >
+    > Last Name, First Initial. Middle Initial. (Year). Title of book. Location: Publisher.
+    >
+    > Last Name, First Initial. Middle Initial., Last Name, First Initial. Middle Initial. (Year). Title of book. Location: Publisher.
+* サンプル
+    > ### References
+    > Otsuka, K. (2014). Book Title. Gifu, GF: Self.
+
+#### 書籍
+
+
+#### 雑誌
+
+#### オンラインドキュメント
+
+* もし不安があればクオートマークをつける。
+
+### 必要な情報
+
+* 書籍
+    * 著者 または 編集者
+    * タイトル
+    * 出版日
+* 記事
+    * 著者
+    * 記事タイトル
+    * 雑誌・新聞のタイトル
+    * 号
+    * 出版日
+    * ページ番号
+* 電子情報
+    * 著者
+    * 記事タイトル
+    * URL
+    * データベース名
+    * データベース出版社
+    * アクセス日
+
+## ABSTRACT
+
+* 読者が最初に読むものであるため、好印象を与えるようにする。
+※ リサーチにおける最も際立った特徴の概要。
+* 正確で魅力的な要約は、自分のアウトプットを広く知ってもらうために役立つ。
+
+* 一般的に、最初の下書きは論文作成の早い段階で行う。
+* 最終版は論文が書き終わった後でのみ作成可能。
+* 会議のABSTRACTは通常レポートを書く前に作成される。
+
+### ABSTRACT に含めるもの
+
+1. リサーチの課題
+2. メインの目的
+3. このリサーチの重要性
+4. これまでのリサーチ
+5. これから述べようと指定いる、これまでのリサーチとの差
+6. 使用したアプローチ・リサーチ方法
+7. 重要な発見
+8. 実装
+
+### キーワードの選定
+
+ABSTRACTの最後に使う適切なキーワードを考えること。
+
+* インデックスの役に立つ。
+* 同じドメインの研究者が、論文・作品を見つけるのに役に立つ。
+
 ### Link
 
 * https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html
-
+* http://www.nwic.edu/wp-content/uploads/2015/04/APA-Cheat-Sheet.pdf
+* http://libanswers.snhu.edu/faq/102914
+* https://aus.libguides.com/apa/apa-no-author-date
+* http://www.easybib.com/reference/guide/apa/journal

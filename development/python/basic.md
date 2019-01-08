@@ -2,6 +2,8 @@
 layout: page
 ---
 
+# Python Basic
+
 ## 型
 
 ### ブール型
@@ -9,15 +11,12 @@ layout: page
 数値型のサブタイプ
 
 ```python
-1 + True
-```
-
-```python
-1 + False
-```
-
-```python
-True + False
+True         # => True  <class 'bool'>
+False        # => False <class 'bool'>
+True + 0     # => 0     <class 'int'>
+1 + True     # => 2     <class 'int'>
+1 + False    # => 1     <class 'int'>
+True + False # => 1     <class 'int'>
 ```
 
 ## 演算子
@@ -47,6 +46,24 @@ True + False
     l[:b]
     ```
     * b: 最後の要素のインデックス + 1
+    
+#### コピー
+
+* 配列の代入は参照のコピーになる。
+    ```python
+    a = [1, 2, 3]
+    b = a          # 参照のコピー
+    ```
+* 実態をコピーするには `[:]` を使う。
+    ```python
+    a = [1, 2, 3]
+    b = a[:]
+    ```
+* 入れ子になった配列をコピーするには、 `copy.deepcopy` を使う。
+    ```python
+    a = [[1, 2], [3, 4]]
+    b = copy.deepcopy(a)
+    ```
 
 ### スライス
 
@@ -64,3 +81,11 @@ True + False
     * インデックスが nc (nはゼロ以上の整数) の要素を抽出
     * c はゼロ未満の整数でもよい
 
+#### 改行
+
+* 改行してもいい場所
+    * `(` の後
+* 改行するとまずい場所
+    * `or`, `and` の後
+
+改行するとまずい場所で改行するには、`\`を書いてその直後に改行する。
