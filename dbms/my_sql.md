@@ -56,7 +56,7 @@ GRANT ALL PRIVILEGES ON database_name.* TO 'developer'@'localhost';
 * LONGTEXT：約4.3GBまでの可変長文字列
 
 
-参考: [【Rails】db:migrateでMySQLのLONGTEXT、MEDIUMTEXTを使う](http://appleorbit.hatenablog.com/entry/2015/02/24/231250
+参考: [【Rails】db:migrateでMySQLのLONGTEXT、MEDIUMTEXTを使う](http://appleorbit.hatenablog.com/entry/2015/02/24/231250)
 
 Rails でマイグレーションする際には、 `:limit` の値によって column type を指定する。
 
