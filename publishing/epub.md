@@ -17,7 +17,7 @@ layout: page
     |- style
     |  `- xxx.css
     `- image
-       `- 
+       `- xxx.png
     ```
 
 
