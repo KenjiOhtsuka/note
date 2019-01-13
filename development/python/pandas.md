@@ -47,3 +47,11 @@ layout: page
 | df.pivot() | |
 | df.melt() | |
 | df.get_dummies() | |
+
+## df.drop
+
+* 列を削除する。
+    * 複数列の削除も可能。
+        ```pythonf        ```
+
+| df.mask() | |
