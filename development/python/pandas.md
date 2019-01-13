@@ -52,6 +52,8 @@ layout: page
 
 * 列を削除する。
     * 複数列の削除も可能。
-        ```pythonf        ```
 
-| df.mask() | |
+    ```python
+    df.drop('Column_Name', axis=1)
+    df.drop(['Column A', 'Column B', 'Column C'], axis=1)
+    ```
