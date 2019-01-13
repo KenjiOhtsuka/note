@@ -9,6 +9,18 @@ layout: page
 
 ## Structure
 
+* 基本構成
+    ```
+    item
+    |- xhtml
+    |  `- chapter_1.html
+    |- style
+    |  `- xxx.css
+    `- image
+       `- 
+    ```
+
+
 ## Editor
 
 * Google Doc
