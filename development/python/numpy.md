@@ -101,3 +101,13 @@ np.array([1, 2, 3])[:, np.newaxis])
               [2],
               [3]])
 ```
+
+## Reshape
+
+* 1次元ベクトルを列ベクトルにする。
+    * `reshape` の first parameter に　`-1` を代入する。
+    
+    ```pyrhon
+    n = np.array([1, 2, 3])
+    n.reshape(-1, 1)
+    ```
