@@ -111,3 +111,16 @@ np.array([1, 2, 3])[:, np.newaxis])
     n = np.array([1, 2, 3])
     n.reshape(-1, 1)
     ```
+
+## 結合
+
+ベクトル、行列をくっつける。
+
+* 横に結合する場合
+    ```python
+    np.hstack((a, b))
+    ```
+* 縦に結合する場合
+    ```python
+    np.vstack((a, b))
+    ```
