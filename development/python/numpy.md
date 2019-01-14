@@ -112,6 +112,22 @@ np.array([1, 2, 3])[:, np.newaxis])
     n.reshape(-1, 1)
     ```
 
+## 部分行列
+
+### 行を取り出す
+
+```python
+n = np.identity(10)
+n[1]
+```
+
+### 列を取り出す
+
+```python
+n = np.identity(10)
+n[:, 1]
+```
+
 ## 結合
 
 ベクトル、行列をくっつける。
