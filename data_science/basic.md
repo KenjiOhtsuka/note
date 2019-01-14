@@ -39,7 +39,7 @@ GPUはデータサイエンスに適したコンポーネントである。
 * 深層学習
     * PyTorch, TensorFlow
     
-## Accuracy
+## Prediction
 
 * True Positive (TP)
     * Evaluated as Positive, and it's true
@@ -49,7 +49,9 @@ GPUはデータサイエンスに適したコンポーネントである。
     * Evaluated as Positive, and it's false
 * False Negative (FN)
     * Evaluated as Negative, and it's false
-    
+
+### Evaluation
+
 * Accuracy = T / All
     * T (True) = TP + TF
     * All = TP + TF + FP + FN
