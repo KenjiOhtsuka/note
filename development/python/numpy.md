@@ -124,3 +124,12 @@ np.array([1, 2, 3])[:, np.newaxis])
     ```python
     np.vstack((a, b))
     ```
+
+## CSVとして保存
+
+```python
+np.savetxt('filename.csv', data, delimiter=',', fmt='%d', header='header,columns', comments='')
+```
+
+* comments
+    * 先頭行の先頭に挿入される。　デフォルトでは `'#'`
