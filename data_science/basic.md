@@ -39,6 +39,25 @@ GPUはデータサイエンスに適したコンポーネントである。
 * 深層学習
     * PyTorch, TensorFlow
     
+## Prediction
+
+* True Positive (TP)
+    * Evaluated as Positive, and it's true
+* True Negative (TN)
+    * Evaluated as Negative, and it's true
+* False Positive (FP)
+    * Evaluated as Positive, and it's false
+* False Negative (FN)
+    * Evaluated as Negative, and it's false
+
+### Evaluation
+
+* Accuracy = T / All
+    * T (True) = TP + TF
+    * All = TP + TF + FP + FN
+* Precision = TP / (TP + FP)
+* Recall = TP / (TP + FM)
+    
 ## Activation Function
 
 ### Sigmoid Function

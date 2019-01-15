@@ -101,3 +101,51 @@ np.array([1, 2, 3])[:, np.newaxis])
               [2],
               [3]])
 ```
+
+## Reshape
+
+* 1次元ベクトルを列ベクトルにする。
+    * `reshape` の first parameter に　`-1` を代入する。
+    
+    ```pyrhon
+    n = np.array([1, 2, 3])
+    n.reshape(-1, 1)
+    ```
+
+## 部分行列
+
+### 行を取り出す
+
+```python
+n = np.identity(10)
+n[1]
+```
+
+### 列を取り出す
+
+```python
+n = np.identity(10)
+n[:, 1]
+```
+
+## 結合
+
+ベクトル、行列をくっつける。
+
+* 横に結合する場合
+    ```python
+    np.hstack((a, b))
+    ```
+* 縦に結合する場合
+    ```python
+    np.vstack((a, b))
+    ```
+
+## CSVとして保存
+
+```python
+np.savetxt('filename.csv', data, delimiter=',', fmt='%d', header='header,columns', comments='')
+```
+
+* comments
+    * 先頭行の先頭に挿入される。　デフォルトでは `'#'`
