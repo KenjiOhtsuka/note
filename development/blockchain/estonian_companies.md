@@ -34,8 +34,12 @@ Our team has built multiple wallets, exchange and peer to peer marketplace. We h
 
 ## [Ignite](https://ignite.ee/)
 
+
+
 cryptocurrencies, creating custom software for ICO-s and developing innovative DAG Chain platform
 
 ## [kamtor](https://www.kamtor.com/)
+
+2017
 
 ブロックチェーンに特化した会社
