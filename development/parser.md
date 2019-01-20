@@ -4,9 +4,11 @@ layout: page
 
 # Parser
 
-## LL
+## LL parser
 
-Leftmost Derivation
+* Left-to-right, Leftmost derivation
+* LL(k) parser
+    * k tokens of lookahead when parsing a sentence.
 
 ## LR
 
