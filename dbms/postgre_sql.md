@@ -39,7 +39,7 @@ CREATE USER user_name WITH LOGIN CREATEDB PASSWORD 'XXXXXXXXXX';
 ### Create Database
 
 ```sql
-create database dbname 
+create database dbname;
 CREATE DATABASE dbname OWNER rolename;
 ```
 
