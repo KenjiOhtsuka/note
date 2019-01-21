@@ -17,7 +17,7 @@ Truffle, Drizzle も彼らのプロジェクトの一部。
 * 開発用ビルトインブロックチェーン機能
 
 ```sh
-npm install -g truffle\
+npm install -g truffle
 ```
 
 * Example
@@ -59,6 +59,12 @@ npm install -g truffle\
     * それぞれのアドレスに100ETHずつ準備
     * 再起動するだけでブロックチェーンを作り直してくれる
 
+```sh
+# install
+npm install -g ganache-cli
+# launch
+ganache-cli
+```
 
 
     
