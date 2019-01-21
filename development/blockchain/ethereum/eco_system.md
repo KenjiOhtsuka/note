@@ -32,6 +32,8 @@ npm install -g truffle
     * Rinkeby (PoA)
 * Test Net, Main Net はノードを立てる必要がある。
 * INFURA を使うとノードを必要とせずデプロイできる。
+* in `truffle.js`, we can change the port.
+
 
 ### Drizzle
 
@@ -64,6 +66,8 @@ npm install -g truffle
 npm install -g ganache-cli
 # launch
 ganache-cli
+ganache-cli --port 7545
+ganache-cli -p 7545
 ```
 
 
