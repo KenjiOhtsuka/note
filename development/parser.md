@@ -10,8 +10,8 @@ layout: page
 * LL(k) parser
     * k tokens of lookahead when parsing a sentence.
 
-## LR
+## LR parser
 
-## LALR
+## LALR parser
 
 ## Top Down
