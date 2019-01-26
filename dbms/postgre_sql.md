@@ -123,6 +123,17 @@ GRANT USAGE ON SCHEMA public TO username;
     ALTER DEFAULT PRIVILEGES IN SCHEMA public
     GRANT SELECT ON TABLES TO username;
     ```
+## Configuration
+
+### Locale
+
+* initdb実行時にロケールを指定していなければ、OSに設定されているロケールが使用される。
+* ロケールは停止しないと変更できない。
+
+### Encoding
+
+* デフォルトでは sql_ascii
+* sql_ascii ではターミナルでマルチバイト文字を入力できない
 
 ## Meta Command
 
@@ -166,6 +177,17 @@ CONFLICT が生じるときに UPDATE にする。
      WHERE specific_schema LIKE 'public'
        AND routine_name LIKE 'functionName';
     ```
+    
+## Docker
+
+```
+docker run -d --name postgres -e POSTGRES_PASSWORD=password -p 5432:5432 postgres:11
+docker run -d -p 5432:5432 --name docker_process_name -e POSTGRES_USER=user_name -e POSTGRES_PASSWORD=password -e POSTGRES_DB=db_name
+```
+
+* `-p 5432:5432`
+    * first `5432` shows the listening port. docker forward access to the port to the destination port.
+    * last `5432` shows the destination port.
 
 ## Reference
 
