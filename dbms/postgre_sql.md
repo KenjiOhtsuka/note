@@ -207,7 +207,20 @@ CONFLICT が生じるときに UPDATE にする。
      WHERE specific_schema LIKE 'public'
        AND routine_name LIKE 'functionName';
     ```
-    
+
+## VACUUM
+
+* 機能
+    * 参照されなくなったデータファイルを利用可能にする。
+    * 不要になったトランザクションID(XID)を回収する。
+    * 統計情報を更新する。
+* 自動的に行われる。
+    * 長いトランザクションやインデックスの高頻度更新処理では実行されないまたは高頻度で実行されることがある。
+* 大きくなったファイルが小さくなることはない。
+    * 大きくなったファイルを小さくするには、 `VACUUM FULL` または `CLUSTER` コマンドを実行する。
+
+
+
 ## Docker
 
 ```
