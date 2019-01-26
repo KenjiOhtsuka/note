@@ -59,3 +59,16 @@ putStr ...
 print ...
 print $ show ...
 ```
+
+## 条件分岐
+
+`if` は Haskell では式となる。
+
+### if
+
+```haskell
+if var == 1 then
+  ...
+else
+  ...
+```
