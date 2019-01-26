@@ -163,6 +163,24 @@ GRANT USAGE ON SCHEMA public TO username;
 \g
 ```
 
+### Show table
+
+* show tables
+
+    `\d`
+
+* show tables with sizes and comments
+
+    `\d+`
+
+* show the specific table layout
+
+    `\d table_name`
+    
+* show the specific table layout with storage type and comments.
+
+    `\d+ table_name`
+
 ## UPSERT
 
 制約(Constraint)がある場合に使用可能。
