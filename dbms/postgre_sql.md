@@ -181,6 +181,18 @@ GRANT USAGE ON SCHEMA public TO username;
 
     `\d+ table_name`
 
+### Timing
+
+show duration of the SQL.
+
+`\timing`
+
+### Touple only (Except header)
+
+show only the result data without header.
+
+`\t`
+
 ## UPSERT
 
 制約(Constraint)がある場合に使用可能。
