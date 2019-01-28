@@ -76,6 +76,7 @@ A colon is used before a list of things.
 * 複数人に向けて書く場合
 
     Dear Bob and Anthony
+    
     Dear Charls, Rechard and Rachel
 
 * 日本語の「ご担当者様」
