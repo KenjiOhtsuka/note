@@ -69,6 +69,19 @@ A colon is used before a list of things.
 
 [Semicolons, Colons, Dash](https://writingcenter.unc.edu/tips-and-tools/semi-colons-colons-and-dashes/)
 
+## メール
+
+### 宛名
+
+* 複数人に向けて書く場合
+
+    Dear Bob and Anthony
+    Dear Charls, Rechard and Rachel
+
+* 日本語の「ご担当者様」
+
+    Dear Sir or Madam
+
 ## APA
 
 ### Citation in Text
