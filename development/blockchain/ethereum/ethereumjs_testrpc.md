@@ -2,6 +2,8 @@
 layout: page
 ---
 
+# Ethereum Web3
+
 ```node
 const Web3 = require("web3")
 const TestRpc = require("ethereumjs-testrpc")
