@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Viewer
+# Ethereum Balance Viewer
 
 ## Ethereum Token Explorer
 
