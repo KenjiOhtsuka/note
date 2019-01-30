@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Sphinx
+# Python: Sphinx
 
 ## Template
 
@@ -36,3 +36,6 @@ layout: page
 * 別ページへのリンク
     * ```:doc:`Name</file/path>````
 
+## Guide
+
+* [Study Sphinx](https://planset-study-sphinx.readthedocs.io/ja/latest/index.html)
