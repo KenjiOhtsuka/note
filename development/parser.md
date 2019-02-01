@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Parser (構文解析)
+# Parser
 
 ## LL parser
 
