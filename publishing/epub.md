@@ -5,7 +5,7 @@ layout: page
 # EPUB
 
 * HTMLや画像をZIPにしたもの。
-* CANVAというサービスを使って表紙をつくると綺麗にできる。
+* [CANVA](https://www.canva.com/)というサービスを使って表紙をつくると綺麗にできる。
 
 ## Structure
 
