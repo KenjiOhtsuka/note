@@ -185,3 +185,12 @@ ABSTRACTの最後に使う適切なキーワードを考えること。
 * http://libanswers.snhu.edu/faq/102914
 * https://aus.libguides.com/apa/apa-no-author-date
 * http://www.easybib.com/reference/guide/apa/journal
+
+## 比較級・最上級
+
+* fore 前 ... first 一番前、最初
+* late 後 ... last 一番後、最後
+
+* nigh 近く
+    * near 近くの
+    * next 次の
