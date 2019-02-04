@@ -1,25 +1,132 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-07-23 10:52:48 +0900
-categories: jekyll update
+title:  "自分ブランドセミナー"
+date:   2019-02-02 22:52:48 +0900
+categories: self branding
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# 自分のブランディングメモ
 
-Jekyll also offers powerful support for code snippets:
+## 状況
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+同業者が圧倒的に増えている
+どうやって自分のブランドを上げていけばいいか
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## 大切なキーワード
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+* イタリア
+    * ほめる、**いいところを見つける**
+* アメリカ
+    * **感情的に少しオーバーにすると記憶に定着しやすい**
+    * 細かいことにこだわらない
+    * 伝えるというプレゼン能力が強い
+    * オーバーリアクション
+* 日本
+    * 姿勢良く、礼儀正しく。
+    * **人間は姿勢に非常に操作されているところがあり、姿勢を正しくすると長続きする。長く作業できる。**
+* 1.5
+    * なにごとも1.5倍速く行う
+* 幼い考え方
+    * 柔軟にものごとを考える。固定観念にとらわれない。
+* おばちゃん
+    * おばちゃんは、テレビ画面と会話ができる。
+    * **恐れずに喋るマインド**が大切。 おばちゃんのように質問をしたりする。
+
+ブランドをどう作るか ブランドが作れれば値上げしても人が集まる
+70冊
+
+仕掛けが全て
+
+出版社は3つの反応をしてくる。
+連載でまとめる
+
+渋谷文毅のメソッド
+PVをあげる
+仕掛け・・・別の切り口でも書けますよ！
+
+テレビに出ることを重要視する
+
+メディアに仕掛ける際に3つにまとめた
+
+他人から認知されるブランドを把握する
+3つ必要な
+仕掛けていく上で3つの重要なポイント
+
+
+自分のいいところを出して繋がっていく。
+この人と繋がっておきたいと思わせる。
+
+集客・マーケティング
+ビジネスモデル
+ブランディング　・・・これが一番大事
+
+1軍のひとは1軍のひとと関わる。
+1軍のひとはそのひとたちのコミュニティにいる。
+
+--
+選ばれない人
+選ばれる人・・・集客・マーケティングができている人
+選ぶ人・・・ブランディングができている人
+
+矢沢永吉は、「矢澤だったらこの仕事やるか？」を意識して仕事を受ける・受けないを決める。
+
+## すごい人と近づくためには
+
+1. 自己紹介
+
+    自分をどう伝えるか
+    
+    15秒でなにを話すか。
+    15秒で・・・自分を伝える、さらに売る。
+
+
+2. 覚悟とコスト
+
+    覚悟をどれだけ出せるか。コストを超えるための意気込みが必要。
+    
+    例えば、書籍を出版する際は3000-5000人に売れることが重要
+    キングコング西野は、オンラインで3000人以上集めてから売る
+
+3. チャンス
+
+### 成功例
+
+* 応募フォームを使わない
+* 手紙を買ってきて、便箋に入れて速達で出した。
+* 応募フォームは何百人も応募している。
+
+### オススメ事例
+
+名刺交換の時に
+「ブログぜひ拝見しますね」というコメントをして
+その日のうちにメールで感想を送る
+
+## 自己紹介
+
+15秒で何を伝えるか。
+
+### 使うといいフレーズ
+
+専門家であることをアピールする。
+そして、具体的にイメージしやすいように話す。
+
+* ○○の専門家です
+* ○○の第一人者です
+* ○○のプロフェッショナルです
+* ○○のスペシャリスト
+
+具体的に絞れば絞るほど効果的。
+
+#### 例
+
+「私は、40歳の女性でも20歳年下の彼氏と付き合うための美声を作るボイストレーナーのスペシャリストです」
+
+#### 感想
+
+* ブログタイトルも細かく具体的にするといいはず。
+
+## 自分の強み
+
+* 自分の強みを自分で探さないこと
+* プロから見てもらった時に、なにが優れているか。
+* プロのお客様にきくとよい。
