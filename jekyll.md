@@ -64,7 +64,3 @@ GitHub pages の依存関係は下記のようになっている。
 
 https://qiita.com/koyo-miyamura/items/5ec89ac9689be49a55f6
 
-
-## 新規ブログ投稿
-
-    bundle exec jekyll post "hoge fuga"
