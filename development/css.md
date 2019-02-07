@@ -58,6 +58,6 @@ figure.table::-webkit-scrollbar-thumb {
 
 ## Preventing automatic hyphenation
 
-```
+```css
 .target { word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; }
 ```
