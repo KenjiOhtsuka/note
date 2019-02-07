@@ -55,3 +55,9 @@ figure.table::-webkit-scrollbar-thumb {
 ```
 
 `table { width: 100%; }` というのがいるという説があるが、たぶんいらない。
+
+## Preventing automatic hyphenation
+
+```
+.target { word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; }
+```
