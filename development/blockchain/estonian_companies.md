@@ -36,6 +36,8 @@ layout: page
 * 2007年に設立されたKSIブロックチェーンを開発した。
     * これを利用した保険や物流管理の導入も行っています。
 * ブラックランタン（Black Lantern）と呼ばれる国を跨いだハッキングから国内のハッキングまでの遠隔攻撃に対処したハードウェアも販売している。
+* COSMOSと呼ばれるクロスチェーンのプロトコルを開発している会社。
+
 
 https://guardtime.com/blog/world-s-first-blockchain-platform-for-marine-insurance-now-in-commercial-use
 
@@ -54,8 +56,6 @@ Our team has built multiple wallets, exchange and peer to peer marketplace. We h
 
 ### [Ignite](https://ignite.ee/)
 
-
-
 cryptocurrencies, creating custom software for ICO-s and developing innovative DAG Chain platform
 
 ### [kamtor](https://www.kamtor.com/)
@@ -72,3 +72,7 @@ cryptocurrencies, creating custom software for ICO-s and developing innovative D
 * 不動産とスマートコントラクトを組み合わせた製品を開発中。
     * 国際不動産を扱う。
 * コンソーシアム型ブロックチェーンを用いている
+
+## KSI (_Keyless Signature Infrastructure_) Blockchain
+
+* 国民データなどを管理するためのブロックチェーン。
