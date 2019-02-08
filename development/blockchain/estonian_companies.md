@@ -2,7 +2,9 @@
 layout: page
 ---
 
-# Estonian Companies
+# Estonian
+
+## IT
 
 エストニアでは......
 
@@ -14,11 +16,13 @@ layout: page
     * 公式ウェブサイトよりメールマガジン登録を受け付けています。
 * 
 
+## History
 
-
-下の会社はすべてタリンにある。
+* 1960年台に Cybernetics 研究所が設立されて、セキュリティや暗号学の研究が進められた。
 
 ## Companies in Talinn
+
+下の会社はすべてタリンにある。
 
 ### [ELEKS](https://eleks.com/services/software-engineering/)
 
@@ -37,7 +41,7 @@ layout: page
     * これを利用した保険や物流管理の導入も行っています。
 * ブラックランタン（Black Lantern）と呼ばれる国を跨いだハッキングから国内のハッキングまでの遠隔攻撃に対処したハードウェアも販売している。
 * COSMOSと呼ばれるクロスチェーンのプロトコルを開発している会社。
-
+* エストニアがサイバー攻撃を受けた2007年に設立された。
 
 https://guardtime.com/blog/world-s-first-blockchain-platform-for-marine-insurance-now-in-commercial-use
 
