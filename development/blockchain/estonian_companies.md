@@ -4,42 +4,71 @@ layout: page
 
 # Estonian Companies
 
+エストニアでは......
+
+* 2008年にブロックチェーンをテスト導入。
+* 医療カルテも電子管理 - 作った企業はどこ？
+* estocoin
+    * 2017年8月に構想を発表。
+    * 国家として史上初のICO。　自国の仮想通貨を発表する計画を立てている。
+    * 公式ウェブサイトよりメールマガジン登録を受け付けています。
+* 
+
+
+
 下の会社はすべてタリンにある。
 
-## [ELEKS](https://eleks.com/services/software-engineering/)
+## Companies in Talinn
 
-## [TECHNORELU](https://technorely.com/)
+### [ELEKS](https://eleks.com/services/software-engineering/)
 
-## [FutureComes](https://futurecomes.com/)
+### [TECHNORELU](https://technorely.com/)
 
-受託っぽい
+### [FutureComes](https://futurecomes.com/)
 
-## [guardtime](https://guardtime.com/)
+受託っぽい。
 
-海運保険のブロックチェーンをやっている
+過去、ブロックチェーンを利用した選挙活動のためのインフラを開発した会社。 
+
+### [guardtime](https://guardtime.com/)
+
+* 海運保険のブロックチェーンをやっている
+* 2007年に設立されたKSIブロックチェーンを開発した。
+    * これを利用した保険や物流管理の導入も行っています。
+* ブラックランタン（Black Lantern）と呼ばれる国を跨いだハッキングから国内のハッキングまでの遠隔攻撃に対処したハードウェアも販売している。
 
 https://guardtime.com/blog/world-s-first-blockchain-platform-for-marine-insurance-now-in-commercial-use
 
-## [HASHCOINS](https://www.hashcoins.com/)
+### [HASHCOINS](https://www.hashcoins.com/) at Talinn
 
-マイニングデバイスを多数開発
+* マイニングデバイスを多数開発。
+* クラウドマイニング業界で有名なHashFlareを運営している。
 
-## [VAREGER](https://vareger.com/)
+### [VAREGER](https://vareger.com/)
 
 エストニアにブロックチェーンチームがある
 
-## [KAIZERN](http://www.kaizern.com/)
+### [KAIZERN](http://www.kaizern.com/)
 
 Our team has built multiple wallets, exchange and peer to peer marketplace. We have deep knowledge of blockchain technology. Develop your next blockchain app with experienced blockchain developers.
 
-## [Ignite](https://ignite.ee/)
+### [Ignite](https://ignite.ee/)
 
 
 
 cryptocurrencies, creating custom software for ICO-s and developing innovative DAG Chain platform
 
-## [kamtor](https://www.kamtor.com/)
+### [kamtor](https://www.kamtor.com/)
 
 2017
 
 ブロックチェーンに特化した会社
+
+## Other
+
+### PrePayWay
+
+* 本社はスイス
+* 不動産とスマートコントラクトを組み合わせた製品を開発中。
+    * 国際不動産を扱う。
+* コンソーシアム型ブロックチェーンを用いている
