@@ -18,6 +18,8 @@ layout: page
 * 国民全員が電子IDカードを保有
 * 電力はすでに100％スマートメーターで管理
 * エストニア全土のリアルな地図からどの土地を誰が保有しているかもすべてオンラインで見ることができる
+* 人口に占めるファッションモデルの割合が世界で一番多い
+* 通貨は EUR
 
 ## History
 
@@ -104,15 +106,6 @@ cryptocurrencies, creating custom software for ICO-s and developing innovative D
 
 ブロックチェーンに特化した会社
 
-## Other
-
-### PrePayWay
-
-* 本社はスイス
-* 不動産とスマートコントラクトを組み合わせた製品を開発中。
-    * 国際不動産を扱う。
-* コンソーシアム型ブロックチェーンを用いている
-
 ## Start up companies for Blockchain
 
 ### Chainium
@@ -132,6 +125,25 @@ cryptocurrencies, creating custom software for ICO-s and developing innovative D
     * エネルギー分野のICOでは過去最大規模
 * 電力会社Elering社と協力して、エストニアのエネルギーデータをトークン化する (実験段階)
 
+## Other companies
+
+### PrePayWay
+
+* 本社はスイス
+* 不動産とスマートコントラクトを組み合わせた製品を開発中。
+    * 国際不動産を扱う。
+* コンソーシアム型ブロックチェーンを用いている
+
+### Skype
+
+エストニア発祥。そして国外へ移動した。
+
+### Transferwise
+
+海外送金サービス
+
+
 ## KSI (_Keyless Signature Infrastructure_) Blockchain
 
 * 国民データなどを管理するためのブロックチェーン。
+
