@@ -16,6 +16,7 @@ layout: page
     * 公式ウェブサイトよりメールマガジン登録を受け付けています。
 * 行政サービスの99%を電子化済み
 * 国民全員が電子IDカードを保有
+* 電力はすでに100％スマートメーターで管理
 
 ## History
 
@@ -48,6 +49,8 @@ layout: page
     * e-Residency
         * 外国人を含む、エストニアの非居住者に対して電子IDを発行
         * 起業, 法人設立, ビジネス用銀行口座開設など、オンラインで行政サービスを受けられる。
+* 2018-08-22
+    * Blockchain & Bitcoin Conference Tallinn
 
 ## Companies in Talinn
 
@@ -105,6 +108,25 @@ cryptocurrencies, creating custom software for ICO-s and developing innovative D
 * 不動産とスマートコントラクトを組み合わせた製品を開発中。
     * 国際不動産を扱う。
 * コンソーシアム型ブロックチェーンを用いている
+
+## Start up companies for Blockchain
+
+### Chainium
+
+* 独自のブロックチェーンを使ってグローバルの株式市場を一から作り直す
+* 世界中の誰もが世界中のどの企業の株式も買えるようにすることを目指す。
+
+### LEXIT
+
+オンライン M & A
+
+### WePower
+
+* ブロックチェーンを使って再生可能エネルギーをトークン化
+* ICOは終了した。
+    *２万人以上の投資家から総額 40,000,000 USD 以上を資金調達
+    * エネルギー分野のICOでは過去最大規模
+* 電力会社Elering社と協力して、エストニアのエネルギーデータをトークン化する (実験段階)
 
 ## KSI (_Keyless Signature Infrastructure_) Blockchain
 
