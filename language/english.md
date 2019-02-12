@@ -194,3 +194,10 @@ ABSTRACTの最後に使う適切なキーワードを考えること。
 * nigh 近く
     * near 近くの
     * next 次の
+    
+## 文法チェッカー
+
+* [Grammarly](https://www.grammarly.com)
+* [Ginger](https://www.gingersoftware.com/grammarcheck)
+* [VirtualWritingTutor](https://virtualwritingtutor.com/)
+* [1Checker](http://www.1checker.com/Products/DownLoad/?product=Mac)
