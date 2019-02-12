@@ -28,7 +28,7 @@ C program
     cc lex.yy.c --ll
     ```
     
-3. compile
+3. execute `a.out`
 
 ## Examples
 
