@@ -7,3 +7,7 @@ layout: page
 ```python
 import tkinter
 ```
+
+```python
+import tkinter as tk
+```
