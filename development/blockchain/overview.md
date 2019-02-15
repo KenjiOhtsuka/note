@@ -118,12 +118,18 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
 * DocuSign
     * 契約・決済
 * VISA
+* Taqanu ドイツ
+    * 銀行口座を開設する
+* MONI フィンランド
+    * 難民のためのプリペイドマスターカード
+    * コンセプトはTaqanuに近い
 
 #### サプライチェーン
 
 * Provenance
     * 生産の詳細、生産物IDを記録。 トレーサビリティの確保。
 * BlockVerify
+* ウォルマート
 
 #### 医療
 
@@ -156,6 +162,9 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
     * 利用者は乗車・降車したい場所をブロックチェーンに書き込む。
 * La'Zooz
     * ある目的地に向かうドライバーの空席を同じ方向に行きたい人に提供。
+*  Slock.it
+    * 第三者を介さずに決済
+    * ドアロックなどの管理
 
 #### IoT
 
@@ -169,6 +178,9 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
     * [Filament](https://filament.com/)
     * L03
     * [Sun Exchange](https://www.thesunexchange.com)
+    * Power Ledger
+        * Ledger Asset と共同開発
+        * ソーラー発電電力を個人が売買できる。
 * ビットプロパティ 日本
     * 再生可能エネルギープラットフォームBTP
 
@@ -195,6 +207,8 @@ DRM - Digital Rights Management
 * Muse
 * Revelator
 * Ujo Music
+* Maecenas
+* Artlery
 
 #### Other
 
@@ -203,6 +217,16 @@ DRM - Digital Rights Management
 * The Elements Project
     * Blockstream 社
     * サイドチェーンのプロジェクト
+* The Sun Exchange
+    * ビットコインでソーラーパネルを買う
+* CarbonX
+    * エコな活動をするとコインがもらえる。
+
+
+#### Related
+
+* Chainstarter
+    * 社会に良い影響をもたらす活動のICO支援プラットフォーム
 
 ## Document
 

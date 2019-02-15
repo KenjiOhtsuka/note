@@ -69,6 +69,20 @@ A colon is used before a list of things.
 
 [Semicolons, Colons, Dash](https://writingcenter.unc.edu/tips-and-tools/semi-colons-colons-and-dashes/)
 
+## メール
+
+### 宛名
+
+* 複数人に向けて書く場合
+
+    Dear Bob and Anthony
+    
+    Dear Charls, Rechard and Rachel
+
+* 日本語の「ご担当者様」
+
+    Dear Sir or Madam
+
 ## APA
 
 ### Citation in Text
@@ -171,3 +185,19 @@ ABSTRACTの最後に使う適切なキーワードを考えること。
 * http://libanswers.snhu.edu/faq/102914
 * https://aus.libguides.com/apa/apa-no-author-date
 * http://www.easybib.com/reference/guide/apa/journal
+
+## 比較級・最上級
+
+* fore 前 ... first 一番前、最初
+* late 後 ... last 一番後、最後
+
+* nigh 近く
+    * near 近くの
+    * next 次の
+    
+## 文法チェッカー
+
+* [Grammarly](https://www.grammarly.com)
+* [Ginger](https://www.gingersoftware.com/grammarcheck)
+* [VirtualWritingTutor](https://virtualwritingtutor.com/)
+* [1Checker](http://www.1checker.com/Products/DownLoad/?product=Mac)

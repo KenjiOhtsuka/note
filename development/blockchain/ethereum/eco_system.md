@@ -17,7 +17,7 @@ Truffle, Drizzle も彼らのプロジェクトの一部。
 * 開発用ビルトインブロックチェーン機能
 
 ```sh
-npm install -g truffle\
+npm install -g truffle
 ```
 
 * Example
@@ -32,6 +32,8 @@ npm install -g truffle\
     * Rinkeby (PoA)
 * Test Net, Main Net はノードを立てる必要がある。
 * INFURA を使うとノードを必要とせずデプロイできる。
+* in `truffle.js`, we can change the port.
+
 
 ### Drizzle
 
@@ -59,6 +61,14 @@ npm install -g truffle\
     * それぞれのアドレスに100ETHずつ準備
     * 再起動するだけでブロックチェーンを作り直してくれる
 
+```sh
+# install
+npm install -g ganache-cli
+# launch
+ganache-cli
+ganache-cli --port 7545
+ganache-cli -p 7545
+```
 
 
     

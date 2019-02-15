@@ -39,7 +39,7 @@ CREATE USER user_name WITH LOGIN CREATEDB PASSWORD 'XXXXXXXXXX';
 ### Create Database
 
 ```sql
-create database dbname 
+create database dbname;
 CREATE DATABASE dbname OWNER rolename;
 ```
 
@@ -123,6 +123,17 @@ GRANT USAGE ON SCHEMA public TO username;
     ALTER DEFAULT PRIVILEGES IN SCHEMA public
     GRANT SELECT ON TABLES TO username;
     ```
+## Configuration
+
+### Locale
+
+* initdb実行時にロケールを指定していなければ、OSに設定されているロケールが使用される。
+* ロケールは停止しないと変更できない。
+
+### Encoding
+
+* デフォルトでは sql_ascii
+* sql_ascii ではターミナルでマルチバイト文字を入力できない
 
 ## Meta Command
 
@@ -152,6 +163,36 @@ GRANT USAGE ON SCHEMA public TO username;
 \g
 ```
 
+### Show table
+
+* show tables
+
+    `\d`
+
+* show tables with sizes and comments
+
+    `\d+`
+
+* show the specific table layout
+
+    `\d table_name`
+    
+* show the specific table layout with storage type and comments.
+
+    `\d+ table_name`
+
+### Timing
+
+show duration of the SQL.
+
+`\timing`
+
+### Touple only (Except header)
+
+show only the result data without header.
+
+`\t`
+
 ## UPSERT
 
 制約(Constraint)がある場合に使用可能。
@@ -166,6 +207,30 @@ CONFLICT が生じるときに UPDATE にする。
      WHERE specific_schema LIKE 'public'
        AND routine_name LIKE 'functionName';
     ```
+
+## VACUUM
+
+* 機能
+    * 参照されなくなったデータファイルを利用可能にする。
+    * 不要になったトランザクションID(XID)を回収する。
+    * 統計情報を更新する。
+* 自動的に行われる。
+    * 長いトランザクションやインデックスの高頻度更新処理では実行されないまたは高頻度で実行されることがある。
+* 大きくなったファイルが小さくなることはない。
+    * 大きくなったファイルを小さくするには、 `VACUUM FULL` または `CLUSTER` コマンドを実行する。
+
+
+
+## Docker
+
+```
+docker run -d --name postgres -e POSTGRES_PASSWORD=password -p 5432:5432 postgres:11
+docker run -d -p 5432:5432 --name docker_process_name -e POSTGRES_USER=user_name -e POSTGRES_PASSWORD=password -e POSTGRES_DB=db_name
+```
+
+* `-p 5432:5432`
+    * first `5432` shows the listening port. docker forward access to the port to the destination port.
+    * last `5432` shows the destination port.
 
 ## Reference
 
