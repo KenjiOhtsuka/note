@@ -8,6 +8,8 @@ layout: page
 import tkinter
 ```
 
+or
+
 ```python
 import tkinter as tk
 ```
