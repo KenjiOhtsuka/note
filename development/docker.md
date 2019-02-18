@@ -20,4 +20,8 @@ docker ps -a
 
 ストップしているコンテナを含めて全てのコンテナを表示する。
 
-### 
+### Start
+
+```sh
+docker start -i [container_name]
+```
