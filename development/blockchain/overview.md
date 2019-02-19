@@ -104,7 +104,7 @@ Bitcoin のために開発されたブロックチェーンを仮想通貨外の
 * Harbor
 * Propy
 * Securitize
-* Temply
+* Templum
 
 #### 資産管理
 
