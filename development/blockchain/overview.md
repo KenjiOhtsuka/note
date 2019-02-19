@@ -249,4 +249,4 @@ DRM - Digital Rights Management
 
 ## ProTech 3.0
 
- 
+ある教授が書いた不動産関連の技術文書。
