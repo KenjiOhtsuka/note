@@ -23,5 +23,5 @@ docker ps -a
 ### Start
 
 ```sh
-docker start -i [container_name]
+docker start -i [container_name or names]
 ```
