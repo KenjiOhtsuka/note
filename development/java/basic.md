@@ -17,10 +17,18 @@ class Something implement Runnable {
     }
 }
 
+class Something2 extends Thread {
+    public void run() {
+        /* ... */
+    }
+}
+
 class Main {
     public static void main(Array<String> args[]) {
         Thread th = new Thread(new Something());
-        th.start()
+        th.start();
+        Thread th2 = new Something2();
+        th2.start();
     }
 }
 ```
