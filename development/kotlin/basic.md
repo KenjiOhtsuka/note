@@ -102,3 +102,7 @@ Arrays and lists (represented by List<T> and its subtype MutableList<T>) have ma
 
 * Kotlin の Exception はすべて Throwable クラスを継承しています。
     *  https://kotlinlang.org/docs/reference/exceptions.html 
+    
+## String
+
+* format でパーセントをそのまま表示するには `%%` と記述する。 `\` でのエスケープではない。
