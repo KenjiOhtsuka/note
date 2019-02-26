@@ -39,12 +39,12 @@ try {
 } catch (IOException e) {
      e.printStackTrace();
 }
- ```
+```
  
  ### Pattern 2 - Use PrintWriter
  
- ```java
- try {
+```java
+try {
     File file =new File("C://myfile.txt");
     if(!file.exists()) file.createNewFile();
 
