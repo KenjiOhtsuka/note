@@ -94,6 +94,19 @@ git add file1.txt file2.txt
 git commit
 ```
 
+## Add file from other branch
+
+```sh
+git add branch_name file_path
+```
+
+## Show file in other branch
+
+```sh
+git show branch_name:file_path
+```
+
+
 ## Other
 
 * Entirely different branches can't be merged
