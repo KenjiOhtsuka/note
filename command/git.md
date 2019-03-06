@@ -105,7 +105,11 @@ git add branch_name file_path
 ```sh
 git show branch_name:file_path
 ```
+## Log
 
+* `-p`
+    * 差分も一緒に表示する。
+    * ファイルを限定する場合は `-p` の後にファイルへのパスを記述する。
 
 ## Other
 
