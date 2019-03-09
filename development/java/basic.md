@@ -32,3 +32,62 @@ class Main {
     }
 }
 ```
+
+
+## Graphic
+
+### Methods
+
+Here are some of all the methods.
+
+* `drawArc`
+* `drawImage`
+* `drawLine`
+* `drawOval`
+* `drawPolygon`
+* `drawRect`
+* `drawString`
+* `fillArc`
+* `fillOval`
+* `fillPolygon`
+* `setColor`
+    * これで色を指定してから `` などを実行する。
+* `setFont`
+    * これでフォントを指定してから `drawString` などを実行する。
+
+### Color
+
+package: `java.awt.Color`
+
+* `Color.white`
+* `Color.lightGray`
+* `Color.gray`
+* `Color.darkGray`
+* `Color.black`
+* `Color.red`
+* `Color.pink`
+* `Color.orange`
+* `Color.yellow`
+* `Color.green`
+* `Color.magenta`
+* `Color.cyan`
+* `Color.blue`
+
+### Font
+
+#### Font name
+
+package: `java.awt.Font`
+
+* Dialog
+* DialogInput
+* Monospaced
+* Serif
+* SansSerif
+* Symbol
+
+#### Font style
+
+* `Font.PLAIN`
+* `Font.BOLD`
+* `Font.ITALIC`
