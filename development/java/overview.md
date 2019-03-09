@@ -60,4 +60,21 @@ try {
     e.printStackTrace();
 }
 ```
- 
+
+## キーボードからの読み込み
+
+```java
+try {
+    BufferedReader br =
+        new BufferedReader(
+            new InputStreamReader(System.in));
+    String str = br.readLine();
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+## System
+
+* `System.out`: 標準出力
+* `System.in`: 標準入力
