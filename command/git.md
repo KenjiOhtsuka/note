@@ -113,6 +113,19 @@ git show branch_name:file_path
 * `-p --name-only`
     * 差分のファイルリストを一緒に表示する
 
+## .gitignore
+
+* If you ignore the file, `!` can't affect to the inner files.
+    ```
+    dir/
+    !dir/file
+    ```
+* To include specific files in the directory, don't ignore the directory, but files.
+    ```
+    dir/*
+    !dir/file
+    ```
+
 ## Other
 
 * Entirely different branches can't be merged
