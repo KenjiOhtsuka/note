@@ -43,6 +43,22 @@ git submodule foreach git pull origin master
 
 ## Branch
 
+### Rename
+
+#### Rename local branch
+
+* rename any branch
+
+    ```
+    git branch -m old_name new_name
+    ```
+    
+* rename current branch
+
+    ```
+    git branch -m new_name
+    ```
+
 ### Delete
 
 #### Delete merged local branch
@@ -93,6 +109,38 @@ git checkout --theirs file2.txt
 git add file1.txt file2.txt
 git commit
 ```
+
+## Add file from other branch
+
+```sh
+git add branch_name file_path
+```
+
+## Show file in other branch
+
+```sh
+git show branch_name:file_path
+```
+## Log
+
+* `-p`
+    * 差分も一緒に表示する。
+    * ファイルを限定する場合は `-p` の後にファイルへのパスを記述する。
+* `-p --name-only`
+    * 差分のファイルリストを一緒に表示する
+
+## .gitignore
+
+* If you ignore the file, `!` can't affect to the inner files.
+    ```
+    dir/
+    !dir/file
+    ```
+* To include specific files in the directory, don't ignore the directory, but files.
+    ```
+    dir/*
+    !dir/file
+    ```
 
 ## Other
 
