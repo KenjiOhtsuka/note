@@ -43,6 +43,22 @@ git submodule foreach git pull origin master
 
 ## Branch
 
+### Rename
+
+#### Rename local branch
+
+* rename any branch
+
+    ```
+    git branch -m old_name new_name
+    ```
+    
+* rename current branch
+
+    ```
+    git branch -m new_name
+    ```
+
 ### Delete
 
 #### Delete merged local branch
