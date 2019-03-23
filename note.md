@@ -66,6 +66,11 @@ Visualize ideas into right side, and draw connection or relation like mind map.
 > 4. Page
 > 5. Publisher information
 
+## 成果を出すノート
+
+* 理解、記憶、想像を助けてくれるもの。->マインドマップ
+
+
 ## Labor
 
 終身雇用、社会保険はGHQが導入したものだった。

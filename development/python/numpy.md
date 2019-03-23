@@ -1,5 +1,5 @@
 ---
-layout: python
+layout: page
 ---
 
 # NumPy

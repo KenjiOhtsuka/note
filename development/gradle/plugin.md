@@ -1,5 +1,5 @@
 ---
-layout: plugin
+layout: page
 ---
 
 # Gradle Plugin
