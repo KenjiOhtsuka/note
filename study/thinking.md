@@ -25,3 +25,26 @@ layout: page
     * Critiquing the value and usefulness of material.
 6. Creating
     * Putting parts together or reorganizing them in a new way, form, or product.
+
+## Critical thinking
+
+* a foundation for effective communication
+* the principal skill used in effective decision making
+* at the core of creating new knowledge
+* a way to uncover bias and prejudices
+
+### Process
+
+1. What is the problem or issue I am considering really about?
+    * What is the objectve?
+    * A position?
+    * A decision?
+    * Am I deciding what candidate in an election will do a better overall job,
+    or are you using the issue to establish your independence?
+    * What are the terms related to the issue?
+    * Do I agree with the proponent's definitions?
+2. What are my options?
+    * What are choices?
+    * Agree? or disagree? A? or B?
+3. What do I know about each option?
+4. How good is my information?
