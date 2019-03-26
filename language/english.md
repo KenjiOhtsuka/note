@@ -85,6 +85,8 @@ A colon is used before a list of things.
 
 ## APA
 
+American Psychological Association
+
 ### Citation in Text
 
 文中で引用する場合
