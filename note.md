@@ -4,6 +4,9 @@ layout: page
 
 # Note
 
+* review notes after taking
+* writing short summary after taking them
+
 ## Basic Strategy
 
 ### List method
