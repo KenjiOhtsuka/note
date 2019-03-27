@@ -44,3 +44,7 @@ Contains ...
 ## Academic Calendar
 
 * Shows when the course registration will be open.
+
+## Code of Conduct
+
+Written in Chapter 15 in the UoPeople catalog.
