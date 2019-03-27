@@ -70,6 +70,12 @@ Visualize ideas into right side, and draw connection or relation like mind map.
 
 * 理解、記憶、想像を助けてくれるもの。->マインドマップ
 
+## Effective strategy
+
+* Reviewing the notes after taking
+* Writing a short summary after taking them.
+
+* Writing note on the paper is not effective. it depends on the taker.
 
 ## Labor
 
