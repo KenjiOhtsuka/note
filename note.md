@@ -11,12 +11,20 @@ layout: page
 * throughly capturing information.
 * minimizes the ability to process information as not are taken
 
+### Outline method
+
+* easy to do electronically
+* allows us to prioritize information
+* can be complicated to use during lectures
 
 ### Cornell strategy
 
 * Upper: Prepare 2 major column
-    * Left: brief summary of the information to the right
-    * Right: notes
+    * Left
+        * brief summary of the information to the right
+        * keywords
+    * Right
+        * notes
 * Bottom: summary
 
 <feature>
