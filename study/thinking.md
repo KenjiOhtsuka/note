@@ -48,3 +48,13 @@ layout: page
     * Agree? or disagree? A? or B?
 3. What do I know about each option?
 4. How good is my information?
+
+## Brainstorming
+
+* starbursting
+    * brainstorming new ideas by asking a lot of questions.
+    
+The latter of inference helps us to stop ourselves from jumping to conclusions about situations.
+
+Ad populum means that the argument is based on everyone does it.
+
