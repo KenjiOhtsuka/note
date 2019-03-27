@@ -6,6 +6,12 @@ layout: page
 
 ## Basic Strategy
 
+### List method
+
+* throughly capturing information.
+* minimizes the ability to process information as not are taken
+
+
 ### Cornell strategy
 
 * Upper: Prepare 2 major column
@@ -30,7 +36,7 @@ layout: page
   </table>
 </feature>
 
-## Split Strategy
+### Split Strategy
 
 ### Map strategy
 
