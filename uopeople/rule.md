@@ -39,6 +39,7 @@ Contains ...
 
 * can be found in Student Portal.
 * we can ask the academic advisor to send it us by email.
+* we can find it on our home page, as a tab at the top of the page, and can open and print it from there.
 * Students can see whether they can appeal their final grade in a course.
 
 ## Academic Calendar
