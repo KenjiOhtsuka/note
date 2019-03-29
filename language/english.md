@@ -120,7 +120,10 @@ American Psychological Association
     > Last Name, First Initial. Middle Initial., Last Name, First Initial. Middle Initial. (Year). Title of book. Location: Publisher.
 * サンプル
     > ### References
+    >
     > Otsuka, K. (2014). Book Title. Gifu, GF: Self.
+    >
+    > Word. (2018). In *Marriam Webster online*. Retrieved from https://www.marriam-webster.com/dictionary/critical
 
 #### 書籍
 
