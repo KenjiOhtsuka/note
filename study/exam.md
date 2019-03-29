@@ -34,3 +34,6 @@ Tests are designed to determine:
     or we can skip question and look back later.
 * Electronic tests in the classroom
 * Presentations and oral tests
+
+* The best strategy for the final exam is:
+    * study regulary
