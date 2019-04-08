@@ -21,6 +21,13 @@ mysql.server start
 CREATE USER developer@'%' identified by 'password';
 ```
 
+* Create User for select only and being required SSL connection
+
+    ```sql
+    GRANT SELECT ON db_name.* TO 'user_name'@'%' REQUIRE SSL;
+    SET PASSWORD for user_name = PASSWORD('password_characters');
+    ```
+
 ## Privilege
 
 ```sql
