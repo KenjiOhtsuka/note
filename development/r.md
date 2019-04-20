@@ -9,4 +9,4 @@ layout: page
 | name | description|
 |:--|:--|
 | factor | Factor or Quanlitative data |
-| numeric | Quantatitive data |
+| numeric | Quantatitive data. descrete or continuous. |
