@@ -4,7 +4,7 @@ layout: page
 
 # NodeJS
 
-## Server
+## Server (Hosting Service)
 
 * Glitch
 * Modulus
