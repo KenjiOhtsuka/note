@@ -219,7 +219,15 @@ CONFLICT が生じるときに UPDATE にする。
 * 大きくなったファイルが小さくなることはない。
     * 大きくなったファイルを小さくするには、 `VACUUM FULL` または `CLUSTER` コマンドを実行する。
 
+## Execute SQL om File
 
+use psql with `-f` option.
+
+* Example
+
+    ```sh
+    psql -f file_path.txt -U user_name db_name -h host
+    ```
 
 ## Docker
 
