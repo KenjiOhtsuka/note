@@ -31,5 +31,6 @@ layout: page
 | RDD(Random Digit Dialing)調査 | ランダムに生成された電話番号に電話をかける | |
 
 {% raw %}
-\( x \)
+\\( x \\)
+$$ x $$
 {% endraw %}
