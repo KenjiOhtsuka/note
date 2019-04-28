@@ -35,7 +35,7 @@ True/False のアンケートの場合、次のように標本数を決める。
 母集団の確率を \\( P \\), 標本の確率を \\(p\\), 標本数を \\(n\\) とする。
 
 {% raw %}
-\\(p-1.96\\sqrt{\\frac{p(1-p)}{n}} \\leq P \\leq p+1.96\\sqrt{\\frac{p(1-p)}{n} \\)
+\\(p-1.96\\sqrt{\\frac{p(1-p)}{n}} \\leq P \\leq p+1.96\\sqrt{\\frac{p(1-p)}{n}} \\)
 {% endraw %}
 
 ### 調査方法
