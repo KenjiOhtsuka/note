@@ -25,3 +25,11 @@ layout: page
     ```
     export PATH=`npm bin`:$PATH
     ```
+
+## Set environmental variable
+
+add the following code to `.zshrc`.
+
+```
+NODE_PATH=$(npm root -g)
+```
