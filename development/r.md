@@ -26,14 +26,24 @@ layout: page
 * `sd(x)`: standard derivation
 * `var(x)`: variance
 * `mean(x)`: mean
-* `sum(x)`: calculate total of elements in `x`
+* sum
+    * `sum(x)`: calculate total of elements in `x`
+    * `cumsum(x)`: cumulative summation.
 * `length(x)`: the number of elements in `x`
+* `data.frame(x)`: creates data frames
 * rounding
     * `round(x)`: round values
     * `ceiling(x)`: round up values
     * `floor(x)`: round down valoues
 * calculation
     * `sqrt(x)`: square
+
+#### Calculate relative frequency
+
+```r
+freq <- table(x)
+freq / sum(freq)
+```
 
 ## Read csv
 
