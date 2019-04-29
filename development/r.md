@@ -79,3 +79,6 @@ freq / sum(freq)
     * Q1 - 1st quartile: middle value of the lower half of the data
     * Q2 - 2nd quartile (median): if there are even number of observations, median is the average of the central 2 observations.
     * Q3 - 3rd quartile: middle value of the upper half of the data
+    * Q1 < Q2 < Q3
+* Inter-Quartile Range: \[ Q1 - IQR * 1.5, Q3 + IQR * 1.5 \] (\[ 2.5 Q1 - 1.5 Q3, 2.5 Q3 - 1.5 Q1 \])
+    * IQR = Q3 - Q1
