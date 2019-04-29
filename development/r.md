@@ -56,7 +56,7 @@ freq / sum(freq)
 
 * `dir()`: show directory contents
 * `setwd(path)`: set working directory
-* `pwd()`: print working directory
+* `getwd()`: get working directory
 
 ## Dataframe operation
 
