@@ -48,6 +48,9 @@ freq / sum(freq)
 ## Read csv
 
 * `read.csv(path)`
+    ```r
+    x <- read.csv(path)
+    ```
 
 ## Directory operation
 
@@ -69,3 +72,10 @@ freq / sum(freq)
     
 * `boxplot(x)`
 * `hist(x)`: histogram
+
+### Boxplot
+
+* Quartiles: numbers that separate the data into quarters.
+    * Q1 - 1st quartile: middle value of the lower half of the data
+    * Q2 - 2nd quartile (median): if there are even number of observations, median is the average of the central 2 observations.
+    * Q3 - 3rd quartile: middle value of the upper half of the data
