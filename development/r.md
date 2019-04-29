@@ -19,6 +19,13 @@ layout: page
     x <- c(1, 2, 3, 4, 5)
     ```
     
+### Term
+
+* statistic: a number that is a property of the sample.
+* parameter: a number that is a property of all data
+* average: mean
+* proportion: a ratio of the observations in the specific category by all the number of data
+    
 ### Useful functions
 
 * `table(x)`
