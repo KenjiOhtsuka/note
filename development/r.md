@@ -23,6 +23,7 @@ layout: page
 
 * `table(x)`
 * `summary(x)`
+* `names(x)`: show column names
 * `sd(x)`: standard derivation
 * `var(x)`: variance
 * `mean(x)`: mean
