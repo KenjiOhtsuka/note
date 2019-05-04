@@ -193,6 +193,24 @@ show only the result data without header.
 
 `\t`
 
+### COPY
+
+* Export
+
+    ```sql
+    \COPY  (SELECT * FROM table_name WHERE condition) TO '/tmp/output.txt' CSV HEADER DELIMITER ',';
+    \COPY  (SELECT * FROM table_name WHERE condition) TO '/tmp/output.txt';
+    ```
+
+* Import
+
+    ```sql
+    \copy table_name from '/tmp/output.txt'
+    \copy table_name from '/tmp/output.txt' CSV HEADER DELIMITER ',';
+    \copy table_name(column_1, column_2) from '/tmp/output.txt';
+    \copy table_name(column_1, column_2) from '/tmp/output.txt' CSV HEADER DELIMITER ',';
+    ```
+
 ## UPSERT
 
 制約(Constraint)がある場合に使用可能。
