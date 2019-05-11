@@ -141,7 +141,7 @@ used to model times between events
 
 {% raw %} \\begin{eqnarray}
 X & \\sim & \\textrm{Exponential}( \\lambda ) \\\\\\
-f(x) & = & \\begin{cases} \\lambda e ^{− \\lambda x} & ( 0 \leq x) \\\\\\  0 (x \lt 0) \\end{cases} \\\\\\
+f(x) & = & \\begin{cases} \\lambda e ^{− \\lambda x} & ( 0 \leq x) \\\\\\ 0 & (x \lt 0) \\end{cases} \\\\\\
 \\textrm{E}(X) & = & \frac{1}{\\lambda} \\\\\\
 \\textrm{V}(X) & = & \frac{1}{\\lambda ^ 2}
 \\end{eqnarray} {% endraw%}
