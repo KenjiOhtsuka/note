@@ -86,3 +86,18 @@ $$ x $$
 
 #### 質問
     * 少人数を対象とした取材
+
+## Random variables
+
+### The Binomial random variable
+
+{% raw %} \[
+X ~ \textrm{Binomial}(n, p)
+\] {% endraw %}
+
+### The Poisson random variable
+### The Uniform random variable
+### The Exponential random variable
+### The xdensity and cumulative probability of a continuous random variable
+The computation of expectation and variance in a continuous random variable
+
