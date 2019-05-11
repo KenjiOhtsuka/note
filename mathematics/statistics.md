@@ -115,7 +115,7 @@ X & \\sim & \\textrm{Poisson}( \\lambda ) \\\\\\
 \\textrm{X}(X) & = & \\lambda \\\\\\
 \\textrm{V}(X) & = & \\lambda
 \\end{eqnarray}
-{% rawend %}
+{% endraw %}
 
 #### R
 
