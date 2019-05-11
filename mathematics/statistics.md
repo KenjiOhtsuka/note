@@ -108,6 +108,8 @@ $$ x $$
 
 used as an approximation of the total number of occurrences of rare events.
 
+&lambda; : expectation
+
 {% raw %}
 \\begin{eqnarray}
 X & \\sim & \\textrm{Poisson}( \\lambda ) \\\\\\
@@ -132,6 +134,17 @@ X & \\sim & \\textrm{Uniform}(a, b) \\\\\\
 \\end{eqnarray} {% endraw %}
 
 ### The Exponential random variable
+
+used to model times between events
+
+&lambda; : rate of the distribution
+
+{% raw %} \\begin{eqnarray}
+X & \\sim & \\textrm{Exponential}( \\lambda ) \\\\\\
+f(x) & = & \\begin{cases} \\lambda e ^{− \\lambda x} & ( 0 \leq x) \\\\\\  0 (x \lt 0) \\end{cases} \\\\\\
+\\textrm{E}(X) & = & \frac{1}{\\lambda} \\\\\\
+\\textrm{V}(X) & = & \frac{1}{\\lambda ^ 2}
+\\end{eqnarray} {% endraw%}
 
 ### The xdensity and cumulative probability of a continuous random variable
 
