@@ -92,7 +92,7 @@ $$ x $$
 ### The Binomial random variable
 
 {% raw %} \\begin{eqnarray} X & \\sim & \\textrm{Binomial}(n, p) \\\\
-\textrm{P}(X = x) & = & \begin{pmatrix} n \\\\ x \end{pmatrix} p^x (1 − p)^{n−x} \\\\
+\textrm{P}(X = x) & = & \begin{pmatrix} n \\ x \end{pmatrix} p^x (1 − p)^{n−x} \\\\
 \textrm{E}(X) & = & np \\\\
 \textrm{V}(X) & = & np(1-p)
 \\end{eqnarray} {% endraw %}
