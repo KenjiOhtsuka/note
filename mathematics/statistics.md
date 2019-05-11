@@ -93,7 +93,7 @@ $$ x $$
 
 {% raw %} \\\[ X \~ \\textrm{Binomial}(n, p) \\\] {% endraw %}
 
-{% raw %} \\\[ \textrm{P}(X = x) = \begin{matrix} n \\\\ x \end{matrix} p^x (1 − p)^{n−x} \\\] {% endraw %}
+{% raw %} \\\[ \textrm{P}(X = x) = \begin{pmatrix} n \\\\ x \end{pmatrix} p^x (1 − p)^{n−x} \\\] {% endraw %}
 
 ### The Poisson random variable
 
