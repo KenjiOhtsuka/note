@@ -124,6 +124,13 @@ X & \\sim & \\textrm{Poisson}( \\lambda ) \\\\\\
 
 ### The Uniform random variable
 
+{% raw %} \\begin{eqnarray}
+X & \\sim & \\textrm{Uniform}(a, b) \\\\\\
+\\textrm{P}(X = x) & = & \\frac{ 1 }{ b - a } \\\\\\
+\\textrm{X}(X) & = & \\frac{a + b}{2} \\\\\\
+\\textrm{V}(X) & = & \\frac{(b - a)^2}{12}
+\\end{eqnarray} {% endraw %}
+
 ### The Exponential random variable
 
 ### The xdensity and cumulative probability of a continuous random variable
