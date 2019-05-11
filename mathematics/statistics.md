@@ -91,13 +91,17 @@ $$ x $$
 
 ### The Binomial random variable
 
-{% raw %} \[
-X ~ \textrm{Binomial}(n, p)
-\] {% endraw %}
+{% raw %} \\\[ X ~ \\textrm{Binomial}(n, p) \\\] {% endraw %}
+
+{% raw %} \\\[ \textrm{P}(X = x) = \begin{matrix} n \\ x \end{matrix} p^x (1 − p)^(n−x) \\\] {% endraw %}
 
 ### The Poisson random variable
+
 ### The Uniform random variable
+
 ### The Exponential random variable
+
 ### The xdensity and cumulative probability of a continuous random variable
+
 The computation of expectation and variance in a continuous random variable
 
