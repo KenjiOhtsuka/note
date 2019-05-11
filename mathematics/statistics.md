@@ -101,13 +101,21 @@ $$ x $$
 
 #### R
 
-* `dbinom`
+* `dbinom(X, n, p)`
+* `pbinom(X, n, p)`
 
 ### The Poisson random variable
 
 used as an approximation of the total number of occurrences of rare events.
 
-
+{% raw %}
+\\begin{eqnarray}
+X & \\sim & \\textrm{Poisson}( \\lambda ) \\\\\\
+\\textrm{P}(X = x) & = & \\frac{ e ^{ - \\lambda} \\lambda ^ x }{ x ! } \\\\\\
+\\textrm{X}(X) & = & \\lambda \\\\\\
+\\textrm{V}(X) & = & \\ lambda
+\\end{eqnarray}
+{% rawend %}
 
 ### The Uniform random variable
 
