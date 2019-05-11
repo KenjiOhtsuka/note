@@ -112,7 +112,7 @@ used as an approximation of the total number of occurrences of rare events.
 \\begin{eqnarray}
 X & \\sim & \\textrm{Poisson}( \\lambda ) \\\\\\
 \\textrm{P}(X = x) & = & \\frac{ e ^{ - \\lambda} \\lambda ^ x }{ x ! } \\\\\\
-\\textrm{X}(X) & = & \\lambda \\\\\\
+\\textrm{E}(X) & = & \\lambda \\\\\\
 \\textrm{V}(X) & = & \\lambda
 \\end{eqnarray}
 {% endraw %}
@@ -127,7 +127,7 @@ X & \\sim & \\textrm{Poisson}( \\lambda ) \\\\\\
 {% raw %} \\begin{eqnarray}
 X & \\sim & \\textrm{Uniform}(a, b) \\\\\\
 \\textrm{P}(X = x) & = & \\frac{ 1 }{ b - a } \\\\\\
-\\textrm{X}(X) & = & \\frac{a + b}{2} \\\\\\
+\\textrm{E}(X) & = & \\frac{a + b}{2} \\\\\\
 \\textrm{V}(X) & = & \\frac{(b - a)^2}{12}
 \\end{eqnarray} {% endraw %}
 
