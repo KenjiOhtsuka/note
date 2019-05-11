@@ -91,7 +91,7 @@ $$ x $$
 
 ### The Binomial random variable
 
-{% raw %} \\\[ X \~ \\textrm{Binomial}(n, p) \\\] {% endraw %}
+{% raw %} \\\[ X \textasciitilde \\textrm{Binomial}(n, p) \\\] {% endraw %}
 
 {% raw %} \\\[ \textrm{P}(X = x) = \begin{pmatrix} n \\\\ x \end{pmatrix} p^x (1 − p)^{n−x} \\\] {% endraw %}
 
