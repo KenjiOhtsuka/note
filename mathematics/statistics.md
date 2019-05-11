@@ -105,8 +105,8 @@ $$ x $$
 \\begin{eqnarray}
 np & \\rightarrow & \\lambda \\\\\\
 n & \\rightarrow & \\frac{\\lambda}{p} \\\\\\
-f(x) & = & \\frac{n!(n-x)!}{x!} p^x (1 - p)^{n-x} \\\\\\
-& = & \\frac{n!}{n!(n-x)!} \\left( \\frac{\\lambda}{n} \\right) \\left( 1 - \\frac{\\lambda}{n} \\right) ^ {n-x}
+f(x) & = & \\frac{n!}{x!(n-x)!} p^x (1 - p)^{n-x} \\\\\\
+& = & \\frac{n!}{x!(n-x)!} \\left( \\frac{\\lambda}{n} \\right) ^x \\left( 1 - \\frac{\\lambda}{n} \\right) ^ {n-x}
 \\end{eqnarray}
 {% endraw %}
 
