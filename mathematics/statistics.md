@@ -113,9 +113,14 @@ used as an approximation of the total number of occurrences of rare events.
 X & \\sim & \\textrm{Poisson}( \\lambda ) \\\\\\
 \\textrm{P}(X = x) & = & \\frac{ e ^{ - \\lambda} \\lambda ^ x }{ x ! } \\\\\\
 \\textrm{X}(X) & = & \\lambda \\\\\\
-\\textrm{V}(X) & = & \\ lambda
+\\textrm{V}(X) & = & \\lambda
 \\end{eqnarray}
 {% rawend %}
+
+#### R
+
+* `dpoi(X, l)`
+* `ppoi(X, l)`
 
 ### The Uniform random variable
 
