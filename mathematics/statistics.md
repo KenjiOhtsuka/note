@@ -108,7 +108,9 @@ n & \\rightarrow & \\infty \\\\\\
 f(x) & = & \\frac{n!}{x!(n-x)!} p^x (1 - p)^{n-x} \\\\\\
 & = & \\frac{n!}{x!(n-x)!} \\left( \\frac{\\lambda}{n} \\right) ^x \\left( 1 - \\frac{\\lambda}{n} \\right) ^ {n-x} \\\\\\
 & = & \\frac{n!}{n^x (n-x)!}  \\frac{\\lambda ^ x}{x!}  \\left( 1 - \\frac{1}{\\frac{n}{\\lambda}} \\right) ^ {n-x} \\\\\\
-& = & \\frac{n!}{n^x (n-x)!}  \\frac{\\lambda ^ x}{x!}  \\left( 1 - \\frac{1}{\\frac{n}{\\lambda}} \\right) ^ {\\frac{n}{\\lambda} \\lambda \\frac{n-x}{n}} 
+& = & \\frac{n!}{n^x (n-x)!}  \\frac{\\lambda ^ x}{x!}  \\left( 1 + \\frac{1}{-\\frac{n}{\\lambda}} \\right) ^ {-\\frac{n}{\\lambda} ( - \\lambda ) \\frac{n-x}{n}} \\\\
+& \\rightarrow & 1 \\cdot \\frac{\\lambda ^ x}{x!} \\cdot e^{ (- \\lambda ) \\cdot 1} \\
+& \\rightarrow & e^{ -\\lambda} \\frac{\\lambda ^ x}{x!} 
 \\end{eqnarray}
 {% endraw %}
 
