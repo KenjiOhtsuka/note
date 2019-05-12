@@ -127,9 +127,10 @@ used as an approximation of the total number of occurrences of rare events.
 
 {% raw %}
 \\begin{eqnarray}
-X & \\sim & \\textrm{Poisson}( \\lambda ) \\\\\\
-\\textrm{P}(X = x) & = & \\frac{ e ^{ - \\lambda} \\lambda ^ x }{ x ! } \\\\\\
-\\textrm{E}(X) & = & \\lambda \\\\\\
+1 - p & \\fallingdotseq & 1 \\\\\\   
+X & \\sim & \\textrm{Poisson}( \\lambda ) \\\\\\  
+\\textrm{P}(X = x) & = & \\frac{ e ^{ - \\lambda} \\lambda ^ x }{ x ! } \\\\\\  
+\\textrm{E}(X) & = & \\lambda \\\\\\  
 \\textrm{V}(X) & = & \\lambda
 \\end{eqnarray}
 {% endraw %}
