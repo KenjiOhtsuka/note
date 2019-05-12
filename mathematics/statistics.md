@@ -103,14 +103,14 @@ $$ x $$
 
 {% raw %}
 \\begin{eqnarray}
-np & \\rightarrow & \\lambda \\\\\\
-n & \\rightarrow & \\infty \\\\\\
-f(x) & = & \\frac{n!}{x!(n-x)!} p^x (1 - p)^{n-x} \\\\\\
-& = & \\frac{n!}{x!(n-x)!} \\left( \\frac{\\lambda}{n} \\right) ^x \\left( 1 - \\frac{\\lambda}{n} \\right) ^ {n-x} \\\\\\
-& = & \\frac{n!}{n^x (n-x)!}  \\frac{\\lambda ^ x}{x!}  \\left( 1 - \\frac{1}{\\frac{n}{\\lambda}} \\right) ^ {n-x} \\\\\\
-& = & \\frac{n!}{n^x (n-x)!}  \\frac{\\lambda ^ x}{x!}  \\left( 1 + \\frac{1}{-\\frac{n}{\\lambda}} \\right) ^ {-\\frac{n}{\\lambda} ( - \\lambda ) \\frac{n-x}{n}} \\\\
-& \\rightarrow & 1 \\cdot \\frac{\\lambda ^ x}{x!} \\cdot e^{ (- \\lambda ) \\cdot 1} \\\\\\
-& \\rightarrow & e^{ -\\lambda} \\frac{\\lambda ^ x}{x!} 
+np & \\rightarrow & \\lambda \\\\\\  
+n & \\rightarrow & \\infty \\\\\\  
+f(x) & = & \\frac{n!}{x!(n-x)!} p^x (1 - p)^{n-x} \\\\\\  
+& = & \\frac{n!}{x!(n-x)!} \\left( \\frac{\\lambda}{n} \\right) ^x \\left( 1 - \\frac{\\lambda}{n} \\right) ^ {n-x} \\\\\\  
+& = & \\frac{n!}{n^x (n-x)!}  \\frac{\\lambda ^ x}{x!}  \\left( 1 - \\frac{1}{\\frac{n}{\\lambda}} \\right) ^ {n-x} \\\\\\  
+& = & \\frac{n!}{n^x (n-x)!}  \\frac{\\lambda ^ x}{x!}  \\left( 1 - \\frac{1}{\\frac{n}{\\lambda}} \\right) ^ {\\frac{n}{\\lambda} \\lambda \\frac{n-x}{n}} \\\\\\  
+& \\rightarrow & 1 \\cdot \\frac{\\lambda ^ x}{x!} \\cdot e^{ (- \\lambda ) \\cdot 1} \\\\\\  
+& \\rightarrow & \\frac{e^{ -\\lambda} \\lambda ^ x}{x!} 
 \\end{eqnarray}
 {% endraw %}
 
@@ -142,10 +142,10 @@ X & \\sim & \\textrm{Poisson}( \\lambda ) \\\\\\
 ### The Uniform random variable
 
 {% raw %} \\begin{eqnarray}
-X & \\sim & \\textrm{Uniform}(a, b) \\\\\\
-f(x) & = & \\frac{ 1 }{ b - a } \\\\\\
-\\textrm{E}(X) & = & \\frac{a + b}{2} \\\\\\
-\\textrm{V}(X) & = & \\frac{(b - a)^2}{12}
+X & \\sim & \\textrm{Uniform}(a, b) \\\\\\  
+f(x) & = & \\frac{ 1 }{ b - a } \\\\\\  
+\\textrm{E}(X) & = & \\frac{a + b}{2} \\\\\\  
+\\textrm{V}(X) & = & \\frac{(b - a)^2}{12}  
 \\end{eqnarray} {% endraw %}
 
 ### The Exponential random variable
