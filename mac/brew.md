@@ -4,6 +4,20 @@ layout: page
 
 # Brew
 
+## Install and Uninstall
+
+### Install
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### Uninstall
+
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)
+```
+
 ```
 ==> mysql
 We've installed your MySQL database without a root password. To secure it run:
