@@ -73,12 +73,13 @@ setValues([2, 3, 2, 2, 14, 30, 12, 0]);
 </script>
 
 <style>
-    .dots {
+.dots {
     border: 1px solid gray;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
     font-size: 30px;
+    width: 10em;
 }
 
 .dot {
