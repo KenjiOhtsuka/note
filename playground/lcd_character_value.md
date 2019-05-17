@@ -36,7 +36,7 @@ var divTag = document.createElement('div');
 divTag.classList.add('result');
 divTag.setAttribute('id', 'result');
 
-var bodyTag = document.getElementsById('my_panel');
+var bodyTag = document.getElementById('my_panel');
 bodyTag.appendChild(tableTag);
 bodyTag.appendChild(divTag);
 
