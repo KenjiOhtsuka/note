@@ -6,6 +6,8 @@ layout: page
 
 <p>クリックするとオン・オフを切り替えられます。</p>
 
+<div id="my_panel"></div>
+
 <script>
 var tableTag = document.createElement('table');
 tableTag.classList.add('dots');
@@ -34,7 +36,7 @@ var divTag = document.createElement('div');
 divTag.classList.add('result');
 divTag.setAttribute('id', 'result');
 
-var bodyTag = document.getElementsByTagName('body')[0];
+var bodyTag = document.getElementsById('my_panel');
 bodyTag.appendChild(tableTag);
 bodyTag.appendChild(divTag);
 
@@ -69,3 +71,32 @@ setValues([2, 3, 2, 2, 14, 30, 12, 0]);
 
 //updateResult();
 </script>
+
+<style>
+    .dots {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.dot {
+    width:  1em;
+    height: 1em;
+    border: 1px solid gray;
+}
+
+.dot.on {
+    background-color: black;
+}
+
+.result {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+</style>
