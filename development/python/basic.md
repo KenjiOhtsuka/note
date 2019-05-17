@@ -89,3 +89,85 @@ True + False # => 1     <class 'int'>
     * `or`, `and` の後
 
 改行するとまずい場所で改行するには、`\`を書いてその直後に改行する。
+
+## Docstring
+
+### Format
+
+#### Epytext
+
+It is like Javadoc
+
+```python
+"""
+Epytext style.
+
+@param param1: first param
+@param param2: second param
+@return: description
+@raise keyError: raises an exception
+"""
+```
+
+#### reST
+
+It is used in IntelliJ IDEA as default.
+It is used also in Sphinx.
+
+```python
+"""
+reST style.
+
+:param param1: first param
+:param param2: second param
+:returns: description
+:raises keyError: raises an exception
+"""
+```
+
+#### Google
+
+```python
+"""
+Google style.
+
+Args:
+    param1: first param.
+    param2: second param.
+
+Returns:
+    description
+
+Raises:
+    KeyError: Raises an exception.
+"""
+```
+
+#### Numpydoc
+
+```python
+"""
+numpydoc style.
+
+Parameters
+----------
+first : array_like
+    the 1st param, `first`
+second :
+    the 2nd param
+third : {'value', 'other'}, optional
+    the 3rd param, by default 'value'
+
+Returns
+-------
+string
+    value description
+
+Raises
+------
+KeyError
+    a key error
+OtherError
+    an other error
+"""
+```
