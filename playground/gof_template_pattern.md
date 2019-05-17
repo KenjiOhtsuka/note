@@ -4,6 +4,12 @@ layout: page
 
 # GoF Template method pattern
 
+
+Sample Code of GoF Template Method Pattern
+
+I recommend you to test this code at the following site.
+http://www.typescriptlang.org/Playground
+
 ```ts
 abstract class AbstractLetter {
     protected senderName: string;
