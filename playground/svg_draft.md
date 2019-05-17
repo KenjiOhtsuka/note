@@ -159,3 +159,15 @@ http://improve-future.com/calculate-sphere-volume.html
     <path d="M 20 100 a 80 30 0 0 0 160 0" fill="none" stroke="black" />
     <path d="M 20 100 a 80 30 0 0 1 160 0" fill="none" stroke="black" stroke-width="0.5" />
 </svg>
+
+## Triangle
+
+<svg viewBox="0 0 200 200">
+    <polygon points="30,180 180,180 100,40" stroke="black" fill="none" /> 
+    <text x="100" y="30" text-anchor="middle">A</text>
+    <text x="20" y="180" text-anchor="middle">B</text>
+    <text x="190" y="180" text-anchor="middle">C</text>
+    <text x="150" y="110" text-anchor="middle">b</text>
+    <text x="50" y="110" text-anchor="middle">c</text>
+    <text x="100" y="190" text-anchor="middle">a</text>
+</svg>
