@@ -6,6 +6,8 @@ layout: page
 
 ## Circle
 
+http://improve-future.com/math-calculate-circle-space.html
+
 <svg viewBox="0 0 200 120">
     <path d="M 20,100 a 80 80 0 0 1 160 0" stroke="red" fill="none" />
     <g stroke-width="0.5" >
