@@ -136,3 +136,26 @@ http://improve-future.com/math-calculate-circle-space.html
     <polygon points="172.08,65.29 149.88,37.45 117.80,22.01 82.20,22.01 50.12,37.45 27.92,65.19 20,100 27.92,134.71 50.12,162.55 82.20,177.99 117.80,177.99 149.88,162.55 172.08,134.71 180,100" stroke="black" fill="none" />
 </svg>
 
+## Ball
+
+http://improve-future.com/calculate-sphere-volume.html
+
+<svg viewBox="0 0 200 140"><path d="M 20 100 a 80 80 0 0 1 160 0" fill="none" stroke="black" />
+    <line x1="20" y1="100" x2="180" y2="100" stroke="black" />
+    <g stroke="blue" fill="none" stroke-width="0.5">
+        <rect x="20" y="84" height="16" width="160" />
+        <rect x="21.61" y="68" height="16" width="156.76" />
+        <rect x="26.67" y="52" height="16" width="146.64" />
+        <rect x="36" y="36" height="16" width="128" />
+        <rect x="52" y="20" height="16" width="96" />
+    </g>
+    <polygon points="100,100 100,84 21.61,84" stroke="red" fill="none" stroke-width="0.5" /> 
+    <text x="105" y="97" font-size="10" >1/n</text>
+    <text x="30" y="97" font-size="10" >1</text>
+    <text x="60" y="80" font-size="10" >√(1 - (1/n)×(1/n))</text>
+</svg>
+<svg viewBox="0 0 200 200">
+    <path d="M 20 100 a 80 80 0 0 1 160 0" fill="none" stroke="black" />
+    <path d="M 20 100 a 80 30 0 0 0 160 0" fill="none" stroke="black" />
+    <path d="M 20 100 a 80 30 0 0 1 160 0" fill="none" stroke="black" stroke-width="0.5" />
+</svg>
