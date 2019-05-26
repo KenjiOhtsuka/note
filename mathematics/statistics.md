@@ -195,4 +195,6 @@ The computation of expectation and variance in a continuous random variable
     \\\[ s^2 = \\frac{1}{n - 1} \\sum \_{k=1}^{n} \\left( X \_k - \\bar{X} \\right) ^2 \\\]
     {% endraw %}
 
+\\(T\\) は自由度 \\( n-1 \\) の \\(t\\) 分布に従う。
 
+\\\[ T = \\frac{\\bar{X}-\\mu}{\\frac{s}{\\sqrt{n}}} \\\]
