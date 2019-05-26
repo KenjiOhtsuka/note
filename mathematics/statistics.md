@@ -186,13 +186,13 @@ The computation of expectation and variance in a continuous random variable
 * 標本平均
 
     {% raw %}
-    \\bar{X} = \\frac{1}{n} \\sum \_{k=1}^{n} X \_k
+    \\\[ \\bar{X} = \\frac{1}{n} \\sum \_{k=1}^{n} X \_k \\\]
     {% endraw %}
 
 * 不偏分散
 
     {% raw %}
-    s = \\frac{1}{n - 1} \\sum \_{k=1}^{n} \\left( X \_k - \\bar{X} \\right) ^2
+    \\\[ s = \\frac{1}{n - 1} \\sum \_{k=1}^{n} \\left( X \_k - \\bar{X} \\right) ^2 \\\]
     {% endraw %}
 
 
