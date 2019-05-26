@@ -85,7 +85,8 @@ $$ x $$
     * 年齢、性別、結婚歴、収入、学歴、家族構成
 
 #### 質問
-    * 少人数を対象とした取材
+
+* 少人数を対象とした取材
 
 ## Random variables
 
@@ -165,4 +166,17 @@ f(x) & = & \\begin{cases} \\lambda e ^{− \\lambda x} & ( 0 \leq x) \\\\\\ 0 & 
 ### The xdensity and cumulative probability of a continuous random variable
 
 The computation of expectation and variance in a continuous random variable
+
+## 統計量
+
+* 不偏性
+    期待値が母数に一致する性質。 
+* 一致性
+    標本の大きさを大きくしていくと、推定量の値が母数に近づく性質。
+* 有効性
+    分散が最小である性質。
+
+標本平均は上記3つの全ての性質を併せ持つ。
+
+* 不偏分散
 
