@@ -192,7 +192,7 @@ The computation of expectation and variance in a continuous random variable
 * 不偏分散
 
     {% raw %}
-    \\\[ s = \\frac{1}{n - 1} \\sum \_{k=1}^{n} \\left( X \_k - \\bar{X} \\right) ^2 \\\]
+    \\\[ s^2 = \\frac{1}{n - 1} \\sum \_{k=1}^{n} \\left( X \_k - \\bar{X} \\right) ^2 \\\]
     {% endraw %}
 
 
