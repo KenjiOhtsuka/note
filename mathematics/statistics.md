@@ -170,10 +170,15 @@ The computation of expectation and variance in a continuous random variable
 ## 統計量
 
 * 不偏性
+
     期待値が母数に一致する性質。 
+    
 * 一致性
+
     標本の大きさを大きくしていくと、推定量の値が母数に近づく性質。
+    
 * 有効性
+
     分散が最小である性質。
 
 標本平均は上記3つの全ての性質を併せ持つ。
