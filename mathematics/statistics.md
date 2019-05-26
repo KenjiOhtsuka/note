@@ -161,7 +161,7 @@ X & \\sim & \\textrm{Exponential}( \\lambda ) \\\\\\
 f(x) & = & \\begin{cases} \\lambda e ^{− \\lambda x} & ( 0 \leq x) \\\\\\ 0 & (x \lt 0) \\end{cases} \\\\\\
 \\textrm{E}(X) & = & \frac{1}{\\lambda} \\\\\\
 \\textrm{V}(X) & = & \frac{1}{\\lambda ^ 2}
-\\end{eqnarray} {% endraw%}
+\\end{eqnarray} {% endraw %}
 
 ### The xdensity and cumulative probability of a continuous random variable
 
@@ -184,4 +184,9 @@ The computation of expectation and variance in a continuous random variable
 標本平均は上記3つの全ての性質を併せ持つ。
 
 * 不偏分散
+
+    {% raw %}
+    s = \\frac{1}{n - 1} \\sum \_{k=1}^{n} \\left( X \_k - \bar{X} \\right) ^2
+    {% endraw %}
+
 
