@@ -4,6 +4,17 @@ layout: page
 
 # Statistics
 
+From the sample data, we can calculate a statistic. 
+
+* statistic (統計量)
+    * a number that is a property of the sample.
+    * can be used to estimate something
+    * example:
+        * mean (average), variables.
+* parameter
+    * a number that is a property of the population.
+    
+
 ## 標本抽出と調査
 
 * 全数調査: 母集団全体を対象とした調査
