@@ -133,3 +133,12 @@ ls -d $PWD/*
     history
     ```
     繰り返し実行すると履歴を全て削除することも可能。 
+
+## cut
+
+* split with tab
+    * pick up the first column data
+    
+        ```sh
+        cut -d$'\t' -f1 file_path
+        ```
