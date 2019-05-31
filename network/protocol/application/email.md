@@ -24,3 +24,5 @@ layout: page
 | RETR | 受信したいメールの指定 |
 | QUIT | 正常なコネクション解法 |
 | STAT | |
+| USER | |
+| PASS | |
