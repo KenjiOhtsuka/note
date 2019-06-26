@@ -6,6 +6,7 @@ layout: page
 # パスワードジェネレータ
 
 <p>"記号を含める"を YES にすると、括弧などの記号も含めてパスワードを生成します。数字は半角で入力してネ！</p><a name="more"></a>   <form>
+<form>
 <p>
 桁数:
 <input type="text" id="digits" value="10" style="text-align:right;" /> 桁
