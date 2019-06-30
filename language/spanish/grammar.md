@@ -4,9 +4,55 @@ layout: page
 
 # スペイン語文法
 
-## 冠詞
+## 名詞
 
-### 定冠詞
+### 男性名詞と女性名詞
+
+自然の性を持たない名詞も、男性名詞か女性名詞かに分けられる。
+
+* -o で終わるものは男性名詞。
+* -a で終わるものは女性名詞。
+
+#### 例外
+
+##### 男性名詞
+
+* día
+* hotel
+
+##### 女性名詞
+
+* mano - 手
+* estación - 駅
+
+#### その他
+
+他の言語とスペイン語で同じものを表す名詞でも、性が異なることがある。
+
+### 複数形
+
+#### 原則
+
+* 単数形が母音(a, i, u, e, o)で終わっていれば、語尾に -s を添える
+    * hermano - hermanos (兄弟)
+    * silla - sillas (椅子)
+* 単数形が試飲で終わっていれば語尾に -es を加える
+    * señor - señores
+    * hotel - hoteles
+
+#### 例外
+
+* 強勢のかかる母音で終わるものには -e をつけるものと -es をつけるものがある。
+    * sofá - sofás
+    * bambú - bambúes
+* -z で終わるものは -c に変えてから -es をつける
+    * luz - luces (光)
+* -s で終わるものには単複同形がある。
+    * paraguas (傘)
+
+### 冠詞
+
+#### 定冠詞
 
 | | 男性 | 女性 |
 |:--|:--|:--|
@@ -16,12 +62,42 @@ layout: page
 * 弱く読む
 * 女性名詞でもアクセントのある a-, ha- で始まる語には el がつく
 
-### 不定冠詞
+#### 不定冠詞
 
 | | 男性 | 女性 |
 |:--|:--|:--|
 | 単数 | un | una |
 | 複数 | unos | unas |
+
+##### 例
+
+* un señor
+* una señora
+* un padre
+* una madre
+* un hijo
+* una hija
+* un hermano
+* una hermana
+* un amigo
+* una amiga
+* un gato
+* una gata
+* un toro
+* una vaca
+
+##### 無生物
+
+* un libro
+* un plato
+* un vestido
+* un río - 川
+* un peso
+* una pluma - ペン
+* una taza - 茶碗
+* una camisa - シャツ
+* una montaña - 山
+* una peseta - ペセタ(スペインの昔の通貨単位)
 
 * 強く読む
 
