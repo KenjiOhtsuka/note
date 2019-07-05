@@ -116,14 +116,14 @@ function getPassword() {
         var charTypeArray = [
 	    SMALL_LETTERS, LARGE_LETTERS, NUMBER_LETTERS, SPECIAL_LETTERS
 	]
-        char_type_loop: for (charTypeIndex in charTypeArray) {
+        char_type_loop: for (var charTypeIndex in charTypeArray) {
 	    var str = charTypeArray[charTypeIndex]
             var count = 0
-            for (charIndex in str) {
+            for (var charIndex in str) {
 	        var c = str[charIndex]
                 if (password.includes(c)) {
                     if (++count == 2) {
-		        break char_type_loop;
+		        continue char_type_loop;
 		    }
 		}
             }
