@@ -134,8 +134,8 @@ function getPassword() {
         return true
     }
     
-    function generatePassword() {
-	var length = document.getElementById("password_length").value;
+function generatePassword() {
+    var length = document.getElementById("password_length").value;
     if (!length.match(/^[1-9][0-9]*$/)) {
         document.getElementById("generated_password").value = "桁数を正しく入力してください。";
         return;
@@ -157,7 +157,7 @@ function getPassword() {
         pwds += pwd + "\n";
     }
     document.getElementById("generated_password").value = pwds;
-    }
+}
 </script>
 
 <form>
