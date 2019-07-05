@@ -111,7 +111,7 @@ function getPassword() {
 
     function isValidPassword(password) {
         if (password.length != 16) return false
-        if (Array.from(new Set(password.split(''))) != 16) return false
+        if (Array.from(new Set(password.split(''))).length != 16) return false
 	
         var charTypeArray = [
 	    SMALL_LETTERS, LARGE_LETTERS, NUMBER_LETTERS, SPECIAL_LETTERS
