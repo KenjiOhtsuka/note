@@ -150,11 +150,11 @@ function generatePassword() {
     var cnt = parseInt(count);
    
     for (i = 0; i < cnt; i++) {
-        pwd = '';
+        var pwds = '';
         for (j = 0; j < len; j++) {
-            pwd += generate();
+            pwds += generate() + "\n;
         }
-        pwds += pwd + "\n";
+        pwds += pwds + "\n";
     }
     document.getElementById("generated_password").value = pwds;
 }
