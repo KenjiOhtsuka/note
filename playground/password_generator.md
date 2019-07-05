@@ -79,26 +79,6 @@ function getPassword() {
 </script>
 
 ## Form 2 - Kagoya のメール専用
-
-<form>
-    <section>
-        <h3>パスワード生成条件</h3>
-        <ul>
-            <li>
-                桁数: <input type="number" id="password_length" min="1" step="1" value="16" style="text-align:right;width:5em;" /> 桁
-            </li>
-            <li>
-                生成するパスワードの数: <input type="number" id="password_count" value="5" min="1" step="1" style="text-align:right;width:5em;" /> 個                
-            </li>
-            <input type="button" value="Generate!" onclick="generatePassword();" />
-        </ul>
-    </section>
-    <section>
-        <h3>生成結果</h3>
-        <textarea rows="10" cols="20" id="generated_password" style="width:100%;"></textarea>
-    </section>
-</form>
-
 <script>
     var SMALL_LETTERS = "abcdefthijklmnopqrstuvwxyz"
     var LARGE_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -178,3 +158,23 @@ function getPassword() {
     }
     document.getElementById("generated_password").value = pwds;
 </script>
+
+<form>
+    <section>
+        <h3>パスワード生成条件</h3>
+        <ul>
+            <li>
+                桁数: <input type="number" id="password_length" min="1" step="1" value="16" style="text-align:right;width:5em;" /> 桁
+            </li>
+            <li>
+                生成するパスワードの数: <input type="number" id="password_count" value="5" min="1" step="1" style="text-align:right; width:5em;" /> 個                
+            </li>
+            <input type="button" value="Generate!" onclick="generatePassword();" />
+        </ul>
+    </section>
+    <section>
+        <h3>生成結果</h3>
+        <textarea rows="10" cols="20" id="generated_password" style="width:100%;"></textarea>
+    </section>
+</form>
+
