@@ -151,7 +151,7 @@ function generatePassword() {
 
     var pwds = '';
     for (i = 0; i < cnt; i++) {
-        pwds += generate() + "\n;
+        pwds += generate() + "\n";
     }
     document.getElementById("generated_password").value = pwds;
 }
