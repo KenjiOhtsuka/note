@@ -148,13 +148,10 @@ function generatePassword() {
 
     var len = parseInt(length);
     var cnt = parseInt(count);
-   
+
+    var pwds = '';
     for (i = 0; i < cnt; i++) {
-        var pwds = '';
-        for (j = 0; j < len; j++) {
-            pwds += generate() + "\n;
-        }
-        pwds += pwds + "\n";
+        pwds += generate() + "\n;
     }
     document.getElementById("generated_password").value = pwds;
 }
