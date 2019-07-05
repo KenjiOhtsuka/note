@@ -157,6 +157,7 @@ function getPassword() {
         pwds += pwd + "\n";
     }
     document.getElementById("generated_password").value = pwds;
+    }
 </script>
 
 <form>
