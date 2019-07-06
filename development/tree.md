@@ -21,13 +21,8 @@ layout: page
         * たとえば 1023 のノードからなるツリーの葉はすべて深さ9.
 * height (高さ)
     * 木の中の葉の深さのうち、最大のもの。
- in a perfectly balanced tree with 1023 nodes, all the leaves are at depth 9. In an approximately balanced tree with 1023 nodes, the average depth of all the leaves should be not too much bigger than 9.
-
-The height of a tree is defined to be the maximum depth of any node in the tree.
 
 ## 走査
-
-Using the principles of recursion (considering the base case of an empty tree, then counting the nodes in the two subtrees), you can sum the nodes in the tree, print the items in the tree, and so forth.
 
 * Preorder traversal
     * ルートノードが最初に走査される。そして左の木、右の木という順で走査される。
