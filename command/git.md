@@ -142,6 +142,11 @@ git show branch_name:file_path
     !dir/file
     ```
 
+## Commit Message
+
+* 見本
+    * https://gist.github.com/stephenparish/9941e89d80e2bc58a153
+
 ## Other
 
 * Entirely different branches can't be merged
