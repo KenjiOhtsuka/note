@@ -50,3 +50,22 @@ pip install keras
 ## Pandas
 
 データ分析におけるデータの操作で役立つライブラリ
+
+## cv2
+
+* 画像に関するいろんな作業を行えるライブラリ。
+
+### サンプル
+
+* 単色グレースケールの画像を作成する
+    
+    ```python
+    import cv2
+    import math
+    import numpy as np
+    Import random
+    
+    img = np.ones((750, 750, 3), np.float64)
+    img *= int(random.random() * 256)
+    cv2.imwrite('random.jpg', img)
+    ```
