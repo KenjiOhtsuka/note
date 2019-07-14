@@ -61,7 +61,6 @@ rsync -r -z -v account@servec.com:/home/account/www/ ./www/
 
     見つかった各ファイルについて、データベース名、ホスト、パスワード、アカウントを変更する。
 
-
 ## ドメインの設定を行う
 
 ## サブドメインの設定を行う
@@ -69,3 +68,10 @@ rsync -r -z -v account@servec.com:/home/account/www/ ./www/
 サブドメインの作成を行う。
 各サブドメインについて、SSLの設定も忘れず行う。
 
+## メールアカウントの移行を行う
+
+必要なメールアカウントを移行先サーバで作成する。
+必要に応じてファイル内に記述されたメールアドレス・パスワードを書き換える。
+rsync -r -z -v account@servec.com:/home/account/www/ ./www/かき
+rsync -r -z -v account@servec.com:/home/account/www/ ./www/
+rsync -r -z -v account@servec.com:/home/account/www/ ./www/
