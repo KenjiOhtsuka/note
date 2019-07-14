@@ -72,6 +72,3 @@ rsync -r -z -v account@servec.com:/home/account/www/ ./www/
 
 必要なメールアカウントを移行先サーバで作成する。
 必要に応じてファイル内に記述されたメールアドレス・パスワードを書き換える。
-rsync -r -z -v account@servec.com:/home/account/www/ ./www/かき
-rsync -r -z -v account@servec.com:/home/account/www/ ./www/
-rsync -r -z -v account@servec.com:/home/account/www/ ./www/
