@@ -41,3 +41,19 @@ rsync -r -z -v account@servec.com:/home/account/www/ ./www/
     ```sql
     mysql -u account -p -h mysql.server.com db_name < db_name.sql
     ```
+
+## データベース接続設定の変更
+
+データベースの接続設定を変更する。 `sed` を使ってもいいが、ひとつひとつ丁寧にやっていく。
+
+1. 変更が必要なファイルを見つける
+
+    ```sh
+    grep -r ./ db.sakura.ne.jp
+    ```
+    
+2. データベースの接続設定をそれぞれ変更する。
+
+    見つかった各ファイルについて、データベース名、ホスト、パスワード、アカウントを変更する。
+
+データベースのせつ
