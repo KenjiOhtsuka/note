@@ -41,6 +41,11 @@ rsync -r -z -v account@servec.com:/home/account/www/ ./www/
     ```sql
     mysql -u account -p -h mysql.server.com db_name < db_name.sql
     ```
+    
+日本語ファイル名はファイルマネージャで確認できる。
+私がやった時は、 `export` コマンド が移行先サーバで実行できなかった。 (移行元サーバでは `export LANG=ja_JP.UTF-8` を実行すると日本語ファイル名でも表示された。)
+ファイルマネージャでは1画面に表示できるファイル数に制限があるので、すべてのファイルが表示されるわけではない。
+適宜ファイルパスを直接入力して確認する。
 
 ## データベース接続設定の変更
 
