@@ -49,11 +49,11 @@ rsync -r -z -v account@servec.com:/home/account/www/ ./www/
 1. 変更が必要なファイルを見つける
 
     ```sh
-    grep -r ./ db.sakura.ne.jp
+    grep -r db.sakura.ne.jp ./
     ```
     
 2. データベースの接続設定をそれぞれ変更する。
 
     見つかった各ファイルについて、データベース名、ホスト、パスワード、アカウントを変更する。
 
-データベースのせつ
+
