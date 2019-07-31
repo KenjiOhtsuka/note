@@ -32,3 +32,6 @@ HTTP でアクセスが来た時に、HTTPSにリダイレクトする。
     connectionTimeout="20000"
     redirectPort="8443" />
 ```
+
+
+各設定項目は Tomcat のサイトに説明が載っている。
