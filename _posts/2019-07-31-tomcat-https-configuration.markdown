@@ -8,8 +8,14 @@ categories: tomcat java server ec2
 AWS EC2 で Tomcat の設定。
 HTTP でアクセスが来た時に、HTTPSにリダイレクトする。
 
-昔海外のサイトで見て設定していたもの
+## conf/server.xml 設定
 
+昔海外のサイトで見て設定していて、うまいことリダイレクトされていたのだけど、
+そのときの設定やら参考にしたサイトやらまとめてなくて困った。
+
+既存のサーバにある情報からまとめたのがこちら。
+
+### 変更後
 
 ```xml
 <Connector port="8080" protocol="HTTP/1.1"
@@ -17,4 +23,12 @@ HTTP でアクセスが来た時に、HTTPSにリダイレクトする。
            proxyName="improve-future.com"
            connectionTimeout="20000"
            redirectPort="8443" />
+```
+
+### 初期設定
+
+```xml
+<Connector port="8080" protocol="HTTP/1.1"
+    connectionTimeout="20000"
+    redirectPort="8443" />
 ```
