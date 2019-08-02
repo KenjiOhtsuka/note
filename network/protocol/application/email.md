@@ -33,6 +33,21 @@ layout: page
     openssl s_client -connect host.com
     openssl s_client -connect host.com:993
     ```
+    
+    You have to be careful when you input user name and password.
+    
+    * AUTH LOGIN
+        
+        ```
+        printf 'username' | base64 # username
+        printf 'password' | base64 # password
+        ```
+    
+    * AUTH PLAIN
+        
+        ```
+        printf "%s\0... tr -d '\n' | pbcopy
+        ```
 
 
 ## POP
