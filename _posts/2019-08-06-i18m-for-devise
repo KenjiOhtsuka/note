@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Hokkaido Sapporo"
+date:   2019-08-06 20:52:48 +0900
+categories: Ruby Rails device i18n
+---
+
+# Rails 使った開発日誌
+
+## devise i18n
+
+
+```
+bundle add devise-i18n
+```
+
+* 翻訳ファイルの追加
+
+    ```sh
+    rails g devise:views:locale ja
+    ```
+    
+* View の追加
+
+    ```sh
+    rails g devise:rails g devise:i18n:locale it
+    ```
+    
+## Rspec install
+
+Rails 5 から少々変わったところはあるものの `rspec-rails` を導入すれば基本的に使える。
+
+```
+bundle add rspec-rails
+```
+    
