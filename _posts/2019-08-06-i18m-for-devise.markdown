@@ -34,3 +34,11 @@ Rails 5 から少々変わったところはあるものの `rspec-rails` を導
 bundle add rspec-rails
 ```
     
+## Factory Bot for Rails
+
+Factory Girl から、 名前の意味合いについて議論があったらしく Factory Bot という名前に変わっていた。
+Rails で使用する場合は `factory_girl_rails` を使う。
+
+```
+bundle add factory_girl_rails
+```
