@@ -36,3 +36,21 @@ Some setup you must do manually if you haven't yet:
 
        rails g devise:views
 ```
+
+## Message printed out after device install command
+
+```
+rails generate device:controller [scope]
+```
+
+```
+Some setup you must do manually if you haven't yet:
+
+  Ensure you have overridden routes for generated controllers in your routes.rb.
+  For example:
+
+    Rails.application.routes.draw do
+      devise_for :users, controllers: {
+        sessions: 'users/sessions'
+      }
+    end                                                                                                                             ```
