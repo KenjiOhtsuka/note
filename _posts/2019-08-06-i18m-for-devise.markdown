@@ -37,8 +37,8 @@ bundle add rspec-rails
 ## Factory Bot for Rails
 
 Factory Girl から、 名前の意味合いについて議論があったらしく Factory Bot という名前に変わっていた。
-Rails で使用する場合は `factory_girl_rails` を使う。
+Rails で使用する場合は `factory_bot_rails` を使う。
 
 ```
-bundle add factory_girl_rails
+bundle add factory_bot_rails
 ```
