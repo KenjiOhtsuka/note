@@ -4,6 +4,8 @@ layout: page
 
 # Ruby Gem Devise
 
+version 4.6.2
+
 ## Message printed out after devise install command
 
 ```
