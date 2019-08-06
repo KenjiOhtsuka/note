@@ -24,20 +24,20 @@ rails g devise:i18n:views user
 内容は、 devise 4.6.2 で生成されるものとほぼ同じで、違うのは多言語化のファイルを使っているところ。
 
 ```sh
-app/views/members/confirmations/new.html.erb
-app/views/members/mailer/confirmation_instructions.html.erb 
-app/views/members/mailer/email_changed.html.erb 
-app/views/members/mailer/password_change.html.erb 
-app/views/members/mailer/reset_password_instructions.html.erb 
-app/views/members/mailer/unlock_instructions.html.erb 
-app/views/members/passwords/edit.html.erb 
-app/views/members/passwords/new.html.erb 
-app/views/members/registrations/edit.html.erb 
-app/views/members/registrations/new.html.erb
-app/views/members/sessions/new.html.erb
-app/views/members/shared/_error_messages.html.erb
-app/views/members/shared/_links.html.erb
-app/views/members/unlocks/new.html.erb 
+app/views/users/confirmations/new.html.erb
+app/views/users/mailer/confirmation_instructions.html.erb 
+app/views/users/mailer/email_changed.html.erb 
+app/views/users/mailer/password_change.html.erb 
+app/views/users/mailer/reset_password_instructions.html.erb 
+app/views/users/mailer/unlock_instructions.html.erb 
+app/views/users/passwords/edit.html.erb 
+app/views/users/passwords/new.html.erb 
+app/views/users/registrations/edit.html.erb 
+app/views/users/registrations/new.html.erb
+app/views/users/sessions/new.html.erb
+app/views/users/shared/_error_messages.html.erb
+app/views/users/shared/_links.html.erb
+app/views/users/unlocks/new.html.erb 
 ```
 
 ### 翻訳ファイルの追加
