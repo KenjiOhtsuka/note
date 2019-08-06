@@ -17,9 +17,28 @@ bundle add devise-i18n
 ### View の追加
 
 ```sh
-rails g devise:i18n:views member  
+rails g devise:i18n:views user  
 ```
 
+これを実行すると、次のファイルが生成された。
+内容は、 devise 4.6.2 で生成されるものとほぼ同じで、違うのは多言語化のファイルを使っているところ。
+
+```sh
+app/views/members/confirmations/new.html.erb
+app/views/members/mailer/confirmation_instructions.html.erb 
+app/views/members/mailer/email_changed.html.erb 
+app/views/members/mailer/password_change.html.erb 
+app/views/members/mailer/reset_password_instructions.html.erb 
+app/views/members/mailer/unlock_instructions.html.erb 
+app/views/members/passwords/edit.html.erb 
+app/views/members/passwords/new.html.erb 
+app/views/members/registrations/edit.html.erb 
+app/views/members/registrations/new.html.erb
+app/views/members/sessions/new.html.erb
+app/views/members/shared/_error_messages.html.erb
+app/views/members/shared/_links.html.erb
+app/views/members/unlocks/new.html.erb 
+```
 
 ### 翻訳ファイルの追加
 
