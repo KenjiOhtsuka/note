@@ -42,6 +42,8 @@ app/views/members/unlocks/new.html.erb
 
 ### 翻訳ファイルの追加
 
+標準の言語ファイルから変更したければ次のコマンドでファイルを生成して編集する。
+
 ```sh
 rails g devise:views:locale ja
 ```
