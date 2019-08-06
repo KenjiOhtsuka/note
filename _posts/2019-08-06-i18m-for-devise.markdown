@@ -43,10 +43,14 @@ app/views/users/unlocks/new.html.erb
 ### 翻訳ファイルの追加
 
 標準の言語ファイルから変更したければ次のコマンドでファイルを生成して編集する。
+というかこれインストールしないと正確に表示されなかった。
 
 ```sh
 rails g devise:views:locale ja
 ```
+
+生成されるロケールファイルは微妙に変更が必要。
+`devise` のところをモデルの名前にしないとうまく動かなかった。
  
 ## Rspec install
 
