@@ -11,7 +11,7 @@ Rails 5.2 と devise 4 でユーザ認証を行う際の 独自の認証を実�
 
 `SessionsController` の `create` メソッド を変更する。 `SessionsController` は `Devise::SessionsController` を継承していて、 `create` メソッド の中身は `super` のみとなっている。
 
-```
+```ruby
 def create
   super
 end
