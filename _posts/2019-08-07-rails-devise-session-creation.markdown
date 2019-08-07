@@ -62,7 +62,7 @@ defaults write com.apple.finder AppleShowAllFiles TRUE
 Rails 4, 5 から、 `config.x` という書き方で独自の設定値を `config` に追加できるようになっている。
 (Rails 3 では `config.abc = 123` と書けば 各クラス内で `Rails.application.config.abc` で値が取れていた。)
 
-`config.x` では、 ハッシュで設定したものでも、 `.` で繋げて値を取得できる。
+~~`config.x` では、 ハッシュで設定したものでも、 `.` で繋げて値を取得できる。~~
 
 ```ruby
 config.x.a = {
