@@ -73,5 +73,5 @@ config.x.a = {
 これは次のように使用可能。
 
 ```ruby
-puts config.x.a.b
+puts Rails.configuration.x.a.b
 ```
