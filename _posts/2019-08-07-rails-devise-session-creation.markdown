@@ -69,9 +69,3 @@ config.x.a = {
   b: 1
 }
 ```
-
-これは次のように使用可能。
-
-```ruby
-puts Rails.configuration.x.a.b
-```
