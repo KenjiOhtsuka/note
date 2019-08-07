@@ -79,3 +79,11 @@ Ruby にエルビス演算子はないっぽい。
 hash[:key1].?[:key2].?[:key3]
 ```
 
+## source_location
+
+Ruby 2 では、次のようにすると、そのメソッドの記述されている場所が取得できる。
+
+```ruby
+method(:method_name).source_location
+```
+
