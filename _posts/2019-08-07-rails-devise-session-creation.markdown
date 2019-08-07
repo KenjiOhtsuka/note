@@ -56,3 +56,22 @@ defaults write com.apple.finder AppleShowAllFiles TRUE
 
 しかしこれをやっても、 IntelliJ IDEA のインタープリタパスで `.rvm` を選ぶことはできなかった。
 シンボリックリンクでも作ったほうが早いのか。
+
+## Config で独自の値を設定する方法
+
+Rails 4, 5 から、 `config.x` という書き方で独自の設定値を `config` に追加できるようになっている。
+(Rails 3 では `config.abc = 123` と書けば `config.abc` で値が取れていたような気がするが。)
+
+`config.x` では、 ハッシュで設定したものでも、 `.` で繋げて値を取得できる。
+
+```ruby
+config.x.a = {
+  b: 1
+}
+```
+
+これは次のように使用可能。
+
+```ruby
+puts config.x.a.b
+```
