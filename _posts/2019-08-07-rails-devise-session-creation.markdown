@@ -40,3 +40,14 @@ end
 
 もしくは `warden.authenticate!` の前に別のアカウントでの認証を挟んでしまうか。
 
+## Mac の Finder で隠しファイルを表示する方法
+
+ターミナルで
+
+```sh
+defaults write com.apple.finder AppleShowAllFiles TRUE
+```
+
+を実行する。
+この後、 Finder のアイコンを長押しして、 Relaunch を選ぶ。 すると表示されるようになる。
+(`killall Finder` をやっても表示されるようになるらしい。)
