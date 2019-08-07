@@ -35,7 +35,7 @@ end
 これをコピーすれば一応同じことはできる。 まずは `warden.authenticate!(auth_options)` で認証をやっているものと思われる。
 ここで `resource` に値を代入しているわけだが、 そもそも `warden.authenticate!` はなにをやっているのか。
 
-[StackOverFlow](https://stackoverflow.com/questions/4559434/how-to-authenticate-using-warden-authenticate) によると、 `sign_in` はクッキーを設定しているらしい。
+[StackOverFlow](https://stackoverflow.com/questions/4559434/how-to-authenticate-using-warden-authenticate) によると、 `sign_in` はクッキーを設定しているらしい。 `sign_in` は [sign_in_out.rb](https://github.com/plataformatec/devise/blob/v4.6.2/lib/devise/controllers/sign_in_out.rb) で定義されている。
 `set_flash_message!` はきっとログイン成功のメッセージを設定しているに違いないので、 `warden.authenticate!` がどうなっているかわからないと前に進めない。
 
 もしくは `warden.authenticate!` の前に別のアカウントでの認証を挟んでしまうか。
