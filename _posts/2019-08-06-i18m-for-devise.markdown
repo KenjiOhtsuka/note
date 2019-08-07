@@ -5,7 +5,7 @@ date:   2019-08-06 20:52:48 +0900
 categories: Ruby Rails device i18n
 ---
 
-# Rails 使った開発日誌
+# Rails 使った開発日誌 - 主に device-i18n
 
 ## devise i18n
 
