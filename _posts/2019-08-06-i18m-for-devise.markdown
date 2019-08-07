@@ -2,7 +2,7 @@
 layout: post
 title:  "Hokkaido Sapporo"
 date:   2019-08-06 20:52:48 +0900
-categories: Ruby Rails device i18n
+categories: Ruby Rails device i18n factory_bot_rails erb2slim gem view
 ---
 
 # Rails 使った開発日誌 - 主に device-i18n
