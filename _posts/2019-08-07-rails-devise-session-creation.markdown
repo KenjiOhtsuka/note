@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Rails 使った開発日誌 devise によるログインで独自の認証を実装する
+title: Rails 使った開発日誌 - devise によるログインで独自の認証を実装する
 categories: Ruby Rails device session
 ---
 
-# Rails 使った開発日誌 devise によるログインで独自の認証を実装する
+# Rails 使った開発日誌 - devise によるログインで独自の認証を実装する
 
 Rails 5.2 と devise 4 でユーザ認証を行う際の 独自の認証を実装する。
 他のデータベースやAPIでログインできればそれでログインできることにするものである。
@@ -51,3 +51,6 @@ defaults write com.apple.finder AppleShowAllFiles TRUE
 を実行する。
 この後、 Finder のアイコンを長押しして、 Relaunch を選ぶ。 すると表示されるようになる。
 (`killall Finder` をやっても表示されるようになるらしい。)
+
+しかしこれをやっても、 IntelliJ IDEA のインタープリタパスで `.rvm` を選ぶことはできなかった。
+シンボリックリンクでも作ったほうが早いのか。
