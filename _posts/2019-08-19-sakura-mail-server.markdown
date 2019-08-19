@@ -2,6 +2,7 @@
 layout: post
 title: さくらインターネット さくらのレンタルサーバ
 categories: sakura mail server cron
+date: 2019-08-19 03:00:00 -0700
 ---
 
 # さくらレンタルサーバの設定
