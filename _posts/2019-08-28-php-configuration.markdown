@@ -2,6 +2,7 @@
 layout: post
 categories: php apache httpd
 title: PHP configuration in Apache for .html files
+date: 2019-08-28 10:00:00
 ---
 
 # Docker apache で HTML ファイル を PHP として認識するよう設定した方法
