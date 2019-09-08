@@ -209,3 +209,12 @@ The computation of expectation and variance in a continuous random variable
 \\(T\\) は自由度 \\( n-1 \\) の \\(t\\) 分布に従う。
 
 \\\[ T = \\frac{\\bar{X}-\\mu}{\\frac{s}{\\sqrt{n}}} \\\]
+
+## Inference
+
+### Point estimation (点推定)
+
+to obtain the best guess to the value of that parameter.
+
+* estimator 
+    * a statistic that produces such a guess.
