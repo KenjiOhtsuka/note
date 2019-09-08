@@ -218,3 +218,13 @@ to obtain the best guess to the value of that parameter.
 
 * estimator 
     * a statistic that produces such a guess.
+
+### Confidence interval (信頼区間)
+
+confidence level
+
+### hypothesis testing (仮説検定)
+
+test statistic
+
+significance level
