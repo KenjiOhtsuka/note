@@ -105,3 +105,9 @@ layout: post
     * installability
     * スケーラビリティ scalability
     * localizability 
+
+## アーキテクチャ
+
+* ソフトウェアアーキテクチャの領域
+    * 非機能要件
+    * 機能要件の分解
