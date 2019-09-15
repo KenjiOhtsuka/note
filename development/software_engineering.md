@@ -59,6 +59,7 @@ layout: post
 
 * 要求エンジニア(requirement engineer)/要求エンジニアリング(requirement engineering)の仕事
     * 意思決定者が一貫した要件を策定できるように、すべての利害関係者情報を分類する。
+    * 
     * 最終的に**Requirement Spefcification Document**(要求仕様書)を作成する。
 
 要求は機能要件と非機能要件の2種類に分けられる。
@@ -105,6 +106,10 @@ layout: post
     * installability
     * スケーラビリティ scalability
     * localizability 
+
+### 受入テスト
+
+User Acceptance Test (UAT) はカスタマーによって要求分析の際に作成される。
 
 ## アーキテクチャ
 
