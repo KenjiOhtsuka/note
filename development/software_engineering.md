@@ -54,3 +54,41 @@ layout: post
 1. 大きな問題を小さい問題に分割して優先順位をつける。
 2. 各イテレーションで開発を徐々に進めていく。
 3. カスタマーのフィードバックを得ながら、開発の方向性を調整する。
+
+## 要求分析
+
+### 非機能要件
+
+### FURPS+
+
+システムが備える非機能属性。
+
+* Functionality
+    * 考慮されているべき追加機能
+    * security, which refers to ensuring data integrity and authorized access to information
+* Usability
+    * the ease of use
+    * esthetics
+    * consistency
+    * documentation—a system that is difficult confusing to use will likely fail to accomplish its intended purpose
+* Reliability
+    * the expected frequency of system failure under certain operating conditions
+    * recoverability
+    * predictability
+    * accuracy
+    * mean time to failure (MTTF)
+* Performance
+    * the computing speed
+    * efficiency
+    * resource consumption
+    * スループット throughput
+    * レスポンス時間 response time
+* Supportability
+    * testability
+    * adaptability
+    * 保守性 maintainability
+    * 互換性 compatibility
+    * configurability
+    * installability
+    * スケーラビリティ scalability
+    * localizability 
