@@ -116,6 +116,17 @@ layout: post
 * コストバリューアプローチで優先順位をつけることが多い。
     * 実装コスト + 予想される利益 を提示して、顧客に優先順位を決めてもらう。
 
+たとえば次の4つに要求は分けられる。
+
+1. Essential
+    * have to be realized to make the system acceptable to the customer.
+2. Desirable
+    * highly desirable, but not mandatory requirements
+3. Optional
+    * might be realized if time and resources permit
+4. Future
+    * will not be realized in the current version of the system-to-be, but should be recorded for consideration in future versions 
+
 ### 受入テスト
 
 User Acceptance Test (UAT) はカスタマーによって要求分析の際に作成される。
