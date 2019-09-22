@@ -181,13 +181,30 @@ User Acceptance Test (UAT) はカスタマーによって要求分析の際に�
 
 20% の誤差までなら、 非常によく見積れていると言える。
 
+ユースケースポイントは次の式で計算する。
+
+    UCP = UUCP x TCF x ECF
+
 * Unadjusted Use Case Points (UUCP)
     * 機能要件(functional requirement)の複雑さを計測したもの。
 * Technical Complexity Factor (TCF)
     * 非機能要件(non-functional requirement)の複雑さを計測したもの。
 * Environment Complexity Factor (ECF)
     * 開発チームの経験・環境を計測したもの。
-    
+
+##### UUCP
+
+UUCP は次の式で計算する。
+
+    UUCP = UAW + UUCW
+
+* Unadjusted Actor Weight (UAW)
+    * すべてのユースケースの、全てのアクターのウェイト合計。
+* Unadjusted Use Case Weight (UUCW)
+    * すべてのユースケースシナリオに含まれるアクティビティ数(またはステップ数)の合計。
+
+###### Unadjusted Actor Weight (UAW)
+
 ユースケースにおけるアクターの分類とウェイト。
 
 | Actor Type | | Weight |
@@ -196,15 +213,18 @@ User Acceptance Test (UAT) はカスタマーによって要求分析の際に�
 | Average | テキストベースのUIからシステムを利用する人間。 プロトコルを介してシステムにアクセスする他のシステム。 | 2 |
 | Complex | GUIを通じてシステムに関与する人間。 | 3 |
 
-    UCP = UUCP x TCF x ECF
-    UUCP = UAW + UUCW
+###### Unadjusted Use Case Weight (UUCW)
 
-* Unadjusted Actor Weight (UAW)
-    * すべてのユースケースの、全てのアクターのウェイト合計。
-* Unadjusted Use Case Weight (UUCW)
-    * すべてのユースケースシナリオに含まれるアクティビティ数(またはステップ数)の合計。
+トランザクション数に応じたユースケースのウェイト。
 
-    
+| Category | | Weight |
+|:--|:--|:--|
+| Simple | 単純なUI。 関連するアクターは1人まで。 シナリオのステップ数は3以下。 ドメインモデルの含むコンセプトが3以下。 | 5 |
+| Average | 標準的なUI。 関連するアクターは2人以上。 シナリオのす鉄砲数は4-7。 ドメインモデルの含むコンセプトは5-10。| 10 |
+| Complex | 複雑なUIまたは処理。 関連するアクターは3人以上。 シナリオのステップ数は 7以上。 ドメインモデルは10以上のコンセプトを含む。 | 15 |
+
+##### TCF
+
 
 ### Traceability matrix
 
