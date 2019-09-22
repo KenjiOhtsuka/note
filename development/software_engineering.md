@@ -167,6 +167,45 @@ User Acceptance Test (UAT) はカスタマーによって要求分析の際に�
 
 #### Detailed Use Case
 
+#### Use Case Points
+
+ゴールまでに必要な時間を決める要素は3つある。
+
+* Functional requirements
+    * ユースケースとして表現される。
+    * ユースケースの複雑さは、アクターの数と複雑さ、それぞれのユースケースで実行されるステップ数(トランザクション数)によって決まる。
+* Non-functional requirements
+    * FURPS+ として知られているものに加えて、 technical complexity factors がある。
+* Environment factors
+    * 開発チームの経験、知識、開発チームが使用するツール
+
+20% の誤差までなら、 非常によく見積れていると言える。
+
+* Unadjusted Use Case Points (UUCP)
+    * 機能要件(functional requirement)の複雑さを計測したもの。
+* Technical Complexity Factor (TCF)
+    * 非機能要件(non-functional requirement)の複雑さを計測したもの。
+* Environment Complexity Factor (ECF)
+    * 開発チームの経験・環境を計測したもの。
+    
+ユースケースにおけるアクターの分類とウェイト。
+
+| Actor Type | | Weight |
+|:--|:--|:--|
+| Simple | 別のシステム。 APIなど。 | 1 |
+| Average | テキストベースのUIからシステムを利用する人間。 プロトコルを介してシステムにアクセスする他のシステム。 | 2 |
+| Complex | GUIを通じてシステムに関与する人間。 | 3 |
+
+    UCP = UUCP x TCF x ECF
+    UUCP = UAW + UUCW
+
+* Unadjusted Actor Weight (UAW)
+    * すべてのユースケースの、全てのアクターのウェイト合計。
+* Unadjusted Use Case Weight (UUCW)
+    * すべてのユースケースシナリオに含まれるアクティビティ数(またはステップ数)の合計。
+
+    
+
 ### Traceability matrix
 
 * PW (Priority Weibght)
