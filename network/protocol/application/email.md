@@ -70,6 +70,10 @@ body
 QUIT
 ```
 
+### AWS SES での送信例
+
+https://docs.aws.amazon.com/ja_jp/ses/latest/DeveloperGuide/send-email-smtp-client-command-line.html
+
 
 ## POP
 
