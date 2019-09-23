@@ -14,6 +14,7 @@ layout: page
 | DATA | メッセージの送信開始の可否確認 |
 | QUIT | 正常なコネクション解法 |
 | RSET | 強制的なコネクション解法 |
+| AUTH LOGIN | ログイン。 実行後にBase64エンコードされたユーザ名、パスワードを続けて入力する。|
 
 ### Command
 
@@ -48,6 +49,26 @@ layout: page
         ```
         printf "%s\0... tr -d '\n' | pbcopy
         ```
+        
+### Example
+
+```sh
+telnet something.com 587
+
+HELO
+
+MAIL FROM: test@example.com
+
+RCPT TO: test@example.com
+
+DATA
+From: from@examile.com
+Subject: subject
+body
+.
+
+QUIT
+```
 
 
 ## POP
@@ -90,4 +111,11 @@ STAT
 LIST
 
 RETR 3
+```
+
+## Base64 Encoding
+
+```
+perl -MMIME::Base64 -e 'print encode_base64("username");'
+perl -MMIME::Base64 -e 'print encode_base64("password");'
 ```
