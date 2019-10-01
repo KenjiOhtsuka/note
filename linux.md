@@ -10,6 +10,20 @@ layout: page
 useradd name
 ```
 
+## Delete User
+
+* remove user
+
+    ```sh
+    userdel name
+    ```
+
+* remove user, remove home directory
+
+    ```sh
+    userdel -r name
+    ```
+
 ## Add group
 
 ```sh
