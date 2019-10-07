@@ -1,7 +1,7 @@
 ---
 layout: post
 title: フォントファイルをサブセット化する方法
-tags: font woff woff2 nodejs python
+categories: font woff woff2 nodejs python
 date: 2019-10-07T10:00:00+9:00
 ---
 
