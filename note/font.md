@@ -12,3 +12,4 @@ layout: page
     * フォント情報が圧縮されている。
 * WOFF: Web Open Font Format 2
     * WOFF より 圧縮率が高い。
+* EOT: Embedded Open Type
