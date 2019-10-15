@@ -9,7 +9,7 @@ layout: page
 `zip`: zip ファイルを作成するコマンド。
 
 
-## 
+## ZipCloak
 
 `zipcloak`: zip ファイル にパスワードをつけるためのコマンド。
 
@@ -24,4 +24,6 @@ mac の zipcloak を使ってパスワードをつけたものが開けないと
 brew cask install maczip4win
 ```
 
+### How to use
 
+GUI Window に、 zip にしたいファイルをドラッグ&ドロップする。
