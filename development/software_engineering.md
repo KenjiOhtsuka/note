@@ -245,3 +245,8 @@ UUCP は次の式で計算する。
 * ソフトウェアアーキテクチャの領域
     * 非機能要件
     * 機能要件の分解
+
+
+## Robustness diagram
+
+* [ロバストネス図を活用したシステム設計](https://thinkit.co.jp/article/13487)
