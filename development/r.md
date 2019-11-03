@@ -204,3 +204,24 @@ sample_size <- function (p, diff, confidence_level = 0.95) {
   (qnorm(1 - (1 - confidence_level) / 2) * sqrt(p * (1 - p)) / diff)^2
 }
 ```
+
+### Outlier
+
+```r
+# Function to calculate outlier
+#
+# Example
+#   > x <- c(1, 7, 3, 9, 0, 6, 43, 42, 3, 8, 5, 9, 1, 0)
+#   > outlier(x)
+#   [1] 43 42
+# 
+outlier <- function (x) {
+  q1 <- quantile(x, 0.25)
+  q3 <- quantile(x, 0.75)
+  iqr <- IQR(x)
+  
+  low <- q1 - 1.5 * iqr
+  high <- q3 + 1.5 * iqr
+  x[x < low | high < x] 
+}
+```
