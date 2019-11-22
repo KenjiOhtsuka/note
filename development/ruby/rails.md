@@ -21,3 +21,9 @@ If you add `owner_id` column to `users` table:
 ```sh
 rails g migration AddOwnerIdToUsers
 ```
+
+## Migration
+
+```sh
+bundle exec rake db:migrate:status
+```
