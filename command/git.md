@@ -146,6 +146,8 @@ git show branch_name:file_path
 
 * 見本
     * https://gist.github.com/stephenparish/9941e89d80e2bc58a153
+        * AngularJS のルールをまとめたもの。
+        * [本家 Angular JS のルール](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/)
 
 ## Other
 
