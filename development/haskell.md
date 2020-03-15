@@ -72,3 +72,14 @@ if var == 1 then
 else
   ...
 ```
+
+## built-in function
+
+### lines
+
+split string into multiple lines
+
+```haskell
+lines "a\nb"
+-- >  ["a", "b"]
+```
