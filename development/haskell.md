@@ -333,4 +333,32 @@ shiftL 2 2
 -- > 8
 ```
 
+## DB Connection
 
+### setup
+
+```sh
+stack install HDBC
+stack install HDBC-postgresql
+stack install HDBC-mysql
+```
+
+### Sample code
+
+```haskell
+import Database.HDBC
+import Database.HDBC.PostgreSQL
+import Database.HDBC.MySQL
+
+main = do
+  conn <- connectPostgreSQL "host=54.250.123.50 dbname=mother user=prd_user password=P0s@uneR3278"
+  result <- quickQuery' conn "SELECT * from members limit 10" []
+  print result
+  disconnect conn
+```
+
+### Compile
+
+```sh
+stack ghc -v something.hs --package HDBC --package HDBC-postgresql --package HDBC-mysql
+```
