@@ -14,7 +14,7 @@ sh: line 0: exec: sh: not found
 ```
 
 ```
- % /Users/kenjiotsuka/.mix/rebar3 bare compile --paths="/Users/kenjiotsuka/project/elixtest/hello/_build/dev/lib/*/ebin"
+ % /Users/name/.mix/rebar3 bare compile --paths="/Users/kenjiotsuka/project/elixtest/hello/_build/dev/lib/*/ebin"
 ===> Uncaught error in rebar_core. Run with DEBUG=1 to see stacktrace or consult rebar3.crashdump
 ===> When submitting a bug report, please include the output of `rebar3 report "your command"`
 ```
