@@ -6,8 +6,10 @@ date: 2020-04-27
 ```
  % mix deps.compile ranch
 sh: line 0: exec: sh: not found
-** (Mix) Could not compile dependency :ranch, "/Users/kenjiotsuka/.mix/rebar3 bare compile --paths="/Users/kenjiotsuka/project/elixtest/hello/_build/dev/lib/*/ebin"" command failed. You can recompile this dependency with "mix deps.compile ranch", update it with "mix deps.update ranch" or clean it with "mix deps.clean ranch"
-kenjiotsuka@MacBook-Pro-2 ~/project/elixtest/hello
+** (Mix) Could not compile dependency :ranch, "/Users/name/.mix/rebar3 bare compile --paths="/Users/name/project/elixtest/hello/_build/dev/lib/*/ebin"" command failed. You can recompile this dependency with "mix deps.compile ranch", update it with "mix deps.update ranch" or clean it with "mix deps.clean ranch"
+```
+
+```
  % /Users/kenjiotsuka/.mix/rebar3 bare compile --paths="/Users/kenjiotsuka/project/elixtest/hello/_build/dev/lib/*/ebin"
 ===> Uncaught error in rebar_core. Run with DEBUG=1 to see stacktrace or consult rebar3.crashdump
 ===> When submitting a bug report, please include the output of `rebar3 report "your command"`
