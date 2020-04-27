@@ -1,7 +1,8 @@
 ---
-date: 2020-04-27
+date: 2020-04-27 10:52:48 +0900
 title: elixir ranch エラー
-
+categories: Elixir Phoenix
+layout: post
 ---
 
 Phoenix を使おうとしたらエラーに遭遇した。
