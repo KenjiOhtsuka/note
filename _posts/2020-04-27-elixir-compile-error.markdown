@@ -46,3 +46,10 @@ sh: line 0: exec: sh: not found
  {escript,start,1,[{file,"escript.erl"},{line,277}]}]
 ===> When submitting a bug report, please include the output of `rebar3 report "your command"`
 ```
+
+## やってみたこと
+
+* `brew update`, `brew upgrade`
+  * 効果なし
+* `open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg`
+  * インストールに失敗。
