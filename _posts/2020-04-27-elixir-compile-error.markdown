@@ -1,6 +1,10 @@
 ---
 date: 2020-04-27
+title: elixir ranch エラー
+
 ---
+
+Phoenix を使おうとしたらエラーに遭遇した。
 
 
 ```
