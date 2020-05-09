@@ -13,6 +13,9 @@ brew install postgresql
 postgres -D /usr/local/var/postgres
 ```
 
+When the database doesn't start successfully after `brew upgrade`, try `pg_ctl -D /usr/local/var/postgres start` so that it prints out the detail message such as "The data directory was initialized by PostgreSQL version 11, which is not compatible with this version 12.2."
+For upgrading, `brew postgresql-upgrade-database` will help.
+
 * [PostgreSQLの環境をmacのローカルに作成＆SQL操作（＆ついでにDataGripへの接続）](https://qiita.com/ysdyt/items/64ed98b420ea5c4e52ec)
 
 ### Login as root user
