@@ -53,3 +53,7 @@ sh: line 0: exec: sh: not found
   * 効果なし
 * `open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg`
   * インストールに失敗。
+  
+## Solution
+
+* 先に DB Config の設定を行う。
