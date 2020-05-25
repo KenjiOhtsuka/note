@@ -25,8 +25,15 @@ if ( force_ssl_admin() && ! is_ssl() ) {
 }
 ```
 
-解決策はいくつか決まったものがあるが、今回は Apache の設定に次の1行を追加して解決した。
+今回は Apache の設定に次の1行を追加して解決した。
 
 ```
 SetEnvIf X-Forwarded-Proto https HTTPS=on
+```
+
+次の `if` 文 を wp-config.php に記述するとよいらしいが、 今回は解決しなかった。
+
+```php
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')
+    $_SERVER['HTTPS'] = 'on';
 ```
