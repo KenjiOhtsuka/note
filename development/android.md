@@ -19,3 +19,7 @@ jarsigner -verbose -keystore name.keystore release_app.aab alias-name
   ```
   flutter build bundle --release
   ```
+
+### icon
+
+* https://qiita.com/rkowase/items/e0f3f8aec207ed8567aa
