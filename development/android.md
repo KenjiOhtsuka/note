@@ -11,3 +11,11 @@ keytool -genkey -v -keystore name.keystore -alias alias_name -keyalg RSA -keysiz
 ```
 jarsigner -verbose -keystore name.keystore release_app.aab alias-name
 ```
+
+## Flutter
+
+* build for release
+
+  ```
+  flutter build bundle --release
+  ```
