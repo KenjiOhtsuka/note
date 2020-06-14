@@ -41,3 +41,11 @@ jar {
   }
 }
 ```
+
+## Wrapper
+
+バージョン変更
+
+```
+./gradlew wrapper --gradle-version=6.5
+```
