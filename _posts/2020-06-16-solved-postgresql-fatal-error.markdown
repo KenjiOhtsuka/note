@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PostgreSQL - Solved - FATAL:  remaining connection slots are reserved for non-replication superuser connections
+title: "PostgreSQL - Solved - FATAL:  remaining connection slots are reserved for non-replication superuser connections"
 categories: postgresql dbms error fatal
 date: 2020-06-16 09:00:00 +09:00
 ---
