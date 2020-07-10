@@ -108,4 +108,14 @@ And sometimes DBA is required to plan, develop and troubleshoot.
 
 ### Application Developer
 
-* integrated database application development
+
+## SQL
+
+* data definition language (DDL)
+  * to create, alter, and manipulate the objects within the database.
+* Data Manipulation Language (DML)
+  * to add data, delete data, update existing data, and find and extract data from the database. 
+* Data Control Language (DCL)
+  * used to control access to the data within the database.
+  * rant access to the database, to particular tables or even particular columns or rows within a table.
+  * The security of the database in terms of authentication
