@@ -77,9 +77,11 @@ UNIXが開発されていたコンピュータには、 当時大容量だった
 
 Retrieved from https://twitter.com/EzoeRyou/status/1059730949334695937
 
-## apt
+## Package manager
 
-### options
+### apt
+
+#### options
 
 * -d : ダウンロードのみ行う. アーカイブのインストール, 展開は行わない
 * -s : 実行シミュレーションのみ行う
@@ -87,3 +89,13 @@ Retrieved from https://twitter.com/EzoeRyou/status/1059730949334695937
 * -f : 整合性チェックで失敗しても処理を続行する。
 * -b : ソースパッケージを取得して、ビルドを行う
 * -qq : エラーのみ表示する
+
+
+### yum
+
+
+* remove repository
+
+    ```
+    rm -f /etc/yum.repos.d/c6-media.repo
+    ```
