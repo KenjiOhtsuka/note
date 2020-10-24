@@ -70,7 +70,7 @@
     * コンポーネント間の動的な関係を表示する。
     * <<actor>>, <<component>> を並べて動きを表す。
   
-## Reference
+## 参考文献 Reference
 
 * [コンサルタントになる人のはじめての業務分析](https://www.amazon.co.jp/dp/4797324058/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=c803ac4bb54763f0ce505fff789c03d3&language=ja_JP)
 * [ユースケース実践ガイド―効果的なユースケースの書き方](https://www.amazon.co.jp/dp/4798101273/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=061a1ec761a88260662ee9a46e2e75f3&language=ja_JP)
