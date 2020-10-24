@@ -69,3 +69,15 @@
 9. コンポーネントの相互作用 (シーケンス図)
     * コンポーネント間の動的な関係を表示する。
     * <<actor>>, <<component>> を並べて動きを表す。
+  
+## Reference
+
+* [コンサルタントになる人のはじめての業務分析](https://www.amazon.co.jp/dp/4797324058/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=c803ac4bb54763f0ce505fff789c03d3&language=ja_JP)
+* [ユースケース実践ガイド―効果的なユースケースの書き方](https://www.amazon.co.jp/dp/4798101273/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=061a1ec761a88260662ee9a46e2e75f3&language=ja_JP)
+* [UML モデリングのエッセンス](https://www.amazon.co.jp/dp/4798107956/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=870c6a74dfcc567e58f0c3f39cace55a&language=ja_JP)
+* [UMLコンポーネント設計―コンポーネントベースソフトウェアのための開発プロセス](https://www.amazon.co.jp/dp/489471387X/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=61c614f76f86e0733c36e5b977a9f63b&language=ja_JP)
+* [UMLによる統一ソフトウェア開発プロセス―オブジェクト指向開発方法論](https://www.amazon.co.jp/dp/4881358367/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=3ac3aa62f25e63fb38bd694cf43888b0&language=ja_JP)
+* [ビジネスコンポーネントファクトリ](https://www.amazon.co.jp/dp/4798100935/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=31597e917dac4299cda76f7899bf77dd&language=ja_JP)
+* [アナリシスパターン―再利用可能なオブジェクトモデル](https://www.amazon.co.jp/dp/4894716933/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=d9416826fccd9c152ebe00d94fd097df&language=ja_JP)
+* [企業情報システムの一般モデル―UMLによるビジネス分析と情報システムの設計](https://www.amazon.co.jp/dp/4894714841/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=c41bc98f4bd11366c67680870b959f7c&language=ja_JP)
+* [アジャイルモデリング―XPと統一プロセスを補完するプラクティス](https://www.amazon.co.jp/dp/4798102636/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=kjot-22&linkId=3686fe40e0dd420ba27bf68e58b06960&language=ja_JP)
