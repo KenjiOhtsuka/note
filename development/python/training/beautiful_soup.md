@@ -107,5 +107,67 @@ exp = re.compile(r'e$')
 p_elements = soup.find_all(id=exp)
 for p in p_elements:
     print(p.string)
+```
 
+### Output
+
+```
+<html>
+ <head>
+  <title>
+   title text
+  </title>
+ </head>
+ <body>
+  <h1 class="heading" name="heading">
+   first header
+  </h1>
+  <p id="first_sentence">
+   first
+  </p>
+  <p name="sentence 2">
+   second
+  </p>
+  <p data-1="one" data-2="2">
+   third
+  </p>
+  <p name="sentence 4">
+   final
+  </p>
+ </body>
+</html>
+
+==============================================
+= find elements with soup structure
+==============================================
+title: title text
+first p: first
+p sibling: 
+
+second p: second
+==============================================
+= find elements by tag name
+==============================================
+first_sentence : first
+(no id) : second
+(no id) : third
+(no id) : final
+==============================================
+= find elements with attribute
+==============================================
+p with id: first
+p with condition: third
+==============================================
+= find elements with CSS selector
+==============================================
+heading: first header
+p: first
+first
+second
+third
+final
+==============================================
+= find elements with regular expression
+==============================================
+first
 ```
