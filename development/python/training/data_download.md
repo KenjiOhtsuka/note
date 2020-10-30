@@ -10,6 +10,10 @@ version 3.9.0
 
 ## Download sample
 
+* `urllib.request` helps to get data from internet. When you put URL such as "http://...", "https://..." and "ftp://...", you can get the data.
+* `urllib.parse` helps to convert dictionary to query parameter text, "param1=value1&param2=value2". When you use parameter value composed of non-alphanumeric text, it is helpful.
+
+
 ```python
 import urllib.request
 
