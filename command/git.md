@@ -142,6 +142,12 @@ git show branch_name:file_path
     !dir/file
     ```
 
+## checkout revision
+
+```sh
+git checkout {revision}
+```
+
 ## Commit Message
 
 * 見本
