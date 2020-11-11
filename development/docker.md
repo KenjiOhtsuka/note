@@ -31,3 +31,11 @@ docker rm [container id or name]
 ```sh
 docker start -i [container id or name]
 ```
+
+## Log
+
+remove log 
+
+* the following comand shows the log file location
+    `docker inspect CONTAINER_ID --format "{{.LogPath}}"`
+* 
