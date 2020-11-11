@@ -37,5 +37,7 @@ docker start -i [container id or name]
 remove log 
 
 * the following comand shows the log file location
-    `docker inspect CONTAINER_ID --format "{{.LogPath}}"`
-* 
+    * `docker inspect CONTAINER_ID --format "{{.LogPath}}"`
+* rotation
+    * `docker run -d --log-opt max-size=100m --log-opt max-file=10 my-docker-image`
+        * `--log-opt max-size=XX`, `--log-opt max-file=XX`, 
