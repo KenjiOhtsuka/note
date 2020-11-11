@@ -41,3 +41,9 @@ remove log
 * rotation
     * `docker run -d --log-opt max-size=100m --log-opt max-file=10 my-docker-image`
         * `--log-opt max-size=XX`, `--log-opt max-file=XX`, 
+
+## Jupyre notebook
+
+`jupyter notebook --ip=0.0.0.0 --allow-root`
+
+ip, allow-root options are required to launch the notebook in docker.
