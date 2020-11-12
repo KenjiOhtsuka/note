@@ -133,10 +133,69 @@ se is in y: False
 
 ## 07. Template-based sentence generationPermalink
 
+```python
+def function(x, y, z):
+    return f"{y} is {z} at {x}"
 
+function(12, "temperature", 22.4)
+```
+
+### Output
+
+```text
+'temperature is 22.4 at 12'
+```
 
 ## 08. cipher textPermalink
 
+```python
+def chipher(text):
+    return "".join([chr(219 - ord(c)) if c.islower() else c for c in text])
 
+target_text = "Hello"
+print(target_text)
+result = chipher(target_text)
+print(result)
+result = chipher(result)
+print(result)
+```
+
+### Output
+
+```text
+Hello
+Hvool
+Hello
+```
 
 ## 09. TypoglycemiaPermalink
+
+```python
+text = "I couldn’t believe that I could actually understand what I was reading : the phenomenal power of the human mind"
+
+import random
+
+def shuffle(text):
+    characters = [c for c in text]
+    for _ in range(3):
+        for i in range(len(text)):
+            target_1 = random.randint(0, len(text) - 1)
+            target_2 = random.randint(0, len(text) - 1)
+            characters[target_1], characters[target_2] =\
+                characters[target_2], characters[target_1]
+    return "".join(characters)
+        
+
+def convert(text):
+    words = text.split(" ")
+    return " ".join([word if len(word) <= 4 else word[0] + shuffle(word[1:-1]) + word[-1] for word in words])
+    
+convert(text)
+```
+
+### Output
+
+```text
+'I cd’olunt bveelie that I could atllucay udrtnsenad what I was raideng : the pomnnheeal power of the haumn mind'
+```
+```
