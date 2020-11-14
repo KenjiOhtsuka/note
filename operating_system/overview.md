@@ -10,3 +10,10 @@ layout: page
 
 * file system
    * the software in the operating system, that usually manages the disk
+
+
+## Virtualization
+
+* hardware virtualization
+    * one that based on the use of a hypervisor (ESX, Hyper-V)
+    * one that functions as a software package running on top of host OS (VMware Server, Parallels Desktop).
