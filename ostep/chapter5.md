@@ -71,6 +71,58 @@ child - x: 111 (changed)
 
 ## 2
 
+file writting happens in the order of process execution.
+
 ### Code
 
+```c
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <fcntl.h>
+
+
+int main(int argc, char *argv[]) {
+    printf("## show arguments\n");
+    for (int i = 0; i < argc; ++i)
+        printf("%d: %s\n", i, argv[i]);
+
+    printf("## close STDOUT\n");
+    close(STDOUT_FILENO);
+
+    printf("## open the file.\n");
+    open("./homework2.output", O_CREAT|O_WRONLY|O_TRUNC, S_IRWXU);
+
+    int cp = fork();
+    if (cp < 0) {
+        // failed
+        printf("fork failed.\n");
+    } else if (cp == 0) {
+        // child process
+        printf("hello, this is the child process.\n");
+    } else {
+        // parent process
+        printf("hello, this is the parent process.\n");
+        wait(NULL);
+        printf("hello, this is the parent process, again.\n");
+    }
+    return 0;
+}
+```
+
+### Output
+
+```
+ % ./chapter-5/homework2.out
+## show arguments
+0: ./chapter-5/homework2.out
+## close STDOUT
+
+ % cat homework2.output 
+hello, this is the parent process.
+hello, this is the child process.
+hello, this is the parent process, again.
+```
+
+# 3
 
