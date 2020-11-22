@@ -319,3 +319,50 @@ wait return value in child process: -1
 wait return value in parent process: 36928
 hello, this is the parent process, again (PID: 36927).
 ```
+
+## 6
+
+### Code
+
+```c
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+int main(int argc, char *argv[]) {
+    printf("## show arguments\n");
+    for (int i = 0; i < argc; ++i)
+        printf("%d: %s\n", i, argv[i]);
+
+    int cp = fork();
+    if (cp < 0) {
+        // fail
+        printf("fork failed.\n");
+    } else if (cp == 0) {
+        // child process
+        printf("hello, this is the child process (PID: %d).\n", getpid());
+        int wait_rv = waitpid(-1, NULL, 0);
+        printf("wait return value in child process: %d\n", wait_rv);
+    } else {
+        // parent process
+        printf("hello, this is the parent process (PID: %d).\n", getpid());
+        int wait_rv = waitpid(cp, NULL, 0);
+        printf("wait return value in parent process: %d\n", wait_rv);
+        printf("hello, this is the parent process, again (PID: %d).\n", getpid());
+    }
+    return 0;
+}
+```
+
+#### Output
+
+```
+ % ./a.out        
+## show arguments
+0: ./a.out
+hello, this is the parent process (PID: 37082).
+hello, this is the child process (PID: 37083).
+wait return value in child process: -1
+wait return value in parent process: 37083
+hello, this is the parent process, again (PID: 37082).
+```
