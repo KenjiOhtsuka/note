@@ -371,6 +371,8 @@ hello, this is the parent process, again (PID: 37082).
 
 ## 7
 
+The child process stops printing out the message. It makes no effect on the parent process.
+
 ### Code
 
 ```c
