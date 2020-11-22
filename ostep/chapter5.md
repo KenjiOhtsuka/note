@@ -269,3 +269,53 @@ compile.sh      homework1.out   homework2.out   homework3.out   newfile.txt     
 a.out           homework1.c     homework2.c     homework3.c     homework4.c     p1.c            p2.c            p3.c            p4.c
 compile.sh      homework1.out   homework2.out   homework3.out   newfile.txt     p1.out          p2.out          p3.out          p4.out
 ```
+
+
+## 5
+
+wait returns the PID of the process to be waited. wait returns `-1` when there is no process to be waited.
+
+### Code
+
+```c
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+int main(int argc, char *argv[]) {
+    printf("## show arguments\n");
+    for (int i = 0; i < argc; ++i)
+        printf("%d: %s\n", i, argv[i]);
+
+    int cp = fork();
+    if (cp < 0) {
+        // fail
+        printf("fork failed.\n");
+    } else if (cp == 0) {
+        // child process
+        printf("hello, this is the child process (PID: %d).\n", getpid());
+        int wait_rv = wait(NULL);
+        printf("wait return value in child process: %d\n", wait_rv);
+    } else {
+        // parent process
+        printf("hello, this is the parent process (PID: %d).\n", getpid());
+        int wait_rv = wait(NULL);
+        printf("wait return value in parent process: %d\n", wait_rv);
+        printf("hello, this is the parent process, again (PID: %d).\n", getpid());
+    }
+    return 0;
+}
+```
+
+#### Output
+
+```text
+ % ./a.out        
+## show arguments
+0: ./a.out
+hello, this is the parent process (PID: 36927).
+hello, this is the child process (PID: 36928).
+wait return value in child process: -1
+wait return value in parent process: 36928
+hello, this is the parent process, again (PID: 36927).
+```
