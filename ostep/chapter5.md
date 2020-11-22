@@ -124,5 +124,43 @@ hello, this is the child process.
 hello, this is the parent process, again.
 ```
 
-# 3
+## 3
 
+using `sleep` function, the parent can wait for a while.
+
+### Code
+
+```c
+#include <stdio.h>
+#include <unistd.h>
+
+int main(int argc, char *argv[]) {
+    printf("## show arguments\n");
+    for (int i = 0; i < argc; ++i)
+        printf("%d: %s\n", i, argv[i]);
+
+    int cp = fork();
+    if (cp < 0) {
+        // failed
+        printf("fork failed.\n");
+    } else if (cp == 0) {
+        // child process
+        printf("hello.\n");
+    } else {
+        // parent process
+        sleep(1);
+        printf("goodbye.\n");
+    }
+    return 0;
+}
+```
+
+#### Output
+
+```
+ % ./chapter-5/homework3.out
+## show arguments
+0: ./chapter-5/homework3.out
+hello.
+goodbye.
+```
