@@ -322,6 +322,8 @@ hello, this is the parent process, again (PID: 36927).
 
 ## 6
 
+`waitpid` is useful when the process id to be waited is apparent or when we wait for the specific process.
+
 ### Code
 
 ```c
