@@ -164,3 +164,108 @@ int main(int argc, char *argv[]) {
 hello.
 goodbye.
 ```
+
+## 4
+
+exec family is prepared for useful tools, so that many alternative functions were develped.
+
+### Code
+
+```c
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+
+int main(int argc, char *argv[]) {
+    printf("## show arguments\n");
+    for (int i = 0; i < argc; ++i)
+        printf("%d: %s\n", i, argv[i]);
+
+    if (argc < 2) {
+        printf("add function argument\n");
+        return 0;
+    }
+
+    /* setup arguments */
+    char *myargs[2];
+    myargs[0] = strdup("ls");
+    myargs[1] = NULL;
+
+    if (strcmp(argv[1], "execl") == 0) {
+        printf("## execute execl\n");
+        // absolute path is required
+        execl("/bin/ls", myargs[0], NULL);
+        printf("## finish execl\n");
+    }
+    if (strcmp(argv[1], "execle") == 0) {
+        printf("## execute execle\n");
+        // absolute path is required
+        execle("/bin/ls", myargs[0], myargs[1], NULL);
+        printf("## finish execle\n");
+    }
+    if (strcmp(argv[1], "execlp") == 0) {
+        printf("## execute execlp\n");
+        execlp(myargs[0], myargs[0], myargs[1], NULL);
+        printf("## finish execlp\n");
+    }
+    if (strcmp(argv[1], "execv") == 0) {
+        printf("## execute execv\n");
+        execv("/bin/ls", myargs);
+        printf("## finish execv\n");
+    }
+    if (strcmp(argv[1], "execvp") == 0) {
+        printf("## execute execvp\n");
+        execvp(myargs[0], myargs);
+        printf("## finish execvp\n");
+    }
+    // execvpe didn't work on macOS
+    //execvpe(myargs[0], myargs);
+
+    printf("no function matched.");
+    return 0;
+}
+```
+
+## Output
+
+```
+ % ./a.out execl 
+## show arguments
+0: ./a.out
+1: execl
+## execute execl
+a.out           homework1.c     homework2.c     homework3.c     homework4.c     p1.c            p2.c            p3.c            p4.c
+compile.sh      homework1.out   homework2.out   homework3.out   newfile.txt     p1.out          p2.out          p3.out          p4.out
+
+ % ./a.out execle
+## show arguments
+0: ./a.out
+1: execle
+## execute execle
+a.out           homework1.c     homework2.c     homework3.c     homework4.c     p1.c            p2.c            p3.c            p4.c
+compile.sh      homework1.out   homework2.out   homework3.out   newfile.txt     p1.out          p2.out          p3.out          p4.out
+
+ % ./a.out execlp
+## show arguments
+0: ./a.out
+1: execlp
+## execute execlp
+a.out           homework1.c     homework2.c     homework3.c     homework4.c     p1.c            p2.c            p3.c            p4.c
+compile.sh      homework1.out   homework2.out   homework3.out   newfile.txt     p1.out          p2.out          p3.out          p4.out
+
+ % ./a.out execv 
+## show arguments
+0: ./a.out
+1: execv
+## execute execv
+a.out           homework1.c     homework2.c     homework3.c     homework4.c     p1.c            p2.c            p3.c            p4.c
+compile.sh      homework1.out   homework2.out   homework3.out   newfile.txt     p1.out          p2.out          p3.out          p4.out
+
+ % ./a.out execvp
+## show arguments
+0: ./a.out
+1: execvp
+## execute execvp
+a.out           homework1.c     homework2.c     homework3.c     homework4.c     p1.c            p2.c            p3.c            p4.c
+compile.sh      homework1.out   homework2.out   homework3.out   newfile.txt     p1.out          p2.out          p3.out          p4.out
+```
