@@ -544,6 +544,6 @@ piped end points can be used by `write` and `read` functions, without connecting
 char *text = "text";
 char buf[128];
 
-write(pipefd[1], buf, strlen(text));
+write(pipefd[1], text, strlen(text));
 read(pipefd[0], buf, sizeof(buf))
 ```
