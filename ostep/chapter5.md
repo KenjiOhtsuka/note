@@ -416,3 +416,134 @@ hello, this is the child process.
 ## close STDOUT
 hello, this is the parent process, again.
 ```
+
+## 8
+
+### Code
+
+```c
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <fcntl.h>
+
+typedef struct {
+    pid_t pid;
+    char *label;
+} process_info;
+
+void print_descriptors(pid_t *pipefd);
+void print_message(process_info *pi, char *message);
+
+int main(int argc, char *argv[]) {
+    printf("## show arguments\n");
+    for (int i = 0; i < argc; ++i)
+        printf("%d: %s\n", i, argv[i]);
+
+    // pipefd[0] - read end
+    // pipefd[1] - write end
+    int pipefd[2];
+    if (pipe(pipefd) < 0) {
+        perror("pipe");
+        _exit(1);
+    }
+    print_descriptors(pipefd);
+
+    pid_t pids[2];
+    pids[0] = fork();
+    if (pids[0] < 0 || pids[1] < 0) {
+        perror("fork");
+        return -1;
+    } else if (pids[0] == 0) {
+        // first child process
+        process_info pi;
+        pi.label = "child 1";
+        pi.pid = getpid();
+        print_message(&pi, "started");
+
+        print_message(&pi, "connect read end to standard input");
+        dup2(pipefd[0], STDIN_FILENO);
+
+        print_message(&pi, "close read end");
+        close(pipefd[0]);
+        
+        print_message(&pi, "start cat");
+        execl("/bin/cat", "/bin/cat", NULL);
+    } else {
+        pids[1] = fork();
+        if (pids[1] < 0) {
+            // error
+            perror("fork");
+            return -1;
+        } else if (pids[1] == 0) {
+            // second child process
+            process_info pi;
+            pi.label = "child 2";
+            pi.pid = getpid();
+
+            print_message(&pi, "started");
+
+            print_message(&pi, "close read end");
+            close(pipefd[0]);
+
+            print_message(&pi, "connect write end to standard output");
+            dup2(pipefd[1], STDOUT_FILENO);
+
+            print_message(&pi, "close write end"); // this message is printed out from the 1st process
+            close(pipefd[1]);
+
+            printf("hello world\n");  // this message is printed out from the 1st process
+        } else {
+            process_info pi;
+            pi.label = "parent";
+            pi.pid = getpid();
+            print_message(&pi, "wait");
+            wait(NULL);
+        }
+    }
+
+    return 0;
+}
+
+void print_descriptors(pid_t *pipefd) {
+    printf("## print descriptors\n");
+    for (int i = 0; i < sizeof(pipefd) / sizeof(pid_t); ++i) {
+        printf("%d: %d\n", i + 1, pipefd[i]);
+    }
+}
+
+void print_message(process_info *pi, char *message) {
+    printf("%s (PID: %d): %s\n", pi->label, pi->pid, message);
+}
+```
+
+#### Output
+
+```
+## show arguments
+0: ./a.out
+## print descriptors
+1: 3
+2: 4
+parent (PID: 770): wait
+child 1 (PID: 771): started
+child 1 (PID: 771): connect read end to standard input
+child 1 (PID: 771): close read end
+child 2 (PID: 772): started
+child 2 (PID: 772): close read end
+child 2 (PID: 772): connect write end to standard output
+child 2 (PID: 772): close write end                                                                                                                                    
+hello world
+```
+
+#### Comment
+
+piped end points can be used by `write` and `read` functions, without connecting stdout/stdin.
+
+```c
+char *text = "text";
+char buf[128];
+
+write(pipefd[1], buf, strlen(text));
+read(pipefd[0], buf, sizeof(buf))
+```
