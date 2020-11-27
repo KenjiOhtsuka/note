@@ -2,6 +2,8 @@
 layout: page
 ---
 
+説明/Explanation: https://www.wantedly.com/users/3634124/post_articles/295838
+
 
 ```javascript
 const dom = document.getElementBy ...
