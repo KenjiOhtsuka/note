@@ -14,7 +14,7 @@ function generateList(dom, level) {
         break;
       case 3: // text
         let chunk = childNode.textContent.trim()
-        if (chunk.length > 0) text += chunk.padStart(level) + "\n"
+        if (chunk.length > 0) text += "\t".repeat(level) + chunk + "\n"
         break;
     }
     text += generateList(childNode, level + 1)
