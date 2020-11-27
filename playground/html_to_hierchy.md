@@ -6,7 +6,6 @@ layout: page
 ```javascript
 const dom = document.getElementBy ...
 
-let bulletList = ""
 function generateList(dom, level) {
   text = ""
   for (let childNode of dom.childNodes) {
