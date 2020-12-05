@@ -190,3 +190,48 @@ Mem:    7648620544 5266128896 2382491648     110592  104521728  335708160
 -/+ buffers/cache: 4825899008 2822721536
 Swap:            0          0          0
 ```
+
+## 5
+
+This is the output of `man pmap` in AWS EC2. `man free` result in macOS is different.
+
+```
+PMAP(1)                                                                                                                                                                 Linux User's Manual                                                                                                                                                                PMAP(1)
+
+NAME
+       pmap - report memory map of a process
+
+SYNOPSIS
+       pmap [ -x | -d ] [ -q ] pids...
+       pmap -V
+
+DESCRIPTION
+       The pmap command reports the memory map of a process or processes.
+
+GENERAL OPTIONS
+       -x   extended       Show the extended format.
+       -d   device         Show the device format.
+       -q   quiet          Do not display some header/footer lines.
+       -V   show version   Displays version of program.
+
+EXTENDED AND DEVICE FORMAT FIELDS
+       Address:   start address of map
+       Kbytes:    size of map in kilobytes
+       RSS:       resident set size in kilobytes
+       Dirty:     dirty pages (both shared and private) in kilobytes
+       Mode:      permissions on map: read, write, execute, shared, private (copy on write)
+       Mapping:   file backing the map, or '[ anon ]' for allocated memory, or  '[ stack ]' for the program stack
+       Offset:    offset into the file
+       Device:    device name (major:minor)
+
+SEE ALSO
+       ps(1) pgrep(1)
+
+STANDARDS
+       No standards apply, but pmap looks an awful lot like a SunOS command.
+
+AUTHOR
+       Albert Cahalan <albert@users.sf.net> wrote pmap in 2002, and is the current maintainer of the procps collection. Please send bug reports to <procps-feedback@lists.sf.net>.
+
+Linux                                                                                                            
+```
