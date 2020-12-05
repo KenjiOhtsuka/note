@@ -17,3 +17,14 @@ layout: page
 * hardware virtualization
     * one that based on the use of a hypervisor (ESX, Hyper-V)
     * one that functions as a software package running on top of host OS (VMware Server, Parallels Desktop).
+    
+## Virtual Memory
+
+**Point**
+
+* transparency
+    * invisible to the running program. the program shouldn’t be aware of the fact that memory is virtualized
+    * the program behaves as if it has its own private physical memory.
+* efficiency
+    * not using too much memory for structures needed to support virtualization
+* protection
