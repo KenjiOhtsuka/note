@@ -3,6 +3,7 @@ layout: page
 ---
 
 
+## CPU
 
 * Stride scheduler
     * A deterministic fair-share scheduler
@@ -25,3 +26,19 @@ layout: page
         * Once a job uses up its time allotment at a given level (regardless of how many times it has given up the CPU), its priority is reduced (i.e., it moves down one queue).
     * Rule 5
         * After some time period S, move all the jobs in the system to the topmost queue.
+
+## Multicore CPU
+
+* SQMS (singlequeue multiprocessor scheduling)
+* MQMS (multi-queue multiprocessor scheduling)
+
+* Linux Multiprocessor Schedulers
+    * O(1) scheduler
+    * the Completely Fair Scheduler (**CFS**)
+    * the BF Scheduler (**BFS**)
+    
+| Scheduler | Queue |
+|--|--|
+| O(1) | multiple |
+| CFS | multiple |
+| BFS | single |
