@@ -38,7 +38,7 @@ layout: page
     * the BF Scheduler (**BFS**)
     
 | Scheduler | Queue |
-|--|--|
-| O(1) | multiple |
-| CFS | multiple |
-| BFS | single |
+|--|--|--|
+| O(1) | multiple | priority-based |
+| CFS | multiple | deterministic propotional-share |
+| BFS | single | complicated proportional-share (EEVDF) |
