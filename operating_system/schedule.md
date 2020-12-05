@@ -37,7 +37,7 @@ layout: page
     * the Completely Fair Scheduler (**CFS**)
     * the BF Scheduler (**BFS**)
     
-| Scheduler | Queue |
+| Scheduler | Queue | Policy |
 |--|--|--|
 | O(1) | multiple | priority-based |
 | CFS | multiple | deterministic propotional-share |
