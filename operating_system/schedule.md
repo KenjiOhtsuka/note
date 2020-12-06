@@ -26,6 +26,15 @@ layout: page
         * Once a job uses up its time allotment at a given level (regardless of how many times it has given up the CPU), its priority is reduced (i.e., it moves down one queue).
     * Rule 5
         * After some time period S, move all the jobs in the system to the topmost queue.
+* proportional scheduler
+    * instead of optimizing for turnaround or response time, a scheduler might instead try to guarantee that **each job obtain a certain percentage of CPU time**
+    * examples
+        * lottery scheduling
+            * every so often, hold a lottery to determine which process should get to run next
+            * processes that should run more often should be given more chances to win the lottery
+            * there is no global state per process
+        * Stride Scheduling
+            * Each job in the system has a stride, which is **inverse in proportion to the number of tickets it has**.
 
 ## Multicore CPU
 
@@ -37,6 +46,7 @@ layout: page
 * Linux Multiprocessor Schedulers
     * O(1) scheduler
     * the Completely Fair Scheduler (**CFS**)
+         * there is a single, system-wide vruntime
     * the BF Scheduler (**BFS**)
     
 | Scheduler | Queue | Policy |
