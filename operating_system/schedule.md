@@ -46,7 +46,7 @@ layout: page
 * Linux Multiprocessor Schedulers
     * O(1) scheduler
     * the Completely Fair Scheduler (**CFS**)
-         * there is a single, system-wide vruntime
+         * there is a single, system-wide value of vruntime
     * the BF Scheduler (**BFS**)
     
 | Scheduler | Queue | Policy |
