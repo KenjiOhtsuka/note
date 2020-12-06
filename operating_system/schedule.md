@@ -31,6 +31,8 @@ layout: page
 
 * SQMS (singlequeue multiprocessor scheduling)
 * MQMS (multi-queue multiprocessor scheduling)
+    * scales better than SQMS
+    * fundamental problem: load imbalance
 
 * Linux Multiprocessor Schedulers
     * O(1) scheduler
@@ -39,6 +41,10 @@ layout: page
     
 | Scheduler | Queue | Policy |
 |--|--|--|
-| O(1) | multiple | priority-based |
-| CFS | multiple | deterministic propotional-share |
-| BFS | single | complicated proportional-share (EEVDF) |
+| **O(1)** | multiple | priority-based |
+| **CFS** | multiple | deterministic proportional-share |
+| **BFS** | single | complicated proportional-share (EEVDF) |
+
+* Bus snooping
+    * when each cache pays attention to memory updates by observing the **bus*** that connects them to main memory.
+    * When a CPU then sees an update for a data item it holds in its cache, it will notice the change and either invalidate its copy or update it.
