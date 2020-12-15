@@ -2,6 +2,17 @@
 layout: page
 ---
 
+## Fragmentation
+
+* Internal Fragmentation
+    * Memory block assigned to process is bigger. Some portion of memory is left unused, as it cannot be used by another process.
+    * The internal fragmentation can be reduced by effectively assigning the smallest partition but large enough for the process.
+
+* External Fragmentation
+    * Total memory space is enough to satisfy a request or to reside a process in it, but it is not contiguous, so it cannot be used.
+    * External fragmentation can be reduced by compaction or shuffle memory contents to place all free memory together in one large block. To make compaction feasible, relocation should be dynamic.
+
+
 ## Dynamic Relocation
 
 * hardware-based address translation
