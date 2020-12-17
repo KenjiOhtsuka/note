@@ -38,6 +38,8 @@ Value: base and logical pair
     
 ## Free List
 
+Ranges of physical memory which is not currently in use
+
 /*
 Best Fit
 first, search through the free list and find chunks of free memory that are as big or bigger than the requested size.
@@ -76,3 +78,13 @@ free space throughout the list more uniformly, thus avoiding splintering
 of the beginning of the list. The performance of such an approach is quite
 similar to first fit, as an exhaustive search is once again avoided.
 */
+
+* `sbrk`
+    * the OS finds free physical pages, maps them into the address space of the requesting process, and then returns the value of
+the end of the new heap
+    * a larger heap is available, and the request can be successfully serviced.
+
+
+## Code sharing
+
+* If code is placed within a separate segment, such a segment could potentially be shared across multiple running programs
