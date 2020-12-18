@@ -75,3 +75,10 @@ the end of the new heap
 ## Code sharing
 
 * If code is placed within a separate segment, such a segment could potentially be shared across multiple running programs
+
+## Segregated List
+
+* if a particular application has one (or a few) popular-sized request that it makes, **keep a separate list** just to manage objects of that size
+* all other requests are forwarded to a more general memory allocator.
+
+## Buddy allocation
