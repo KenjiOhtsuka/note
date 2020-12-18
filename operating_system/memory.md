@@ -40,45 +40,32 @@ Value: base and logical pair
 
 Ranges of physical memory which is not currently in use
 
-/*
-Best Fit
-first, search through the free list and find chunks of free memory that are as big or bigger than the requested size.
-Then, return the one that is the smallest in that group of candidates;
+### Best Fit
+    * Find **smallest** chunk which is bigger than requested.
+    * naive implementations pay a heavy performance penalty when performing an exhaustive search for the correct free block.
+    
+### Worst Fit
+    * find the largest chunk and return the requested amount; 
+    * keep the remaining (large) chunk on the free list.
 
-this is the so called best-fit chunk (it could be called smallest fit too). One
-pass through the free list is enough to find the correct block to return.
-The intuition behind best fit is simple: by returning a block that is close
-to what the user asks, best fit tries to reduce wasted space. However, there
-is a cost; naive implementations pay a heavy performance penalty when
-performing an exhaustive search for the correct free block.
+Worst fit tries to thus leave big chunks free instead of lots of small chunks that can arise from a best-fit approach.
 
-Worst Fit
-find the largest chunk and return the requested amount; 
-keep the remaining (large) chunk on the free list.
-
-Worst fit tries to thus leave big chunks free instead of lots of
-small chunks that can arise from a best-fit approach. Once again, however, a full search of free space is required, and thus this approach can be
-costly. Worse, most studies show that it performs badly, leading to excess
+    * a full search of free space is required, and thus this approach can be costly. Worse, most studies show that it performs badly, leading to excess
 fragmentation while still having high overheads.
 
-First Fit
-simply finds the first block that is big enough and returns the requested amount to the user.
-
-First fit has the advantage of speed — no exhaustive search of all the free spaces are necessary
-but sometimes pollutes the beginning of the free list with small objects.
+### First Fit
+    * simply finds the **first block** that is big enough and returns the requested amount to the user.
+    * advantage of speed — no exhaustive search of all the free spaces are necessary
+    * sometimes pollutes the beginning of the free list with small objects.
 
 Thus, how the allocator manages the free list’s order becomes an issue.
-One approach is to use address-based ordering; by keeping the list ordered by the address of the free space, coalescing
-becomes easier, and fragmentation tends to be reduced.
+One approach is to use address-based ordering; by keeping the list ordered by the address of the free space, coalescing becomes easier, and fragmentation tends to be reduced.
 
-Next Fit
-Instead of always beginning the first-fit search at the beginning of the list, the next fit algorithm keeps an extra pointer to the location within the
-list where one was looking last. The idea is to spread the searches for
-free space throughout the list more uniformly, thus avoiding splintering
-of the beginning of the list. The performance of such an approach is quite
-similar to first fit, as an exhaustive search is once again avoided.
-*/
-
+### Next Fit
+    * an extra pointer to the location within the list where one was looking last.
+    * avoiding splintering of the beginning of the list.
+    * The performance of such an approach is quite similar to first fit, as an exhaustive search is once again avoided.
+    
 * `sbrk`
     * the OS finds free physical pages, maps them into the address space of the requesting process, and then returns the value of
 the end of the new heap
