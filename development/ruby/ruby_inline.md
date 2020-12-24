@@ -75,3 +75,6 @@ puts (e - s)
 * https://www.generacodice.blog/en/articolo/2195803/How+to+load+a+string+into+a+C+method+using+RubyInline
 
 * http://on-ruby.blogspot.com/2006/07/rubyinline-going-bit-further.html
+
+* https://github.com/seattlerb/rubyinline
+* https://www.rubydoc.info/gems/RubyInline/3.12.4/toplevel
