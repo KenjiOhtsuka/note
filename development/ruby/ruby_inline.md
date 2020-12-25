@@ -65,6 +65,10 @@ puts (e - s)
 * `VALUE`
 * `Qnil`
     * Ruby `nil`
+    
+## Other
+
+`builder.c_singleton` creates class method.
 
 ## SAMPLES
 
@@ -78,3 +82,4 @@ puts (e - s)
 
 * https://github.com/seattlerb/rubyinline
 * https://www.rubydoc.info/gems/RubyInline/3.12.4/toplevel
+* https://github.com/ruby/ruby/tree/v1_0r
