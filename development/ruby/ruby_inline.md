@@ -68,7 +68,8 @@ puts (e - s)
     
 ## Other
 
-`builder.c_singleton` creates class method.
+* `builder.c_singleton` creates class method.
+* `rb_funcall` and `rb_funcall2` calls Ruby function, 
 
 ## SAMPLES
 
