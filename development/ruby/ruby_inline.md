@@ -78,6 +78,7 @@ puts (e - s)
 * https://people.apache.org/~rooneg/talks/ruby-extensions/ruby-extensions.html
 * https://blog.rebased.pl/2017/12/27/writing-c-and-sharing-memory.html
 * https://www.generacodice.blog/en/articolo/2195803/How+to+load+a+string+into+a+C+method+using+RubyInline
+* https://python5.com/q/tqaluues
 
 * http://on-ruby.blogspot.com/2006/07/rubyinline-going-bit-further.html
 
