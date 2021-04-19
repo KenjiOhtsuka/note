@@ -38,3 +38,19 @@ shows file information.
         optimized
         ----
         ```
+        
+## Print automatically
+
+mac で一括で印刷するためにつかったコマンド。
+
+```
+find . ./ | xargs lpr -o PageSize=A4 -o sides=two-sided-long-edge -o number-up=2
+```
+
+### Basic 
+
+To print:
+
+```
+lpr $file_path -o PageSize=A4 -o sides=two-sided-long-edge -o number-up=2
+```
