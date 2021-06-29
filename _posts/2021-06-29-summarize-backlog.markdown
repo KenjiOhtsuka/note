@@ -7,11 +7,6 @@ category: python backog nulab
 
 nulab Backlog で 課題の予定時間を合計するためのスクリプトを作りました。 担当者別、ステータス別、カテゴリ別に集計します。 少しコードを変えれば、実績時間なども集計できます。参考になれば幸いです。
 
-## 集計例
-
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/25846/1eeb344e-ccb0-5d6e-8699-310e299932e7.png)
-
-
 ## やりたかったこと
 
 ### 目的
