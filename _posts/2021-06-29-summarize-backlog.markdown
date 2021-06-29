@@ -1,7 +1,8 @@
 ---
 layout: post
-category: python backog nulab
-
+categories: python backog nulab
+title: Backlog の予定時間を集計する
+date: 2021-06-29 00:00:00
 ---
 
 
