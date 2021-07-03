@@ -52,6 +52,7 @@ int main(void) {
         char *message = ctime(&t);
         // check in server
         printf("%s", message);
+        // send the response
         send(client, message, strlen(message), 0);
 
         close(client);
