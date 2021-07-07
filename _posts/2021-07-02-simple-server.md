@@ -1,4 +1,5 @@
 ---
+title: Simple Server
 date: 2021-07-02 00:00:00
 layout: post
 categories: server c kotlin
