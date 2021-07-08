@@ -3,7 +3,7 @@ layout: post
 title: System.Int32 および System.String で '>=' 操作を実行できません。
 categories: visualbasic string
 tags: visualbasic string
---
+---
  
 Visual Basic 2010 のお話です。
 
