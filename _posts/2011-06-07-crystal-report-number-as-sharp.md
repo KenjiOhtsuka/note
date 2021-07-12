@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CrystakReports で 数値がシャープ(###)になる
+title: CrystalReports で 数値がシャープ(###)になる
 category: crystalreport
 tags: crystalreport
 date: 2011-06-07 00:00:00
