@@ -3,6 +3,7 @@ layout: post
 date: 2013-10-21 00:00:00
 title: jquery and coffeescript: coffeescript で jquery の each を使う
 tags: jquery coffeescript
+categories: javascript
 ---
 
 `each` の内部で `$(this)` を使うことができない。
