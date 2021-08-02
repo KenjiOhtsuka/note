@@ -40,3 +40,9 @@ Cannot perform '=' operation on System.String and System.Int32
 ```
 dr = dt.Select("KEIJOYMD <>　'' AND KEIJOYMD >= 20000101")
 ```
+
+英語の場合は次のようなメッセージが出る。
+
+```
+Cannot perform '=' operation on System.String and System.Int32
+```
