@@ -48,3 +48,21 @@ object Main {
     }
 }
 ```
+
+## 2.3
+
+```scala
+object Main {
+    def curry[A,B,C](f: (A, B) => C): A => (B => C) =
+        (a: A) => (b: B) => f(a, b)
+    
+    def main(args: Array[String]): Unit = {
+        val addOne = curry((a: Int, b: Int) => a + b)(1)
+        println(addOne(2));
+        println(addOne(3));
+        val multipleTen = curry((a: Int, b: Int) => a * b)(10)
+        println(multipleTen(2));
+        println(multipleTen(3));
+    }
+}
+```
