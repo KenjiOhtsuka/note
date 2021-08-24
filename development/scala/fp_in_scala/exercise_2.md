@@ -66,3 +66,41 @@ object Main {
     }
 }
 ```
+
+## 2.4
+
+```scala
+object Main {
+    def uncurry[A,B,C](f: A => B => C): (A, B) => C =
+        (a: A, b: B) => f(a)(b)
+    
+    def main(args: Array[String]): Unit = {
+        val add = uncurry((a: Int) => (b: Int) => a + b)
+        println(add(1, 2))
+        println(add(3, 4))
+
+        val multiple = uncurry((a: Int) => (b: Int) => a * b)
+        println(multiple(1, 2))
+        println(multiple(3, 4))
+    }
+}
+```
+
+## 2.5
+
+```scala
+object Main {
+    def compose[A,B,C](f: B => C, g: A => B): A => C =
+        (a: A) => f(g(a))
+    
+    def main(args: Array[String]): Unit = {
+        val addOne = (a: Int) => a + 1
+        val multipleTen = (a: Int) => a * 10
+    
+        // f(x) = x * 10_+ 1
+        val composed = compose(addOne, multipleTen)
+        println(composed(1))
+        println(composed(2))
+    }
+}
+```
