@@ -33,3 +33,30 @@ object Main {
     }
 }
 ```
+
+## 3.2
+
+```scala
+sealed trait List[+A]
+case object Nil extends List[Nothing]
+case class Cons[+A](head: A, tail: List[A]) extends List[A]
+
+object Main {
+    object List {
+        def apply[A](as: A*): List[A] =
+            if (as.isEmpty) Nil
+            else Cons(as.head, apply(as.tail: _*))
+    }
+    
+    def tail[A](list: List[A]): List[A] =
+        list match {
+            case Nil => Nil
+            case Cons(x, xs) => xs
+        }
+    
+    def main(args: Array[String]): Unit = {
+        val x = tail[Int](List(1,2,3,4,5))
+        println(x)
+    }
+}
+```
