@@ -145,3 +145,34 @@ object Main {
     }
 }
 ```
+
+## 3.6
+
+To reach the last element, we have to traverse the list from the front,
+so the function takes larger time when it handles larger list.
+
+```scala
+sealed trait List[+A]
+case object Nil extends List[Nothing]
+case class Cons[+A](head: A, tail: List[A]) extends List[A]
+
+object Main {
+    object List {
+        def apply[A](as: A*): List[A] =
+            if (as.isEmpty) Nil
+            else Cons(as.head, apply(as.tail: _*))
+    }
+    
+    def init[A](l: List[A]): List[A] =
+        l match {
+            case Nil => Nil
+            case Cons(x, Nil) => Nil
+            case Cons(x, xs) => Cons(x, init(xs))
+        }
+    
+    def main(args: Array[String]): Unit = {
+        val x = init(List(1, 2, 3, 4, 5))
+        println(x)
+    }
+}
+```
