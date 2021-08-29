@@ -87,3 +87,34 @@ object Main {
     }
 }
 ```
+
+## 3.4
+
+```scala
+sealed trait List[+A]
+case object Nil extends List[Nothing]
+case class Cons[+A](head: A, tail: List[A]) extends List[A]
+
+object Main {
+    object List {
+        def apply[A](as: A*): List[A] =
+            if (as.isEmpty) Nil
+            else Cons(as.head, apply(as.tail: _*))
+    }
+    
+    def drop[A](l: List[A], n: Int): List[A] =
+        if (n == 0) {
+            l
+        } else {
+            l match {
+                case Nil => Nil
+                case Cons(x, xs) => drop(xs, n - 1)
+            }
+        }
+    
+    def main(args: Array[String]): Unit = {
+        val x = drop(List(1,2,3,4,5), 3)
+        println(x)
+    }
+}
+```
