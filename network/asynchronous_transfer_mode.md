@@ -22,13 +22,16 @@ title: Asynchronous Transfer Mode 非同期転送モード
 * 通信経路を占有しない
     * 回線網を共用でき、通信効率を高めやすい。
 * ビットレートや情報の種類が異なる複数の通信（音声通話とテレビ電話など）を一つの通信網に混在させられる。
-* 音声電話を高度化して高速データ通信を行うB-ISDN構想から生まれた通信事業者の基幹回線網などで利用されてきたが、高速・遠距離のイーサネット（Ethernet）接続などに取って代わられつつある。
+* 音声電話を高度化して高速データ通信を行うB-ISDN構想から生まれた通信事業者の基幹回線網などで利用されてきた。 B-ISDN網でATMを使う。
+* 上りと下で独立に通信帯域を設定できる。
 
 ## ATM Cell
 
 User Network Interface (UNI) and Node Network Interface (NNI).
 
 ### User Network Interface
+
+端末-ネットワーク間で使われる。
 
 #### Cell header structure
 
@@ -39,9 +42,13 @@ User Network Interface (UNI) and Node Network Interface (NNI).
 | Virtual Channel Identifier | 16 bit | 仮想チャネル識別子。 |
 | Payload Type | 3 bit | ペイロードタイプ。 輻輳の有無や度合いにおけるセルの優先度を決める。 |
 | Cell Loss Priority | 1 bit | 損失プライオリティ。 |
-| Header Error Control | 8 bit | ヘッダのエラー検出を行う。 |
+| Header Error Control | 8 bit | ヘッダのエラー検出を行う。 CRC32を利用。 |
 
-#### Node Network Identifier
+### Node Network Identifier
+
+ネットワーク同士の間で使用する。
+
+#### Cell header structure
 
 | Name | Size | Description |
 |:--|--:|:--|
