@@ -8,6 +8,8 @@ title: Ethernet
 * IEEE802.3
 * Largely replaced Token Ring, FDDI and ARCNET.
 * CSMA/CD (Carrier Sense Multiple Access with Collision Detection)
+* LAN通信では、 Ethernet と TCP/IP の組み合わせが一般的。
+    * Ethernet が主に物理規格を決め、 TCP/IP が通信内容を決めている。
 
 ## Frame
 
@@ -26,3 +28,4 @@ title: Ethernet
 * Bus
 * Star
 * Ring
+

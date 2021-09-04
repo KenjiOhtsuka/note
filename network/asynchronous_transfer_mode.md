@@ -57,3 +57,10 @@ User Network Interface (UNI) and Node Network Interface (NNI).
 | Payload Type | 3 bit | ペイロードタイプ。 輻輳の有無や度合いにおけるセルの優先度を決める。 |
 | Cell Loss Priority | 1 bit | 損失プライオリティ。 |
 | Header Error Control | 8 bit | ヘッダのエラー検出を行う。 |
+
+## Bandwidth
+
+* 一般的には 155 Mbps (OC-3), 622 MBps (OC-12) が使われている。
+* 技術的には 10 Gbps (OC-192) も可能。
+
+参考: https://www.lifewire.com/asynchronous-transfer-mode-817942
