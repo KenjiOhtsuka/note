@@ -3,9 +3,10 @@ layout: page
 title: Ethernet
 ---
 
+* XEROX, DEC(Hewlett-Packerd), Intel が1980年に共同開発したバス型LANの標準規格。
 * A family of wired computer networking technologies
 * Commonly used in LAN, MAN and WAN
-* IEEE802.3
+* Standardized in IEEE802.3
 * Largely replaced Token Ring, FDDI and ARCNET.
 * CSMA/CD (Carrier Sense Multiple Access with Collision Detection)
 * LAN通信では、 Ethernet と TCP/IP の組み合わせが一般的。
