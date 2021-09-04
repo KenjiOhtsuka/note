@@ -37,11 +37,20 @@ title: Ethernet
 
 | Name | IEEE | Speed | Media Type | Max Distance |
 |:--|:--|:--|:--|:--|
-| Ethernet | 802.3 | 10 Mbps | 10Base-T | 100 meters |
-| Fast Ethernet / 100Base-T | 802.3u | 100 Mbps | 100Base-TX <br>100Base-FX	| 100 meters <br>2000 meters |
-| Gigabit Ethernet / GigE | 802.3z | 1000 Mbps | 1000Base-T<br>1000Base-SX<br>1000Base-LX | 100 meters<br>275/550 meters<br>550/5000 meters |
-| 10 Gigabit Ethernet | 802.3ae | 10 Gbps | 10GBase-SR<br>10GBase-LX4<br>10GBase-LR/ER<br>10GBase-SW/LW/EW | 300 meters<br>300m MMF/ 10km SMF<br>10km/40km<br>300m/10km/40km |
+| Ethernet | 802.3 | 10 Mbps | 10Base-T | 100 m |
+| Fast Ethernet / 100Base-T | 802.3u | 100 Mbps | 100Base-TX <br>100Base-FX	| 100 m <br>2000 m |
+| Gigabit Ethernet / GigE | 802.3z | 1000 Mbps | 1000Base-T<br>1000Base-SX<br>1000Base-LX | 100 m<br>275/550 m<br>550/5000 m |
+| 10 Gigabit Ethernet | 802.3ae | 10 Gbps | 10GBase-SR<br>10GBase-LX4<br>10GBase-LR/ER<br>10GBase-SW/LW/EW | 300 m<br>300m MMF/ 10km SMF<br>10km/40km<br>300m/10km/40km |
 
 Reference
 
 * https://www.lantronix.com/resources/networking-tutorials/ethernet-tutorial-networking-basics/
+
+## Format 企画
+
+| Name | Cable | Bandwidth | Max Length |
+|:--|:--|--:|--:|
+| 10BASE-5 | 同軸 | 10 Mbps | 500 m |
+| 10BASE-2 | 同軸 | 10 Mbps | 185 m |
+| 10BASE-T | UTP | 10 Mbps | 100 m |
+| 100BASE-TX | UTP | 100 MBps | |
