@@ -24,6 +24,10 @@ title: Asynchronous Transfer Mode 非同期転送モード
 * ビットレートや情報の種類が異なる複数の通信（音声通話とテレビ電話など）を一つの通信網に混在させられる。
 * 音声電話を高度化して高速データ通信を行うB-ISDN構想から生まれた通信事業者の基幹回線網などで利用されてきた。 B-ISDN網でATMを使う。
 * 上りと下で独立に通信帯域を設定できる。
+* すべてのセルが宛先まで同じパスをたどる。
+    * 定率トラフィックと可変レートトラフィックの両方を処理でき, エンドツーエンドのサービス品質で複数のタイプのトラフィックを伝送できる。
+* ワイヤーまたはファイバーで送信される場合もあれば、他のキャリアシステムのペイロード内にパッケージ化される場合もある。
+* ATMネットワークは、仮想回線でパケットまたはセルスイッチングを使用する。
 
 ## ATM Cell
 
@@ -31,7 +35,8 @@ User Network Interface (UNI) and Node Network Interface (NNI).
 
 ### User Network Interface
 
-端末-ネットワーク間で使われる。
+* 端末-ネットワーク間、すなわち ATMエンドポイントとATMスイッチ間で使われる。
+    * 別の言い方をすれば、ATMのプライベートネットワーク内で使われる
 
 #### Cell header structure
 
@@ -46,7 +51,7 @@ User Network Interface (UNI) and Node Network Interface (NNI).
 
 ### Node Network Identifier
 
-ネットワーク同士の間で使用する。
+* ネットワーク同士、 すなわち ATMスイッチ間 の通信で使用する。
 
 #### Cell header structure
 
