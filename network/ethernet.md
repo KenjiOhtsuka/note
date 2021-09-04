@@ -42,3 +42,6 @@ title: Ethernet
 | Gigabit Ethernet / GigE | 802.3z | 1000 Mbps | 1000Base-T<br>1000Base-SX<br>1000Base-LX | 100 meters<br>275/550 meters<br>550/5000 meters |
 | 10 Gigabit Ethernet | 802.3ae | 10 Gbps | 10GBase-SR<br>10GBase-LX4<br>10GBase-LR/ER<br>10GBase-SW/LW/EW | 300 meters<br>300m MMF/ 10km SMF<br>10km/40km<br>300m/10km/40km |
 
+Reference
+
+* https://www.lantronix.com/resources/networking-tutorials/ethernet-tutorial-networking-basics/
