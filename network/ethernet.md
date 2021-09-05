@@ -54,7 +54,7 @@ Reference
 
 | Name | Cable | Bandwidth | Max Length |
 |:--|:--|--:|--:|
-| 10BASE-5 | 同軸 | 10 Mbps | 500 m |
-| 10BASE-2 | 同軸 | 10 Mbps | 185 m |
+| 10BASE-5 | thick coax | 10 Mbps | 500 m |
+| 10BASE-2 | thin coax | 10 Mbps | 185 m |
 | 10BASE-T | UTP | 10 Mbps | 100 m |
 | 100BASE-TX | UTP | 100 MBps | |
