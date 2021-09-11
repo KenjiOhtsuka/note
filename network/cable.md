@@ -22,3 +22,7 @@ title: ネットワークケーブル
     * protective plastic sheath
 * 帯域幅 Bandwidth
     * ケーブルの品質と長さによる
+
+## Optic cable
+
+* 光のパルスは1ビット、光がない場合は0ビット
