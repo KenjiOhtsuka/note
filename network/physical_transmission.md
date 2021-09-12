@@ -14,3 +14,5 @@ title: Physical Transmission
     * ビットレートがBビット/秒の場合、少なくともB / 2Hzの帯域幅が必要
 
 ### NRZI : NRZ Inverted
+
+* USB で利用されている。
