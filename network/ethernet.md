@@ -58,3 +58,33 @@ Reference
 | 10BASE-2 | thin coax | 10 Mbps | 185 m |
 | 10BASE-T | UTP | 10 Mbps | 100 m |
 | 100BASE-TX | UTP | 100 MBps | |
+
+## encoding
+
+| Name | Encoding |
+|:--|:--|
+| 10BASE-T | マンチェスタ符号 |
+| 100BASE-TX | MLT-3 + NRZI + 4B5B |
+| 1000BASE-T | 8B/1Q4 + 4D-PAM5 |
+
+## Collision
+
+CSMA/CD
+
+1. 送信の前に、データ通信が止まるまで待つ
+2. データ送信のときに、 collision が起きるのを監視する。 もし collision が起きたら送信を止める。
+3. collision が発生した場合, 待機して再送する。
+
+## ネットワーク標準
+
+IEEE 802 がネットワークの標準。
+
+802.3 イーサネット
+802.11 Wi-Fi
+802.16 WiMAX
+
+継続的な流れ
+
+799 変圧器PCBの取り扱いと廃棄
+800 DC航空機回転機
+803 発電所などでの一意の識別のための推奨プラクティス。
