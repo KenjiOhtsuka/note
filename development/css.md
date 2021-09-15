@@ -1,8 +1,7 @@
 ---
 layout: page
+title: CSS
 ---
-
-# CSS
 
 ## Transparent Background Image
 
@@ -16,9 +15,44 @@ https://css-tricks.com/snippets/css/transparent-background-images/
   white-space: nowrap
 ```
 
+## CS Principle 
 
-OOOCSS
-SMACSS
+### OOCSS (Object Oriented CSS)
+
+* Point
+    * 構造と見た目の分離
+    * コンテンツとコンテナの分離
+
+#### 構造と見た目の分離
+
+* CSSのプロパティ
+    * 構造を決める: float, margin
+    * 見た目を決める: color, weight, height, radius
+
+CSS のクラスを、 "構造を決めるもの"と"見た目を決めるもの"に分けて作る。
+一緒にしない。
+
+#### コンテンツとコンテナの分離
+
+CSS のセレクタはHTMLの構造には依存しないようにする。
+
+要素セレクタは使わない。
+
+### BEM (Block, Element, Modifier)
+
+* UIパーツの構成・状態を Block, Element, Modifier の3つに分ける。
+* 命名規則
+    * Element の前には `__` をつける。
+    * Modifier の前には `_` をつける。
+* アレンジされた命名規則: MindBEMding
+    * Element の前には `__` をつける。
+    * Modifier の前には `--` をつける。
+
+### ITCSS (Inverted Triangle CSS)
+
+
+
+### SMACSS
 
 ## table が大きくても画面幅を広げず、横スクロールするようにする
 
