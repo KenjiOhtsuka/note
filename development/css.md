@@ -50,7 +50,7 @@ CSS のセレクタはHTMLの構造には依存しないようにする。
 
 ### ITCSS (Inverted Triangle CSS)
 
-
+Settngs, Tools, Generic, Base, Objects, Components, Trumps
 
 ### SMACSS
 
