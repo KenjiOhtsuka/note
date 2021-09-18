@@ -5,6 +5,12 @@ title: Physical Transmission
 
 * digital modulation
     * ビットとシグナルの変換
+* エンコーディング
+    * ストリーム内のすべてのビットを正しく認識すること
+* フレーミング
+    * パケット境界を正しく認識すること
+
+
 
 ## Baseband transmission
 
