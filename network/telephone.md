@@ -294,17 +294,17 @@ GSM無線は同時に送信と受信を行うことができず、一方から�
             1. そのほか、ビデオ会議、テレプレゼンス、グループゲームのプレイ、およびモバイルコマース（店で支払うためにレジで電話を振る）
         * 品質
             * 世界中で(地上ネットワークが見つからない場合は衛星を介した自動接続で)、即座に、サービス品質が保証された状態で利用できる。
-        * 通信企画は5つ
-            * IMT-DS(Direct Spread)-> docomo, softbank = W-CDNA
-            * IMT-MC(Multi Carrier)->au = CDMA2000
-            * IMT-TC(Time Code)
-            * IMT-FT(Frequently Time)
-            * IMT-SC(Single Carrier)
     * IMT-2000 の現実
         * 2000 の表す意味: いずれも実現しなかった。
             * サービスを開始する年
             * 動作するはずの周波数 (MHz)
             * サービスに必要な帯域幅 (kbps単位)
+        * 通信企画は5つ
+            * IMT-DS (Direct Spread) -> docomo, softbank = W-CDNA
+            * IMT-MC (Multi Carrier) ->au = CDMA2000
+            * IMT-TC (Time Code)
+            * IMT-FT (Frequently Time)
+            * IMT-SC (Single Carrier)
         * ITUは、デバイスが国から国へシームレスにローミングできるように、すべての政府が2GHzでスペクトルを予約することを推奨した。
             * 中国は必要な帯域幅を予約したが、他の国は予約しなかった。
             * 2 Mbpsは、モバイル性が高すぎるユーザーには現在実現できないものだったた
