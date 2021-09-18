@@ -351,6 +351,10 @@ CDMAはFDMでもTDMでもありませんが、各ユーザーが同じ周波数�
 第三に、。ソフトハンドオフでは、
 -->
 
+### 3.5G
+
+* W-CDMA を拡張した HSDPA
+
 ### LTE (Long TermEvolution)
 
 * 特徴
