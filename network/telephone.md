@@ -152,7 +152,7 @@ title: 電話
     * DAMPS (Digital Advanced Mobile Phone System)
         * AMPSと共存し、TDMを使用して同じ周波数チャネルで複数の通話を発信するAMPSのデジタルバージョン。
         * 国際規格IS-54およびその後継のIS-136で説明されている。
-    * GSM (Global System for Mobile communications)
+    * GSM (The Global System for Mobile communications)
         * 米国での普及は遅かったが、現在では世界中のほぼすべての場所で使用されている。
         * DAMPSと同様に、 GSMはFDMとTDMの組み合わせに基づいている。
     * CDMA
@@ -163,6 +163,37 @@ title: 電話
 * PCS (Personal Communications Services)
     * マーケティング資料で第2世代（デジタル）システムを示すために使用されることがある。
     * もともとは1900MHz帯の携帯電話を意味していた。
+* TDM (Time Division Multiplexing).
 
 #### GSM
+
+* おいたち
+    * 1980年代に誕生
+        * 目的: 単一のヨーロッパの2G規格を作成する
+        * フランス語で Groupe Speciale´Mobile と呼ばれる電気通信グループが取り組んだ。
+    * 1991年
+        * 最初のGSMシステムが導入された。 すぐに成功した。
+    * 世界的にも普及できること明らかとなり、GSMはより世界的にアピールするように名前が変更された。
+* GSM の規格は 5000ページを超える。
+    * 大部分は、システムのエンジニアリングの側面、特にマルチパス信号伝搬を処理する受信機の設計、および送信機と受信機の同期
+* コンポーネント
+    * 携帯電話端末は電話機器とSIMカードに分かれる。
+        * SIM (Subscriber Identity Module) カード
+            * 加入者とアカウント情報を備えた removable chip
+            * 会話を暗号化するためのシークレットを含む
+            * 異なる電話機器にセットすれば、その電話機器から電話をかけられる。
+    * セル基地局
+        * セルの無線リソースを制御
+        * ハンドオフを処理する BSC (Base Station Controller) に接続されている。
+    * BSC
+        * AMPS のように、 MSC に接続されている
+    * MSC
+        * 通話をルーティング
+            * 携帯電話がどこにあるかは、 VLR (Visitor Location Registor) を使う
+                * VLR: 管理するセルに関連づけられてた、周辺の携帯電話のデータベース
+        * PSTN (Public Switched Telephone Network) に接続する
+    * HLR (Home Location Register)
+        * 各モバイルが最後に認識された場所を保持するデータベース
+        * 着信コールを適切な場所にルーティングするために使用される。
+    * モバイルがセルからセルに移動するときは、VLR, HLR を最新の状態に保つ必要がある。
 
