@@ -359,8 +359,10 @@ CDMAはFDMでもTDMでもありませんが、各ユーザーが同じ周波数�
 ### 3.5G
 
 * W-CDMA を拡張した HSDPA
+    * 2014年、 NTT Docomo が導入
+        * 下り 14 Mbps (3G の7倍)
 
-### LTE (Long TermEvolution)
+### LTE (Long TermEvolution, 3.9G)
 
 * 特徴
     * 高帯域幅
@@ -368,10 +370,12 @@ CDMAはFDMでもTDMでもありませんが、各ユーザーが同じ周波数�
     * 802.11アクセスポイントを含む他の有線および無線IPネットワークとのシームレスな統合
     * 適応型のリソースおよびスペクトル管理
     * マルチメディア向けの高品質のサービス
-* LTE の3要素
-    * MIMO(Multi-Input Multiple-Output): アンテナを複数に 
-    * OFDMA: 複数周波数を1度に利用
-    * 64QAM:波の合成 1周期で64ビット
+* LTE の3要素 (IMT-Advanced)
+    * MIMO (Multi-Input Multiple-Output): アンテナを複数に 
+    * OFDMA : 複数周波数を1度に利用
+    * 64QAM :波の合成 1周期で64ビット
+* 端末ごとにサポートしている速度が様々
+    * 150 Mbps のものもあれば 1 Gbps のものもあった
 
 ### WiMAX 802.16
 
