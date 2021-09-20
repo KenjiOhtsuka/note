@@ -176,3 +176,7 @@ object Main {
     }
 }
 ```
+
+## 3.7
+
+Impossible.
