@@ -364,6 +364,8 @@ CDMAはFDMでもTDMでもありませんが、各ユーザーが同じ周波数�
 
 ### LTE (Long TermEvolution, 3.9G)
 
+* W-CDMA が発展したもの。
+    * CDMA2000 は UMB (Ultra Mobile Broadband) として発展したが、 4G には採用されず、クアルコムも回発を中止。
 * 特徴
     * 高帯域幅
     * ユビキタス
