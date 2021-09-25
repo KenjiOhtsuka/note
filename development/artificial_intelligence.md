@@ -1,8 +1,16 @@
 ---
 layout: page
+title: Artificial Intelligence
 ---
 
-# Artificial Intelligence
+Artificial intelligence is:
+
+> Algorithms enabled by constraints exposed by representations that support
+> models targeted at thinking perception action
+>
+> MIT. (2010). _Lecture 1_. Artificial Intelligence. https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/index.htm
+
+
 
 ## History
 
