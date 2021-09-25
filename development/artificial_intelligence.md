@@ -75,3 +75,10 @@ Artificial intelligence is:
         * 人数
     * 連続値
         * 身長、金額、時間(長さ)
+
+
+## Open lectures
+
+* https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/
+* https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/index.htm
+* https://tamarabroderick.com/ml.html
