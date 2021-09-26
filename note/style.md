@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Style
 ---
 
 人間は自分が意識した通りに行動している

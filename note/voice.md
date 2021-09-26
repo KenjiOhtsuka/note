@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Voice
 ---
 
 # 6つの声

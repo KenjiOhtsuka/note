@@ -1,8 +1,7 @@
 ---
 layout: page
+title: English
 ---
-
-# English
 
 ## 不定冠詞aが母音の前でanになる現象
 

@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Stock
 ---
 
 株のウリドキ

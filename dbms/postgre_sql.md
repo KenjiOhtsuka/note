@@ -1,8 +1,7 @@
 ---
 layout: page
+title: PostgreSQL Database
 ---
-
-# PostgreSQL
 
 ## Installation
 

@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Oracle Database
 ---
-
-# Oracle Database
 
 ## SQLLoader
 

@@ -1,8 +1,7 @@
 ---
+title: Android Root
 layout: page
 ---
-
-# Root
 
 ## Procedure
 

@@ -1,8 +1,7 @@
 ---
 layout: page
+title: AWS Trouble Shooting
 ---
-
-# AWS Trouble Shooting
 
 ## ELB, EC2, VPC につながらない！
 
