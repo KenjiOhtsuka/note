@@ -51,7 +51,6 @@ title: Internet Protocol version 6 (IPv6)
     * Neighbor Solicitation は ARP リクエストに相当する。 (ICMPv6 type 135)
     * Neighbor Advertisement は ARP リプライに相当する。 (ICMPv6 type 136)
 
-
 ### 近隣キャッシュ
 
 * IPv6 ホスト が管理する、 トラフィックを送信した近隣ノードの一覧表。
