@@ -37,7 +37,7 @@ title: Internet Protocol version 6 (IPv6)
 ## Neighbor Solicitation
 
 * IPv4 の ARP に対応するもの。
-    *　"特定の IPv6 アドレス を持っているのは誰か"
+    * "特定の IPv6 アドレス を持っているのは誰か"
 * solicited-node マルチキャストアドレス に送られる。
     * ARP と違ってブロードキャストされない。
     * solicited-node multicast address
