@@ -70,6 +70,29 @@ title: Internet Protocol version 6 (IPv6)
             * 探索中 Probe
     * その他、到達不能検出に必要な情報 : 応答のない近隣陽性の数、次の到達不能検出のための近隣養成の送信時間など
 
+## ICMP
+
+* 2つに分類される
+    * エラーメッセージ (type 0-127)
+        * IP Packet が宛先のホストまで到達しなかった場合に、エラーが発生したホストやルータによって送信される。
+    * 情報メッセージ (type 128-255)
+        * 128 : Echo Request (エコー要求)
+        * 129 : Echo Reply
+        * 130 : Multicast Listener Query
+        * 131 : Multicast Listener Report
+        * 132 : Multicast Listener Done
+        * 133 : Router Solicitation
+        * 134 : Router Advertisement
+        * 135 : Neighbor Solicitation
+        * 136 : Neighbor Advertisement
+        * 137 : Redirect Message
+        * 138 : Router Renumbering
+        * 139 : ICMP Node Information Response
+        * 140 : ICMP Node Information Response
+        * 141 : Inverse Neighbor Discovery Solicitation
+        * 142 : Inverse Neighbor Discovery Advertisement
+
+
 
 
 <!--
