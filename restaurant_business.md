@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Restaurant Business レストランビジネス
 ---
-
-# Restaurant Business
 
 ## Web services
 

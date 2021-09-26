@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Success
 ---
 
 # 成功へのステップ

@@ -1,5 +1,6 @@
 ---
 layout: page
+title: draft
 ---
 
 小学校で鉛筆を使う理由

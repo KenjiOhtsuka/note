@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Music
 ---
-
-# Music
 
 ## 純正音程
 

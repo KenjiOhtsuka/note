@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Translation
 ---
 
 ## 翻訳

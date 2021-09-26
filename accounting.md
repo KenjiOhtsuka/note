@@ -1,5 +1,6 @@
 ---
 layout: page
+title: accounting
 ---
 
 # 会計

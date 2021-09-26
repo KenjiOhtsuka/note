@@ -1,7 +1,7 @@
 ---
 layout: page
+title: health
 ---
-# Health
 
 ## 飲料と糖分表示の関係
 

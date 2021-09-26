@@ -1,8 +1,7 @@
 ---
 layout: page
+title: encryption
 ---
-
-# Encryption
 
 ## sha512
 

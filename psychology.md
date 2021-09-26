@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Psycology
 ---
-
-# Pscychology
 
 ## ABC 理論
 

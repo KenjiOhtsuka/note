@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Turmeric
 ---
 
 # 鬱金 (ウコン)

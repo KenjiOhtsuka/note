@@ -1,5 +1,6 @@
 ---
 layout: page
+title: file system
 ---
 
 いつかのなにかのメモがあったので一応載せておく。

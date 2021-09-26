@@ -1,5 +1,6 @@
 ---
 layout: page
+title: history
 ---
 
 * 猿人 400-80万年前

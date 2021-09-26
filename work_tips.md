@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Work tips
 ---
-
-# Work Tips
 
 * 時間は管理できない、仕事を管理することでパフォーマンスを上げる
     * 質 x 量 / 投下時間

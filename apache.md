@@ -1,8 +1,7 @@
 ---
 layout: page
+title: apache
 ---
-
-# Apache
 
 ## Stop Apache
 

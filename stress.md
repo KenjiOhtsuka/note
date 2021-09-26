@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Stress
 ---
 
 # Stress and Time management

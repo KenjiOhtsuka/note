@@ -1,8 +1,7 @@
 ---
 layout: page
+title: SSL
 ---
-
-# SSL
 
 ## SSL Certification
 

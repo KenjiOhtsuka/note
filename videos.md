@@ -1,3 +1,8 @@
+---
+title: Videos
+layout: page
+---
+
 ## これまでに見た ディズニー
 
 * [トイストーリー](https://www.amazon.co.jp/%E3%83%88%E3%82%A4%E3%83%BB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC-MovieNEX-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%B3%E3%83%94%E3%83%BC-MovieNEX%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89-Blu-ray/dp/B00FF4I1JS/ref=as_li_ss_tl?ie=UTF8&qid=1540616235&sr=8-4&keywords=toy+story&linkCode=ll1&tag=mezurashinews-22&linkId=10a4dd726138211862dfd3707d9012cc&language=ja_JP)
