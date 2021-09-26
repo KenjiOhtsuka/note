@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Database Basic Knowledge
 ---
-
-# Database Basic Knowledge
 
 ## Comparing to File saving system
 

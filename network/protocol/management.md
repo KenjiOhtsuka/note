@@ -1,8 +1,7 @@
 ---
 layout: page
+title:  Network Management Protocol
 ---
-
-# Network Management Protocol
 
 ## OSI Network Management Function
 

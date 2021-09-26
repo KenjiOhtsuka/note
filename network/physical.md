@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Physical Network
 ---
-
-# Physical Network
 
 ## LAN Cable
 

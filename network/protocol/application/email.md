@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Email protocol
 ---
-
-# Email protocol
 
 ## SMTP
 

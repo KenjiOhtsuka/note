@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Date science basic
 ---
-
-# Date science basic
 
 ## 5V
 

@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Protocols for file transferring
 ---
-
-# Protocols for file transferring
 
 * FTP: File Transfer Protocol
 * TFTP: Trivial File Transfer Protocol

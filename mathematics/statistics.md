@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Statistics
 ---
-
-# Statistics
 
 From the sample data, we can calculate a statistic. 
 

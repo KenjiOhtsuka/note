@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Personnel Rule in Company
 ---
 
 # 人事のルール
