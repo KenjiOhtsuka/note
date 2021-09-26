@@ -43,13 +43,14 @@ title: Internet Protocol version 6 (IPv6)
     * solicited-node multicast address
         * 小さなマルチキャストグループ
         * 形式は `ff02::0001:xyzw` (x, y, z, w は 検索対象 IPv6 アドレスの 下位32ビット)
-        * LAN内の IPv6 を持つホストは自分のアドレスが所属するすべての solicited-node multicast address に登録しておく必要がある。
+        * LAN内の IPv6 を持つホストは自分のアドレスが所属するすべての `solicited-node multicast address` に登録しておく必要がある。
 * 定期的に繰り返される
 * フォローアップの verification は最初にファイル上のユニキャストLANアドレスに送信される。
     * LAN上の他のホストは、最初の neighbor solitcitation メッセージを受け取らなくてよい (ARPとは異なる)
 * Neighbor solicitation への、ターゲットホストからの返答は、 neighbor advertisement という。
     * Neighbor Solicitation は ARP リクエストに相当する。 (ICMPv6 type 135)
     * Neighbor Advertisement は ARP リプライに相当する。 (ICMPv6 type 136)
+* 近隣要請には、近隣到達不能検出(Neighbor Unreachability Detection)も含まれる
 
 ### 近隣キャッシュ
 
@@ -101,7 +102,7 @@ title: Internet Protocol version 6 (IPv6)
 
 ノード（ホストまたはルーター）が近隣要請を通じて近隣のLANアドレスを検出すると、ノードは引き続き近隣の継続的な到達可能性を監視します。
 
-近隣要請には、近隣到達不能検出も含まれます。各ノード（ホストまたはルーター）は、既知のネイバーを引き続き監視します。到達可能性は、進行中のIPv6トラフィック交換または近隣アドバタイズメント応答のいずれかから推測できます。近隣ホストが到達不能になったことをノードが検出した場合、近隣のLANアドレスが単に変更された場合、元のノードはマルチキャスト近隣要請プロセスを再試行できます。ノードは、隣接ルーターが到達不能になったことを検出すると、代替パスを見つけようとします。
+各ノード（ホストまたはルーター）は、既知のネイバーを引き続き監視します。到達可能性は、進行中のIPv6トラフィック交換または近隣アドバタイズメント応答のいずれかから推測できます。近隣ホストが到達不能になったことをノードが検出した場合、近隣のLANアドレスが単に変更された場合、元のノードはマルチキャスト近隣要請プロセスを再試行できます。ノードは、隣接ルーターが到達不能になったことを検出すると、代替パスを見つけようとします。
 
 最後に、IPv4ICMPリダイレクトメッセージもIPv6で近隣探索プロトコルに移動されました。これらにより、ルーターは、特定の宛先へのトラフィックを処理するために別のルーターが適切に配置されていることをホストに通知できます。
 -->
@@ -113,7 +114,7 @@ The analogue of Proxy ARP is still permitted, in that a node may send Neighbor A
 
 Once a node (host or router) has discovered a neighbor’s LAN address through Neighbor Solicitation, it continues to monitor the neighbor’s continued reachability.
 
-Neighbor Solicitation also includes Neighbor Unreachability Detection. Each node (host or router) continues to monitor its known neighbors; reachability can be inferred either from ongoing IPv6 traffic exchanges or from Neighbor Advertisement responses. If a node detects that a neighboring host has become unreachable, the original node may retry the multicast Neighbor Solicitation process, in case the neighbor’s LAN address has simply changed. If a node detects that a neighboring router has become unreachable, it attempts to find an alternative path.
+Each node (host or router) continues to monitor its known neighbors; reachability can be inferred either from ongoing IPv6 traffic exchanges or from Neighbor Advertisement responses. If a node detects that a neighboring host has become unreachable, the original node may retry the multicast Neighbor Solicitation process, in case the neighbor’s LAN address has simply changed. If a node detects that a neighboring router has become unreachable, it attempts to find an alternative path.
 
 Finally, IPv4 ICMP Redirect messages have also been moved in IPv6 to the Neighbor Discovery protocol. These allow a router to tell a host that another router is better positioned to handle traffic to a given destination.
 
