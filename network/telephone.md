@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 電話
+title: 電話 Telephone
 ---
 
 * PSTN (Public Switched Telephone Network)
