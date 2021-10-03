@@ -24,6 +24,16 @@ title: ルーティング
     * 経路情報が全てのルータに伝わって、安定するまでに時間がかかる。
     * ループを検知する機構がない。
 
+### ループを産まないアルゴリズム
+
+#### Destination-Sequenced Distance Vector (DSDV)
+
+#### Ad-hoc On-demand Distance Vector (AODV)
+
+#### The Hybrid Wireless Mesh Protocol (HWMP)
+
+#### Enhanced Interior Gateway Routing Protocol (EIGRP)
+
 ### リンクステート型 Link-State
 
 * ルータがネットワーク全体のトポロジーを理解した後で最適経路を計算する。
