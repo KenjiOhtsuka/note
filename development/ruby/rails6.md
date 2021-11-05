@@ -19,7 +19,7 @@ import '@fortawesome/fontawesome-free/js/all'
 
 ## Launch local server with SSL for development
 
-Use mkcert
+Use mkcert. mkcert can be installed with brew.
 
 ```
 $ mkcert -install
