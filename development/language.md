@@ -7,7 +7,7 @@ title: Programming Language
 
 形式文法 _G_ は 集合 _N_, _&Sigma;_, _P_ と状態 _S_ を用いて表される。
 
-_G = <N, &Sigma;, P, S>_
+_G_ = <_N_, _&Sigma;_, _P_, _S_>
 
 * _N_: non-terminal symbol, 非終端記号
 * _&Sigma;_: terminal symbol, 終端記号
