@@ -9,7 +9,6 @@ Script to split text file by some amount of lines. It works on Windows, using JS
 
 テキストファイルを行単位で分割するスクリプト。Windows で動きます。JScript です。いくつか使われない変数が宣言されているかもしれませんが・・・。
 
-
 ```js
 /*==========================================================
  Declaration
@@ -82,3 +81,5 @@ function splitFile() {
   return 0;
 }
 ```
+
+コードは <a href="https://gist.github.com/KenjiOhtsuka/7147806" target="_blank" rel="nofollow noopener noreferrer">Gist</a> にもあります。
