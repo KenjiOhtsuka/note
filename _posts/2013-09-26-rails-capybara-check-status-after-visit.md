@@ -14,16 +14,16 @@ categories: [rails]
 しかし、そんなことやっても
 
 ```
-Failure/Error: response.status.should be(200)<br />
-NoMethodError:<br />
+Failure/Error: response.status.should be(200)
+NoMethodError:
   undefined method `status' for nil:NilClass
 ```
 
 と言われて終わるのである。たとえばこれを `get 'path'` のように書くと、response は `nil` ではなくなる。そして、
 
 ```
-Failure/Error: response.status.should be(200)<br />
-       expected #<Fixnum:401> => 200<br />
+Failure/Error: response.status.should be(200)
+       expected #<Fixnum:401> => 200
             got #<Fixnum:605> => 302
 ```
 
