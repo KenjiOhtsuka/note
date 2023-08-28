@@ -6,3 +6,4 @@ _site
 .idea/encodings.xml
 .idea/deployment.xml
 .idea/php.xml
+.idea/dataSources
