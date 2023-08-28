@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Jekyll
 ---
-
-# Jekyll
 
 github pages の　Jekyll は、 単なる 　Jekyll ではない。
 同じ環境を local environment で実現する場合は、 github-pages という Gem を入れる。
@@ -61,6 +60,8 @@ GitHub pages の依存関係は下記のようになっている。
       public_suffix (~> 2.0)
       typhoeus (~> 1.3)
 ```
+
+## 参考
 
 https://qiita.com/koyo-miyamura/items/5ec89ac9689be49a55f6
 
