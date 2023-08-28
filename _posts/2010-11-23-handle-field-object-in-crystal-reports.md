@@ -16,4 +16,4 @@ DirectCast(UserReport0.ReportDefinition.ReportObjects("Box1"), CrystalDecisions.
 ```
 <p>キャスト(型変換)してプロパティを使えるようにするという込み入った作業が必要。</p>
 <p>CType よりも DirectCast のほうが負荷が少ないらしい。C# のは下記ページにある。</p>
-<p>参考： http://www.hirano.cc/crystalreports/misc.html</p><div style="text-align:center;"><iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=mezurashinews-22&o=9&p=12&l=st1&mode=books-jp&search=crystal%20reports&fc1=000000&lt1=_blank&lc1=3366FF&bg1=FFFFFF&f=ifr" marginwidth="0" marginheight="0" width="300" height="250" border="0" frameborder="0" style="border:none;" scrolling="no"></iframe></div>
+<p>参考： http://www.hirano.cc/crystalreports/misc.html</p>
