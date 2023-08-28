@@ -1,11 +1,14 @@
 ---
-title: "Ubuntu: vimで日本語入力"
+title: "Ubuntu: vimで日本語固定入力"
 date: 2013-09-18 00:00:00 +0900
 tags: [Ubuntu, vim, 日本語入力]
 categories: [Ubuntu]
 ---
 
 <p>Ubuntuで日本語入力にIBUSを使っています。標準の状態では日本語入力が面倒なので日本語固定入力というのをできるようにしました。windows のgvimでは、元から日本語固定入力になっています。</p>
+
+日本語固定入力とは、挿入モードになったら自動的に日本語入力モードに切り替わることです。
+
 <p>github でも公開されています。<q>https://github.com/fuenor/im_control.vim</q></p>
 <p>説明サイト: https://sites.google.com/site/fudist/Home/vim-nihongo-ban/vim-japanese/ime-control/ibus</p>
 <p>~/.vim/plugin ディレクトリに im_control.vim を入れて、 ~/.vimrc に以下の記述を加えればOKでした。</p>
