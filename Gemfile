@@ -20,10 +20,7 @@ gem "minima" #, "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed" #, "~> 0.6"
-  # Added at 2018-07-23 10:57:09 +0900 by kenji:
   gem "jekyll-sitemap" #, "~> 1.2"
-
-  # Added at 2018-07-23 10:57:38 +0900 by kenji:
   gem "jekyll-katex" #, "~> 0.1.4"
 end
 
@@ -35,3 +32,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 
 gem 'github-pages', group: 'jekyll-plugins'
+
+
+gem "mini_racer", "~> 0.8.0"
