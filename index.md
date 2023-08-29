@@ -3,18 +3,17 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+title: Welcome
 ---
 
-# Welcome
-
-This is really personal memorandom.
+This is only a memorandum.
 
 <ul>
-  {% for post in site.posts %}
+  {%- for post in site.posts -%}
     <li>
       <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
       {{ post.excerpt }}
     </li>
-  {% endfor %}
+  {%- endfor -%}
 </ul>
 
