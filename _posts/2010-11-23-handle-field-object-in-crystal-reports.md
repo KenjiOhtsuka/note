@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Crystal Report で フィールド・オブジェクトを操作する方法
 date: 2010-11-23 00:00:00 +0900
 tags: [Crystal Report, フィールドオブジェクト]

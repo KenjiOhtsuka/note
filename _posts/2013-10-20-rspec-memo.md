@@ -3,6 +3,7 @@ title: rspecがらみのメモ
 date: 2013-10-20 00:00:00
 categories: ruby
 tags: rspec ruby
+layout: post
 ---
 
 ## private method をテストする方法

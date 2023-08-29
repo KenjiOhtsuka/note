@@ -1,4 +1,5 @@
 ---
+layout: post
 title: eclipse で Javadoc を自動生成する方法
 date: 2011-06-03 00:00:00 +0900
 tags: [eclipse, javadoc]

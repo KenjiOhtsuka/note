@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Excel VBA で DLL内 の関数を呼び出す
 date: 2011-09-08 00:00:00 +0900
 tags: [Excel, VBA, DLL]

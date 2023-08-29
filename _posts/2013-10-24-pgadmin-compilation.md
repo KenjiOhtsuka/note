@@ -1,5 +1,4 @@
 ---
-layout: post
 title: pgadmin3 のコンパイル
 categories: postgresql
 tags: pgadmin ubuntu

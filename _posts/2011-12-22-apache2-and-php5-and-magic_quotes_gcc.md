@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Apache2 + PHP5 で magic_quotes_gpc = off に設定
 date: 2011-12-22 00:00:00 +0900
 tags: [Apache, php5, magic_quotes_gpc]

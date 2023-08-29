@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "pg_dump: テーブル構造のみ・データのみ出力"
 date: 2013-02-04 00:00:00 +0900
 tags: [postgresql, database, pg_dump]

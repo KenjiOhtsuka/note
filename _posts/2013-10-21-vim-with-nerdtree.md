@@ -3,6 +3,7 @@ title: vim with NERDTree
 date: 2013-10-21 12:00:00 +0900
 categories: vim
 tags: vim
+layout: post
 ---
 
 NERDTreeが表示されている状態で、

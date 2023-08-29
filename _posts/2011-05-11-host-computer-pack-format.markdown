@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: post
+date: 2011-05-11 00:00:00 +0900
 categories: computer
 tags: computer
 title: ホストコンピュータ パック形式

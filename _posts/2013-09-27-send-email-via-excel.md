@@ -3,6 +3,7 @@ title: Excel VBA からメールを送るコード
 date: 2013-09-27 00:00:00 +0900
 tags: [Excel, VBA, メール]
 categories: [Excel]
+layout: post
 ---
 
 VBAでメールを送信してみました。

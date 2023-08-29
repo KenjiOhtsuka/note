@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 炊飯器、間違えて保温押しちゃった！　炊飯押さずに…
 date: 2007-11-23 00:00:00 +0900
 categories: [diary]

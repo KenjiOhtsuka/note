@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Apache2 と php5 を動かしてみた。
 date: 2011-08-11 00:00:00 +0900
 tags: [Apache, php5]

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: A5SQL と pgAdmin
 date: 2013-02-27 00:00:00 +0900
 tags: [A5SQL, pgAdmin]

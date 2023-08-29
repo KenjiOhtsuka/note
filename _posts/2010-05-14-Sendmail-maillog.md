@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Sendmail の maillog の読み方
 date: 2010-05-14 00:00:00 +0900
 tags: [sendmail, maillog]

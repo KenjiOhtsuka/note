@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Thinking and Critical Thinking
 ---
-
-# Thinking and Critical Thinking
 
 ## 6 types of thinking skills
 

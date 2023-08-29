@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "rails capybara: visit の後のステータスコードをチェックする方法"
 date: 2013-09-26 00:00:00 +0900
 tags: [capybara, visit, status]

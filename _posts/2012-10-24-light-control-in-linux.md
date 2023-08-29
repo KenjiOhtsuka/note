@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Linux で 画面の明るさを調整する方法
 date: 2012-10-24 00:00:00 +0900
 tags: [Linux, 画面, 明るさ]

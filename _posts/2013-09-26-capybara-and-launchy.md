@@ -1,4 +1,5 @@
 ---
+layout: post
 title: capybara and launchy
 date: 2013-09-26 00:00:00 +0900
 tags: [capybara, launchy]

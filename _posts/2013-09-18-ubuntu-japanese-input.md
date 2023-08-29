@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Ubuntu: vimで日本語固定入力"
 date: 2013-09-18 00:00:00 +0900
 tags: [Ubuntu, vim, 日本語入力]

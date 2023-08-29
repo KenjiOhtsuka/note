@@ -1,4 +1,5 @@
 ---
+layout: post
 title: テキストファイルを行単位で分割するスクリプト
 date: 2013-10-25 00:00:00 +0900
 categories: [Windows, JScript]

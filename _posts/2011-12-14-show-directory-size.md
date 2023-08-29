@@ -1,4 +1,5 @@
 ---
+layout: post
 title: フォルダのサイズを表示する
 date: 2011-12-14 00:00:00 +0900
 tags: [Linux, du]

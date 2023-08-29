@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Note
 ---
-
-# Note
 
 * review notes after taking
 * writing short summary after taking them

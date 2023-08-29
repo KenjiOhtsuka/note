@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Reading
 ---
-
-# Reading
 
 ## Effective reading
 

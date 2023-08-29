@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Oracle 使っていて postgresql にハマった
 date: 2013-01-17 00:00:00 +0900
 tags: [Oracle, postgresql]

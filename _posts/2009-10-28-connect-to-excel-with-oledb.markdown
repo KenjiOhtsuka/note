@@ -1,4 +1,5 @@
 ---
+layout: post
 categories: OleDb Excel visualbasic
 tags: OleDb excel visualbasic
 title: Excel に OleDb で接続　…　Visual Basic

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: vim よく使うコマンド
 date: 2012-01-21 00:00:00 +0900
 tags: [vim]

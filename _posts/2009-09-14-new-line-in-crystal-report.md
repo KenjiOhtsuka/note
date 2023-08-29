@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: CrystalReport グループを作ると空白ページ
 category: crystalreport
 tag: crystalreport

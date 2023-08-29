@@ -1,4 +1,5 @@
 ---
+layout: post
 title: vim タブをスペース２つにする
 date: 2012-01-25 00:00:00 +0900
 tags: [vim]
