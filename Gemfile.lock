@@ -255,6 +255,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
+    webrick (1.8.1)
 
 PLATFORMS
   ruby
@@ -268,6 +269,7 @@ DEPENDENCIES
   mini_racer (~> 0.8.0)
   minima
   tzinfo-data
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.10

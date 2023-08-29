@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Machine Learning
 ---
 
 # Machine Learning

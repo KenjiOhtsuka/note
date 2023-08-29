@@ -36,13 +36,13 @@ docker start -i [container id or name]
 
 remove log 
 
-* the following comand shows the log file location
-    * `docker inspect CONTAINER_ID --format "{{.LogPath}}"`
+* the following command shows the log file location
+    * `docker inspect CONTAINER_ID --format "{% raw %}{{.LogPath}}{% endraw %}"`
 * rotation
     * `docker run -d --log-opt max-size=100m --log-opt max-file=10 my-docker-image`
         * `--log-opt max-size=XX`, `--log-opt max-file=XX`, 
 
-## Jupyre notebook
+## Jupyter notebook
 
 `jupyter notebook --ip=0.0.0.0 --allow-root`
 

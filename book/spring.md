@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Spring に関して読んだ本
 ---
-
-# Spring に関して読んだ本
 
 * [はじめてのSpring Boot―「Spring Framework」で簡単Javaアプリ開発 (I・O BOOKS)](https://bookworm.improve-future.com/book/518)
     * 入門にはおすすめ

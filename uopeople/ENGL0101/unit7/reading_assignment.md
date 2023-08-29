@@ -1,8 +1,7 @@
 ---
 layout: page
+title: UoPeople ENGL0101 Unit 7 Reading Assignment Note 
 ---
-
-# Unit 7 Reading Assignment
 
 ## フィクションの位置付け
 

@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Writing Template
 ---
 
 ## QUEST

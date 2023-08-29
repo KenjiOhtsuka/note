@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  web:
+    container_name: jekyll-note
+    image: ruby:3.2.2
+    volumes:
+      - .:/home/jekyll
+    command: bash -c "cd /home/jekyll && bundle install && jekyll serve --watch --force_polling -H 0.0.0.0"
+    ports:
+      - 4000:4000

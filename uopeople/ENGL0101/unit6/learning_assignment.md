@@ -1,5 +1,6 @@
 ---
 layout: page
+title: UoPeople ENGL0101 Unit 6 Learning Assignment Note
 ---
 
 ### Reference

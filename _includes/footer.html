@@ -3,12 +3,75 @@
     <div class="wrapper">
         <nav>
             <div class="trigger">
-                {%- assign pages = site.pages | sort: 'path' -%} 
+                {%- assign pages = site.pages | sort: 'path' -%}
                 {%- assign default_paths = site.pages | map: "path" -%}
                 {%- assign page_paths = site.header_pages | default: default_paths -%}
+                {% assign p1_parts = Nil %}
+                {% assign p2_parts = Nil %}
                 <ul>
+                    {% assign page_size = pages.size %}
                     {%- for page in pages -%}
-                    <li><a class="page-link" href="/note/{{ page.url }}">{%- if page.title -%}{{ page.title }}{%- else -%}{{ page.path }}{%- endif -%}</a></li>
+                        {% if forloop.first %}
+                            {% assign p1_parts = parts %}
+                            {% assign p1_page = page %}
+                            {% assign p1_size = p1_parts.size %}
+                            {% continue %}
+                        {% endif %}
+                        {% assign parts = page.path | split: '/' %}
+                        {% assign size = parts.size %}
+                        {% assign n = p1_parts.size | minus: 1 %}
+                        {% for i in (0..n) %}
+                            {% if i < n %}
+                                {% if p2_parts != Nil and i < p2_size and p2_parts[i] == p1_parts[i] %}
+                                    {% continue %}
+                                {% endif %}
+                                <li>
+                                    {{ p1_parts[i] }}
+                                    <ul>
+                            {% else %}
+                                <li>
+                                    <a class="page-link" href="/note{{ p1_page.url }}">{%- if p1_page.title -%}{{ p1_page.title }}{%- else -%}{{ p1_page.path }}{%- endif -%}</a>
+                            {% endif %}
+                        {% endfor %}
+                        {% for i in (0..n) %}
+                            {% if i < n %}
+                                {% if i < size and p1_parts[i] == parts[i] %}
+                                    {% continue %}
+                                {% endif %}
+                                    </ul>
+                                </li>
+                            {% else %}
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                        {% if forloop.last %}
+                            {% assign n = parts.size | minus: 1 %}
+                            {% for i in (0..n) %}
+                                {% if i < n %}
+                                    {% if p1_parts != Nil and i < p1_size and parts[i] == p1_parts[i] %}
+                                       {% continue %}
+                                    {% endif %}
+                                    <li>
+                                        {{ parts[i] }}
+                                        <ul>
+                                {% else %}
+                                    <li>
+                                        <a class="page-link" href="/note{{ page.url }}">{% if page.title %}{{ page.title }}{% else %}{{ page.path }}{% endif %}</a>
+                                {% endif %}
+                            {% endfor %}
+                            {% for i in (0..n) %}
+                                {% if i < n %}
+                                    </ul>
+                                {% endif %}
+                                </li>
+                            {% endfor %}
+                        {% endif %}
+                        {% assign p2_parts = p1_parts %}
+                        {% assign p2_page  = p1_page  %}
+                        {% assign p2_size  = p1_size  %}
+                        {% assign p1_parts = parts    %}
+                        {% assign p1_page  = page     %}
+                        {% assign p1_size  = size     %}
                     {%- endfor -%}
                 </ul>
             </div>

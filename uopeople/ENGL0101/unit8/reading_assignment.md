@@ -1,8 +1,7 @@
 ---
 layout: page
+title: UoPeople ENGL0101 Unit 8 Reading Assignment Note
 ---
-
-# Reading Assignment
 
 ## ダブリナーズ
 

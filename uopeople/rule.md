@@ -1,5 +1,6 @@
 ---
 layout: page
+title: UoPeople Rule
 ---
 
 # UoPeople Rule
