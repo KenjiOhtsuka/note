@@ -1,5 +1,6 @@
 ---
 layout: page
+title: SAML Authentication (SAML認証)
 ---
 
 # SAML

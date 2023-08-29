@@ -1,8 +1,9 @@
 ---
 layout: page
+title: Team Building
 ---
 
-# Team building
+いつぞやのメモ。
 
 ## 会社にとって重要なこと
 

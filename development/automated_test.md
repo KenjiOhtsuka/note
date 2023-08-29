@@ -1,8 +1,7 @@
 ---
 layout: page
+title: シナリオテスト自動化
 ---
-
-シナリオテスト自動化
 
 spook, geb, gradle, java8, thymeleaf, maven,
 

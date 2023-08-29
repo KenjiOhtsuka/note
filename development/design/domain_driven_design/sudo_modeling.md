@@ -1,5 +1,6 @@
 ---
 layouot: page
+title: Sudo Modeling
 ---
 
 * 4 つのモデル図を作成する

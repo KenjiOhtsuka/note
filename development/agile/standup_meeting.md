@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Standup Meeting
 ---
-
-# Standup Meeting
 
 ## Advantage
 

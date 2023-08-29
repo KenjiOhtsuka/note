@@ -1,5 +1,6 @@
 ---
 layout: page
+title: DevOps
 ---
 
 # DevOps

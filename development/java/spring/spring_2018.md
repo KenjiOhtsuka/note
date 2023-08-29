@@ -1,12 +1,13 @@
 ---
 layout: page
+title: Spring Framework (2018)
 ---
 
 # Spring
 
 ## History
 
-22 years ago, it started to use java for enterprize application.
+22 years ago, it started to use java for enterprise application.
 
 2003, Rod Johnson created Spring for enterprise java tech, and EJB.
 

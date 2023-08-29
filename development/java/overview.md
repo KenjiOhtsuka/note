@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Java 概要
 ---
-
-# Java 概要
 
 javax: Java Extensions
 

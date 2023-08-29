@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Reactive Programming (リアクティブプログラミング)
 ---
-
-# リアクティブプログラミング (Reactive Programming)
 
 * non-blocking applications (ノンブロッキング)
 * asynchronous (非同期)

@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Spring Framework Articles
 ---
 
 http://springfest2018.springframework.jp/

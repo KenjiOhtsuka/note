@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Development Fundamental
 ---
-
-# Development Fundamental
 
 ## 式と値
 

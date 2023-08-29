@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Binary Tree (2分木)
 ---
-
-# Binary Tree (2分木)
 
 ## バイナリツリーとは
 

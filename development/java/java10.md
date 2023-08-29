@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Java 10
 ---
 
 https://codezine.jp/article/detail/10872?p=3

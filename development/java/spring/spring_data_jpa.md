@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Spring Data JPA
 ---
-
-# Spring Data JPA
 
 ## Test
 

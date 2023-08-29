@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Estonian Companies and Blockchain
 ---
-
-# Estonian
 
 ## IT
 

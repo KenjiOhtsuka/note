@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Software Engineering
 ---
 
 # Software Engineering
@@ -235,9 +236,6 @@ UUCP は次の式で計算する。
 ### System Sequence Diagram
 
 ユースケースシナリオを、シーケンス図で表す。
-
-
-
 
 
 ## アーキテクチャ

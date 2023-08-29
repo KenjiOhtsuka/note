@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Principle (原則)
 ---
 
 ### OAOO(Once and Only Once:1度、ただ1度)原則

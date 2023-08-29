@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Blockchain Overview
 ---
-
-# Blockchain Technology
 
 ## ビザンチン問題とブロックチェーン
 

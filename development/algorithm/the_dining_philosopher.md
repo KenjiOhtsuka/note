@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Deadlock Problem: The Dining Philosophers in C
+title: "Deadlock Problem: The Dining Philosophers in C"
 ---
-
-# Deadlock Problem: The Dining Philosophers in C
 
 Let's simulate the problem of "dining philosophers" in C.
 

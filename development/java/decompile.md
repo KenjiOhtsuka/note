@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Java decompile
 ---
 
 javap

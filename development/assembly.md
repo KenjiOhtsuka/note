@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Assembly
 ---
-
-# assembly
 
 ## 汎用レジスタ H+L
 

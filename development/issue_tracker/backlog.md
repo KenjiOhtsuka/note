@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Backlog
 ---
-
-# nulab backlog
 
 ## How to upload files in command line
 

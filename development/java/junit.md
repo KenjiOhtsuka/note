@@ -1,5 +1,6 @@
 ---
 layout: page
+title: JUnit
 ---
 
 # JUnit 5

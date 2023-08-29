@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Memo for Spring Framework
 ---
-
-# Memo for Spring Framework
 
 To change Entity data to snake case json...
 

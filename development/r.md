@@ -1,14 +1,13 @@
 ---
 layout: page
+title: R
 ---
-
-# R
 
 ## Data Type
 
-| name | description|
-|:--|:--|
-| factor | Factor or Quanlitative data |
+| name    | description                                |
+|:--------|:-------------------------------------------|
+| factor  | Factor or Quanlitative data                |
 | numeric | Quantatitive data. descrete or continuous. |
 
 ## Basic

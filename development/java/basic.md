@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Java 基礎
 ---
-
-# Java 基礎
 
 ## Terms
 

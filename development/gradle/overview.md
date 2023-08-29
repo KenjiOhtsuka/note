@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Gradle Overview
 ---
-
-# Gradle Overview
 
 ## Project
 

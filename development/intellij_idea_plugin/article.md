@@ -1,5 +1,6 @@
 ---
 layout: page
+title: IntelliJ IDEA Plugin
 ---
 
 * [IntelliJ IDEAプラグインの開発 - 有用な情報とリンク](http://d.hatena.ne.jp/fuzzhead/20120729/p1)

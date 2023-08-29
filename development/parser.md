@@ -1,8 +1,7 @@
 --
 layout: page
+title: Parser (パーサ)
 ---
-
-# Parser
 
 ## LL parser
 

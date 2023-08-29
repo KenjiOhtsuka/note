@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Test
 ---
-
-# Perl
 
 ## 特徴
 

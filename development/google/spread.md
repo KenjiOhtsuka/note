@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Google Spreadsheet
 ---
 
 ## To Open Spreadsheet

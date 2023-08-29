@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Gradle Plugin
 ---
-
-# Gradle Plugin
 
 ## Publishing
 
