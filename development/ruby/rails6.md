@@ -2,8 +2,6 @@
 title: Rails 6
 ---
 
-# Rails 6
-
 ## Install font awesome
 
 ```
