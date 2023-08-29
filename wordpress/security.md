@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Wordpress Security Plugins
 ---
-
-# Security Plugins
 
 ## IP Geo Block
 

@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Wordpress SSL
 ---
-
-# Make the Site HTTPS
 
 ## Helpful Plugins
 
