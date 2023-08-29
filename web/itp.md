@@ -1,9 +1,7 @@
 ---
 layout: page
+title: "ITP : Intelligent Tracking Prevention"
 ---
-
-
-# ITP : Intelligent Tracking Prevention
 
 * Safariの、機械学習を用いてCookieを判別する機能。 ユーザが望まないトラッキングを防ぐ。
 * Cookieには、ユーザに訪問の自覚がないサイトが書き込んでいる形になっているため。

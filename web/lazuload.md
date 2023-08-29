@@ -1,8 +1,7 @@
 ---
 layout: page
+title: "LazyLoad"
 ---
-
-# LazyLoad の基本
 
 ## 画像を差し替える仕組み
 

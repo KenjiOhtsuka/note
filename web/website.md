@@ -1,16 +1,14 @@
 ---
 layout: page
+title: "Website"
 ---
-
-# Website
-
 
 google notation
 
-Scheme.org
-itemscope
-itemtype
-itemprop
+- Scheme.org
+- itemscope
+- itemtype
+- itemprop
 
 JSONLD
 

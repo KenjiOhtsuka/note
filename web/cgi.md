@@ -1,8 +1,7 @@
 ---
 layout: page
+title: "CGI: Common Gateway Interface"
 ---
-
-# CGI: Common Gateway Interface
 
 * CGIプログラム
     * CGI Script: Perl、awk、sh などコンパイル作業が不要なスクリプト言語で記述されたもの

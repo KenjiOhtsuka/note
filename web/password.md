@@ -1,8 +1,7 @@
 ---
 layout: page
+title: "Authentication
 ---
-
-# Web
 
 ## Basic 認証
 

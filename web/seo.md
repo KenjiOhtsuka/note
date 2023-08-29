@@ -1,8 +1,7 @@
 ---
 layout: page
+title: "SEO: Search Engine Optimization"
 ---
-
-# WEB SEO
 
 https://developers.google.com/search/mobile-sites/mobile-seo/?hl=ja
 
