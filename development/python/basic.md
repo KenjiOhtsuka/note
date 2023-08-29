@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Python Basic
 ---
-
-# Python Basic
 
 ## 型
 

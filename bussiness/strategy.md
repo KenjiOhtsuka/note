@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Business Strategy
 ---
-
-# Strategy
 
 ## Strategy Canvas
 

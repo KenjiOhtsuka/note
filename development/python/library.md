@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Python Library
 ---
-
-# Libraries
 
 ## Anaconda
 

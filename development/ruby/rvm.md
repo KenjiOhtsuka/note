@@ -1,8 +1,7 @@
 --
 layout: page
+title: RVM - Ruby Version Manager
 --
-
-# RVM
 
 ## change default Ruby version
 

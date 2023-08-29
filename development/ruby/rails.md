@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Rails
 ---
-
-# Rails
 
 ## Reset user's password
 

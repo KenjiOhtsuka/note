@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Tkinter - Python GUI module
 ---
-
-# Python module Tkinter
 
 ## import module
 

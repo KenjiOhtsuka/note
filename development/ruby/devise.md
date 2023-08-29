@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Devise - Flexible authentication solution for Rails with Warden
 ---
-
-# Ruby Gem Devise
 
 version 4.6.2
 

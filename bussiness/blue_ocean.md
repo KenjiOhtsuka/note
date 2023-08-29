@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Blue Ocean Strategy
 ---
-
-# Blue ocean
 
 focus, divergence, compelling tagline
 

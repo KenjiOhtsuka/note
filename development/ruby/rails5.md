@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Rails 5
 ---
-
-# Rails 5
 
 ## Webpack つきでプロジェクト作成
 

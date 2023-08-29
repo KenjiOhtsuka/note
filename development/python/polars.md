@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Polars - Python Library
 ---
 
 # Polars

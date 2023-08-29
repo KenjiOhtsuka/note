@@ -1,8 +1,7 @@
 ---
 layout: page
+title: RubyInline
 ---
-
-# RubyInine
 
 ## Sample 1
 

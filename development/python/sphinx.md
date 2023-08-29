@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Sphinx - Python Library
 ---
-
-# Python: Sphinx
 
 ## Template
 

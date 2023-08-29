@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Kotlin Basic
 ---
-
-# 基本
 
 ## 数値の範囲
 

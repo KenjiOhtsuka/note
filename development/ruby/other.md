@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Ruby this and that
 ---
 
 

@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Python
 ---
-
-# Python
 
 ## dump data
 

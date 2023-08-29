@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Data Download with Python
 ---
-
-# Python data download
 
 ## environment
 

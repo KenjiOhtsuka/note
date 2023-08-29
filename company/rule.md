@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Personnel Rule in Company
+title: Personnel Rule in Company (人事のルール)
 ---
-
-# 人事のルール
 
 ## 懲戒処分
 

@@ -1,5 +1,6 @@
 ---
 layout: page
+title: 経営の基本 Overview
 ---
 
 ## 最も重要な5つの質問

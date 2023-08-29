@@ -1,8 +1,7 @@
 ---
 layout: page
+title: BeautifulSoup - Python library
 ---
-
-# BeautifulSoup
 
 Beautiful soup helps to analyze structured documents, such as HTML and XML.
 

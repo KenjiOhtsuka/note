@@ -1,8 +1,7 @@
 ---
 layout: page
+title: NumPy
 ---
-
-# NumPy
 
 ## Transported Matrix
 
