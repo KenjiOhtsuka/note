@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Psycology
+title: Psychology
 ---
 
 ## ABC 理論

@@ -56,3 +56,15 @@ https://stackoverflow.com/questions/25451308/android-studio-gradle-bin-zip-vs-gr
 > gradle-1.12-all.zip file will have binaries, sources, and documentation. gradle-1.12-bin.zip will have only binaries(That should be enough as you don't need any samples/docs)
 >
 > If you want to know about gradle wrapper, please check this http://www.gradle.org/docs/current/userguide/gradle_wrapper.html
+
+---
+
+## Java Plugin
+
+`java` plugin を適用すると、`compileJava`, `test` タスクが追加される。
+
+for `compile`, `testCompile` in dependencies block:
+
+```gradle
+apply plugin: 'java'
+```
