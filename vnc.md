@@ -1,8 +1,7 @@
 ---
 layout: page
+title: VNC
 ---
-
-# VNX
 
 ## Connect to Linux
 
