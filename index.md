@@ -11,7 +11,7 @@ This is only a memorandum.
 <ul>
   {%- for post in site.posts -%}
     <li>
-      <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a> <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+      <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a> (<time>{{ post.date | date: "%Y-%m-%d" }}</time>)
       {{ post.excerpt }}
     </li>
   {%- endfor -%}
