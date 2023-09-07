@@ -22,9 +22,9 @@ df.plot()
 import numpy as np
 df = pd.DataFrame(df["timestamp"])
 df['value'] = 1
-df = cdf.set_index('timestamp')
+df = df.set_index('timestamp')
 # daily
-df1 = cdf.resample('D').sum()
+df1 = df.resample('D').sum()
 df1.plot()
 df1.max()
 ```
