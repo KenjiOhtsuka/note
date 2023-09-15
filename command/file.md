@@ -1,8 +1,7 @@
 ---
 layout: page
+title: file command
 ---
-
-# file
 
 macOS で使えるコマンド。
 ファイルについての情報を出力する。

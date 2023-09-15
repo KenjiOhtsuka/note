@@ -1,6 +1,6 @@
 ---
 layout: page
-title: edd
+title: edd command
 ---
 
 UNIX発祥のラインエディタ。

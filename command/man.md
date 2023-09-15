@@ -1,5 +1,5 @@
 ---
-title: man
+title: man command
 layout: page
 ---
 

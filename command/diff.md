@@ -1,8 +1,7 @@
 ---
 layout: page
+title: diff command
 ---
-
-# diff
 
 * `-r`
     * ディレクトリ比較

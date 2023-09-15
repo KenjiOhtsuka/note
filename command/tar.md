@@ -1,8 +1,7 @@
 ---
 layout: page
+title: tar command
 ---
-
-# Tar
 
 * gz で圧縮
 
