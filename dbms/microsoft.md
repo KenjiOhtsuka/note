@@ -36,3 +36,15 @@ IF EXISTS(
     -- some process
   END
 ```
+
+## Create temporary table
+
+Add `#` at the head of the table name.
+
+```sql
+CREATE TABLE #target_client (
+    sample_1 VARCHAR(255),
+    sample_2 VARCHAR(255)
+);
+```
+
