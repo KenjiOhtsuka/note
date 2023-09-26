@@ -21,7 +21,7 @@ duplicates effort
     * Application requirements are added to the system in an ad-hoc manner so it is difficult to enforce constraints.
   * Concurrency access
   
-## Datapase properties
+## Database properties
 
 * a representation of some aspect of the real world or a collection of data elements (facts) representing realworld information.
 * logical, coherent and internally consistent.
