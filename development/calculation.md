@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Calculation
+title: Calculation of sort algorithms
 ---
 
 ## O-notation
