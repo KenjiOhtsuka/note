@@ -17,6 +17,12 @@ For upgrading, `brew postgresql-upgrade-database` will help.
 
 * [PostgreSQLの環境をmacのローカルに作成＆SQL操作（＆ついでにDataGripへの接続）](https://qiita.com/ysdyt/items/64ed98b420ea5c4e52ec)
 
+or
+
+```shell
+brew services start postgresql
+```
+
 ### Login as root user
 
 #### Mac
