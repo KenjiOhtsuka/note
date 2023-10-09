@@ -51,7 +51,7 @@ https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c
 
 <div lang="en">
 <p>Playwright can be used in headed mode in two ways that I know.</p>
-<h2>> Use environment variable PWDEBUG</h2
+<h2> Use environment variable PWDEBUG</h2>
 <p>Set environment variable <code>PWDEBUG`</code>.</p>
 <p>If you use command line, you can set it as follows.</p>
 
