@@ -68,7 +68,7 @@ https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c
 <pre class="highlight"><code>Environment.SetEnvironmentVariable("PWDEBUG", "1")
 Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre></div></div>
 
-<p>However, if you use `PWDEBUG`, you will stop for debugging when you use Playwright API such as `GoTo`.
+<p>However, if you use <code>PWDEBUG</code>, you will stop for debugging when you use Playwright API such as `GoTo`.
 ( <a href="https://github.com/microsoft/playwright/issues/19425" rel="nofollow noopener noreferrer">https://github.com/microsoft/playwright/issues/19425</a> )</p>
 
 <h2>Pass <code>Headless</code> option to <code>BrowserType.LaunchAsync</code></h2>
