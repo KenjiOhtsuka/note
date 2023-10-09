@@ -55,14 +55,18 @@ https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c
 <p>Set environment variable <code>PWDEBUG</code>.</p>
 <p>If you use command line, you can set it as follows.</p>
 
-<pre class="highlight language-bash"><code>PWDEBUG=1 dotnet run</code></pre>
+<div class="language-bash highlighter-rouge">
+<div class="highlight">
+<pre class="highlight"><code>PWDEBUG=1 dotnet run</code></pre></div></div>
 
 <p>I use <code>dotnet</code> command because I assume F#, but <code>node</code> command is also available.</p>
 
 <p>You can also set environment variable from your program as follows.</p>
 
-<pre class="highlight language-fsharp"><code>Environment.SetEnvironmentVariable("PWDEBUG", "1")
-Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre>
+<div class="language-fsharp highlighter-rouge">
+<div class="highlight">
+<pre class="highlight"><code>Environment.SetEnvironmentVariable("PWDEBUG", "1")
+Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre></div></div>
 
 <p>However, if you use `PWDEBUG`, you will stop for debugging when you use Playwright API such as `GoTo`.
 ( <a href="https://github.com/microsoft/playwright/issues/19425" rel="nofollow noopener noreferrer">https://github.com/microsoft/playwright/issues/19425</a> )</p>
@@ -133,24 +137,26 @@ hay otro método que usa la variable de entorno `HEADED`, pero no funcionó en m
 
 <p>Playwright можно использовать в режиме заголовка двумя способами, которые я знаю.</p>
 
-## Используйте переменную среды PWDEBUG
+<h2>Используйте переменную среды PWDEBUG</h2>
 
 Установите переменную среды `PWDEBUG`.
 
 Если вы используете командную строку, вы можете установить ее следующим образом.
 
-```bash
-PWDEBUG=1 dotnet run
-```
+<div class="language-bash highlighter-rouge">
+<div class="highlight">
+<pre class="highlight"><code>PWDEBUG=1 dotnet run</code></pre></div></div>
 
 Я использую команду `dotnet`, потому что предполагаю F #, но также доступна команда `node`.
 
 Вы также можете установить переменную среды из своей программы следующим образом.
 
-```fsharp
-Environment.SetEnvironmentVariable("PWDEBUG", "1")
-Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))
-```
+<div class="language-fsharp highlighter-rouge">
+<div class="highlight">
+<pre class="highlight"><code>Environment.SetEnvironmentVariable("PWDEBUG", "1")
+Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre>
+</div>
+</div>
 
 `PWDEBUG`, однако, если вы используете, вы остановитесь для отладки, когда вы используете Playwright API, такие как `GoTo`.
 ( https://github.com/microsoft/playwright/issues/19425 )
