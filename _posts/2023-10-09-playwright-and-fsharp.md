@@ -50,48 +50,37 @@ https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c
 私の環境ではうまくいかなかった。
 
 <div lang="en">
+<p>Playwright can be used in headed mode in two ways that I know.</p>
+<h2>> Use environment variable PWDEBUG</h2
+<p>Set environment variable <code>PWDEBUG`</code>.</p>
+<p>If you use command line, you can set it as follows.</p>
 
-Playwright can be used in headed mode in two ways that I know.
+<pre class="highlight language-bash"><code>PWDEBUG=1 dotnet run</code></pre>
 
-## Use environment variable PWDEBUG
+<p>I use `dotnet` command because I assume F#, but `node` command is also available.</p>
 
-Set environment variable `PWDEBUG`.
+<p>You can also set environment variable from your program as follows.</p>
 
-If you use command line, you can set it as follows.
+<pre class="highlight language-fsharp"><code>Environment.SetEnvironmentVariable("PWDEBUG", "1")
+Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre>
 
-```bash
-PWDEBUG=1 dotnet run
-```
+<p>However, if you use `PWDEBUG`, you will stop for debugging when you use Playwright API such as `GoTo`.
+( <a href="https://github.com/microsoft/playwright/issues/19425" rel="nofollow noopener noreferrer">https://github.com/microsoft/playwright/issues/19425</a> )</p>
 
-I use `dotnet` command because I assume F#, but `node` command is also available.
+<h2>Pass <code>Headless</code> option to <code>BrowserType.LaunchAsync</code></h2>
 
-You can also set environment variable from your program as follows.
+<p>Pass <code>BrowserTypeLaunchOptions</code> to <code>BrowserType.LaunchAsync</code>.
+In the instance of <code>BrowserTypeLaunchOptions</code>, set <code>Headless</code> property to <code>false</code>.</p>
 
-```fsharp
-Environment.SetEnvironmentVariable("PWDEBUG", "1")
-Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))
-```
-
-However, if you use `PWDEBUG`, you will stop for debugging when you use Playwright API such as `GoTo`.
-( https://github.com/microsoft/playwright/issues/19425 )
-
-## Pass `Headless` option to `BrowserType.LaunchAsync`
-
-Pass `BrowserTypeLaunchOptions` to `BrowserType.LaunchAsync`.
-In the instance of `BrowserTypeLaunchOptions`, set `Headless` property to `false`.
-
-```fsharp
-let playwright = Playwright.CreateAsync().GetAwaiter().GetResult()
+<pre class="highlight language-fsharp"><code>let playwright = Playwright.CreateAsync().GetAwaiter().GetResult()
 let browser = playwright.Chromium.LaunchAsync(BrowserTypeLaunchOptions(Headless=false)).GetAwaiter().GetResult()
 let page = browser.NewPageAsync().GetAwaiter().GetResult()
-let response = page.GotoAsync(url).GetAwaiter().GetResult()
-```
+let response = page.GotoAsync(url).GetAwaiter().GetResult()</code></pre>
 
-## Other methods
+<h2>Other methods</h2>
 
-According to https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
-there is another method using environment variable `HEADED`, but it didn't work on my environment.
-
+<p>According to https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
+there is another method using environment variable `HEADED`, but it didn't work on my environment.</p>
 </div>
 
 <div lang="es">
