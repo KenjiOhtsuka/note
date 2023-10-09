@@ -144,17 +144,17 @@ hay otro método que usa la variable de entorno `HEADED`, pero no funcionó en m
 
 <h2>Используйте переменную среды PWDEBUG</h2>
 
-Установите переменную среды `PWDEBUG`.
+<p>Установите переменную среды <code>PWDEBUG</code>.</p>
 
-Если вы используете командную строку, вы можете установить ее следующим образом.
+<p>Если вы используете командную строку, вы можете установить ее следующим образом.</p>
 
 <div class="language-bash highlighter-rouge">
 <div class="highlight">
 <pre class="highlight"><code>PWDEBUG=1 dotnet run</code></pre></div></div>
 
-Я использую команду `dotnet`, потому что предполагаю F #, но также доступна команда `node`.
+<p>Я использую команду <code>dotnet</code>, потому что предполагаю F#, но также доступна команда <code>node</code>.</p>
 
-Вы также можете установить переменную среды из своей программы следующим образом.
+<p>Вы также можете установить переменную среды из своей программы следующим образом.</p>
 
 <div class="language-fsharp highlighter-rouge">
 <div class="highlight">
@@ -163,25 +163,25 @@ Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre>
 </div>
 </div>
 
-`PWDEBUG`, однако, если вы используете, вы остановитесь для отладки, когда вы используете Playwright API, такие как `GoTo`.
-( https://github.com/microsoft/playwright/issues/19425 )
+<p><code>PWDEBUG</code>, однако, если вы используете, вы остановитесь для отладки, когда вы используете Playwright API, такие как <code>GoTo</code>.
+( https://github.com/microsoft/playwright/issues/19425 )</p>
 
-## Передайте параметр `Headless` в `BrowserType.LaunchAsync`
+<h2>Передайте параметр `Headless` в `BrowserType.LaunchAsync`</h2>
 
-Передайте `BrowserTypeLaunchOptions` в `BrowserType.LaunchAsync`.
+<p>Передайте <code>BrowserTypeLaunchOptions</code> в <code>BrowserType.LaunchAsync</code>.</p>
 
-В экземпляре `BrowserTypeLaunchOptions` установите свойство `Headless` в `false`.
+<p>В экземпляре <code>BrowserTypeLaunchOptions</code> установите свойство <code>Headless</code> в <code>false</code>.</p>
 
-```fsharp
-let playwright = Playwright.CreateAsync().GetAwaiter().GetResult()
+<div class="language-fsharp highlighter-rouge">
+<div class="highlight">
+<pre class="highlight"><code>let playwright = Playwright.CreateAsync().GetAwaiter().GetResult()
 let browser = playwright.Chromium.LaunchAsync(BrowserTypeLaunchOptions(Headless=false)).GetAwaiter().GetResult()
 let page = browser.NewPageAsync().GetAwaiter().GetResult()
-let response = page.GotoAsync(url).GetAwaiter().GetResult()
-```
+let response = page.GotoAsync(url).GetAwaiter().GetResult()</code></pre></div></div>
 
-## Другие методы
+<h2>Другие методы</h2>
 
-Согласно https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
-есть еще один метод, использующий переменную среды `HEADED`, но он не работал в моей среде.
+<p>Согласно https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
+есть еще один метод, использующий переменную среды <code>HEADED</code>, но он не работал в моей среде.</p>
 
 </div>
