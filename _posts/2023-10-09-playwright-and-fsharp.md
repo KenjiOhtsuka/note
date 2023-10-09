@@ -88,7 +88,7 @@ let response = page.GotoAsync(url).GetAwaiter().GetResult()</code></pre>
 <h2>Other methods</h2>
 
 <p>According to https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
-there is another method using environment variable `HEADED`, but it didn't work on my environment.</p>
+there is another method using environment variable <code>HEADED</code>, but it didn't work on my environment.</p>
 </div>
 
 <div lang="es">
@@ -135,7 +135,7 @@ let response = page.GotoAsync(url).GetAwaiter().GetResult()</code></pre>
 <h2>Otros métodos</h2>
 
 <p>Según https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
-hay otro método que usa la variable de entorno `HEADED`, pero no funcionó en mi entorno.</p>
+hay otro método que usa la variable de entorno <code>HEADED</code>, pero no funcionó en mi entorno.</p>
 </div>
 
 <div lang="ru">
@@ -166,7 +166,7 @@ Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre>
 <p><code>PWDEBUG</code>, однако, если вы используете, вы остановитесь для отладки, когда вы используете Playwright API, такие как <code>GoTo</code>.
 ( https://github.com/microsoft/playwright/issues/19425 )</p>
 
-<h2>Передайте параметр `Headless` в `BrowserType.LaunchAsync`</h2>
+<h2>Передайте параметр <code>Headless</code> в <code>BrowserType.LaunchAsync</code></h2>
 
 <p>Передайте <code>BrowserTypeLaunchOptions</code> в <code>BrowserType.LaunchAsync</code>.</p>
 
