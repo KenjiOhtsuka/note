@@ -52,12 +52,12 @@ https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c
 <div lang="en">
 <p>Playwright can be used in headed mode in two ways that I know.</p>
 <h2> Use environment variable PWDEBUG</h2>
-<p>Set environment variable <code>PWDEBUG`</code>.</p>
+<p>Set environment variable <code>PWDEBUG</code>.</p>
 <p>If you use command line, you can set it as follows.</p>
 
 <pre class="highlight language-bash"><code>PWDEBUG=1 dotnet run</code></pre>
 
-<p>I use `dotnet` command because I assume F#, but `node` command is also available.</p>
+<p>I use <code>dotnet</code> command because I assume F#, but <code>node</code> command is also available.</p>
 
 <p>You can also set environment variable from your program as follows.</p>
 
@@ -84,49 +84,41 @@ there is another method using environment variable `HEADED`, but it didn't work 
 </div>
 
 <div lang="es">
+<p>Playwright se puede usar en modo encabezado de dos maneras que conozco.</p>
 
-Playwright se puede usar en modo encabezado de dos maneras que conozco.
+<h2>Use la variable de entorno PWDEBUG</h2>
 
-## Use la variable de entorno PWDEBUG
-
-Establezca la variable de entorno `PWDEBUG`.
+<p>Establezca la variable de entorno <code>PWDEBUG</code>.</p>
 
 Si usa la línea de comandos, puede configurarlo de la siguiente manera.
 
-```bash
-PWDEBUG=1 dotnet run
-```
+<pre class="highlight language-bash"><code>PWDEBUG=1 dotnet run</code></pre>
 
-Uso el comando `dotnet` porque asumo F #, pero también está disponible el comando `node`.
+<p>Uso el comando <code>dotnet</code> porque asumo F#, pero también está disponible el comando <code>node</code>.</p>
 
-También puede configurar la variable de entorno desde su programa de la siguiente manera.
+<p>También puede configurar la variable de entorno desde su programa de la siguiente manera.</p>
 
-```fsharp
-Environment.SetEnvironmentVariable("PWDEBUG", "1")
-Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))
-```
+<pre class="highlight language-fsharp"><code>Environment.SetEnvironmentVariable("PWDEBUG", "1")
+Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre>
 
-Sin embargo, si usa `PWDEBUG`, se detendrá para depurar cuando use Playwright API como `GoTo`.
-( https://github.com/microsoft/playwright/issues/19425 )
+<p>Sin embargo, si usa <code>PWDEBUG</code>, se detendrá para depurar cuando use Playwright API como <code>GoTo</code>.
+( https://github.com/microsoft/playwright/issues/19425 )</p>
 
-## Pase la opción `Headless` a `BrowserType.LaunchAsync`
+<h2>Pase la opción <code>Headless</code> a <code>BrowserType.LaunchAsync</code></h2>
 
-Pase `BrowserTypeLaunchOptions` a `BrowserType.LaunchAsync`.
+<p>Pase <code>Headless</code> a <code>BrowserType.LaunchAsync</code>.</p>
 
-En la instancia de `BrowserTypeLaunchOptions`, establezca la propiedad `Headless` en `false`.
+<p>En la instancia de <code>BrowserTypeLaunchOptions</code>, establezca la propiedad <code>Headless</code> en <code>false</code>.</p>
 
-```fsharp
-let playwright = Playwright.CreateAsync().GetAwaiter().GetResult()
+<pre class="highlight language-fsharp"><code>let playwright = Playwright.CreateAsync().GetAwaiter().GetResult()
 let browser = playwright.Chromium.LaunchAsync(BrowserTypeLaunchOptions(Headless=false)).GetAwaiter().GetResult()
 let page = browser.NewPageAsync().GetAwaiter().GetResult()
-let response = page.GotoAsync(url).GetAwaiter().GetResult()
-```
+let response = page.GotoAsync(url).GetAwaiter().GetResult()</code></pre>
 
-## Otros métodos
+<h2>Otros métodos</h2>
 
-Según https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
-hay otro método que usa la variable de entorno `HEADED`, pero no funcionó en mi entorno.
-
+<p>Según https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
+hay otro método que usa la variable de entorno `HEADED`, pero no funcionó en mi entorno.</p>
 </div>
 
 <div lang="ru">
