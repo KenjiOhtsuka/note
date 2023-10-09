@@ -49,6 +49,8 @@ https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c
 によると、 環境変数 `HEADED` を用いる方法もあるということが書いてあったが、
 私の環境ではうまくいかなかった。
 
+---
+
 <div lang="en">
 <p>Playwright can be used in headed mode in two ways that I know.</p>
 <h2> Use environment variable PWDEBUG</h2>
@@ -90,6 +92,8 @@ let response = page.GotoAsync(url).GetAwaiter().GetResult()</code></pre>
 <p>According to https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
 there is another method using environment variable <code>HEADED</code>, but it didn't work on my environment.</p>
 </div>
+
+---
 
 <div lang="es">
 <p>Playwright se puede usar en modo encabezado de dos maneras que conozco.</p>
@@ -137,6 +141,8 @@ let response = page.GotoAsync(url).GetAwaiter().GetResult()</code></pre>
 <p>Según https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
 hay otro método que usa la variable de entorno <code>HEADED</code>, pero no funcionó en mi entorno.</p>
 </div>
+
+---
 
 <div lang="ru">
 
