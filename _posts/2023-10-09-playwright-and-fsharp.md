@@ -72,10 +72,14 @@ Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre>
 <p>Pass <code>BrowserTypeLaunchOptions</code> to <code>BrowserType.LaunchAsync</code>.
 In the instance of <code>BrowserTypeLaunchOptions</code>, set <code>Headless</code> property to <code>false</code>.</p>
 
-<pre class="highlight language-fsharp"><code>let playwright = Playwright.CreateAsync().GetAwaiter().GetResult()
+<div class="language-fsharp highlighter-rouge">
+<div class="highlight">
+<pre class="highlight"><code>let playwright = Playwright.CreateAsync().GetAwaiter().GetResult()
 let browser = playwright.Chromium.LaunchAsync(BrowserTypeLaunchOptions(Headless=false)).GetAwaiter().GetResult()
 let page = browser.NewPageAsync().GetAwaiter().GetResult()
 let response = page.GotoAsync(url).GetAwaiter().GetResult()</code></pre>
+</div>
+</div>
 
 <h2>Other methods</h2>
 
@@ -110,10 +114,14 @@ Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre>
 
 <p>En la instancia de <code>BrowserTypeLaunchOptions</code>, establezca la propiedad <code>Headless</code> en <code>false</code>.</p>
 
-<pre class="highlight language-fsharp"><code>let playwright = Playwright.CreateAsync().GetAwaiter().GetResult()
+<div class="language-fsharp highlighter-rouge">
+<div class="highlight">
+<pre class="highlight"><code>let playwright = Playwright.CreateAsync().GetAwaiter().GetResult()
 let browser = playwright.Chromium.LaunchAsync(BrowserTypeLaunchOptions(Headless=false)).GetAwaiter().GetResult()
 let page = browser.NewPageAsync().GetAwaiter().GetResult()
 let response = page.GotoAsync(url).GetAwaiter().GetResult()</code></pre>
+</div>
+</div>
 
 <h2>Otros métodos</h2>
 
@@ -123,7 +131,7 @@ hay otro método que usa la variable de entorno `HEADED`, pero no funcionó en m
 
 <div lang="ru">
 
-Playwright можно использовать в режиме заголовка двумя способами, которые я знаю.
+<p>Playwright можно использовать в режиме заголовка двумя способами, которые я знаю.</p>
 
 ## Используйте переменную среды PWDEBUG
 
