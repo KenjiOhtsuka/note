@@ -183,5 +183,4 @@ let response = page.GotoAsync(url).GetAwaiter().GetResult()</code></pre></div></
 
 <p>Согласно https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
 есть еще один метод, использующий переменную среды <code>HEADED</code>, но он не работал в моей среде.</p>
-
 </div>
