@@ -98,16 +98,21 @@ there is another method using environment variable `HEADED`, but it didn't work 
 
 <p>Establezca la variable de entorno <code>PWDEBUG</code>.</p>
 
-Si usa la línea de comandos, puede configurarlo de la siguiente manera.
+<p>Si usa la línea de comandos, puede configurarlo de la siguiente manera.</p>
 
-<pre class="highlight language-bash"><code>PWDEBUG=1 dotnet run</code></pre>
+<div class="language-bash highlighter-rouge">
+<div class="highlight">
+<pre class="highlight"><code>PWDEBUG=1 dotnet run</code></pre></div></div>
 
 <p>Uso el comando <code>dotnet</code> porque asumo F#, pero también está disponible el comando <code>node</code>.</p>
 
 <p>También puede configurar la variable de entorno desde su programa de la siguiente manera.</p>
 
-<pre class="highlight language-fsharp"><code>Environment.SetEnvironmentVariable("PWDEBUG", "1")
+<div class="language-fsharp highlighter-rouge">
+<div class="highlight">
+<pre class="highlight"><code>Environment.SetEnvironmentVariable("PWDEBUG", "1")
 Assert.Equal("1", Environment.GetEnvironmentVariable("PWDEBUG"))</code></pre>
+</div></div>
 
 <p>Sin embargo, si usa <code>PWDEBUG</code>, se detendrá para depurar cuando use Playwright API como <code>GoTo</code>.
 ( https://github.com/microsoft/playwright/issues/19425 )</p>
