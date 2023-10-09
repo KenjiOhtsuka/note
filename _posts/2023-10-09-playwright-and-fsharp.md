@@ -50,6 +50,7 @@ https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c
 私の環境ではうまくいかなかった。
 
 <div lang="en">
+
 Playwright can be used in headed mode in two ways that I know.
 
 ## Use environment variable PWDEBUG
@@ -90,6 +91,7 @@ let response = page.GotoAsync(url).GetAwaiter().GetResult()
 
 According to https://stackoverflow.com/questions/74372594/running-playwright-in-headed-mode-c-sharp ,
 there is another method using environment variable `HEADED`, but it didn't work on my environment.
+
 </div>
 
 <div lang="es">
