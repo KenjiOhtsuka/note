@@ -3,6 +3,17 @@ layout: page
 title: MS SQL (SQL Database, SQL Server), T-SQL Convention
 ---
 
+## sqlcmd
+
+docker image: `mcr.microsoft.com/mssql-tools:latest`
+
+SQL command can be executed with `/opt/mssql-tools/bin/sqlcmd`
+
+### sqlcmd arguments
+
+- help: `-?`
+- connect db: `sqlcmd -S localhost -U user_name -P password -d db_name`
+
 ## Get Record Count
 
 ```sql
