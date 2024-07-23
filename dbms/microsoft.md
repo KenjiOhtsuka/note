@@ -59,3 +59,22 @@ CREATE TABLE #target_client (
 );
 ```
 
+## Turn On/Off Triggers
+
+### Change a specific trigger
+
+```sql
+-- stop trigger
+ALTER TABLE table_name DISABLE TRIGGER trigger_name;
+-- alternative
+DISABLE TRIGGER trigger_name ON trigger_table;
+```
+
+```sql
+-- start trigger
+ALTER TABLE table_name ENABLE TRIGGER trigger_name;
+-- alternative
+ENABLE TRIGGER trigger_name ON table_name;
+```
+
+To change all triggers on a table at once, change `trigger_name` to `ALL` syntax.
