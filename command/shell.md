@@ -72,6 +72,21 @@ rm -i ${F}_bk
 * パターンは `\1`, `\2` で参照できる。
 * タブは `$'\t'` と書くか Ctrl+V を押してから Tab を押すかで表現できる。
 
+### Remove BOM
+
+```bash
+#!/bin/bash
+
+# ファイル名を引数として受け取る
+file="$1"
+
+# BOMを削除し、結果を変数に格納
+content=$(sed '1s/^\xEF\xBB\xBF//' "$file")
+
+# 結果を表示（必要に応じてこの部分を変更）
+echo "$content"
+```
+
 
 ## grep
 
