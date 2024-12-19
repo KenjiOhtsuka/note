@@ -1,5 +1,6 @@
 ---
 title: shell
+layout: page
 ---
 
 
