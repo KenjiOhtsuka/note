@@ -26,3 +26,17 @@ $ file -mine file_name
 | Non-ISO extended-ASCII text	| Shift-JIS |
 
 macOS と Linux で出力のフォーマットは異なる。
+
+### 文字コードだけを取得する
+
+```sh
+file -b --mime-encoding file_path
+```
+
+#### Output
+
+```
+utf-8
+```
+
+BOMあり・なしは出力されない。
