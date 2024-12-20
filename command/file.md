@@ -3,7 +3,7 @@ layout: page
 title: file command
 ---
 
-macOS で使えるコマンド。
+macOS, Linux で使えるコマンド。
 ファイルについての情報を出力する。
 
 ## テキストファイルの文字コードを調べる。
@@ -24,3 +24,5 @@ $ file -mine file_name
 | ASCII text | JIS |
 | ISO-8859 text | EUC |
 | Non-ISO extended-ASCII text	| Shift-JIS |
+
+macOS と Linux で出力のフォーマットは異なる。
